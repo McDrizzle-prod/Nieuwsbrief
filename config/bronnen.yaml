@@ -11,7 +11,8 @@
 #   type          feed | html | json | sparql | sru | pagewatch | ep_procedure
 #   url           adres van de feed, pagina of API
 #   filter        true = alleen berichten die over EUDI/EBW/vertrouwensdiensten gaan
-#   standaard_onderwerp  onderwerp als er geen zoekterm wordt herkend (bij filter: false)
+#   standaard_onderwerp  vast onderwerp van de bron (ebw of eudi); geldt voor elk bericht,
+#                 naast de onderwerpen die aan zoektermen worden herkend
 #   prioriteit    1 = primaire officiële bron, 2 = officieel maar breder, 3 = secundair
 #   actief        false = tijdelijk uitzetten
 #   site          (optioneel) webpagina om naar te verwijzen in het bronnenoverzicht

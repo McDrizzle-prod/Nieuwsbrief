@@ -40,6 +40,10 @@ def test_standaardonderwerp_bij_ongefilterde_bron():
     hit = c.classify("v2.6.0", "", {"filter": False, "standaard_onderwerp": "eudi", "prioriteit": 2})
     assert hit["topics"] == ["eudi"]
     assert hit["moza_level"] == "laag"
+    # vast onderwerp blijft gelden als er ook iets anders wordt herkend
+    hit = c.classify("Aptitude at ICAO TRIP", "Director of Identity, Trust Services and Production",
+                     {"standaard_onderwerp": "eudi"})
+    assert hit["topics"] == ["eudi", "vertrouwensdiensten"]
 
 
 def test_datums():

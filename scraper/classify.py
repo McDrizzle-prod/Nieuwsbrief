@@ -95,11 +95,11 @@ class Classifier:
         """Geeft classificatievelden terug, of None als het bericht niet relevant is."""
         text = f"{title}\n{summary}"
         topic_hits = match_rules(text, self.topic_rules)
-        if not topic_hits:
-            if source.get("filter"):
-                return None
-            default = source.get("standaard_onderwerp")
-            topic_hits = {default: []} if default else {}
+        if not topic_hits and source.get("filter"):
+            return None
+        default = source.get("standaard_onderwerp")
+        if default:  # het vaste onderwerp van de bron geldt altijd
+            topic_hits.setdefault(default, [])
         theme_hits = match_rules(text, self.theme_rules)
         topics = [r.id for r in self.topic_rules if r.id in topic_hits]
         themes = [r.id for r in self.theme_rules if r.id in theme_hits]

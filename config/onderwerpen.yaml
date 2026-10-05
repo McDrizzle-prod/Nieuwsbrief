@@ -8,8 +8,8 @@
 #   - reguliere expressie: "re:2025/0358"
 #
 # Bronnen met `filter: true` in bronnen.yaml leveren alleen berichten op die minstens
-# één onderwerp raken. Bij de overige bronnen geldt `standaard_onderwerp` als er niets
-# wordt herkend.
+# één onderwerp raken. Een bron met `standaard_onderwerp` (bijv. een EUDI-pilot) geeft
+# dat onderwerp aan elk bericht mee.
 
 onderwerpen:
   - id: ebw
