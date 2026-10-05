@@ -1,0 +1,709 @@
+{
+ "categorieen": {
+  "eu-commissie": "Europese Commissie",
+  "eu-parlement": "Europees Parlement",
+  "eu-raad": "Raad van de EU",
+  "eu-wetgeving": "EU-wetgeving & consultaties",
+  "pilots": "Large Scale Pilots",
+  "techniek": "Techniek & standaarden",
+  "nl-overheid": "Nederlandse overheid",
+  "nl-moza": "MijnOverheid Zakelijk",
+  "media": "Media (secundair)"
+ },
+ "onderwerpen": [
+  {
+   "id": "ebw",
+   "naam": "European Business Wallet",
+   "kort": "EBW"
+  },
+  {
+   "id": "eudi",
+   "naam": "EUDI Wallet & eIDAS 2.0",
+   "kort": "EUDI"
+  },
+  {
+   "id": "vertrouwensdiensten",
+   "naam": "Vertrouwensdiensten & standaarden",
+   "kort": "Trust"
+  }
+ ],
+ "moza_themas": [
+  {
+   "id": "berichten",
+   "naam": "Berichtenverkeer & notificaties",
+   "uitleg": "Het EBW-voorstel laat overheden documenten en notificaties met ondernemers uitwisselen via de business wallet, op basis van een gekwalificeerde dienst voor elektronisch aangetekende bezorging (QERDS). Dat raakt direct de Berichtenbox voor bedrijven en de Notificatiedienst van MOZa: kan MOZa berichten afleveren in, en ontvangen uit, een EBW, en wie levert daarvoor de QERDS-koppeling?",
+   "moza_onderdelen": [
+    "Berichtenbox voor bedrijven",
+    "Notificatiedienst"
+   ]
+  },
+  {
+   "id": "identiteit",
+   "naam": "Inloggen, identificatie & vertegenwoordiging",
+   "uitleg": "Business wallets combineren de identiteit van de organisatie met vertegenwoordigingsbevoegdheden en machtigingen; die rol vervult eHerkenning nu in Nederland. Voor MOZa gaat het om de vraag welke inlogmiddelen het portaal moet accepteren (eHerkenning, NL Wallet/EDI-wallet, EBW) en hoe machtigingen van medewerkers en intermediairs worden gecontroleerd.",
+   "moza_onderdelen": [
+    "MOZa-portaal (inloggen)",
+    "Machtigen"
+   ]
+  },
+  {
+   "id": "gegevens",
+   "naam": "Gegevensdeling & attestaties",
+   "uitleg": "Met een wallet kunnen ondernemers geverifieerde gegevens delen (inschrijving Handelsregister, btw- en EORI-nummer, vergunningen, certificaten). Dat sluit aan op de Profielservice van MOZa en het principe dat de overheid gegevens maar één keer uitvraagt. Relevant is wie in Nederland welke attestaties uitgeeft (bijv. KVK) en hoe MOZa die kan gebruiken of tonen.",
+   "moza_onderdelen": [
+    "Profielservice",
+    "Eenmalige gegevensuitvraag"
+   ]
+  },
+  {
+   "id": "verplichtingen",
+   "naam": "Verplichtingen & planning voor overheden",
+   "uitleg": "Volgens het EBW-voorstel moeten overheden de business wallet gaan accepteren voor identificatie, ondertekening en het verzenden en ontvangen van documenten. In het Commissievoorstel geldt daarvoor een termijn van 24 maanden na inwerkingtreding; de Raad koppelt die termijn aan de uitvoeringshandelingen. Elke stap in het wetgevingsproces kan dus de planning en de aansluitopgave van MOZa veranderen.",
+   "moza_onderdelen": [
+    "Roadmap MOZa",
+    "Aansluiting overheidsorganisaties"
+   ]
+  },
+  {
+   "id": "architectuur",
+   "naam": "Architectuur & standaarden",
+   "uitleg": "Het Architecture and Reference Framework (ARF), de technische specificaties en ETSI/CEN-normen bepalen welke protocollen en gegevensformaten wallets gebruiken (zoals OpenID4VCI/VP, SD-JWT en mdoc). Componenten van MOZa die met wallets moeten praten, moeten die standaarden volgen.",
+   "moza_onderdelen": [
+    "Technische architectuur",
+    "Koppelvlakken"
+   ]
+  },
+  {
+   "id": "vertrouwen",
+   "naam": "Ondertekening & vertrouwensdiensten",
+   "uitleg": "Business wallets bieden gekwalificeerde elektronische handtekeningen en zegels met dezelfde rechtskracht als papier. Voor MOZa is dat van belang bij formele berichten, aanvragen en besluiten die rechtsgeldig ondertekend of verzegeld moeten worden.",
+   "moza_onderdelen": [
+    "Rechtsgeldige berichten en besluiten"
+   ]
+  },
+  {
+   "id": "pilots",
+   "naam": "Pilots & use cases",
+   "uitleg": "De Large Scale Pilots (WE BUILD voor bedrijven, APTITUDE voor reizen en betalen) testen wallets in echte processen tussen bedrijven en overheden. Hun resultaten laten zien welke use cases werken, en daaruit kan MOZa lessen trekken voor de eigen proeven.",
+   "moza_onderdelen": [
+    "MOZa-proeven",
+    "Use cases"
+   ]
+  },
+  {
+   "id": "soevereiniteit",
+   "naam": "Beveiliging, certificering & soevereiniteit",
+   "uitleg": "Eisen aan certificering, cybersecurity en digitale soevereiniteit (zoals het voorstel van het Parlement om walletaanbieders uit derde landen uit te sluiten) bepalen welke wallets en leveranciers MOZa straks kan of moet ondersteunen.",
+   "moza_onderdelen": [
+    "Leveranciers- en hostingkeuzes"
+   ]
+  }
+ ],
+ "achtergrond": {
+  "bijgewerkt": "2026-10-05",
+  "dossiers": [
+   {
+    "id": "ebw",
+    "titel": "European Business Wallet",
+    "subtitel": "Verordening tot instelling van Europese business wallets – COM(2025) 838, procedure 2025/0358(COD)",
+    "status": "Parlement en Raad hebben hun positie bepaald; trilogen zijn de volgende stap.",
+    "mijlpalen": [
+     {
+      "datum": "2025-11-19",
+      "tekst": "Commissie publiceert het voorstel COM(2025) 838 als onderdeel van het digitale pakket.",
+      "bron": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-european-business-wallets-simplify-business-operations-and-enhance"
+     },
+     {
+      "datum": "2025-12-05",
+      "tekst": "Eerste beleidsdebat over het voorstel in de Telecomraad."
+     },
+     {
+      "datum_tekst": "begin 2026",
+      "tekst": "Kabinet stuurt BNC-fiche 3 'Verordening Europese Business Wallet' aan de Kamers; wil gebruik vrijwillig houden voor ondernemers en wijst op uitvoeringskosten voor overheden.",
+      "bron": "https://www.rijksoverheid.nl/documenten/publicaties/2025/11/19/fiche-3-verordening-europese-business-wallet"
+     },
+     {
+      "datum_tekst": "maart 2026",
+      "tekst": "Rapporteur Eero Heinäluoma (S&D, FI) presenteert het ontwerpverslag in de ITRE-commissie.",
+      "bron": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet"
+     },
+     {
+      "datum": "2026-06-09",
+      "tekst": "Raad stelt zijn onderhandelingspositie vast; de acceptatieplicht voor overheden gaat pas lopen na de laatste uitvoeringshandeling.",
+      "bron": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/09/european-business-wallets-council-adopts-negotiating-position/"
+     },
+     {
+      "datum": "2026-09-10",
+      "tekst": "ITRE stemt in met het verslag (64 voor, 7 tegen, 4 onthoudingen) en met de start van onderhandelingen met de Raad (65–9–1). Het Parlement wil onder meer strengere eisen aan digitale soevereiniteit."
+     },
+     {
+      "datum_tekst": "volgende stap",
+      "tekst": "Aankondiging van het mandaat in de plenaire vergadering, daarna trilogen tussen Parlement, Raad en Commissie.",
+      "verwacht": true
+     }
+    ]
+   },
+   {
+    "id": "eudi",
+    "titel": "EUDI Wallet (eIDAS 2.0)",
+    "subtitel": "Verordening (EU) 2024/1183 tot wijziging van eIDAS (910/2014)",
+    "status": "Uitvoeringshandelingen zijn vastgesteld; lidstaten leveren hun wallets in 2026 op.",
+    "mijlpalen": [
+     {
+      "datum": "2024-05-20",
+      "tekst": "Verordening (EU) 2024/1183 (eIDAS 2.0) treedt in werking.",
+      "bron": "https://eur-lex.europa.eu/eli/reg/2024/1183/oj"
+     },
+     {
+      "datum_tekst": "november 2024",
+      "tekst": "Commissie stelt de eerste uitvoeringsverordeningen voor wallets vast (o.a. kernfunctionaliteiten, PID en attestaties, protocollen, meldingen, certificering).",
+      "bron": "https://digital-strategy.ec.europa.eu/en/news/commission-adopts-technical-standards-cross-border-european-digital-identity-wallets"
+     },
+     {
+      "datum_tekst": "eind 2026",
+      "tekst": "Elke lidstaat moet ten minste één EUDI Wallet aanbieden; in Nederland is dat de NL Wallet.",
+      "verwacht": true
+     },
+     {
+      "datum_tekst": "eind 2027",
+      "tekst": "Private partijen die wettelijk sterke authenticatie moeten toepassen (zoals banken) moeten de wallet accepteren.",
+      "verwacht": true
+     }
+    ]
+   }
+  ],
+  "moza": {
+   "titel": "Wat betekent dit voor MijnOverheid Zakelijk?",
+   "inleiding": "MijnOverheid Zakelijk (MOZa) bundelt de communicatie tussen overheid en ondernemers in één omgeving: een portaal, de Berichtenbox voor bedrijven, een notificatiedienst, een profielservice en een digitale assistent. De EUDI Wallet en vooral de European Business Wallet gaan over dezelfde interacties: inloggen en vertegenwoordigen, berichten en documenten uitwisselen en gegevens delen. Het EBW-voorstel verplicht overheden de business wallet daarvoor te accepteren, ook voor het verzenden en ontvangen van documenten en notificaties. Ondernemers zijn niet verplicht een wallet te gebruiken.",
+   "kernvragen": [
+    {
+     "vraag": "Berichtenverkeer",
+     "tekst": "Wordt de Berichtenbox voor bedrijven (of de Notificatiedienst) het punt waar de Nederlandse overheid berichten aflevert in, en ontvangt uit, business wallets? Of komt er een aparte QERDS-voorziening waar MOZa op aansluit?"
+    },
+    {
+     "vraag": "Inloggen en vertegenwoordiging",
+     "tekst": "Welke middelen moet het MOZa-portaal accepteren naast eHerkenning: de NL Wallet voor medewerkers en vertegenwoordigers, de EBW voor de organisatie zelf? En hoe verhouden machtigingen in eHerkenning zich tot vertegenwoordigingsbevoegdheden in de EBW? MOZa test de NL Wallet al in de eigen proefomgeving.",
+     "bron": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1100"
+    },
+    {
+     "vraag": "Gegevens en attestaties",
+     "tekst": "Kan MOZa geverifieerde bedrijfsgegevens uit een wallet gebruiken (bijv. KVK- inschrijving, btw-nummer, vergunningen) of er zelf in plaatsen, zoals besluiten? Dat raakt de Profielservice en de eenmalige gegevensuitvraag."
+    },
+    {
+     "vraag": "Planning",
+     "tekst": "Het Commissievoorstel geeft overheden 24 maanden na inwerkingtreding om business wallets te accepteren. De Raad wil die termijn laten ingaan twee jaar na de laatste uitvoeringshandeling. De uitkomst van de trilogen bepaalt dus de deadline voor de MOZa-roadmap."
+    },
+    {
+     "vraag": "Standaarden en leveranciers",
+     "tekst": "De uitvoeringshandelingen bepalen protocollen (OpenID4VC, QERDS-normen van ETSI) en eisen aan leveranciers, zoals de wens van het Parlement om aanbieders uit derde landen uit te sluiten. MOZa-componenten die met wallets praten, moeten daarop aansluiten."
+    }
+   ],
+   "bronnen": [
+    {
+     "naam": "MijnOverheid Zakelijk",
+     "url": "https://mijnoverheidzakelijk.nl/"
+    },
+    {
+     "naam": "BNC-fiche 3 – Verordening Europese Business Wallet",
+     "url": "https://www.rijksoverheid.nl/documenten/publicaties/2025/11/19/fiche-3-verordening-europese-business-wallet"
+    },
+    {
+     "naam": "EPRS-briefing European business wallets",
+     "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/774703/EPRS_BRI(2025)774703_EN.pdf"
+    },
+    {
+     "naam": "Berichtenbox voor bedrijven (Digitale Overheid)",
+     "url": "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/berichtenbox-voor-bedrijven/"
+    }
+   ]
+  }
+ },
+ "bronnen": [
+  {
+   "id": "ec-digital-strategy",
+   "naam": "Europese Commissie – Shaping Europe's digital future",
+   "categorie": "eu-commissie",
+   "type": "feed",
+   "url": "https://digital-strategy.ec.europa.eu/en/rss.xml",
+   "site": "https://digital-strategy.ec.europa.eu/en/news",
+   "toelichting": "Nieuws, publicaties en evenementen van DG CONNECT, de directie die zowel de EUDI Wallet als de European Business Wallet trekt. Hier verschijnen persberichten, uitvoeringshandelingen en factsheets als eerste.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ec-ebw-beleid",
+   "naam": "Europese Commissie – beleidspagina European Business Wallets",
+   "categorie": "eu-commissie",
+   "type": "pagewatch",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/business-wallets",
+   "site": "https://digital-strategy.ec.europa.eu/en/policies/business-wallets",
+   "toelichting": "Officiële beleidspagina over de EBW. De nieuwsbrief meldt het als de inhoud verandert (nieuwe documenten, tijdpad, technische werkgroepen).",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ec-eudi-beleid",
+   "naam": "Europese Commissie – EU Digital Identity Wallet (implementatie)",
+   "categorie": "eu-commissie",
+   "type": "pagewatch",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
+   "site": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
+   "toelichting": "Beleidspagina over de uitrol van de EUDI Wallet, de pilots en de uitvoeringshandelingen. Wijzigingen worden als bericht gemeld.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ec-eudi-wallet-nieuws",
+   "naam": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "categorie": "eu-commissie",
+   "type": "html",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/712507533/News",
+   "site": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/712507533/News",
+   "toelichting": "Nieuwspagina van de officiële EUDI Wallet-site van de Commissie (Digital Building Blocks): releases van de referentie-implementatie, ARF-updates en evenementen.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 20,
+   "relevant": 20,
+   "nieuw": 20,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "eu-have-your-say",
+   "naam": "Europese Commissie – Have your say (consultaties)",
+   "categorie": "eu-wetgeving",
+   "type": "json",
+   "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/searchInitiatives",
+   "site": "https://ec.europa.eu/info/law/better-regulation/have-your-say",
+   "toelichting": "Consultaties en feedbackperiodes op ontwerp-uitvoeringshandelingen voor de EUDI Wallet en de EBW. Hier kunnen ook Nederlandse overheden reageren.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": false,
+   "fout": "pad '_embedded.initiativeResultDtoes' niet gevonden in JSON-antwoord",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "eurlex-eidas",
+   "naam": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "categorie": "eu-wetgeving",
+   "type": "sparql",
+   "url": "https://publications.europa.eu/webapi/rdf/sparql",
+   "site": "https://eur-lex.europa.eu/",
+   "toelichting": "Uitvoeringshandelingen en andere besluiten die op de eIDAS-verordening (zoals gewijzigd door 2024/1183) zijn gebaseerd: de technische regels voor wallets en vertrouwensdiensten, waaronder QERDS.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 33,
+   "relevant": 33,
+   "nieuw": 33,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "eurlex-titels",
+   "naam": "EUR-Lex – documenten over wallets",
+   "categorie": "eu-wetgeving",
+   "type": "sparql",
+   "url": "https://publications.europa.eu/webapi/rdf/sparql",
+   "site": "https://eur-lex.europa.eu/",
+   "toelichting": "Voorstellen, verordeningen en werkdocumenten met \"business wallet\" of \"digital identity wallet\" in de titel, zoals COM(2025) 838.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 6,
+   "relevant": 6,
+   "nieuw": 3,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ep-persberichten",
+   "naam": "Europees Parlement – persberichten",
+   "categorie": "eu-parlement",
+   "type": "feed",
+   "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
+   "site": "https://www.europarl.europa.eu/news/en/press-room",
+   "toelichting": "Persberichten van het Parlement, onder meer over stemmingen in de ITRE-commissie en de plenaire vergadering en over de start of uitkomst van trilogen.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ep-think-tank",
+   "naam": "Europees Parlement – Think Tank (EPRS)",
+   "categorie": "eu-parlement",
+   "type": "feed",
+   "url": "https://epthinktank.eu/feed/",
+   "site": "https://www.europarl.europa.eu/thinktank/en/home",
+   "toelichting": "Briefings en analyses van de onderzoeksdienst van het Parlement, zoals de briefing \"European business wallets\" (EPRS_BRI(2025)774703).",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "ep-legislative-train-ebw",
+   "naam": "Europees Parlement – Legislative Train: European business wallets",
+   "categorie": "eu-parlement",
+   "type": "pagewatch",
+   "url": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet",
+   "site": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet",
+   "toelichting": "Overzicht van de stand van het EBW-dossier (procedure 2025/0358(COD)) volgens het Parlement. Elke wijziging, zoals een nieuwe stap of een triloog, wordt gemeld.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": false,
+   "fout": "pagina bevat (bijna) geen tekst; klopt de selector?",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "ep-oeil-ebw",
+   "naam": "Europees Parlement – Legislative Observatory 2025/0358(COD)",
+   "categorie": "eu-parlement",
+   "type": "pagewatch",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)",
+   "site": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)",
+   "toelichting": "Officiële procedurefiche met alle stappen en documenten in het wetgevingsproces van de EBW-verordening.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "raad-persberichten",
+   "naam": "Raad van de EU – persberichten",
+   "categorie": "eu-raad",
+   "type": "feed",
+   "url": "https://www.consilium.europa.eu/en/rss/pressreleases.ashx",
+   "site": "https://www.consilium.europa.eu/en/press/press-releases/",
+   "toelichting": "Persberichten van de Raad, zoals de onderhandelingspositie over de EBW van 9 juni 2026 en uitkomsten van de Telecomraad.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 20,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "we-build",
+   "naam": "WE BUILD – Large Scale Pilot voor business wallets",
+   "categorie": "pilots",
+   "type": "html",
+   "url": "https://www.webuildconsortium.eu/news",
+   "site": "https://www.webuildconsortium.eu/news",
+   "toelichting": "Consortium van meer dan 180 organisaties dat de EUDI Wallet en business wallets test in B2B-, B2G- en B2C-processen. Publiceert ook duidingen van het wetgevingsproces.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 12,
+   "relevant": 12,
+   "nieuw": 12,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "aptitude",
+   "naam": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "categorie": "pilots",
+   "type": "html",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/",
+   "site": "https://aptitude.digital-identity-wallet.eu/news/",
+   "toelichting": "Tweede Large Scale Pilot (onder leiding van Frankrijk) met use cases voor reizen, ticketing, voertuigregistratie en betalen.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "github-arf",
+   "naam": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "categorie": "techniek",
+   "type": "feed",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases.atom",
+   "site": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework",
+   "toelichting": "Nieuwe versies van het Architecture and Reference Framework, het technische raamwerk van de Commissie voor EUDI Wallets.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
+   "relevant": 10,
+   "nieuw": 10,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "github-eudi-specificaties",
+   "naam": "EUDI Wallet – technische specificaties (releases)",
+   "categorie": "techniek",
+   "type": "feed",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/releases.atom",
+   "site": "https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications",
+   "toelichting": "Releases van de technische specificaties die bij het ARF horen.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "etsi-nieuws",
+   "naam": "ETSI – nieuws",
+   "categorie": "techniek",
+   "type": "feed",
+   "url": "https://www.etsi.org/newsroom/news?format=feed&type=rss",
+   "site": "https://www.etsi.org/newsroom/news",
+   "toelichting": "Europese normalisatie-instelling; ETSI ESI maakt de normen voor vertrouwensdiensten en (gekwalificeerde) elektronische aangetekende bezorging.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": false,
+   "fout": "geen geldige feed (SAXParseException)",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "digitale-overheid",
+   "naam": "Digitale Overheid (BZK) – nieuws",
+   "categorie": "nl-overheid",
+   "type": "feed",
+   "url": "https://www.digitaleoverheid.nl/feed/",
+   "site": "https://www.digitaleoverheid.nl/nieuws/",
+   "toelichting": "Nieuws over de Nederlandse digitale overheid, waaronder het EDI-stelsel, de NL Wallet, eHerkenning en de Berichtenbox voor bedrijven.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": false,
+   "fout": "geen geldige feed (SAXParseException)",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "rijksoverheid-digitale-overheid",
+   "naam": "Rijksoverheid – onderwerp Digitale overheid (nieuws)",
+   "categorie": "nl-overheid",
+   "type": "feed",
+   "url": "https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/nieuws.rss",
+   "site": "https://www.rijksoverheid.nl/onderwerpen/digitale-overheid",
+   "toelichting": "Nieuws van de ministeries over de digitale overheid.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": false,
+   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='feeds.rijksoverheid.nl', port=443): Max retries exceeded with url: /onderwerpen/digitale-overheid/nieuws.rss (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.rijksoverheid.nl', port=443): Failed to resolve 'feeds.rijksoverheid",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "rijksoverheid-digitale-overheid-documenten",
+   "naam": "Rijksoverheid – onderwerp Digitale overheid (documenten)",
+   "categorie": "nl-overheid",
+   "type": "feed",
+   "url": "https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten.rss",
+   "site": "https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten",
+   "toelichting": "Kamerbrieven, rapporten en BNC-fiches, zoals fiche 3 over de Verordening Europese Business Wallet.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": false,
+   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='feeds.rijksoverheid.nl', port=443): Max retries exceeded with url: /onderwerpen/digitale-overheid/documenten.rss (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.rijksoverheid.nl', port=443): Failed to resolve 'feeds.rijksover",
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": null
+  },
+  {
+   "id": "tweede-kamer",
+   "naam": "Tweede Kamer – Kamerstukken (open data)",
+   "categorie": "nl-overheid",
+   "type": "json",
+   "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document",
+   "site": "https://www.tweedekamer.nl/kamerstukken",
+   "toelichting": "Kamerbrieven, verslagen en moties over wallets, eIDAS en MijnOverheid Zakelijk via de open-data-API van de Tweede Kamer.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 40,
+   "relevant": 37,
+   "nieuw": 24,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "officiele-bekendmakingen",
+   "naam": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "categorie": "nl-overheid",
+   "type": "sru",
+   "url": "https://repository.overheid.nl/sru",
+   "site": "https://zoek.officielebekendmakingen.nl/",
+   "toelichting": "Officiële publicaties van de rijksoverheid (Kamerstukken, Staatscourant) via de SRU-zoekdienst van KOOP.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 40,
+   "relevant": 2,
+   "nieuw": 2,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "eerste-kamer-ebw",
+   "naam": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "categorie": "nl-overheid",
+   "type": "pagewatch",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een",
+   "site": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een",
+   "toelichting": "Het Eerste Kamer-dossier over het EBW-voorstel met de Nederlandse stukken, zoals het BNC-fiche en de behandeling in de commissie.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "nl-wallet",
+   "naam": "NL Wallet – releases (MinBZK)",
+   "categorie": "nl-overheid",
+   "type": "feed",
+   "url": "https://github.com/MinBZK/nl-wallet/releases.atom",
+   "site": "https://github.com/MinBZK/nl-wallet",
+   "toelichting": "Nieuwe versies van de Nederlandse EUDI-wallet (NL Wallet).",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
+   "relevant": 10,
+   "nieuw": 6,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "moza-actueel",
+   "naam": "MijnOverheid Zakelijk – Actueel",
+   "categorie": "nl-moza",
+   "type": "html",
+   "url": "https://mijnoverheidzakelijk.nl/actueel/",
+   "site": "https://mijnoverheidzakelijk.nl/actueel/",
+   "toelichting": "Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten over wallets, eIDAS, eHerkenning of berichtenverkeer komen in de nieuwsbrief.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 1,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "moza-github",
+   "naam": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "categorie": "nl-moza",
+   "type": "json",
+   "url": "https://api.github.com/search/issues",
+   "site": "https://github.com/MinBZK/MijnOverheidZakelijk",
+   "toelichting": "MOZa wordt open ontwikkeld. Issues over wallets laten zien wat het team daadwerkelijk bouwt of onderzoekt, zoals de NL Wallet-integratie in de proef.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 19,
+   "relevant": 19,
+   "nieuw": 19,
+   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_succes": "2026-10-05T09:18:55Z"
+  },
+  {
+   "id": "biometric-update",
+   "naam": "Biometric Update – digital identity",
+   "categorie": "media",
+   "type": "feed",
+   "url": "https://www.biometricupdate.com/feed",
+   "site": "https://www.biometricupdate.com/feed",
+   "toelichting": "Vakmedium met veel EUDI-nieuws. Staat standaard uit omdat de nieuwsbrief zich op officiële bronnen richt; zet `actief: true` om hem mee te nemen.",
+   "prioriteit": 3,
+   "actief": false,
+   "ok": null,
+   "fout": null,
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": null,
+   "laatst_succes": null
+  }
+ ]
+}
