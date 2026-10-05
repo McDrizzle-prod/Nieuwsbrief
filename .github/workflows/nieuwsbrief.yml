@@ -72,14 +72,30 @@ jobs:
           done
           exit 1
       - name: Pages voorbereiden
+        id: pages
+        continue-on-error: true
         uses: actions/configure-pages@v5
+      - name: Melden dat GitHub Pages nog uit staat
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo "::warning title=GitHub Pages staat uit::De berichten zijn bijgewerkt, maar de site is niet gepubliceerd. Zet Pages aan via Settings > Pages > Source: GitHub Actions."
+          {
+            echo "### Let op: GitHub Pages staat nog uit"
+            echo "De berichten zijn bijgewerkt en opgeslagen, maar de nieuwsbrief is niet gepubliceerd."
+            echo "Ga naar **Settings → Pages**, kies bij *Source* **GitHub Actions** en start deze workflow opnieuw."
+          } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-pages-artifact@v4
+        if: steps.pages.outcome == 'success'
         with:
           path: site
+    outputs:
+      pages: ${{ steps.pages.outcome }}
 
   publiceren:
     needs: bijwerken
-    if: github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch
+    if: >-
+      needs.bijwerken.outputs.pages == 'success' &&
+      (github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     environment:
       name: github-pages

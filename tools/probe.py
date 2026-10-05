@@ -107,6 +107,8 @@ def describe_html(url: str, content: bytes) -> None:
             emit(f"  Feed-link: {urljoin(url, link.get('href', ''))} ({link.get('type')})")
     articles = soup.find_all("article")
     emit(f"  <article>-elementen: {len(articles)}")
+    for heading in soup.find_all(["h1", "h2", "h3"])[:25]:
+        emit(f"  Kop {heading.name}: {heading.get_text(' ', strip=True)[:70]}  (pad: {css_path(heading)})")
     feedish = [urljoin(url, a["href"]) for a in soup.find_all("a", href=True)
                if re.search(r"rss|feed|atom|\.xml", a["href"], re.I)]
     for href in list(dict.fromkeys(feedish))[:30]:

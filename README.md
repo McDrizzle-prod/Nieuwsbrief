@@ -39,7 +39,8 @@ GitHub Actions (elke ochtend)            GitHub Pages
 ## Eenmalig instellen (5 minuten, alleen in de browser)
 
 1. **GitHub Pages aanzetten:** ga naar *Settings → Pages* en kies bij *Build and
-   deployment → Source* de optie **GitHub Actions**.
+   deployment → Source* de optie **GitHub Actions**. Zolang dat niet is gebeurd, geeft
+   elke run de waarschuwing "GitHub Pages staat uit"; de berichten worden wel verzameld.
 2. **Eerste run starten:** ga naar *Actions → Nieuwsbrief bijwerken → Run workflow*. Na
    een paar minuten staat de nieuwsbrief online. De link staat bij de run onder
    *publiceren*.
