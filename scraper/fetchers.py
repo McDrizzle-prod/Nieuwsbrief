@@ -99,7 +99,33 @@ def _add_full_text(items: list[RawItem], ctx: Context, source: dict, limit: int)
         for tag in page(["script", "style", "nav", "header", "footer"]):
             tag.decompose()
         body = page.find("main") or page.find("article") or page.body or page
+        if source.get("kopjes_weglaten"):
+            _drop_sections(body, source["kopjes_weglaten"])
         item.text = clean_text(body.get_text(" "), 20000)
+
+
+HEADINGS = ["h1", "h2", "h3", "h4", "h5"]
+
+
+def _drop_sections(body, titles: list[str]) -> None:
+    """Secties weglaten die beginnen met een kop als 'Agenda': die herhalen zich elke week
+    en zouden anders telkens dezelfde zoektermen opleveren."""
+    prefixes = tuple(t.lower() for t in titles)
+    for heading in body.find_all(HEADINGS):
+        if heading.decomposed or not heading.get_text(" ", strip=True).lower().startswith(prefixes):
+            continue
+        level = int(heading.name[1])
+        higher = HEADINGS[:level]
+        start = heading
+        while not start.find_next_siblings() and start.parent is not None and start.parent is not body:
+            start = start.parent  # kop zit in een eigen omhulsel
+        doomed = [start]
+        for sibling in start.find_next_siblings():
+            if sibling.name in higher or sibling.find(higher) is not None:
+                break
+            doomed.append(sibling)
+        for node in doomed:
+            node.decompose()
 
 
 # --- HTML-lijstpagina's ------------------------------------------------------------

@@ -29,7 +29,8 @@
 #   pagewatch  selector (deel van de pagina dat gevolgd wordt), titel
 #   ep_procedure  procedure (bijv. 2025/0358(COD)), titel, hoofdcommissie, overslaan
 #   feed       ook: volledige_tekst: true gebruikt de tekst van de berichtpagina zelf om
-#              in te delen, en toont de zinnen waarin een onderwerp voorkomt
+#              in te delen, en toont de zinnen waarin een onderwerp voorkomt;
+#              kopjes_weglaten: [Agenda] slaat terugkerende secties over
 
 categorieen:
   eu-commissie: Europese Commissie
@@ -436,6 +437,7 @@ bronnen:
     type: feed
     url: https://mijnoverheidzakelijk.nl/weekly/index.xml
     volledige_tekst: true
+    kopjes_weglaten: [Agenda]
     detail_max: 40
     filter: true
     prioriteit: 1

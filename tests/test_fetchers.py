@@ -207,3 +207,16 @@ def test_json_lijst_op_hoogste_niveau(fake_http):
     assert item.title == "Latvia presents Aptitude’s role in EUDI Wallet cross-border testing"
     assert item.published == "2026-09-30T11:17:39Z"
     assert item.summary == "On 10 September 2026, representatives of Latvia’s Ministry participated in a test."
+
+
+def test_volledige_tekst_zonder_agenda(fake_http):
+    http = fake_http({
+        "https://moza.test/weekly/index.xml": "weekly.xml",
+        "https://moza.test/weekly/moza-weekly-23-september-2026/": "weekly_agenda.html",
+    })
+    source = {"type": "feed", "url": "https://moza.test/weekly/index.xml", "volledige_tekst": True,
+              "kopjes_weglaten": ["Agenda"]}
+    known = {item_id("https://moza.test/weekly/moza-weekly-16-september-2026/")}
+    text = fetch(source, Context(http=http, known_ids=known))[0].text
+    assert "notificatiedienst" in text and "Fijne zomer" in text
+    assert "Business Wallet" not in text and "Regieteam" not in text
