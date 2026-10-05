@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:23:51Z",
+ "generated": "2026-10-05T09:27:21Z",
  "bronnen": [
   {
    "id": "ec-digital-strategy",
@@ -16,8 +16,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "ec-ebw-beleid",
@@ -34,8 +34,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "ec-eudi-beleid",
@@ -52,8 +52,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "ec-eudi-wallet-nieuws",
@@ -70,8 +70,8 @@
    "gevonden": 20,
    "relevant": 20,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "eu-have-your-say",
@@ -87,9 +87,9 @@
    "fout": null,
    "gevonden": 11,
    "relevant": 11,
-   "nieuw": 10,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "eurlex-eidas",
@@ -106,8 +106,8 @@
    "gevonden": 33,
    "relevant": 33,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "eurlex-titels",
@@ -124,8 +124,8 @@
    "gevonden": 6,
    "relevant": 6,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "ep-persberichten",
@@ -134,9 +134,9 @@
    "type": "feed",
    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
    "site": "https://www.europarl.europa.eu/news/en/press-room",
-   "toelichting": "Persberichten van het Parlement, onder meer over stemmingen in de ITRE-commissie en de plenaire vergadering en over de start of uitkomst van trilogen.",
+   "toelichting": "Persberichten van het Parlement over stemmingen en trilogen. Staat uit: de website van het Parlement weigert sinds 2026 geautomatiseerde verzoeken (JavaScript-controle). De procedurestappen komen via de open-data-API hieronder binnen.",
    "prioriteit": 1,
-   "actief": true,
+   "actief": false,
    "ok": true,
    "fout": null,
    "gevonden": 0,
@@ -160,8 +160,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "ep-legislative-train-ebw",
@@ -170,9 +170,9 @@
    "type": "pagewatch",
    "url": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet",
    "site": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet",
-   "toelichting": "Overzicht van de stand van het EBW-dossier (procedure 2025/0358(COD)) volgens het Parlement. Elke wijziging, zoals een nieuwe stap of een triloog, wordt gemeld.",
+   "toelichting": "Overzicht van de stand van het EBW-dossier volgens het Parlement. Staat uit om dezelfde reden als de persberichten; de Legislative Observatory en de open-data-API geven dezelfde stappen.",
    "prioriteit": 1,
-   "actief": true,
+   "actief": false,
    "ok": false,
    "fout": "pagina bevat (bijna) geen tekst; klopt de selector?",
    "gevonden": 0,
@@ -196,8 +196,26 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
+  },
+  {
+   "id": "ep-procedure-ebw",
+   "naam": "Europees Parlement – procedurestappen EBW (open data)",
+   "categorie": "eu-parlement",
+   "type": "ep_procedure",
+   "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0358/events",
+   "site": "https://data.europarl.europa.eu/en/home",
+   "toelichting": "Elke stap in de procedure volgens de open-data-API van het Parlement: verwijzing, adviezen van IMCO en JURI, het ITRE-verslag, indiening voor de plenaire vergadering en straks de stemming en de onderhandelingen met de Raad.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 6,
+   "relevant": 6,
+   "nieuw": 6,
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "raad-persberichten",
@@ -214,8 +232,8 @@
    "gevonden": 20,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "we-build",
@@ -232,8 +250,8 @@
    "gevonden": 12,
    "relevant": 12,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "aptitude",
@@ -250,8 +268,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "github-arf",
@@ -268,8 +286,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "etsi-nieuws",
@@ -286,8 +304,8 @@
    "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "digitale-overheid",
@@ -304,44 +322,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
-  },
-  {
-   "id": "rijksoverheid-digitale-overheid",
-   "naam": "Rijksoverheid – onderwerp Digitale overheid (nieuws)",
-   "categorie": "nl-overheid",
-   "type": "feed",
-   "url": "https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/nieuws.rss",
-   "site": "https://www.rijksoverheid.nl/onderwerpen/digitale-overheid",
-   "toelichting": "Nieuws van de ministeries over de digitale overheid.",
-   "prioriteit": 2,
-   "actief": true,
-   "ok": false,
-   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='feeds.rijksoverheid.nl', port=443): Max retries exceeded with url: /onderwerpen/digitale-overheid/nieuws.rss (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.rijksoverheid.nl', port=443): Failed to resolve 'feeds.rijksoverheid",
-   "gevonden": 0,
-   "relevant": 0,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": null
-  },
-  {
-   "id": "rijksoverheid-digitale-overheid-documenten",
-   "naam": "Rijksoverheid – onderwerp Digitale overheid (documenten)",
-   "categorie": "nl-overheid",
-   "type": "feed",
-   "url": "https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten.rss",
-   "site": "https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten",
-   "toelichting": "Kamerbrieven, rapporten en BNC-fiches, zoals fiche 3 over de Verordening Europese Business Wallet.",
-   "prioriteit": 1,
-   "actief": true,
-   "ok": false,
-   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='feeds.rijksoverheid.nl', port=443): Max retries exceeded with url: /onderwerpen/digitale-overheid/documenten.rss (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.rijksoverheid.nl', port=443): Failed to resolve 'feeds.rijksover",
-   "gevonden": 0,
-   "relevant": 0,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": null
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "tweede-kamer",
@@ -358,8 +340,8 @@
    "gevonden": 40,
    "relevant": 37,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "officiele-bekendmakingen",
@@ -376,8 +358,8 @@
    "gevonden": 40,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "eerste-kamer-ebw",
@@ -394,8 +376,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "nl-wallet",
@@ -412,8 +394,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "moza-actueel",
@@ -430,8 +412,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "moza-weekly",
@@ -446,10 +428,10 @@
    "ok": true,
    "fout": null,
    "gevonden": 37,
-   "relevant": 13,
-   "nieuw": 13,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "relevant": 7,
+   "nieuw": 5,
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "moza-github",
@@ -466,8 +448,8 @@
    "gevonden": 19,
    "relevant": 19,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
-   "laatst_succes": "2026-10-05T09:23:51Z"
+   "laatst_gecontroleerd": "2026-10-05T09:27:21Z",
+   "laatst_succes": "2026-10-05T09:27:21Z"
   },
   {
    "id": "biometric-update",

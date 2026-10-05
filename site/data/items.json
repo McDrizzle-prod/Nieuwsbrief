@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:23:51Z",
+ "generated": "2026-10-05T09:27:21Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -171,6 +171,30 @@
    "date": "2026-09-24"
   },
   {
+   "id": "0c5852d3db8c4e59",
+   "title": "Europees Parlement, European business wallets: verslag ingediend voor de plenaire vergadering",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEPOT-2026-09-23",
+   "summary": "Procedure 2025/0358(COD). Document: A-10-2026-0240.",
+   "published": "2026-09-23",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-09-23"
+  },
+  {
    "id": "a0b3bfcb72be514c",
    "title": "MOZa Weekly 23 september 2026",
    "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-23-september-2026/",
@@ -188,7 +212,6 @@
      "Business Wallet"
     ],
     "eudi": [
-     "eIDAS",
      "NL Wallet"
     ]
    },
@@ -196,35 +219,12 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Authorization",
-      "eHerkenning",
-      "Inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "Handelsregister",
-      "KVK",
-      "Once-Only"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
      ]
     }
    ],
    "moza_level": "hoog",
-   "score": 11,
+   "score": 9,
    "fragment": "Wallet in de proeftuin: we voegen de NL Wallet toe aan de MOZa proeftuin. … Ook kijken we hoe de Yivi Business Wallet zich daartoe verhoudt, en hoe we dit goed vormgeven voor de gebruiker. … Met een deel van het team waren we bij het symposium over de European Business Wallet .",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-09-23"
@@ -486,6 +486,30 @@
    "date": "2026-09-14"
   },
   {
+   "id": "e9010276bb27647a",
+   "title": "Europees Parlement, European business wallets: commissie stelt verslag vast (ITRE)",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEC-ADCP-2026-09-10",
+   "summary": "Procedure 2025/0358(COD).",
+   "published": "2026-09-10",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-09-10"
+  },
+  {
    "id": "1803b5a0b91bcf84",
    "title": "MOZa Weekly 10 september 2026",
    "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-september-2026/",
@@ -495,45 +519,23 @@
    "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
    "category": "nl-moza",
    "topics": [
-    "ebw",
-    "eudi"
+    "ebw"
    ],
    "topic_hits": {
     "ebw": [
      "Business Wallet"
-    ],
-    "eudi": [
-     "eIDAS"
     ]
    },
    "moza": [
     {
      "thema": "berichten",
      "termen": [
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "Once-Only"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
+      "notificatiedienst"
      ]
     }
    ],
    "moza_level": "hoog",
-   "score": 11,
+   "score": 7,
    "fragment": "European Business Wallet Gesprek met Nijmegen: we spraken met de gemeente Nijmegen, Gebruiker Centraal en een leverancier over de business wallet. … Kennis opdoen: als we zelf een business wallet willen opstarten, kunnen we kijken naar de Yivi business wallet . … MOZa MOZa Pulse - 17 september met deze keer: Demo proefopstelling Federatief Berichtenstelsel Het gebruik van AI door het team van MOZa Digitale Assistent 2.0 Stuurgroep - 25 september Regieteam - 1 oktober Evenementen Common Ground Fieldlab - 14 & 15 september, met onze sessie over de notificatiedienst op 15 september Logius PI Event - 16 & 17 september Digilab meetup - 17 september Symposium De European Business Wallet - 22 …",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-09-10"
@@ -590,8 +592,7 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
-      "Notificatiedienst"
+      "notificatiedienst"
      ]
     },
     {
@@ -599,22 +600,10 @@
      "termen": [
       "Once-Only"
      ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
-     ]
-    },
-    {
-     "thema": "soevereiniteit",
-     "termen": [
-      "AVG"
-     ]
     }
    ],
    "moza_level": "hoog",
-   "score": 11,
+   "score": 10,
    "fragment": "MOZa MOZa teamdag - 8 september Regieteam - 9 september MOZa Pulse - 17 september Stuurgroep - 25 september Evenementen Common Ground Fieldlab - 14 & 15 september, met onze sessie over de notificatiedienst op 15 september Digilab meetup - 17 september Symposium De European Business Wallet - 22 september Technische briefing European Business Wallet en eIDAS-verordening - 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september UNFOLD #5 - 7 & 8 oktober IBDS-Stelseldag 2027 - 3 februari 2027",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-09-03"
@@ -966,28 +955,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Berichtenbox",
-      "Notificatie"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eHerkenning",
-      "Inloggen"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
       "Once-Only"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "MOZa Regieteam - 3 september MOZa teamdag - 8 september (inclusief afsluiter met MOZa regieteam) MOZa Pulse - 17 september Stuurgroep - 25 september Evenementen Common Ground Fieldlab - 14 & 15 september Symposium De European Business Wallet - 22 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-07-29"
@@ -1066,15 +1041,8 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "mailbox",
       "notificatieketen"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen"
      ]
     },
     {
@@ -1193,23 +1161,19 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "notificatie-"
      ]
     },
     {
      "thema": "gegevens",
      "termen": [
-      "KVK",
       "Once-Only"
      ]
     },
     {
      "thema": "pilots",
      "termen": [
-      "B2G",
-      "Proef",
-      "use case"
+      "B2G"
      ]
     }
    ],
@@ -1336,36 +1300,19 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
-      "mailbox",
-      "notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Machtigen",
-      "mandaten"
+      "Berichtenbox"
      ]
     },
     {
      "thema": "gegevens",
      "termen": [
-      "KVK",
       "Once-Only"
-     ]
-    },
-    {
-     "thema": "architectuur",
-     "termen": [
-      "Interoperable"
      ]
     },
     {
      "thema": "pilots",
      "termen": [
-      "B2G",
-      "proef"
+      "B2G"
      ]
     }
    ],
@@ -1421,32 +1368,21 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Berichtenbox",
-      "Notificatiedienst"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
       "Gegevensuitwisseling",
-      "handelsregister",
-      "KVK",
-      "Once-Only",
-      "Profielservice"
+      "Once-Only"
      ]
     },
     {
      "thema": "pilots",
      "termen": [
-      "aanbesteding",
       "B2G"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 7,
    "fragment": "MOZa Teamoverleg - 1 juli Samenwerkdag met Logius - 1 juli Regieteam - 2 juli MOZa Pulse - 16 juli Stuurgroep - 16 juli Evenementen Omnichannel: ID-wallets in overheidsdienstverlening - 2 juli (online) Hackathon Transparantie App - 9 & 10 juli Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-07-01"
@@ -1542,7 +1478,7 @@
     {
      "thema": "identiteit",
      "termen": [
-      "Machtigen",
+      "machtigen",
       "mandaten"
      ]
     },
@@ -1550,8 +1486,7 @@
      "thema": "gegevens",
      "termen": [
       "KVK",
-      "Once-Only",
-      "Profielservice"
+      "Once-Only"
      ]
     },
     {
@@ -1566,67 +1501,6 @@
    "fragment": "MOZa Kennismaking levensgebeurtenissen KVK (Utrecht) - 25 juni Werksessie machtigen en mandaten - 30 juni Teamoverleg - 1 juli Samenwerkdag met Logius - 1 juli Regieteam - 2 juli MOZa Pulse - 16 juli Stuurgroep - 16 juli Evenementen Samen versnellen met AI: de overheid van morgen begint nu - 25 juni Dag van de Digitale Toegankelijkheid - 28 juni Omnichannel: ID-wallets in overheidsdienstverlening - 2 juli Hackathon Transparantie App - 9 & 10 juli Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-06-24"
-  },
-  {
-   "id": "3c0a8813d005bd1b",
-   "title": "MOZa Weekly 17 juni 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-17-juni-2026/",
-   "summary": "Algemeen Dag van de toekomst: ondernemer centraal: we hebben de laatste hand gelegd aan het programma en de workshops. Vanuit verschillende rollen beschrijven we levensgebeurtenissen waar een zakelijke gebruiker tegenaan loopt. Met elkaar gaan we aan de slag om dit als klantreis inclusief oplossingsrichtingen uit te werken. We organiseren deze dag samen met Digilab . Logius PI event: op 10 en 11 juni waren we bij het PI event van Logius. We maakten met alle betrokkenen een goede werkverdeling voor de notificatiedienst en de profielservice . Ook ondertekenden we samen met Logius de …",
-   "published": "2026-06-17T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Machtigen",
-      "mandaten"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "handelsregister",
-      "KVK",
-      "Once-Only",
-      "profielservice"
-     ]
-    },
-    {
-     "thema": "vertrouwen",
-     "termen": [
-      "ondertekenden"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "B2G",
-      "proeven",
-      "use cases"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
-   "fragment": "MOZa MOZa Pulse - 18 juni Werkgroep standaarden en architectuur (OBIS / MOZa) - 18 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab UX-onderzoeksdag - 22 juni Verdieping met de Belastingdienst over notificeren en contactherstel - 24 juni Kennismaking levensgebeurtenissen KVK (Utrecht) - 25 juni Werksessie machtigen en mandaten - 30 juni Regieteam - 2 juli Stuurgroep - 16 juli Evenementen Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab Bijeenkomst Netwerk van Datastelsels - 23 juni Samen versnellen met AI: de overheid van morgen begint nu - 25 juni Dag van de Digitale Toegankelijkheid - 28 juni Omnichannel: ID-wallets in …",
-   "first_seen": "2026-10-05T09:23:51Z",
-   "date": "2026-06-17"
   },
   {
    "id": "05fbd76126b904b9",
@@ -1647,36 +1521,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen",
-      "machtigen",
-      "mandaten"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "Once-Only",
       "Profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "B2G",
-      "pilots"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet . … MOZa Logius PI planning - 10 & 11 juni Regieteam - 11 juni (tijdens het Logius PI event) MOZa Pulse - 18 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab UX-onderzoeksdag - 22 juni Stuurgroep - 16 juli Evenementen GovTech Day - 11 juni Dag van de Publieke Dienstverlening - 17 juni Overheid360° (Jaarbeurs Utrecht) - 17 juni Developer.overheid.nl meetup - 17 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab Werkgroep standaarden en architectuur (OBIS) - 18 juni Bijeenkomst Netwerk van Datastelsels - 23 juni Samen versnellen met AI: de …",
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-06-10"
@@ -1713,56 +1565,52 @@
    "date": "2026-06-10"
   },
   {
-   "id": "d52c1df6f70e84da",
-   "title": "MOZa Weekly 3 juni 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-3-juni-2026/",
-   "summary": "Algemeen MOZa event: vergeet je niet om je aan te melden voor de Dag van de toekomst: ondernemer centraal op 18 juni vanaf 12:00. VNG MijnServices Festival : op 28 mei stonden we op de vloer met presentaties en demo’s. We voerden veel goede gesprekken, onder andere over (business) wallets en het delen van gegevens van nutsbedrijven met de overheid. De komende tijd gaan we deze gesprekken opvolgen en verdiepingen plannen. Routekaartoverleg MijnOverheid: op basis van het statusrapport fase 3 gaven we een update over wat we hebben gedaan. Daaraan koppelden we een samenvatting van onze plannen …",
-   "published": "2026-06-03T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
+   "id": "b850ed2d9cdaf902",
+   "title": "Europees Parlement, European business wallets: adviserende commissie stelt advies vast (JURI)",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEC-ADCP-JURI-2026-06-03",
+   "summary": "Procedure 2025/0358(COD). Document: JURI-AD-786718.",
+   "published": "2026-06-03",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
    "topics": [
     "ebw"
    ],
    "topic_hits": {
     "ebw": [
-     "Business Wallet"
+     "2025/0358",
+     "business wallets"
     ]
    },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "mailbox",
-      "Notificatie"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen",
-      "Machtigingen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "KVK",
-      "Profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "B2G"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
-   "fragment": "MOZa Logius PI planning - 10 & 11 juni Regieteam - 11 juni (tijdens het Logius PI event) Dag van de Publieke Dienstverlening - 17 juni - MOZa verzorgt een workshop MOZa Pulse - 18 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab UX-onderzoeksdag - 22 juni Stuurgroep - 16 juli Evenementen Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI Hackathon Series - 4 & 5 juni Common Ground Congres - 8 juni FOST Amsterdam - 9 & 10 juni (developer.overheid.nl verzorgt een API- en Open Source-track) GovTech Day - 11 juni Overheid360° (Jaarbeurs Utrecht) - 17 juni Developer.overheid.nl meetup - 17 juni Dag van de toekomst: ondernemer centraal - 18 juni - …",
-   "first_seen": "2026-10-05T09:23:51Z",
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
    "date": "2026-06-03"
+  },
+  {
+   "id": "c70b3c1c7bf49c6d",
+   "title": "Europees Parlement, European business wallets: adviserende commissie stelt advies vast (IMCO)",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEC-ADCP-IMCO-2026-06-02",
+   "summary": "Procedure 2025/0358(COD). Document: IMCO-AD-786736.",
+   "published": "2026-06-02",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-06-02"
   },
   {
    "id": "688cd2f01a5c15f7",
@@ -1790,6 +1638,50 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-06-02"
+  },
+  {
+   "id": "1ed0262ad48bf57f",
+   "title": "MOZa Weekly 27 mei 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-27-mei-2026/",
+   "summary": "Algemeen MOZa Pulse 21 mei: in de pulse stonden de demonstratie van Gemeente Amsterdam over de profielservice tijdens het Common Ground Fieldlab en de inzichten uit het gebruikersonderzoek van eind april centraal. Stuurgroep MOZa 22 mei: de stuurgroep is bijeengekomen, waarbij we onder andere stil hebben gestaan bij wat is gedaan in fase 3 en wat de plannen voor fase 4 zijn. Daarbij is benadrukt dat de prioriteit blijft liggen op notificeren, profiel en berichten. Daarnaast zijn we scherp op hoe we juridische processen zo snel mogelijk kunnen doorlopen, zodat dit aansluit bij het tempo dat we …",
+   "published": "2026-05-27T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "MOZa VNG MijnServices Festival - 28 mei - MOZa staat op de vloer en verzorgt presentaties / demo’s Teamoverleg - 3 juni Regieteam - 4 juni (wordt mogelijk verplaatst naar Logius PI event) Logius PI planning - 10 & 11 juni Dag van de Publieke Dienstverlening - 17 juni - MOZa verzorgt een workshop MOZa Pulse - 18 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab UX-onderzoeksdag - 22 juni Stuurgroep - 16 juli Evenementen Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI …",
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-05-27"
   },
   {
    "id": "bc97535d3432112f",
@@ -1849,6 +1741,53 @@
    "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-05-22"
+  },
+  {
+   "id": "6a8b8e8a493d391c",
+   "title": "MOZa Weekly 20 mei 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-20-mei-2026/",
+   "summary": "Het team van MOZa heeft genoten van vakantiedagen, maar heeft tussendoor niet stilgezeten. Daarom deze keer een weekly waarin we de afgelopen weken samenvatten. Uitgelicht MOZa Pulse - 21 mei van 9:00 tot 9:30: in deze pulse geven we een update over profielservice met een demonstratie van de gemeente Amsterdam over wat we hebben gedaan tijdens het afgelopen Common Ground Fieldlab. Ook bespreken we wat we hebben geleerd uit het gebruikersonderzoek van eind april. VNG MijnServices Festival - 28 mei in de middag: MOZa staat op de vloer. We verzorgen drie presentaties en je kunt ons daar vinden …",
+   "published": "2026-05-20T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Inloggen",
+      "machtigen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "handelsregister",
+      "KVK",
+      "profielservice"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp. … MOZa MOZa Pulse - 21 mei Stuurgroep - 22 mei Regieteam - 4 juni Dag van de Publieke Dienstverlening - 17 juni - MOZa verzorgt een workshop Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab Evenementen OneTeamGov - 21 mei VNG MijnServices Festival - 28 mei (MOZa staat op de vloer en verzorgt presentaties / demo’s) Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI Hackathon …",
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-05-20"
   },
   {
    "id": "370317be4e1a3044",
@@ -1983,6 +1922,56 @@
    "date": "2026-04-27"
   },
   {
+   "id": "818bf3be24549d33",
+   "title": "MOZa Weekly 22 april 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-22-april-2026/",
+   "summary": "Algemeen Dag van de toekomst: ondernemer centraal: op 18 juni organiseren we deze dag samen met Digilab . Deze week is het plan om de uitnodigingen te versturen. Naast de introducties van onderwerpen inclusief demo kan er gekozen worden uit twee tracks: (1) Rollen en bevoegdheden in het ondernemersdomein, en (2) Regeldruk, beleid en techniek. Heb je ideeën voor een inspirerende openingsspreker voor dit onderwerp dan ontvangen wij graag suggesties. VNG MijnServices Festival : op 28 mei staan we op de vloer bij het MijnServices Festival. We zijn bezig met de voorbereidingen. O.a. hebben we de …",
+   "published": "2026-04-22T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "notificatieservice"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Deadline"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "proef"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "MOZa RVO - eerste verdieping notificeren - 22 april Gebruikersonderzoek met ondernemers - 24 april en 29 april EU Business Wallets kennis delen - 6 mei Deadline PGDI-budgetaanvraag - 6 mei Regieteam - 7 mei Vervolg scope profielservice en notificatieservice - 19 mei Belastingdienst - derde verdieping notificeren - 20 mei MOZa Pulse - 21 mei Stuurgroep - 22 mei Dag van de toekomst: ondernemer centraal (met Digilab) - 18 juni Evenementen Common Ground Fieldlab - 11 & 12 mei (MOZa organiseert een sessie samen met Gemeente Amsterdam) Werkgroep NL Design Systems - 12 mei OneTeamGov - 21 mei VNG MijnServices Festival - 28 mei (MOZa staat op de vloer en verzorgt presentaties / demo’s) Demo usecase …",
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-04-22"
+  },
+  {
    "id": "1416fbad7311ccbb",
    "title": "MOZa-issue: Documentatie doornemen",
    "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/450",
@@ -2019,6 +2008,50 @@
    "score": 3,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-04-16"
+  },
+  {
+   "id": "e60a97f8e037e00f",
+   "title": "MOZa Weekly 15 april 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-15-april-2026/",
+   "summary": "Algemeen Ontwerpprincipes : op de MOZa site vind je nu informatie over ontwerpprincipes. We beschrijven naast de wat , ook hoe we het implementeren. BZK MijnOverheid: we hebben de werkwijze en de epics voor MijnOverheid en MijnOverheid Zakelijk verdiept. Dit om samen met elkaar de prioriteiten en verwachtingen beter op elkaar af te stemmen, en initieel om elkaars onderwerpen beter te begrijpen. NLDS: we hebben het NLDS-team meegenomen in onze knelpunten. Het grootste probleem waar wij tegen aanlopen is dat er geen single source of truth is voor componenten en layout, en dat er versnippering …",
+   "published": "2026-04-15T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "berichtenbox",
+      "Notificatieservice"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "MOZa MOZa Pulse - 16 april Gebruikerstest digitale assistent overheid (DAO) Logius KOOP - 21 april Verdieping RVO profielservice en notificeren - 22 april Regieteam - 7 mei Stuurgroep - 22 mei Dag van de toekomstige vermindering van regeldruk voor de ondernemer – 18 juni Evenementen Wallets sessie - 6 mei Common Ground Fieldlab - 11 & 12 mei (MOZa organiseert een sessie) Werkgroep NL Design Systems - 12 mei OneTeamGov - 21 mei VNG MijnServices Festival - 28 mei (MOZa staat op de vloer) Demo usecase verificatie QTSP – project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni GovTech Day - 11 juni Overheid360° (Jaarbeurs Utrecht) - 17 juni Samen versnellen …",
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-04-15"
   },
   {
    "id": "f22cc29a633a240a",
@@ -2064,6 +2097,30 @@
    "score": 8,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-04-07"
+  },
+  {
+   "id": "f61560822421f9e4",
+   "title": "Europees Parlement, European business wallets: ontwerpverslag ingediend in de commissie (ITRE)",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#ITRE-PR-785244-DEPOT-2026-04-01",
+   "summary": "Procedure 2025/0358(COD). Document: ITRE-PR-785244.",
+   "published": "2026-04-01",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-04-01"
   },
   {
    "id": "0e04f2587449f55a",
@@ -2269,6 +2326,63 @@
    "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-02-27"
+  },
+  {
+   "id": "d898b5bb9fe982c6",
+   "title": "MOZa Weekly 11 februari 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-11-februari-2026/",
+   "summary": "Algemeen Mailbox: we hebben nu een eigen mailbox moza@minbzk.nl . OneGov AI Hackathon : ons samengestelde team heeft de eerste prijs binnengehaald in de categorie Digitale Assistent! Afgelopen donderdag en vrijdag gingen ze aan de slag met het verbeteren van de kwaliteit van de output van een digitale assistent. Ze hebben hiervoor in 1,5 dag een start van een kwaliteitsframework voor Digitale Assistenten (+ code ) ontwikkeld. Een belangrijk inzicht is dat betrouwbaarheid meer is dan feitelijke juistheid en “deterministische” afvanging leidt tot een betere oplossing. En daarmee haalden ze het …",
+   "published": "2026-02-11T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "vertrouwensdiensten": [
+     "QERDS"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Mailbox",
+      "notificaties",
+      "QERDS"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "eHerkenning",
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "use-cases"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 10,
+   "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-02-11"
   },
   {
    "id": "7dc4a8436f48d9fb",
@@ -2626,6 +2740,30 @@
    "score": 4,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-01-20"
+  },
+  {
+   "id": "717ffe1d32cb402c",
+   "title": "Europees Parlement, European business wallets: voorstel doorverwezen naar de commissie",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-ANPRO-2026-01-19",
+   "summary": "Procedure 2025/0358(COD).",
+   "published": "2026-01-19",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:27:21Z",
+   "date": "2026-01-19"
   },
   {
    "id": "59cd6add8b5b914d",
