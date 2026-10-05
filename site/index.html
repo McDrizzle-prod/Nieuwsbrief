@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Walletbrief EUDI &amp; EBW</title>
+<meta name="description" content="Wekelijkse nieuwsbrief met officieel nieuws over de EU Digital Identity Wallet en de European Business Wallet, met de gevolgen voor MijnOverheid Zakelijk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='7' width='26' height='19' rx='4' fill='%230a5d69'/%3E%3Crect x='18' y='13' width='11' height='7' rx='2' fill='%23fbf1e2'/%3E%3C/svg%3E">
+</head>
+<body>
+<!-- inhoud:begin -->
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Wallet<span>brief</span></h1>
+      <p class="tagline">Officieel nieuws over de EUDI Wallet en de European Business Wallet, met de MOZa-lens</p>
+    </div>
+    <nav class="tabs" aria-label="Onderdelen">
+      <a href="#nieuwsbrief" data-tab="nieuwsbrief">Nieuwsbrief</a>
+      <a href="#archief" data-tab="archief">Archief</a>
+      <a href="#dossiers" data-tab="dossiers">Dossiers</a>
+      <a href="#bronnen" data-tab="bronnen">Bronnen</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <p id="laden" class="empty">Nieuwsbrief wordt geladen…</p>
+
+  <section id="view-nieuwsbrief" class="view" hidden>
+    <div class="edition-layout">
+      <article class="sheet" id="editie" aria-live="polite"></article>
+      <aside class="rail" id="zijkolom"></aside>
+    </div>
+  </section>
+
+  <section id="view-archief" class="view" hidden>
+    <div class="sheet">
+      <div class="filters">
+        <label for="zoek">Zoeken
+          <input type="search" id="zoek" placeholder="bijv. QERDS, eHerkenning, trilogue">
+        </label>
+        <label for="filter-onderwerp">Onderwerp
+          <select id="filter-onderwerp"><option value="">Alle onderwerpen</option></select>
+        </label>
+        <label for="filter-categorie">Bron
+          <select id="filter-categorie"><option value="">Alle bronnen</option></select>
+        </label>
+        <label for="filter-moza">MOZa-relevantie
+          <select id="filter-moza">
+            <option value="">Alles</option>
+            <option value="hoog">Hoog</option>
+            <option value="middel">Middel of hoog</option>
+          </select>
+        </label>
+      </div>
+      <p class="result-count" id="aantal-resultaten"></p>
+      <div class="items" id="archief-lijst"></div>
+      <div class="toolbar no-print"><button type="button" id="meer-resultaten" hidden>Meer berichten tonen</button></div>
+    </div>
+  </section>
+
+  <section id="view-dossiers" class="view" hidden>
+    <div class="sheet" id="dossiers-inhoud"></div>
+  </section>
+
+  <section id="view-bronnen" class="view" hidden>
+    <div id="bronnen-inhoud"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>De Walletbrief wordt automatisch samengesteld uit officiële bronnen en ingedeeld op trefwoorden. Gebruik altijd de originele bron als basis voor besluitvorming.</p>
+    <p id="bijgewerkt"></p>
+  </div>
+</footer>
+<!-- inhoud:einde -->
+<script src="assets/app.js"></script>
+</body>
+</html>

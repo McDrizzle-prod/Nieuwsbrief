@@ -29,8 +29,13 @@ def test_html_automatisch_met_detailpagina(fake_http):
     assert titles == [
         "European business wallets: Council adopts negotiating position",
         "WE BUILD joins Global Digital Collaboration 2026",
+        "MEPs back European business wallets to cut red tape",
+        "Privacy statement for the news pages",
     ]
-    council, collab = items
+    council, collab, meps, _ = items
+    # kop staat buiten de link; "Continue reading" mag geen titel worden
+    assert meps.published == "2026-09-17"
+    assert meps.summary == "The ITRE committee adopted its report on the business wallet."
     assert council.published == "2026-06-09"
     assert council.summary == "The Council agreed its position on the business wallet regulation."
     # geen datum op de lijstpagina: die komt van de berichtpagina
@@ -38,9 +43,18 @@ def test_html_automatisch_met_detailpagina(fake_http):
     assert collab.summary == "Discover our sessions."
 
 
+def test_html_link_uitsluiten(fake_http):
+    http = fake_http({"https://site.test/news": "lijst.html"})
+    source = {"type": "html", "url": "https://site.test/news", "link_patroon": "/news/[^/?#]+/?$",
+              "link_uitsluiten": "privacy"}
+    titles = [i.title for i in fetch(source, Context(http=http))]
+    assert "Privacy statement for the news pages" not in titles and len(titles) == 3
+
+
 def test_html_detail_alleen_voor_nieuwe_berichten(fake_http):
     http = fake_http({"https://site.test/news": "lijst.html"})
-    known = {item_id("https://site.test/news/we-build-joins-global-digital-collaboration-2026")}
+    known = {item_id("https://site.test/news/we-build-joins-global-digital-collaboration-2026"),
+             item_id("https://site.test/news/privacy-statement")}
     source = {"type": "html", "url": "https://site.test/news", "link_patroon": "/news/[^/?#]+/?$", "detail": True}
     fetch(source, Context(http=http, known_ids=known))
     assert [url for url, _ in http.calls] == ["https://site.test/news"]

@@ -1,7 +1,8 @@
 name: Bron onderzoeken
 
 # Handmatig te starten via Actions > "Bron onderzoeken" > Run workflow.
-# Handig om een nieuwe website te bekijken voordat je hem in config/bronnen.yaml zet.
+# Handig om een nieuwe website te bekijken voordat je hem in config/bronnen.yaml zet:
+# de uitkomst (feeds, nieuwslinks en een CSS-pad per link) staat in de samenvatting van de run.
 on:
   workflow_dispatch:
     inputs:

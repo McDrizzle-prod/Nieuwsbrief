@@ -86,7 +86,9 @@ bronnen:
     type: html
     url: https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/712507533/News
     link_patroon: "/EUDIGITALIDENTITYWALLET/pages/\\d+/"
+    link_uitsluiten: "(Home|Launchpads|Relying\\+Party|Privacy|Contact|FAQ)"
     detail: true
+    detail_max: 25
     standaard_onderwerp: eudi
     prioriteit: 1
     toelichting: >-
@@ -133,6 +135,7 @@ bronnen:
               cdm:resource_legal_id_celex ?celex ;
               cdm:work_date_document ?date .
         FILTER(?date >= "{since}"^^xsd:date)
+        FILTER(!STRSTARTS(STR(?celex), "0"))
         ?expr cdm:expression_belongs_to_work ?work ;
               cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/ENG> ;
               cdm:expression_title ?title .
@@ -165,6 +168,7 @@ bronnen:
         ?work cdm:resource_legal_id_celex ?celex ;
               cdm:work_date_document ?date .
         FILTER(?date >= "{since}"^^xsd:date)
+        FILTER(!STRSTARTS(STR(?celex), "0"))
         ?expr cdm:expression_belongs_to_work ?work ;
               cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/ENG> ;
               cdm:expression_title ?title .

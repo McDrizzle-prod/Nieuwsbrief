@@ -113,6 +113,28 @@ def _container(anchor, base: str, pattern: re.Pattern):
     return node
 
 
+GENERIC_LINK_TEXT = {
+    "read more", "lees meer", "lees verder", "continue reading", "meer", "more", "learn more",
+    "meer informatie", "more information", "details", "bekijk", "view", "open",
+}
+
+
+def _best_title(container, anchors) -> str:
+    """Titel van een bericht: liefst de kop in het blok, anders de beste linktekst."""
+    heading = container.find(["h1", "h2", "h3", "h4", "h5"]) if container.name not in ("h1", "h2", "h3", "h4", "h5") else container
+    if heading is not None:
+        text = clean_text(heading.get_text(" "))
+        if len(text) >= 12:
+            return text
+    candidates = []
+    for anchor in anchors:
+        for text in (anchor.get_text(" "), anchor.get("title", ""), anchor.get("aria-label", "")):
+            text = clean_text(text)
+            if len(text) >= 12 and text.lower().strip(" .…›»→>") not in GENERIC_LINK_TEXT:
+                candidates.append(text)
+    return min(candidates, key=len) if candidates else ""
+
+
 def fetch_html(source: dict, ctx: Context) -> list[RawItem]:
     resp = ctx.http.get(source["url"])
     soup = _soup(resp.content)
@@ -135,29 +157,30 @@ def fetch_html(source: dict, ctx: Context) -> list[RawItem]:
             ))
     else:
         pattern = re.compile(source["link_patroon"])
+        exclude = re.compile(source["link_uitsluiten"]) if source.get("link_uitsluiten") else None
         host = urlparse(base).netloc
-        seen: dict[str, RawItem] = {}
+        groups: dict[str, list] = {}
         for anchor in soup.find_all("a", href=True):
             url = urljoin(base, anchor["href"]).split("#")[0]
-            if urlparse(url).netloc != host or not pattern.search(urlparse(url).path):
+            path = urlparse(url).path
+            if urlparse(url).netloc != host or not pattern.search(path):
                 continue
-            if url.rstrip("/") == base.split("#")[0].rstrip("/"):
+            if url.rstrip("/") == base.split("#")[0].rstrip("/") or (exclude and exclude.search(url)):
                 continue
-            title = clean_text(anchor.get_text(" "))
-            heading = anchor.find(["h2", "h3", "h4"])
-            if heading:
-                title = clean_text(heading.get_text(" "))
-            if len(title) < 12 or title.lower() in ("read more", "lees meer", "meer nieuws"):
+            groups.setdefault(url, []).append(anchor)
+        for url, anchors in groups.items():
+            container = max((_container(a, base, pattern) for a in anchors),
+                            key=lambda node: len(node.get_text(" ", strip=True)))
+            title = _best_title(container, anchors)
+            if not title:
                 continue
-            container = _container(anchor, base, pattern)
             summary = ""
-            paragraph = container.find("p") if container is not anchor else None
-            if paragraph and title not in paragraph.get_text():
-                summary = clean_text(paragraph.get_text(" "), SUMMARY_LIMIT)
-            if url in seen:
-                continue
-            seen[url] = RawItem(title=title, url=url, published=_date_from_node(container), summary=summary)
-        items = list(seen.values())
+            for paragraph in container.find_all("p"):
+                text = clean_text(paragraph.get_text(" "))
+                if text and text != title and len(text) > 20:
+                    summary = clean_text(text, SUMMARY_LIMIT)
+                    break
+            items.append(RawItem(title=title, url=url, published=_date_from_node(container), summary=summary))
     items = items[: source.get("max", 40)]
     if source.get("detail"):
         _add_details(items, ctx, source.get("detail_max", 12))

@@ -149,12 +149,18 @@ def run(argv: list[str] | None = None, root: str = ROOT, http: Http | None = Non
             status.update(ok=False, fout=f"onverwachte fout: {exc.__class__.__name__}: {exc}"[:300])
             print(f"  ✗ onverwachte fout: {exc!r}", flush=True)
             continue
+        # Bij de eerste geslaagde run van een bron is alles 'nieuw'. Berichten zonder
+        # publicatiedatum gaan dan wel het archief in, maar niet in de lopende editie.
+        first_run = not prev.get("laatst_succes")
         relevant = 0
         for raw in raw_items:
             classification = classifier.classify(raw.title, raw.summary, source)
             if classification is not None:
                 relevant += 1
-                fresh.append(make_item(raw, source, classification))
+                item = make_item(raw, source, classification)
+                if first_run and not raw.published:
+                    item["baseline"] = True
+                fresh.append(item)
         status.update(ok=True, fout=None, gevonden=len(raw_items), relevant=relevant, laatst_succes=now_iso)
         print(f"  ✓ {len(raw_items)} gevonden, {relevant} relevant", flush=True)
 
