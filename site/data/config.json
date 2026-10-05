@@ -234,8 +234,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ec-ebw-beleid",
@@ -252,8 +252,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ec-eudi-beleid",
@@ -270,8 +270,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ec-eudi-wallet-nieuws",
@@ -287,9 +287,9 @@
    "fout": null,
    "gevonden": 20,
    "relevant": 20,
-   "nieuw": 20,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "eu-have-your-say",
@@ -301,13 +301,13 @@
    "toelichting": "Consultaties en feedbackperiodes op ontwerp-uitvoeringshandelingen voor de EUDI Wallet en de EBW. Hier kunnen ook Nederlandse overheden reageren.",
    "prioriteit": 1,
    "actief": true,
-   "ok": false,
-   "fout": "pad '_embedded.initiativeResultDtoes' niet gevonden in JSON-antwoord",
-   "gevonden": 0,
-   "relevant": 0,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": null
+   "ok": true,
+   "fout": null,
+   "gevonden": 11,
+   "relevant": 11,
+   "nieuw": 10,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "eurlex-eidas",
@@ -323,9 +323,9 @@
    "fout": null,
    "gevonden": 33,
    "relevant": 33,
-   "nieuw": 33,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "eurlex-titels",
@@ -341,9 +341,9 @@
    "fout": null,
    "gevonden": 6,
    "relevant": 6,
-   "nieuw": 3,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ep-persberichten",
@@ -360,8 +360,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ep-think-tank",
@@ -378,8 +378,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "ep-legislative-train-ebw",
@@ -396,7 +396,7 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
    "laatst_succes": null
   },
   {
@@ -414,8 +414,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "raad-persberichten",
@@ -432,8 +432,8 @@
    "gevonden": 20,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "we-build",
@@ -449,17 +449,17 @@
    "fout": null,
    "gevonden": 12,
    "relevant": 12,
-   "nieuw": 12,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "aptitude",
    "naam": "APTITUDE – Large Scale Pilot (reizen en betalen)",
    "categorie": "pilots",
-   "type": "html",
-   "url": "https://aptitude.digital-identity-wallet.eu/news/",
-   "site": "https://aptitude.digital-identity-wallet.eu/news/",
+   "type": "feed",
+   "url": "https://aptitude.digital-identity-wallet.eu/feed/",
+   "site": "https://aptitude.digital-identity-wallet.eu/news-corner/",
    "toelichting": "Tweede Large Scale Pilot (onder leiding van Frankrijk) met use cases voor reizen, ticketing, voertuigregistratie en betalen.",
    "prioriteit": 2,
    "actief": true,
@@ -468,8 +468,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "github-arf",
@@ -485,45 +485,27 @@
    "fout": null,
    "gevonden": 10,
    "relevant": 10,
-   "nieuw": 10,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
-  },
-  {
-   "id": "github-eudi-specificaties",
-   "naam": "EUDI Wallet – technische specificaties (releases)",
-   "categorie": "techniek",
-   "type": "feed",
-   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/releases.atom",
-   "site": "https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications",
-   "toelichting": "Releases van de technische specificaties die bij het ARF horen.",
-   "prioriteit": 2,
-   "actief": true,
-   "ok": true,
-   "fout": null,
-   "gevonden": 0,
-   "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "etsi-nieuws",
    "naam": "ETSI – nieuws",
    "categorie": "techniek",
    "type": "feed",
-   "url": "https://www.etsi.org/newsroom/news?format=feed&type=rss",
+   "url": "https://www.etsi.org/newsroom/feed/",
    "site": "https://www.etsi.org/newsroom/news",
    "toelichting": "Europese normalisatie-instelling; ETSI ESI maakt de normen voor vertrouwensdiensten en (gekwalificeerde) elektronische aangetekende bezorging.",
    "prioriteit": 2,
    "actief": true,
-   "ok": false,
-   "fout": "geen geldige feed (SAXParseException)",
-   "gevonden": 0,
+   "ok": true,
+   "fout": null,
+   "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": null
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "digitale-overheid",
@@ -535,13 +517,13 @@
    "toelichting": "Nieuws over de Nederlandse digitale overheid, waaronder het EDI-stelsel, de NL Wallet, eHerkenning en de Berichtenbox voor bedrijven.",
    "prioriteit": 1,
    "actief": true,
-   "ok": false,
-   "fout": "geen geldige feed (SAXParseException)",
-   "gevonden": 0,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": null
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "rijksoverheid-digitale-overheid",
@@ -558,7 +540,7 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
    "laatst_succes": null
   },
   {
@@ -576,7 +558,7 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
    "laatst_succes": null
   },
   {
@@ -593,9 +575,9 @@
    "fout": null,
    "gevonden": 40,
    "relevant": 37,
-   "nieuw": 24,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "officiele-bekendmakingen",
@@ -611,9 +593,9 @@
    "fout": null,
    "gevonden": 40,
    "relevant": 2,
-   "nieuw": 2,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "eerste-kamer-ebw",
@@ -630,8 +612,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "nl-wallet",
@@ -647,18 +629,18 @@
    "fout": null,
    "gevonden": 10,
    "relevant": 10,
-   "nieuw": 6,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "moza-actueel",
    "naam": "MijnOverheid Zakelijk – Actueel",
    "categorie": "nl-moza",
-   "type": "html",
-   "url": "https://mijnoverheidzakelijk.nl/actueel/",
+   "type": "feed",
+   "url": "https://mijnoverheidzakelijk.nl/actueel/index.xml",
    "site": "https://mijnoverheidzakelijk.nl/actueel/",
-   "toelichting": "Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten over wallets, eIDAS, eHerkenning of berichtenverkeer komen in de nieuwsbrief.",
+   "toelichting": "Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten waarin wallets, eIDAS of de EBW voorkomen, komen in de nieuwsbrief; de betreffende zinnen worden getoond.",
    "prioriteit": 1,
    "actief": true,
    "ok": true,
@@ -666,8 +648,26 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
+  },
+  {
+   "id": "moza-weekly",
+   "naam": "MijnOverheid Zakelijk – MOZa Weekly",
+   "categorie": "nl-moza",
+   "type": "feed",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/index.xml",
+   "site": "https://mijnoverheidzakelijk.nl/weekly/",
+   "toelichting": "Wekelijkse voortgangsupdate van het MOZa-team. Laat zien wat er met wallets gebeurt in de MOZa-proeven, bijvoorbeeld de NL Wallet en de Yivi Business Wallet.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 37,
+   "relevant": 13,
+   "nieuw": 13,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "moza-github",
@@ -683,9 +683,9 @@
    "fout": null,
    "gevonden": 19,
    "relevant": 19,
-   "nieuw": 19,
-   "laatst_gecontroleerd": "2026-10-05T09:18:55Z",
-   "laatst_succes": "2026-10-05T09:18:55Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-05T09:23:51Z",
+   "laatst_succes": "2026-10-05T09:23:51Z"
   },
   {
    "id": "biometric-update",
