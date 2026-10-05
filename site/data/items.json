@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:33:45Z",
+ "generated": "2026-10-05T09:35:16Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -2338,27 +2338,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "notificatiedienst"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "KVK",
       "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "… Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI Hackathon Series …",
    "first_seen": "2026-10-05T09:33:45Z",
    "date": "2026-05-27"
@@ -2441,30 +2428,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Berichtenbox",
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Inloggen",
-      "machtigen"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "handelsregister",
-      "KVK",
       "profielservice"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp. … Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI Hackathon Series …",
    "first_seen": "2026-10-05T09:33:45Z",
    "date": "2026-05-20"
@@ -2622,7 +2593,6 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "notificatieservice"
      ]
     },
@@ -2636,12 +2606,6 @@
      "thema": "verplichtingen",
      "termen": [
       "Deadline"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "proef"
      ]
     }
    ],
@@ -2706,29 +2670,9 @@
      "Business Wallet"
     ]
    },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "berichtenbox",
-      "Notificatieservice"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
    "fragment": "… Demo usecase verificatie QTSP – project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni GovTech Day - 11 juni Overheid360° (Jaarbeurs Utrecht) - 17 juni Samen versnellen met AI: de overheid van morgen begint nu - 25 …",
    "first_seen": "2026-10-05T09:33:45Z",
    "date": "2026-04-15"
@@ -3036,30 +2980,10 @@
       "notificaties",
       "QERDS"
      ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eHerkenning",
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "KVK",
-      "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "use-cases"
-     ]
     }
    ],
    "moza_level": "hoog",
-   "score": 10,
+   "score": 8,
    "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
    "first_seen": "2026-10-05T09:33:45Z",
    "date": "2026-02-11"
