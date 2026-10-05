@@ -436,6 +436,7 @@ bronnen:
     type: feed
     url: https://mijnoverheidzakelijk.nl/weekly/index.xml
     volledige_tekst: true
+    detail_max: 40
     filter: true
     prioriteit: 1
     site: https://mijnoverheidzakelijk.nl/weekly/
