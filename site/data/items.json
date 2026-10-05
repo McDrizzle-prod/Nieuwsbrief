@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:27:21Z",
+ "generated": "2026-10-05T09:31:10Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -1503,6 +1503,67 @@
    "date": "2026-06-24"
   },
   {
+   "id": "3c0a8813d005bd1b",
+   "title": "MOZa Weekly 17 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-17-juni-2026/",
+   "summary": "Algemeen Dag van de toekomst: ondernemer centraal: we hebben de laatste hand gelegd aan het programma en de workshops. Vanuit verschillende rollen beschrijven we levensgebeurtenissen waar een zakelijke gebruiker tegenaan loopt. Met elkaar gaan we aan de slag om dit als klantreis inclusief oplossingsrichtingen uit te werken. We organiseren deze dag samen met Digilab . Logius PI event: op 10 en 11 juni waren we bij het PI event van Logius. We maakten met alle betrokkenen een goede werkverdeling voor de notificatiedienst en de profielservice . Ook ondertekenden we samen met Logius de …",
+   "published": "2026-06-17T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "handelsregister",
+      "KVK",
+      "Once-Only",
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "ondertekenden"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G",
+      "proeven",
+      "use cases"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… - 2 juli (online) Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:31:10Z",
+   "date": "2026-06-17"
+  },
+  {
    "id": "05fbd76126b904b9",
    "title": "MOZa Weekly 10 juni 2026",
    "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-juni-2026/",
@@ -1563,6 +1624,58 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-06-10"
+  },
+  {
+   "id": "d52c1df6f70e84da",
+   "title": "MOZa Weekly 3 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-3-juni-2026/",
+   "summary": "Algemeen MOZa event: vergeet je niet om je aan te melden voor de Dag van de toekomst: ondernemer centraal op 18 juni vanaf 12:00. VNG MijnServices Festival : op 28 mei stonden we op de vloer met presentaties en demo’s. We voerden veel goede gesprekken, onder andere over (business) wallets en het delen van gegevens van nutsbedrijven met de overheid. De komende tijd gaan we deze gesprekken opvolgen en verdiepingen plannen. Routekaartoverleg MijnOverheid: op basis van het statusrapport fase 3 gaven we een update over wat we hebben gedaan. Daaraan koppelden we een samenvatting van onze plannen …",
+   "published": "2026-06-03T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "mailbox",
+      "Notificatie"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen",
+      "Machtigingen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… de Digitale Toegankelijkheid - 28 juni Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september",
+   "first_seen": "2026-10-05T09:31:10Z",
+   "date": "2026-06-03"
   },
   {
    "id": "b850ed2d9cdaf902",
@@ -1658,27 +1771,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "notificatiedienst"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "KVK",
       "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "MOZa VNG MijnServices Festival - 28 mei - MOZa staat op de vloer en verzorgt presentaties / demo’s Teamoverleg - 3 juni Regieteam - 4 juni (wordt mogelijk verplaatst naar Logius PI event) Logius PI planning - 10 & 11 juni Dag van de Publieke Dienstverlening - 17 juni - MOZa verzorgt een workshop MOZa Pulse - 18 juni Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab UX-onderzoeksdag - 22 juni Stuurgroep - 16 juli Evenementen Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI …",
    "first_seen": "2026-10-05T09:27:21Z",
    "date": "2026-05-27"
@@ -1761,30 +1861,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Berichtenbox",
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Inloggen",
-      "machtigen"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "handelsregister",
-      "KVK",
       "profielservice"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp. … MOZa MOZa Pulse - 21 mei Stuurgroep - 22 mei Regieteam - 4 juni Dag van de Publieke Dienstverlening - 17 juni - MOZa verzorgt een workshop Dag van de toekomst: ondernemer centraal - 18 juni - MOZa samen met Digilab Evenementen OneTeamGov - 21 mei VNG MijnServices Festival - 28 mei (MOZa staat op de vloer en verzorgt presentaties / demo’s) Demo usecase verificatie QTSP - project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni Werkgroep MijnZaken/MijnTaken (OBIS) - 2 juni Webinar Standaarden in het Federatief Datastelsel - 4 juni OneGov AI Hackathon …",
    "first_seen": "2026-10-05T09:27:21Z",
    "date": "2026-05-20"
@@ -1942,7 +2026,6 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "notificatieservice"
      ]
     },
@@ -1956,12 +2039,6 @@
      "thema": "verplichtingen",
      "termen": [
       "Deadline"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "proef"
      ]
     }
    ],
@@ -2028,27 +2105,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "berichtenbox",
-      "Notificatieservice"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
       "profielservice"
      ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
-     ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "MOZa MOZa Pulse - 16 april Gebruikerstest digitale assistent overheid (DAO) Logius KOOP - 21 april Verdieping RVO profielservice en notificeren - 22 april Regieteam - 7 mei Stuurgroep - 22 mei Dag van de toekomstige vermindering van regeldruk voor de ondernemer – 18 juni Evenementen Wallets sessie - 6 mei Common Ground Fieldlab - 11 & 12 mei (MOZa organiseert een sessie) Werkgroep NL Design Systems - 12 mei OneTeamGov - 21 mei VNG MijnServices Festival - 28 mei (MOZa staat op de vloer) Demo usecase verificatie QTSP – project UBO/BronConnect - 28 mei Symposium European Business Wallet (ECP, Jaarbeurs) - 2 juni GovTech Day - 11 juni Overheid360° (Jaarbeurs Utrecht) - 17 juni Samen versnellen …",
    "first_seen": "2026-10-05T09:27:21Z",
    "date": "2026-04-15"
@@ -2258,7 +2322,7 @@
    "id": "7d81cd2bbfc66442",
    "title": "Consultatie: Digital services for simplifying business operations and reducing administrative costs – the business wallet",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14663_en",
-   "summary": "Feedback: CLOSED, van 2026/03/11 19:06:02 tot 2026/05/06 23:59:59. reducing administrative costs – the business wallet Building on the European digital identity framework, the business wallet will provide economic operators with a cross ... simplification and burden reduction initiatives. European Business Wallet : digital identity, secure data exchange and legal notifications ... on the European digital identity framework, the EU Business Wallet will enable secure digital identification, data sharing and legally ... operations and reducing administrative costs – the business wallet",
+   "summary": "Feedbackperiode 11 maart 2026 – 6 mei 2026 (gesloten). reducing administrative costs – the business wallet Building on the European digital identity framework, the business wallet will provide economic operators with a cross ... simplification and burden reduction initiatives. European Business Wallet : digital identity, secure data exchange and legal notifications ... on the European digital identity framework, the EU Business Wallet will enable secure digital identification, data sharing and legally ... operations and reducing administrative costs – the business wallet",
    "published": "2026-03-11T19:06:02Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -2356,30 +2420,10 @@
       "notificaties",
       "QERDS"
      ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eHerkenning",
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "KVK",
-      "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "use-cases"
-     ]
     }
    ],
    "moza_level": "hoog",
-   "score": 10,
+   "score": 8,
    "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
    "first_seen": "2026-10-05T09:27:21Z",
    "date": "2026-02-11"
@@ -2411,7 +2455,7 @@
    "id": "5d982f47ef3e1aa3",
    "title": "Consultatie: Amending CIR 2025/848 of Article 5b(11) registration of relying parties",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16113_en",
-   "summary": "Feedback: CLOSED, van 2026/02/05 09:16:24 tot 2026/03/05 23:59:59. registration of wallet -relying parties. European Digital Identity Wallet – registration of wallet -relying parties (update) This initiative amends Commission Implementing Regulation (EU) 2025/848 on information that wallet -relying parties must provide to the national registers. ... architecture and reference framework for the European Digital Identity Wallet since the Implementing Regulation was adopted. Commission adoption",
+   "summary": "Feedbackperiode 5 februari 2026 – 5 maart 2026 (gesloten). registration of wallet -relying parties. European Digital Identity Wallet – registration of wallet -relying parties (update) This initiative amends Commission Implementing Regulation (EU) 2025/848 on information that wallet -relying parties must provide to the national registers. ... architecture and reference framework for the European Digital Identity Wallet since the Implementing Regulation was adopted. Commission adoption",
    "published": "2026-02-05T09:16:24Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -2451,7 +2495,7 @@
    "id": "399938445a6c4853",
    "title": "Consultatie: Amending CIRs of Article 5a(23) as regards applicable standards and technical specifications",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16112_en",
-   "summary": "Feedback: CLOSED, van 2026/02/05 09:16:01 tot 2026/03/05 23:59:59. Regulation as regards notifications to the Commission concerning the wallet ecosystem. European Digital Identity Wallet – standards and technical specifications (update) This initiative",
+   "summary": "Feedbackperiode 5 februari 2026 – 5 maart 2026 (gesloten). Regulation as regards notifications to the Commission concerning the wallet ecosystem. European Digital Identity Wallet – standards and technical specifications (update) This initiative",
    "published": "2026-02-05T09:16:01Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -2490,7 +2534,7 @@
    "id": "584c810c6a2c23ed",
    "title": "Consultatie: Amending CIR 2025/1569 of Articles 45d-45f as regards applicable standards and specifications",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16114_en",
-   "summary": "Feedback: CLOSED, van 2026/02/05 09:16:45 tot 2026/03/05 23:59:59. responsible for an authentic source. European Digital Identity Wallet – electronic attestations of attributes (update) This initiative",
+   "summary": "Feedbackperiode 5 februari 2026 – 5 maart 2026 (gesloten). responsible for an authentic source. European Digital Identity Wallet – electronic attestations of attributes (update) This initiative",
    "published": "2026-02-05T09:16:45Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4412,7 +4456,7 @@
    "id": "1f63d62747214ac8",
    "title": "Consultatie: Registration of relying parties of European Digital Identity Wallets",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14399_en",
-   "summary": "Feedback: DISABLED, van 2025/06/02 19:08:17 tot . certificates that are issued based on the registration of the wallet relying party are also included. European Digital Identity Wallets ... party access certificates issued after the registration of a wallet relying party. Draft act Digital economy and society ... Parliament and of the Council as regards the registration of wallet -relying parties and the common mechanism for the identification and authentication of wallet -relying parties",
+   "summary": "Feedbackperiode 2 juni 2025 (niet opengesteld). certificates that are issued based on the registration of the wallet relying party are also included. European Digital Identity Wallets ... party access certificates issued after the registration of a wallet relying party. Draft act Digital economy and society ... Parliament and of the Council as regards the registration of wallet -relying parties and the common mechanism for the identification and authentication of wallet -relying parties",
    "published": "2025-06-02T19:08:17Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4451,7 +4495,7 @@
    "id": "db15fbe4f35e5661",
    "title": "Consultatie: List of certified European Digital Identity Wallets",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14403_en",
-   "summary": "Feedback: DISABLED, van 2025/06/02 19:08:45 tot . sets out rules for the submission of information on certified wallet solutions and their associated electronic identification schemes ... the submission to the Commission of information on certified wallet solutions and their associated electronic identification schemes",
+   "summary": "Feedbackperiode 2 juni 2025 (niet opengesteld). sets out rules for the submission of information on certified wallet solutions and their associated electronic identification schemes ... the submission to the Commission of information on certified wallet solutions and their associated electronic identification schemes",
    "published": "2025-06-02T19:08:45Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4483,7 +4527,7 @@
    "id": "a10e4849c8bfc686",
    "title": "Consultatie: Security breaches of European Digital Identity Wallets",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14401_en",
-   "summary": "Feedback: DISABLED, van 2025/06/02 19:08:00 tot . compromise affecting the reliability of a European Digital Identity Wallet European Digital Identity Wallets – security breaches This ... there is a security breach or partial compromise affecting a wallet ’s reliability. Draft act Digital economy and society",
+   "summary": "Feedbackperiode 2 juni 2025 (niet opengesteld). compromise affecting the reliability of a European Digital Identity Wallet European Digital Identity Wallets – security breaches This ... there is a security breach or partial compromise affecting a wallet ’s reliability. Draft act Digital economy and society",
    "published": "2025-06-02T19:08:00Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4864,7 +4908,7 @@
    "id": "5de1003e28e2140b",
    "title": "Consultatie: Protocols and interfaces to be supported by the European Digital Identity Wallets",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14339_en",
-   "summary": "Feedback: DISABLED, van 2024/12/04 14:24:24 tot . and electronic attestations, as well as data sharing between wallet units, will be successful. Additionally, it ensures efficient ... and electronic attestations; successful data sharing between wallet units; and efficient communication with relevant parties.",
+   "summary": "Feedbackperiode 4 december 2024 (niet opengesteld). and electronic attestations, as well as data sharing between wallet units, will be successful. Additionally, it ensures efficient ... and electronic attestations; successful data sharing between wallet units; and efficient communication with relevant parties.",
    "published": "2024-12-04T14:24:24Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4902,7 +4946,7 @@
    "id": "beb80e5594d9698a",
    "title": "Consultatie: Person identification data and electronic attestations of attributes issued to European Digital Identity Wallets",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14340_en",
-   "summary": "Feedback: DISABLED, van 2024/12/04 14:24:46 tot . data and electronic attestation of attributes are issued to the wallet and can be disclosed to relying parties. European Digital ... identification data and electronic attestations are issued to the wallet and can be disclosed to relevant parties. Draft act Digital",
+   "summary": "Feedbackperiode 4 december 2024 (niet opengesteld). data and electronic attestation of attributes are issued to the wallet and can be disclosed to relying parties. European Digital ... identification data and electronic attestations are issued to the wallet and can be disclosed to relevant parties. Draft act Digital",
    "published": "2024-12-04T14:24:46Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
@@ -4943,7 +4987,7 @@
    "id": "8e081f823860ed11",
    "title": "Consultatie: Trust framework",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14338_en",
-   "summary": "Feedback: DISABLED, van 2024/12/04 14:32:00 tot . notifications to the Commission concerning the European Digital Identity Wallet ecosystem",
+   "summary": "Feedbackperiode 4 december 2024 (niet opengesteld). notifications to the Commission concerning the European Digital Identity Wallet ecosystem",
    "published": "2024-12-04T14:32:00Z",
    "source": "eu-have-your-say",
    "source_name": "Europese Commissie – Have your say (consultaties)",
