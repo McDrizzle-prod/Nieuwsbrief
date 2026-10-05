@@ -74,7 +74,9 @@ automatisch opnieuw opgebouwd.
 
 - **Bron toevoegen of uitzetten:** [`config/bronnen.yaml`](config/bronnen.yaml). Twijfel je
   over een website? Start *Actions → Bron onderzoeken*, vul de URL in en bekijk in de
-  samenvatting welke feeds en nieuwslinks er zijn.
+  samenvatting welke feeds en nieuwslinks er zijn. Met het veld *link_patroon* zie je
+  welke links een patroon oplevert, en *als browser* laat zien of een site
+  geautomatiseerde verzoeken weigert.
 - **Zoektermen en MOZa-thema's:** [`config/onderwerpen.yaml`](config/onderwerpen.yaml).
   Hier staat ook de uitleg per thema die in de MOZa-lens verschijnt.
 - **Dossierstappen en kernvragen:** [`config/achtergrond.yaml`](config/achtergrond.yaml).

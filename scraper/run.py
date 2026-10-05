@@ -77,6 +77,9 @@ def site_config(config: dict, statuses: list[dict]) -> dict:
                         for t in topics["moza_themas"]],
         "achtergrond": config["achtergrond"],
         "bronnen": statuses,
+        # In GitHub Actions gezet; de site gebruikt ze voor links naar de configuratie.
+        "repository": os.environ.get("GITHUB_REPOSITORY"),
+        "branch": os.environ.get("GITHUB_REF_NAME"),
     }
 
 

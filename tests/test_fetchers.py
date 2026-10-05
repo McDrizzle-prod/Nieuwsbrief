@@ -196,3 +196,14 @@ def test_lege_202_respons_is_een_fout(monkeypatch):
     monkeypatch.setattr(http.session, "get", lambda *a, **k: Leeg())
     with pytest.raises(FetchError, match="lege respons"):
         http.get("https://ep.test/rss.xml")
+
+
+def test_json_lijst_op_hoogste_niveau(fake_http):
+    http = fake_http({"https://aptitude.test/wp-json/wp/v2/news": "wp_news.json"})
+    source = {"type": "json", "url": "https://aptitude.test/wp-json/wp/v2/news",
+              "velden": {"titel": "{title.rendered}", "url": "{link}", "datum": "date_gmt",
+                         "samenvatting": "excerpt.rendered"}}
+    [item] = fetch(source, Context(http=http))
+    assert item.title == "Latvia presents Aptitude’s role in EUDI Wallet cross-border testing"
+    assert item.published == "2026-09-30T11:17:39Z"
+    assert item.summary == "On 10 September 2026, representatives of Latvia’s Ministry participated in a test."

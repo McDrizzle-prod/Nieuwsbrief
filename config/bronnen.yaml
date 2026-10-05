@@ -293,8 +293,16 @@ bronnen:
   - id: aptitude
     naam: "APTITUDE – Large Scale Pilot (reizen en betalen)"
     categorie: pilots
-    type: feed
-    url: https://aptitude.digital-identity-wallet.eu/feed/
+    type: json
+    url: https://aptitude.digital-identity-wallet.eu/wp-json/wp/v2/news
+    params:
+      per_page: 20
+      _fields: id,date_gmt,link,title,excerpt
+    velden:
+      titel: "{title.rendered}"
+      url: "{link}"
+      datum: date_gmt
+      samenvatting: excerpt.rendered
     standaard_onderwerp: eudi
     prioriteit: 2
     site: https://aptitude.digital-identity-wallet.eu/news-corner/
