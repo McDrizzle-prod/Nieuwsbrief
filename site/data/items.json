@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:38:31Z",
+ "generated": "2026-10-05T09:41:28Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -148,6 +148,7 @@
    "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
    "category": "pilots",
    "topics": [
+    "eudi",
     "vertrouwensdiensten"
    ],
    "topic_hits": {
@@ -170,7 +171,7 @@
     }
    ],
    "moza_level": "middel",
-   "score": 5,
+   "score": 7,
    "first_seen": "2026-10-05T09:32:45Z",
    "date": "2026-09-29"
   },
@@ -263,34 +264,12 @@
     {
      "thema": "berichten",
      "termen": [
-      "Berichtenbox",
       "notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Authorization",
-      "eHerkenning",
-      "Inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "Handelsregister",
-      "KVK"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
      ]
     }
    ],
    "moza_level": "hoog",
-   "score": 11,
+   "score": 9,
    "fragment": "Wallet in de proeftuin: we voegen de NL Wallet toe aan de MOZa proeftuin. … Ook kijken we hoe de Yivi Business Wallet zich daartoe verhoudt, en hoe we dit goed vormgeven voor de gebruiker. … Met een deel van het team waren we bij het symposium over de European Business Wallet .",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-09-23"
@@ -631,28 +610,9 @@
      "Business Wallet"
     ]
    },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilot"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
    "fragment": "European Business Wallet Gesprek met Nijmegen: we spraken met de gemeente Nijmegen, Gebruiker Centraal en een leverancier over de business wallet. … Kennis opdoen: als we zelf een business wallet willen opstarten, kunnen we kijken naar de Yivi business wallet .",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-09-10"
@@ -1662,34 +1622,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen",
-      "machtigen",
-      "mandaten"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
       "Profielservice"
      ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "pilots"
-     ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet .",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-06-10"
@@ -2095,30 +2035,14 @@
    },
    "moza": [
     {
-     "thema": "berichten",
-     "termen": [
-      "Berichtenbox",
-      "Notificatiedienst"
-     ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "Inloggen",
-      "machtigen"
-     ]
-    },
-    {
      "thema": "gegevens",
      "termen": [
-      "handelsregister",
-      "KVK",
       "profielservice"
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp.",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-05-20"
@@ -2303,6 +2227,7 @@
    "source_name": "EUR-Lex – documenten over wallets",
    "category": "eu-wetgeving",
    "topics": [
+    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -2334,7 +2259,7 @@
     }
    ],
    "moza_level": "hoog",
-   "score": 8,
+   "score": 11,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-04-07"
   },
@@ -2596,29 +2521,10 @@
       "notificaties",
       "QERDS"
      ]
-    },
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eHerkenning",
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "profielservice"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "use-cases"
-     ]
     }
    ],
    "moza_level": "hoog",
-   "score": 10,
+   "score": 8,
    "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-02-11"
@@ -2633,7 +2539,8 @@
    "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
    "category": "nl-moza",
    "topics": [
-    "ebw"
+    "ebw",
+    "eudi"
    ],
    "topic_hits": {
     "ebw": [
@@ -2642,7 +2549,7 @@
    },
    "moza": [],
    "moza_level": "middel",
-   "score": 4,
+   "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-02-06"
   },
@@ -2774,42 +2681,16 @@
    "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
    "category": "nl-moza",
    "topics": [
-    "ebw",
-    "vertrouwensdiensten"
+    "ebw"
    ],
    "topic_hits": {
     "ebw": [
-     "Business Wallet",
-     "business-wallet"
-    ],
-    "vertrouwensdiensten": [
-     "QERDS"
+     "Business Wallet"
     ]
    },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "notificatieservice",
-      "QERDS"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "KVK",
-      "Profielservice"
-     ]
-    },
-    {
-     "thema": "verplichtingen",
-     "termen": [
-      "deadline"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 10,
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
    "fragment": "De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. … EU Business Wallet : Onze collega’s bij de KVK hebben ons een inkijk gegeven in de wereld van de EU Business Wallet. … Vooral de QERDS is voor MOZa relevant.",
    "first_seen": "2026-10-05T09:38:31Z",
    "date": "2026-02-04"
@@ -3623,6 +3504,7 @@
    "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
    "category": "eu-wetgeving",
    "topics": [
+    "eudi",
     "vertrouwensdiensten"
    ],
    "topic_hits": {
@@ -3645,7 +3527,7 @@
     }
    ],
    "moza_level": "middel",
-   "score": 5,
+   "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-10-27"
   },
@@ -4091,6 +3973,7 @@
    "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
    "category": "pilots",
    "topics": [
+    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -4115,8 +3998,8 @@
      ]
     }
    ],
-   "moza_level": "middel",
-   "score": 7,
+   "moza_level": "hoog",
+   "score": 10,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-09-03"
   },
@@ -4811,6 +4694,7 @@
    "source_name": "EUR-Lex – documenten over wallets",
    "category": "eu-wetgeving",
    "topics": [
+    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -4829,8 +4713,8 @@
      ]
     }
    ],
-   "moza_level": "middel",
-   "score": 6,
+   "moza_level": "hoog",
+   "score": 9,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-05-06"
   },
@@ -4874,6 +4758,7 @@
    "source_name": "EUR-Lex – documenten over wallets",
    "category": "eu-wetgeving",
    "topics": [
+    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -4892,8 +4777,8 @@
      ]
     }
    ],
-   "moza_level": "middel",
-   "score": 6,
+   "moza_level": "hoog",
+   "score": 9,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-05-06"
   },
@@ -5047,6 +4932,7 @@
    "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
    "category": "pilots",
    "topics": [
+    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -5073,8 +4959,8 @@
      ]
     }
    ],
-   "moza_level": "middel",
-   "score": 7,
+   "moza_level": "hoog",
+   "score": 10,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-02-10"
   },
