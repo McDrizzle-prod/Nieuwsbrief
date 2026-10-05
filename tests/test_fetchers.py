@@ -153,10 +153,14 @@ def test_feed_met_volledige_tekst(fake_http):
     })
     source = {"type": "feed", "url": "https://moza.test/weekly/index.xml", "volledige_tekst": True}
     known = {item_id("https://moza.test/weekly/moza-weekly-16-september-2026/")}
-    items = fetch(source, Context(http=http, known_ids=known))
+    state: dict = {}
+    items = fetch(source, Context(http=http, known_ids=known, state=state))
     assert "inloggen met de NL Wallet" in items[0].text
     assert "MOZa" not in items[0].text.split("MOZa Weekly")[0]  # header weggelaten
     assert items[1].text == ""  # bekend bericht: pagina niet opnieuw opgehaald
+    again = fetch(source, Context(http=http, known_ids=known, state=state))
+    assert again[0].text == ""  # al eens bekeken: niet opnieuw ophalen
+    assert len(http.calls) == 3  # feed, pagina, feed
 
 
 def test_ep_procedurestappen(fake_http):
@@ -177,3 +181,18 @@ def test_ep_procedurestappen(fake_http):
     assert plenary.summary == "Procedure 2025/0358(COD). Document: A-10-2026-0240."
     assert plenary.url.endswith("reference=2025/0358(COD)#2025-0358-DEPOT-2026-09-23")
     assert http.calls[0][1] == {"format": "application/ld+json"}
+
+
+def test_lege_202_respons_is_een_fout(monkeypatch):
+    import pytest
+    from scraper.util import FetchError, Http
+
+    class Leeg:
+        status_code = 202
+        content = b""
+        url = "https://ep.test/rss.xml"
+
+    http = Http()
+    monkeypatch.setattr(http.session, "get", lambda *a, **k: Leeg())
+    with pytest.raises(FetchError, match="lege respons"):
+        http.get("https://ep.test/rss.xml")

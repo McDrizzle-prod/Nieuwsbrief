@@ -518,8 +518,9 @@
       try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
       selection.removeAllRanges();
       holder.remove();
-      showMessage(ok ? "Gekopieerd. Plak de nieuwsbrief in een nieuwe e-mail."
-        : "Kopiëren lukte niet in deze browser. Gebruik 'Download HTML' en open het bestand in je mailprogramma.");
+      let failed = "Kopiëren lukte niet in deze browser. Gebruik 'Download HTML' en open het bestand in je mailprogramma.";
+      if (state.preview) failed = "Kopiëren lukte niet in deze voorbeeldweergave. Op de gepubliceerde site werkt het wel.";
+      showMessage(ok ? "Gekopieerd. Plak de nieuwsbrief in een nieuwe e-mail." : failed);
     }
   }
 

@@ -65,6 +65,9 @@ class Http:
             raise FetchError(f"verbinding mislukt: {exc.__class__.__name__}: {exc}") from exc
         if resp.status_code >= 400:
             raise FetchError(f"HTTP {resp.status_code} bij {resp.url}")
+        if resp.status_code == 202 or not resp.content:
+            # bijv. een JavaScript-controle tegen bots: lege pagina met status 202
+            raise FetchError(f"lege respons (HTTP {resp.status_code}); de site weigert mogelijk geautomatiseerde verzoeken")
         return resp
 
 
@@ -174,15 +177,39 @@ def get_path(data, path: str | None):
     return current
 
 
+NL_MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus",
+              "september", "oktober", "november", "december"]
+NL_WOORDEN = {"open": "open", "closed": "gesloten", "disabled": "niet opengesteld",
+              "upcoming": "binnenkort", "active": "actief"}
+
+
+def nl_date(value) -> str:
+    day = parse_date(value)
+    if not day:
+        return ""
+    y, m, d = (int(x) for x in day[:10].split("-"))
+    return f"{d} {NL_MAANDEN[m - 1]} {y}"
+
+
 def fill_template(template: str, record: dict) -> str:
-    """'{a} – {b.c}' invullen met waarden uit een record (ontbrekend wordt leeg)."""
+    """'{a} – {b.c|datum}' invullen met waarden uit een record (ontbrekend wordt leeg).
+
+    Filters: |datum (Nederlandse datum) en |nl (statuswoorden als CLOSED naar het Nederlands).
+    """
     def repl(match: re.Match) -> str:
         value = get_path(record, match.group(1))
         if isinstance(value, dict):
             value = value.get("value") or value.get("en") or value.get("nl") or ""
         if isinstance(value, float) and value.is_integer():
             value = int(value)  # JSON-id's als 16113.0
-        return "" if value is None else str(value)
+        text = "" if value is None else str(value)
+        if match.group(2) == "datum":
+            text = nl_date(text)
+        elif match.group(2) == "nl":
+            text = NL_WOORDEN.get(text.lower(), text.lower())
+        return text
 
-    filled = re.sub(r"\{([A-Za-z0-9_$.\-]+)\}", repl, template)
+    filled = re.sub(r"\{([A-Za-z0-9_$.\-]+)(?:\|(datum|nl))?\}", repl, template)
+    filled = re.sub(r"\s[–-]\s*([.,;)])", r"\1", filled)  # '1 juni – .' na een leeg veld
+    filled = re.sub(r"\s[–-]\s*\(", " (", filled)
     return " ".join(filled.split()).strip(" :–-")

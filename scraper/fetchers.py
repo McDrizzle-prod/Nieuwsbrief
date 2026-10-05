@@ -79,18 +79,23 @@ def fetch_feed(source: dict, ctx: Context) -> list[RawItem]:
             summary=clean_text(content, SUMMARY_LIMIT),
         ))
     if source.get("volledige_tekst"):
-        _add_full_text(items, ctx, source.get("detail_max", 12))
+        _add_full_text(items, ctx, source, source.get("detail_max", 12))
     return items
 
 
-def _add_full_text(items: list[RawItem], ctx: Context, limit: int) -> None:
+def _add_full_text(items: list[RawItem], ctx: Context, source: dict, limit: int) -> None:
     """Voor nieuwe berichten de tekst van de pagina ophalen, zodat het indelen niet alleen
-    op een korte samenvatting hoeft te leunen (bijv. bij een wekelijkse update)."""
-    for item in [i for i in items if item_id(i.url) not in ctx.known_ids][:limit]:
+    op een korte samenvatting hoeft te leunen (bijv. bij een wekelijkse update).
+    Pagina's die al eens bekeken zijn, worden niet opnieuw opgehaald."""
+    seen = ctx.state.setdefault("volledige_tekst", {}).setdefault(source.get("id", source["url"]), [])
+    todo = [i for i in items if item_id(i.url) not in ctx.known_ids and i.url not in seen][:limit]
+    for item in todo:
         try:
             page = _soup(ctx.http.get(item.url).content)
         except FetchError:
             continue
+        seen.append(item.url)
+        del seen[:-300]
         for tag in page(["script", "style", "nav", "header", "footer"]):
             tag.decompose()
         body = page.find("main") or page.find("article") or page.body or page

@@ -17,6 +17,10 @@ on:
         description: "Doen alsof het verzoek van een gewone browser komt"
         type: boolean
         default: false
+      link_patroon:
+        description: "Optioneel: toon alle links die passen bij dit link_patroon (bijv. /news/[^/]+/)"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -37,4 +41,5 @@ jobs:
           URLS: ${{ inputs.urls }}
           GUESS: ${{ inputs.raad_feeds && '--guess-feeds' || '' }}
           BROWSER: ${{ inputs.als_browser && '--browser' || '' }}
-        run: python tools/probe.py $GUESS $BROWSER "$URLS"
+          PATROON: ${{ inputs.link_patroon }}
+        run: python tools/probe.py $GUESS $BROWSER ${PATROON:+--patroon "$PATROON"} "$URLS"

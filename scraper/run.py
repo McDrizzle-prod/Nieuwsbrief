@@ -135,6 +135,8 @@ def run(argv: list[str] | None = None, root: str = ROOT, http: Http | None = Non
             "laatst_gecontroleerd": prev.get("laatst_gecontroleerd"),
             "laatst_succes": prev.get("laatst_succes"),
         }
+        if not active:
+            status.update(ok=None, fout=None, gevonden=0, relevant=0)
         statuses.append(status)
         if not selected:
             continue

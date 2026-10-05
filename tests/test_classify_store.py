@@ -103,3 +103,24 @@ def test_fragment_met_relevante_zinnen():
     assert "Yivi Business Wallet" in fragment and "teamdag" not in fragment
     hit = c.classify("MOZa Weekly 23 september 2026", fragment, {"filter": True, "prioriteit": 1})
     assert hit is not None and "ebw" in hit["topics"] and "eudi" in hit["topics"]
+
+
+def test_sjabloonfilters():
+    from scraper.util import fill_template
+    record = {"s": {"start": "2026/03/11 19:06:02", "eind": "2026/05/06 23:59:59", "status": "CLOSED"},
+              "leeg": {"start": "2025/06/02 19:08:17", "eind": "", "status": "DISABLED"}}
+    assert fill_template("Periode {s.start|datum} – {s.eind|datum} ({s.status|nl}).", record) == \
+        "Periode 11 maart 2026 – 6 mei 2026 (gesloten)."
+    assert fill_template("Periode {leeg.start|datum} – {leeg.eind|datum} ({leeg.status|nl}).", record) == \
+        "Periode 2 juni 2025 (niet opengesteld)."
+
+
+def test_fragment_uit_lange_agenda():
+    c = classifier()
+    agenda = ("MOZa teamdag - 8 september Regieteam - 9 september Stuurgroep - 25 september Evenementen "
+              "Common Ground Fieldlab - 14 september met een sessie over de notificatiedienst "
+              + "en nog meer agendapunten " * 10
+              + "Symposium De European Business Wallet - 30 september in Den Haag " + "en verder " * 30)
+    fragment = c.excerpt(agenda)
+    assert "European Business Wallet" in fragment
+    assert fragment.startswith("… ") and fragment.endswith(" …") and len(fragment) < 300

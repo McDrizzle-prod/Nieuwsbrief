@@ -64,11 +64,31 @@ class Classifier:
         self.topic_weight = {r.id: r.gewicht for r in self.topic_rules}
         self.theme_weight = {r.id: r.gewicht for r in self.theme_rules}
 
-    def excerpt(self, text: str, max_sentences: int = 3, limit: int = 700) -> str:
-        """Zinnen uit een lange tekst waarin een onderwerp wordt genoemd."""
-        sentences = re.split(r"(?<=[.!?])\s+", text or "")
-        hits = [s for s in sentences if any(p.search(s) for r in self.topic_rules for p in r.patterns)]
-        fragment = " … ".join(" ".join(s.split()) for s in hits[:max_sentences])
+    def excerpt(self, text: str, max_sentences: int = 3, limit: int = 700, window: int = 260) -> str:
+        """Zinnen uit een lange tekst waarin een onderwerp wordt genoemd.
+
+        Bij een heel lange 'zin' (bijv. een agenda zonder punten) wordt alleen het stuk
+        rond de gevonden term getoond.
+        """
+        parts = []
+        for sentence in re.split(r"(?<=[.!?])\s+", text or ""):
+            sentence = " ".join(sentence.split())
+            match = next((m for r in self.topic_rules for p in r.patterns if (m := p.search(sentence))), None)
+            if match is None:
+                continue
+            if len(sentence) > window:
+                start = max(0, match.start() - window // 3)
+                end = min(len(sentence), start + window)
+                piece = sentence[start:end]
+                if start > 0:
+                    piece = "… " + piece.split(" ", 1)[-1]
+                if end < len(sentence):
+                    piece = piece.rsplit(" ", 1)[0] + " …"
+                sentence = piece
+            parts.append(sentence)
+            if len(parts) == max_sentences:
+                break
+        fragment = " … ".join(parts).replace("… …", "…")
         return fragment if len(fragment) <= limit else fragment[:limit].rsplit(" ", 1)[0] + " …"
 
     def classify(self, title: str, summary: str, source: dict) -> dict | None:

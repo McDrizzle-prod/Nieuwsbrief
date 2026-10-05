@@ -113,7 +113,7 @@ bronnen:
       titel: "Consultatie: {shortTitle}"
       url: "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/{id}_en"
       datum: currentStatuses.0.feedbackStartDate
-      samenvatting: "Feedback: {currentStatuses.0.receivingFeedbackStatus}, van {currentStatuses.0.feedbackStartDate} tot {currentStatuses.0.feedbackEndDate}. {snippet}"
+      samenvatting: "Feedbackperiode {currentStatuses.0.feedbackStartDate|datum} – {currentStatuses.0.feedbackEndDate|datum} ({currentStatuses.0.receivingFeedbackStatus|nl}). {snippet}"
     filter: false
     standaard_onderwerp: eudi
     prioriteit: 1

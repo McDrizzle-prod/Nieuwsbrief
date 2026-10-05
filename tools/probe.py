@@ -80,6 +80,21 @@ def describe_json(content: bytes) -> bool:
     return True
 
 
+def describe_pattern(url: str, content: bytes, pattern: str) -> None:
+    """Toon alle links waarvan het pad overeenkomt met een link_patroon uit bronnen.yaml."""
+    soup = BeautifulSoup(content, "lxml")
+    regex = re.compile(pattern)
+    found = {}
+    for a in soup.find_all("a", href=True):
+        href = urljoin(url, a["href"]).split("#")[0]
+        if regex.search(urlparse(href).path):
+            text = " ".join(a.get_text(" ", strip=True).split())
+            found.setdefault(href, text)
+    emit(f"  Links die passen bij link_patroon '{pattern}': {len(found)}")
+    for href, text in list(found.items())[:40]:
+        emit(f"    - {href}  [{text[:60]}]")
+
+
 def describe_html(url: str, content: bytes) -> None:
     soup = BeautifulSoup(content, "lxml")
     title = soup.title.get_text(strip=True) if soup.title else ""
@@ -119,7 +134,7 @@ def describe_html(url: str, content: bytes) -> None:
             break
 
 
-def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT) -> None:
+def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | None = None) -> None:
     emit("")
     emit(f"## {url}")
     try:
@@ -146,6 +161,8 @@ def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT) -> None:
         emit("  XML (geen feed): " + resp.text[:1500].replace("\n", " "))
         return
     describe_html(resp.url, body)
+    if pattern:
+        describe_pattern(resp.url, body, pattern)
     if guess_feeds:
         base = resp.url if resp.url.endswith("/") else resp.url + "/"
         for guess in FEED_GUESSES:
@@ -164,11 +181,12 @@ def main() -> int:
     parser.add_argument("urls", nargs="+")
     parser.add_argument("--guess-feeds", action="store_true", help="probeer gangbare feed-adressen")
     parser.add_argument("--browser", action="store_true", help="doe je voor als gewone browser (User-Agent)")
+    parser.add_argument("--patroon", help="toon links die passen bij dit link_patroon (regex)")
     args = parser.parse_args()
     agent = BROWSER_AGENT if args.browser else USER_AGENT
     for raw in args.urls:
         for url in raw.split():
-            probe(url.strip(), args.guess_feeds, agent)
+            probe(url.strip(), args.guess_feeds, agent, args.patroon)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as fh:
