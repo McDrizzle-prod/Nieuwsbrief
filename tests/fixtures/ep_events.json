@@ -1,0 +1,16 @@
+{"data": [
+ {"id": "eli/dl/event/2025-0358-ANPRO-2026-01-19", "type": "Activity", "activity_date": "2026-01-19",
+  "activity_id": "2025-0358-ANPRO-2026-01-19", "had_activity_type": "def/ep-activities/REFERRAL"},
+ {"id": "eli/dl/event/2025-0358-DEC-ADCP-2026-09-10", "type": "Decision", "activity_date": "2026-09-10",
+  "activity_id": "2025-0358-DEC-ADCP-2026-09-10", "had_activity_type": "def/ep-activities/COMMITTEE_ADOPTING_REPORT"},
+ {"id": "eli/dl/event/2025-0358-DEC-ADCP-IMCO-2026-06-02", "type": "Decision", "activity_date": "2026-06-02",
+  "activity_id": "2025-0358-DEC-ADCP-IMCO-2026-06-02", "decided_on_a_realization_of": ["eli/dl/doc/IMCO-AD-786736"],
+  "had_activity_type": "def/ep-activities/COMMITTEE_ADOPTING_OPINION"},
+ {"id": "eli/dl/event/2025-0358-DEPOT-2026-09-23", "type": "Activity", "activity_date": "2026-09-23",
+  "activity_id": "2025-0358-DEPOT-2026-09-23", "based_on_a_realization_of": ["eli/dl/doc/A-10-2026-0240"],
+  "had_activity_type": "def/ep-activities/TABLING_PLENARY"},
+ {"id": "eli/dl/event/ITRE-AM-787816-DEPOT-2026-04-23", "type": "Activity", "activity_date": "2026-04-23",
+  "activity_id": "ITRE-AM-787816-DEPOT-2026-04-23", "had_activity_type": "def/ep-activities/COMMITTEE_TABLING_AMENDMENT"},
+ {"id": "eli/dl/event/X", "type": "Activity", "activity_date": "2026-10-20",
+  "activity_id": "2025-0358-X-2026-10-20", "had_activity_type": "def/ep-activities/SOMETHING_NEW"}
+]}

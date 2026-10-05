@@ -385,6 +385,58 @@ def fetch_pagewatch(source: dict, ctx: Context) -> list[RawItem]:
     )]
 
 
+# --- Procedurestappen Europees Parlement (open data) ---------------------------
+
+EP_STAPPEN = {
+    "REFERRAL": "voorstel doorverwezen naar de commissie",
+    "COMMITTEE_TABLING_REPORT": "ontwerpverslag ingediend in de commissie",
+    "COMMITTEE_TABLING_AMENDMENT": "amendementen ingediend in de commissie",
+    "COMMITTEE_ADOPTING_OPINION": "adviserende commissie stelt advies vast",
+    "COMMITTEE_ADOPTING_REPORT": "commissie stelt verslag vast",
+    "COMMITTEE_DECISION_INTERINSTITUTIONAL_NEGOTIATIONS": "commissie besluit tot onderhandelingen met de Raad",
+    "TABLING_PLENARY": "verslag ingediend voor de plenaire vergadering",
+    "PLENARY_DEBATE": "debat in de plenaire vergadering",
+    "PLENARY_VOTE": "stemming in de plenaire vergadering",
+    "PLENARY_ADOPT_POSITION": "Parlement stelt standpunt vast",
+}
+EP_COMMISSIE = re.compile(
+    r"\b(AFET|DROI|SEDE|DEVE|INTA|BUDG|CONT|ECON|FISC|EMPL|ENVI|SANT|ITRE|IMCO|TRAN|REGI|AGRI|PECH|CULT|"
+    r"JURI|LIBE|AFCO|FEMM|PETI)\b"
+)
+
+
+def fetch_ep_procedure(source: dict, ctx: Context) -> list[RawItem]:
+    resp = ctx.http.get(source["url"], params={"format": "application/ld+json"})
+    try:
+        events = resp.json()["data"]
+    except (ValueError, KeyError) as exc:
+        raise FetchError("onverwacht antwoord van de EP-API") from exc
+    skip = set(source.get("overslaan", ["COMMITTEE_TABLING_AMENDMENT"]))
+    reference = source["procedure"]
+    items = []
+    for event in events:
+        code = (event.get("had_activity_type") or "").rsplit("/", 1)[-1]
+        if not code or code in skip:
+            continue
+        step = EP_STAPPEN.get(code, code.replace("_", " ").lower())
+        activity = event.get("activity_id") or event.get("id", "")
+        match = EP_COMMISSIE.search(activity.replace("-", " "))
+        committee = match.group(1) if match else (source.get("hoofdcommissie") if code.startswith("COMMITTEE") else None)
+        docs = [d.rsplit("/", 1)[-1] for d in
+                (event.get("based_on_a_realization_of") or []) + (event.get("decided_on_a_realization_of") or [])]
+        title = f"Europees Parlement, {source.get('titel', reference)}: {step}"
+        if committee:
+            title += f" ({committee})"
+        summary = f"Procedure {reference}." + (f" Document: {', '.join(docs)}." if docs else "")
+        items.append(RawItem(
+            title=title,
+            url=f"https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference={reference}#{activity}",
+            published=parse_date(event.get("activity_date")),
+            summary=summary,
+        ))
+    return items
+
+
 FETCHERS = {
     "feed": fetch_feed,
     "html": fetch_html,
@@ -392,4 +444,5 @@ FETCHERS = {
     "sparql": fetch_sparql,
     "sru": fetch_sru,
     "pagewatch": fetch_pagewatch,
+    "ep_procedure": fetch_ep_procedure,
 }

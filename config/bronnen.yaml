@@ -8,7 +8,7 @@
 #   id            unieke korte naam (niet meer wijzigen na de eerste run)
 #   naam          naam zoals die in de nieuwsbrief verschijnt
 #   categorie     een van de categorieën hieronder
-#   type          feed | html | json | sparql | sru | pagewatch
+#   type          feed | html | json | sparql | sru | pagewatch | ep_procedure
 #   url           adres van de feed, pagina of API
 #   filter        true = alleen berichten die over EUDI/EBW/vertrouwensdiensten gaan
 #   standaard_onderwerp  onderwerp als er geen zoekterm wordt herkend (bij filter: false)
@@ -27,6 +27,9 @@
 #   sparql     query met {since} als plaats voor de begindatum, dagen_terug, velden
 #   sru        query (CQL) voor de SRU-zoekdienst van officielebekendmakingen.nl
 #   pagewatch  selector (deel van de pagina dat gevolgd wordt), titel
+#   ep_procedure  procedure (bijv. 2025/0358(COD)), titel, hoofdcommissie, overslaan
+#   feed       ook: volledige_tekst: true gebruikt de tekst van de berichtpagina zelf om
+#              in te delen, en toont de zinnen waarin een onderwerp voorkomt
 
 categorieen:
   eu-commissie: Europese Commissie
@@ -197,10 +200,12 @@ bronnen:
     url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml
     filter: true
     prioriteit: 1
+    actief: false
     site: https://www.europarl.europa.eu/news/en/press-room
     toelichting: >-
-      Persberichten van het Parlement, onder meer over stemmingen in de ITRE-commissie en
-      de plenaire vergadering en over de start of uitkomst van trilogen.
+      Persberichten van het Parlement over stemmingen en trilogen. Staat uit: de website
+      van het Parlement weigert sinds 2026 geautomatiseerde verzoeken (JavaScript-controle).
+      De procedurestappen komen via de open-data-API hieronder binnen.
 
   - id: ep-think-tank
     naam: "Europees Parlement – Think Tank (EPRS)"
@@ -223,9 +228,11 @@ bronnen:
     titel: Legislative Train – European business wallets
     standaard_onderwerp: ebw
     prioriteit: 1
+    actief: false
     toelichting: >-
-      Overzicht van de stand van het EBW-dossier (procedure 2025/0358(COD)) volgens het
-      Parlement. Elke wijziging, zoals een nieuwe stap of een triloog, wordt gemeld.
+      Overzicht van de stand van het EBW-dossier volgens het Parlement. Staat uit om
+      dezelfde reden als de persberichten; de Legislative Observatory en de open-data-API
+      geven dezelfde stappen.
 
   - id: ep-oeil-ebw
     naam: "Europees Parlement – Legislative Observatory 2025/0358(COD)"
@@ -239,6 +246,22 @@ bronnen:
     toelichting: >-
       Officiële procedurefiche met alle stappen en documenten in het wetgevingsproces
       van de EBW-verordening.
+
+  - id: ep-procedure-ebw
+    naam: "Europees Parlement – procedurestappen EBW (open data)"
+    categorie: eu-parlement
+    type: ep_procedure
+    url: https://data.europarl.europa.eu/api/v2/procedures/2025-0358/events
+    procedure: 2025/0358(COD)
+    titel: European business wallets
+    hoofdcommissie: ITRE
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    site: https://data.europarl.europa.eu/en/home
+    toelichting: >-
+      Elke stap in de procedure volgens de open-data-API van het Parlement: verwijzing,
+      adviezen van IMCO en JURI, het ITRE-verslag, indiening voor de plenaire vergadering
+      en straks de stemming en de onderhandelingen met de Raad.
 
   # --- Raad van de EU -----------------------------------------------------------
   - id: raad-persberichten
@@ -317,28 +340,6 @@ bronnen:
     toelichting: >-
       Nieuws over de Nederlandse digitale overheid, waaronder het EDI-stelsel, de
       NL Wallet, eHerkenning en de Berichtenbox voor bedrijven.
-
-  - id: rijksoverheid-digitale-overheid
-    naam: "Rijksoverheid – onderwerp Digitale overheid (nieuws)"
-    categorie: nl-overheid
-    type: feed
-    url: https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/nieuws.rss
-    filter: true
-    prioriteit: 2
-    site: https://www.rijksoverheid.nl/onderwerpen/digitale-overheid
-    toelichting: Nieuws van de ministeries over de digitale overheid.
-
-  - id: rijksoverheid-digitale-overheid-documenten
-    naam: "Rijksoverheid – onderwerp Digitale overheid (documenten)"
-    categorie: nl-overheid
-    type: feed
-    url: https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten.rss
-    filter: true
-    prioriteit: 1
-    site: https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten
-    toelichting: >-
-      Kamerbrieven, rapporten en BNC-fiches, zoals fiche 3 over de Verordening Europese
-      Business Wallet.
 
   - id: tweede-kamer
     naam: "Tweede Kamer – Kamerstukken (open data)"

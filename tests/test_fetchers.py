@@ -157,3 +157,23 @@ def test_feed_met_volledige_tekst(fake_http):
     assert "inloggen met de NL Wallet" in items[0].text
     assert "MOZa" not in items[0].text.split("MOZa Weekly")[0]  # header weggelaten
     assert items[1].text == ""  # bekend bericht: pagina niet opnieuw opgehaald
+
+
+def test_ep_procedurestappen(fake_http):
+    http = fake_http({"https://ep.test/procedures/2025-0358/events": "ep_events.json"})
+    source = {"type": "ep_procedure", "url": "https://ep.test/procedures/2025-0358/events",
+              "procedure": "2025/0358(COD)", "titel": "European business wallets", "hoofdcommissie": "ITRE"}
+    items = fetch(source, Context(http=http))
+    titles = [i.title for i in items]
+    assert titles == [
+        "Europees Parlement, European business wallets: voorstel doorverwezen naar de commissie",
+        "Europees Parlement, European business wallets: commissie stelt verslag vast (ITRE)",
+        "Europees Parlement, European business wallets: adviserende commissie stelt advies vast (IMCO)",
+        "Europees Parlement, European business wallets: verslag ingediend voor de plenaire vergadering",
+        "Europees Parlement, European business wallets: something new",
+    ]  # amendementen worden standaard overgeslagen
+    plenary = items[3]
+    assert plenary.published == "2026-09-23"
+    assert plenary.summary == "Procedure 2025/0358(COD). Document: A-10-2026-0240."
+    assert plenary.url.endswith("reference=2025/0358(COD)#2025-0358-DEPOT-2026-09-23")
+    assert http.calls[0][1] == {"format": "application/ld+json"}
