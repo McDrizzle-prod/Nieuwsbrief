@@ -129,3 +129,31 @@ def test_pagewatch_meldt_alleen_echte_wijzigingen(fake_http):
     assert "Menu" not in changed[0].summary  # header valt buiten de selector
     assert changed[0].url.startswith("https://ep.test/train#wijziging-")
     assert state["pagewatch"]["train"]["changed"]
+
+
+def test_json_met_float_id_en_samenvattingssjabloon(fake_http):
+    http = fake_http({"https://hys.test/search": "hys.json"})
+    source = {
+        "type": "json", "url": "https://hys.test/search", "items": "initiativeResultDtoPage.content",
+        "velden": {"titel": "Consultatie: {shortTitle}",
+                   "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/{id}_en",
+                   "datum": "currentStatuses.0.feedbackStartDate",
+                   "samenvatting": "Feedback: {currentStatuses.0.receivingFeedbackStatus}. {snippet}"},
+    }
+    [item] = fetch(source, Context(http=http))
+    assert item.url.endswith("/initiatives/16113_en")
+    assert item.published == "2026-02-05T09:16:24Z"
+    assert item.summary == "Feedback: CLOSED. registration of wallet -relying parties"
+
+
+def test_feed_met_volledige_tekst(fake_http):
+    http = fake_http({
+        "https://moza.test/weekly/index.xml": "weekly.xml",
+        "https://moza.test/weekly/moza-weekly-23-september-2026/": "weekly_post.html",
+    })
+    source = {"type": "feed", "url": "https://moza.test/weekly/index.xml", "volledige_tekst": True}
+    known = {item_id("https://moza.test/weekly/moza-weekly-16-september-2026/")}
+    items = fetch(source, Context(http=http, known_ids=known))
+    assert "inloggen met de NL Wallet" in items[0].text
+    assert "MOZa" not in items[0].text.split("MOZa Weekly")[0]  # header weggelaten
+    assert items[1].text == ""  # bekend bericht: pagina niet opnieuw opgehaald

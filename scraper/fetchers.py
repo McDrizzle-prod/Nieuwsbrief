@@ -6,6 +6,7 @@ import difflib
 import hashlib
 import json
 import re
+import time
 from dataclasses import dataclass, field
 from datetime import timedelta
 from urllib.parse import urljoin, urlparse
@@ -27,6 +28,7 @@ from .util import (
 )
 
 SUMMARY_LIMIT = 600
+RETRY_PAUSE = 5
 
 
 @dataclass
@@ -35,6 +37,7 @@ class RawItem:
     url: str
     published: str | None = None
     summary: str = ""
+    text: str = ""  # extra tekst om op in te delen; wordt niet opgeslagen
 
 
 @dataclass
@@ -55,8 +58,10 @@ def fetch(source: dict, ctx: Context) -> list[RawItem]:
 # --- RSS/Atom ------------------------------------------------------------------
 
 def fetch_feed(source: dict, ctx: Context) -> list[RawItem]:
-    resp = ctx.http.get(source["url"])
-    parsed = feedparser.parse(resp.content)
+    parsed = feedparser.parse(ctx.http.get(source["url"]).content)
+    if not parsed.entries and parsed.bozo:
+        time.sleep(RETRY_PAUSE)  # sommige sites geven af en toe een tussenpagina; nog één keer
+        parsed = feedparser.parse(ctx.http.get(source["url"]).content)
     if not parsed.entries:
         if parsed.bozo:
             raise FetchError(f"geen geldige feed ({parsed.bozo_exception.__class__.__name__})")
@@ -73,7 +78,23 @@ def fetch_feed(source: dict, ctx: Context) -> list[RawItem]:
             published=struct_to_iso(entry.get("published_parsed") or entry.get("updated_parsed")),
             summary=clean_text(content, SUMMARY_LIMIT),
         ))
+    if source.get("volledige_tekst"):
+        _add_full_text(items, ctx, source.get("detail_max", 12))
     return items
+
+
+def _add_full_text(items: list[RawItem], ctx: Context, limit: int) -> None:
+    """Voor nieuwe berichten de tekst van de pagina ophalen, zodat het indelen niet alleen
+    op een korte samenvatting hoeft te leunen (bijv. bij een wekelijkse update)."""
+    for item in [i for i in items if item_id(i.url) not in ctx.known_ids][:limit]:
+        try:
+            page = _soup(ctx.http.get(item.url).content)
+        except FetchError:
+            continue
+        for tag in page(["script", "style", "nav", "header", "footer"]):
+            tag.decompose()
+        body = page.find("main") or page.find("article") or page.body or page
+        item.text = clean_text(body.get_text(" "), 20000)
 
 
 # --- HTML-lijstpagina's ------------------------------------------------------------
@@ -238,7 +259,11 @@ def _records_to_items(records: list, source: dict) -> list[RawItem]:
     for record in records:
         if not isinstance(record, dict):
             continue
-        summary = get_path(record, fields.get("samenvatting")) if fields.get("samenvatting") else ""
+        summary_field = fields.get("samenvatting") or ""
+        if "{" in summary_field:
+            summary = fill_template(summary_field, record)
+        else:
+            summary = get_path(record, summary_field) if summary_field else ""
         items.append(RawItem(
             title=clean_text(fill_template(fields.get("titel", "{title}"), record)),
             url=fill_template(fields.get("url", "{url}"), record),

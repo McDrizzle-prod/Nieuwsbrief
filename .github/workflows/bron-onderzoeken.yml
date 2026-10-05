@@ -13,6 +13,10 @@ on:
         description: "Ook gangbare feed-adressen proberen (/feed/, /rss.xml, ...)"
         type: boolean
         default: true
+      als_browser:
+        description: "Doen alsof het verzoek van een gewone browser komt"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -32,4 +36,5 @@ jobs:
         env:
           URLS: ${{ inputs.urls }}
           GUESS: ${{ inputs.raad_feeds && '--guess-feeds' || '' }}
-        run: python tools/probe.py $GUESS "$URLS"
+          BROWSER: ${{ inputs.als_browser && '--browser' || '' }}
+        run: python tools/probe.py $GUESS $BROWSER "$URLS"

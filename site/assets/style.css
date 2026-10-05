@@ -173,6 +173,8 @@ button.primary:hover { color: var(--sheet); filter: brightness(1.1); }
 .item h4 a { color: var(--ink); text-decoration: none; }
 .item h4 a:hover { color: var(--petrol); text-decoration: underline; }
 .item-summary { max-width: 70ch; overflow-wrap: anywhere; }
+.item-fragment { max-width: 70ch; font-size: var(--step--1); color: var(--ink-2); overflow-wrap: anywhere; }
+.item-fragment .label { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; }
 .item-moza { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; font-size: var(--step--1); color: var(--ink-2); max-width: 74ch; }
 .item-moza .label { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--lens); font-weight: 600; }
 .item-moza .note { color: var(--ink); }

@@ -29,6 +29,10 @@ USER_AGENT = (
     "Mozilla/5.0 (compatible; EUDI-EBW-Nieuwsbrief/1.0; "
     "+https://github.com/McDrizzle-prod/Nieuwsbrief)"
 )
+BROWSER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/140.0 Safari/537.36"
+)
 FEED_GUESSES = ["feed/", "rss", "rss.xml", "index.xml", "feed.xml", "atom.xml", "news/rss.xml"]
 DATE_RE = re.compile(
     r"\b(\d{1,2}[ ./-](?:\d{1,2}|[A-Za-z]{3,9})[ ./-]\d{4}|\d{4}-\d{2}-\d{2})\b"
@@ -88,6 +92,10 @@ def describe_html(url: str, content: bytes) -> None:
             emit(f"  Feed-link: {urljoin(url, link.get('href', ''))} ({link.get('type')})")
     articles = soup.find_all("article")
     emit(f"  <article>-elementen: {len(articles)}")
+    feedish = [urljoin(url, a["href"]) for a in soup.find_all("a", href=True)
+               if re.search(r"rss|feed|atom|\.xml", a["href"], re.I)]
+    for href in list(dict.fromkeys(feedish))[:30]:
+        emit(f"  Mogelijke feed-link: {href}")
     host = urlparse(url).netloc
     seen = set()
     shown = 0
@@ -111,11 +119,12 @@ def describe_html(url: str, content: bytes) -> None:
             break
 
 
-def probe(url: str, guess_feeds: bool) -> None:
+def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT) -> None:
     emit("")
     emit(f"## {url}")
     try:
-        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=40)
+        resp = requests.get(url, headers={"User-Agent": agent, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                          "Accept-Language": "nl,en;q=0.8"}, timeout=40)
     except requests.RequestException as exc:
         emit(f"  FOUT: {exc}")
         return
@@ -154,10 +163,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("urls", nargs="+")
     parser.add_argument("--guess-feeds", action="store_true", help="probeer gangbare feed-adressen")
+    parser.add_argument("--browser", action="store_true", help="doe je voor als gewone browser (User-Agent)")
     args = parser.parse_args()
+    agent = BROWSER_AGENT if args.browser else USER_AGENT
     for raw in args.urls:
         for url in raw.split():
-            probe(url.strip(), args.guess_feeds)
+            probe(url.strip(), args.guess_feeds, agent)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as fh:

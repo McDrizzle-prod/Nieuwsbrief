@@ -13,7 +13,7 @@ import os
 
 from .util import iso, now_utc
 
-MODEL = os.environ.get("AI_MODEL", "claude-opus-5-5")
+MODEL = os.environ.get("AI_MODEL") or "claude-opus-5-5"
 GROEPSGROOTTE = 8
 MAX_TEKST = 1500
 
@@ -78,7 +78,7 @@ def _batch_payload(items: list[dict]) -> str:
         "titel": item["title"],
         "bron": item["source_name"],
         "datum": item.get("date"),
-        "tekst": (item.get("summary") or "")[:MAX_TEKST],
+        "tekst": " ".join(filter(None, [item.get("summary"), item.get("fragment")]))[:MAX_TEKST],
     } for item in items]
     return json.dumps(payload, ensure_ascii=False, indent=1)
 

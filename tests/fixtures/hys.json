@@ -1,0 +1,6 @@
+{"exactMatch": true, "initiativeResultDtoPage": {"content": [
+ {"id": 16113.0, "initiativeStatus": "ACTIVE", "shortTitle": "Amending CIR 2025/848 registration of relying parties",
+  "snippet": "registration of <span class=\"highlight\">wallet</span>-relying parties",
+  "currentStatuses": [{"frontEndStage": "ISC_WORKFLOW", "receivingFeedbackStatus": "CLOSED",
+    "feedbackStartDate": "2026/02/05 09:16:24", "feedbackEndDate": "2026/03/05 23:59:59", "isCurrent": true}]}
+]}}

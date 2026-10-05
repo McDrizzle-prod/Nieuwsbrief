@@ -105,7 +105,7 @@ def parse_date(value) -> str | None:
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", lowered):
         return lowered
     try:
-        dayfirst = not re.match(r"\d{4}-", lowered)
+        dayfirst = not re.match(r"\d{4}[-/.]", lowered)
         parsed = dateparser.parse(lowered, dayfirst=dayfirst, fuzzy=True)
     except (ValueError, OverflowError):
         return None
@@ -180,6 +180,8 @@ def fill_template(template: str, record: dict) -> str:
         value = get_path(record, match.group(1))
         if isinstance(value, dict):
             value = value.get("value") or value.get("en") or value.get("nl") or ""
+        if isinstance(value, float) and value.is_integer():
+            value = int(value)  # JSON-id's als 16113.0
         return "" if value is None else str(value)
 
     filled = re.sub(r"\{([A-Za-z0-9_$.\-]+)\}", repl, template)

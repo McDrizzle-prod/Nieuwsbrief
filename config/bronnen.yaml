@@ -105,12 +105,12 @@ bronnen:
       language: EN
       size: 30
       page: 0
-    items: _embedded.initiativeResultDtoes
+    items: initiativeResultDtoPage.content
     velden:
       titel: "Consultatie: {shortTitle}"
       url: "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/{id}_en"
-      datum: lastUpdatedDate
-      samenvatting: initiativeStatus
+      datum: currentStatuses.0.feedbackStartDate
+      samenvatting: "Feedback: {currentStatuses.0.receivingFeedbackStatus}, van {currentStatuses.0.feedbackStartDate} tot {currentStatuses.0.feedbackEndDate}. {snippet}"
     filter: false
     standaard_onderwerp: eudi
     prioriteit: 1
@@ -270,12 +270,11 @@ bronnen:
   - id: aptitude
     naam: "APTITUDE – Large Scale Pilot (reizen en betalen)"
     categorie: pilots
-    type: html
-    url: https://aptitude.digital-identity-wallet.eu/news/
-    link_patroon: "/news/[^/?#]+/?$"
-    detail: true
+    type: feed
+    url: https://aptitude.digital-identity-wallet.eu/feed/
     standaard_onderwerp: eudi
     prioriteit: 2
+    site: https://aptitude.digital-identity-wallet.eu/news-corner/
     toelichting: >-
       Tweede Large Scale Pilot (onder leiding van Frankrijk) met use cases voor reizen,
       ticketing, voertuigregistratie en betalen.
@@ -294,23 +293,11 @@ bronnen:
       Nieuwe versies van het Architecture and Reference Framework, het technische
       raamwerk van de Commissie voor EUDI Wallets.
 
-  - id: github-eudi-specificaties
-    naam: "EUDI Wallet – technische specificaties (releases)"
-    categorie: techniek
-    type: feed
-    url: https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/releases.atom
-    titel_prefix: "Technische specificaties: "
-    standaard_onderwerp: eudi
-    prioriteit: 2
-    site: https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications
-    toelichting: >-
-      Releases van de technische specificaties die bij het ARF horen.
-
   - id: etsi-nieuws
     naam: "ETSI – nieuws"
     categorie: techniek
     type: feed
-    url: https://www.etsi.org/newsroom/news?format=feed&type=rss
+    url: https://www.etsi.org/newsroom/feed/
     filter: true
     prioriteit: 2
     site: https://www.etsi.org/newsroom/news
@@ -424,15 +411,28 @@ bronnen:
   - id: moza-actueel
     naam: "MijnOverheid Zakelijk – Actueel"
     categorie: nl-moza
-    type: html
-    url: https://mijnoverheidzakelijk.nl/actueel/
-    link_patroon: "/actueel/.+"
-    detail: true
+    type: feed
+    url: https://mijnoverheidzakelijk.nl/actueel/index.xml
+    volledige_tekst: true
     filter: true
     prioriteit: 1
+    site: https://mijnoverheidzakelijk.nl/actueel/
     toelichting: >-
-      Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten over wallets,
-      eIDAS, eHerkenning of berichtenverkeer komen in de nieuwsbrief.
+      Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten waarin wallets,
+      eIDAS of de EBW voorkomen, komen in de nieuwsbrief; de betreffende zinnen worden getoond.
+
+  - id: moza-weekly
+    naam: "MijnOverheid Zakelijk – MOZa Weekly"
+    categorie: nl-moza
+    type: feed
+    url: https://mijnoverheidzakelijk.nl/weekly/index.xml
+    volledige_tekst: true
+    filter: true
+    prioriteit: 1
+    site: https://mijnoverheidzakelijk.nl/weekly/
+    toelichting: >-
+      Wekelijkse voortgangsupdate van het MOZa-team. Laat zien wat er met wallets gebeurt in
+      de MOZa-proeven, bijvoorbeeld de NL Wallet en de Yivi Business Wallet.
 
   - id: moza-github
     naam: "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)"

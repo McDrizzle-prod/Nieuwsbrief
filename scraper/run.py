@@ -55,7 +55,8 @@ def reclassify(archive: list[dict], classifier: Classifier, sources: dict[str, d
         if source is None:
             kept.append(item)
             continue
-        classification = classifier.classify(item["title"], item.get("summary", ""), source)
+        text = f"{item.get('summary', '')}\n{item.get('fragment', '')}"
+        classification = classifier.classify(item["title"], text, source)
         if classification is None:
             continue
         item.update(classification)
@@ -154,10 +155,12 @@ def run(argv: list[str] | None = None, root: str = ROOT, http: Http | None = Non
         first_run = not prev.get("laatst_succes")
         relevant = 0
         for raw in raw_items:
-            classification = classifier.classify(raw.title, raw.summary, source)
+            classification = classifier.classify(raw.title, f"{raw.summary}\n{raw.text}", source)
             if classification is not None:
                 relevant += 1
                 item = make_item(raw, source, classification)
+                if raw.text:
+                    item["fragment"] = classifier.excerpt(raw.text)
                 if first_run and not raw.published:
                     item["baseline"] = True
                 fresh.append(item)

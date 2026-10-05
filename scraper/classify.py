@@ -64,6 +64,13 @@ class Classifier:
         self.topic_weight = {r.id: r.gewicht for r in self.topic_rules}
         self.theme_weight = {r.id: r.gewicht for r in self.theme_rules}
 
+    def excerpt(self, text: str, max_sentences: int = 3, limit: int = 700) -> str:
+        """Zinnen uit een lange tekst waarin een onderwerp wordt genoemd."""
+        sentences = re.split(r"(?<=[.!?])\s+", text or "")
+        hits = [s for s in sentences if any(p.search(s) for r in self.topic_rules for p in r.patterns)]
+        fragment = " … ".join(" ".join(s.split()) for s in hits[:max_sentences])
+        return fragment if len(fragment) <= limit else fragment[:limit].rsplit(" ", 1)[0] + " …"
+
     def classify(self, title: str, summary: str, source: dict) -> dict | None:
         """Geeft classificatievelden terug, of None als het bericht niet relevant is."""
         text = f"{title}\n{summary}"

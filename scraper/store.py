@@ -83,7 +83,7 @@ def merge(archive: list[dict], fresh: list[dict], now_iso: str) -> tuple[list[di
     for item in fresh:
         existing = by_id.get(item["id"])
         if existing is not None:
-            for key in ("title", "summary", "source_name", "category", "topics", "topic_hits",
+            for key in ("title", "summary", "fragment", "source_name", "category", "topics", "topic_hits",
                         "moza", "moza_level", "score"):
                 if item.get(key) not in (None, ""):
                     existing[key] = item[key]

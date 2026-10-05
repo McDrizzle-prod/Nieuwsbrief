@@ -92,3 +92,14 @@ def test_prune():
     archive, _ = merge([], [old, new], "2026-10-05T06:00:00Z")
     kept = prune(archive, date(2026, 10, 5), keep_days=730)
     assert [i["id"] for i in kept] == ["new"]
+
+
+def test_fragment_met_relevante_zinnen():
+    c = classifier()
+    text = ("We hielden een teamdag. In de proefomgeving kun je nu inloggen met de NL Wallet. "
+            "We onderzoeken hoe de Yivi Business Wallet zich daartoe verhoudt. Verder werkten we aan iets anders.")
+    fragment = c.excerpt(text)
+    assert fragment.startswith("In de proefomgeving kun je nu inloggen met de NL Wallet.")
+    assert "Yivi Business Wallet" in fragment and "teamdag" not in fragment
+    hit = c.classify("MOZa Weekly 23 september 2026", fragment, {"filter": True, "prioriteit": 1})
+    assert hit is not None and "ebw" in hit["topics"] and "eudi" in hit["topics"]

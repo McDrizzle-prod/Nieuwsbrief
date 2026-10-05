@@ -170,6 +170,7 @@
       </div>
       <h4>${link(item.url, item.title)}</h4>
       ${summary ? `<p class="item-summary">${esc(summary)}</p>` : ""}
+      ${item.fragment && !item.ai ? `<p class="item-fragment"><span class="label">Uit de tekst</span> ${esc(item.fragment)}</p>` : ""}
       ${moza}${original}${also}
     </article>`;
   }
