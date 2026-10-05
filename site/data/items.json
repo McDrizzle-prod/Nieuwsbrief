@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:35:16Z",
+ "generated": "2026-10-05T09:38:31Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -237,6 +237,63 @@
    "score": 3,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-24"
+  },
+  {
+   "id": "a0b3bfcb72be514c",
+   "title": "MOZa Weekly 23 september 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-23-september-2026/",
+   "summary": "Algemeen Teamdag: het hele team kwam een dag bij elkaar. We keken terug en maakten plannen voor de komende vier maanden, van oktober 2026 tot en met januari 2027. Ook spraken we af waar we wel en (nu nog) niet van zijn. Collega’s uit het regieteam sloten aan het einde aan en gaven hun eerste feedback. In de volgende weekly delen we de plannen. Op weg naar de stuurgroep: we werkten aan de stukken voor de stuurgroep van 25 september. Daar hoort ook het plan voor fase 5 bij, dat we tijdens de teamdag in grote lijnen hebben neergezet. Een ander groot punt is de planning van de notificatiedienst …",
+   "published": "2026-09-23T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "NL Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Authorization",
+      "eHerkenning",
+      "Inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Handelsregister",
+      "KVK"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 11,
+   "fragment": "Wallet in de proeftuin: we voegen de NL Wallet toe aan de MOZa proeftuin. … Ook kijken we hoe de Yivi Business Wallet zich daartoe verhoudt, en hoe we dit goed vormgeven voor de gebruiker. … Met een deel van het team waren we bij het symposium over de European Business Wallet .",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-09-23"
   },
   {
    "id": "0c5852d3db8c4e59",
@@ -556,6 +613,49 @@
    "score": 9,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-14"
+  },
+  {
+   "id": "1803b5a0b91bcf84",
+   "title": "MOZa Weekly 10 september 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-september-2026/",
+   "summary": "Algemeen Prioriteiten MijnOverheid: in het Routekaartoverleg van MijnOverheid bepaalden we samen met de betrokken organisaties de prioriteiten van Logius voor de komende periode. Daarin kreeg onder andere de voorbereiding van een portaal voor zakelijke gebruikers op MijnOverheid een hoge prioriteit. Het ritme van MOZa: vooruitkijkend naar 2027 hebben we nagedacht over de governancestructuur van MOZa en de overlegritmes die daarbij horen. Samen met de koplopers werken we dit uit. MOZa Regieteam: ook Gemeente Amsterdam neemt vanaf nu deel aan het MOZa Regieteam. Vanuit onze werkgroepen werkten …",
+   "published": "2026-09-10T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "European Business Wallet Gesprek met Nijmegen: we spraken met de gemeente Nijmegen, Gebruiker Centraal en een leverancier over de business wallet. … Kennis opdoen: als we zelf een business wallet willen opstarten, kunnen we kijken naar de Yivi business wallet .",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-09-10"
   },
   {
    "id": "e9010276bb27647a",
@@ -1544,6 +1644,57 @@
    "date": "2026-06-11"
   },
   {
+   "id": "05fbd76126b904b9",
+   "title": "MOZa Weekly 10 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-juni-2026/",
+   "summary": "Algemeen Onderwerppagina’s bijgewerkt: we werkten verschillende onderwerppagina’s bij of voegden deze toe. Het gaat om de pagina’s over de Profielservice , Berichten / FBS en de Digitale Assistent . Dag van de toekomst: ondernemer centraal: we zijn druk met de voorbereidingen voor 18 juni . De workshops staan en er zijn leuke sprekers. Je kunt je nog aanmelden. We organiseren deze dag samen met Digilab . Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet . De rode draad: over een aantal jaar verloopt veel dienstverlening via de wallet, en bijna elke …",
+   "published": "2026-06-10T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen",
+      "machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilots"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet .",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-06-10"
+  },
+  {
    "id": "a717fd36b9cf949d",
    "title": "Trust and Security at the Heart of BLSP-EDI Meeting in Utrecht",
    "url": "https://aptitude.digital-identity-wallet.eu/news/trust-and-security-at-the-heart-of-blsp-edi-meeting-in-utrecht/",
@@ -1924,6 +2075,53 @@
    "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-05-22"
+  },
+  {
+   "id": "6a8b8e8a493d391c",
+   "title": "MOZa Weekly 20 mei 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-20-mei-2026/",
+   "summary": "Het team van MOZa heeft genoten van vakantiedagen, maar heeft tussendoor niet stilgezeten. Daarom deze keer een weekly waarin we de afgelopen weken samenvatten. Uitgelicht MOZa Pulse - 21 mei van 9:00 tot 9:30: in deze pulse geven we een update over profielservice met een demonstratie van de gemeente Amsterdam over wat we hebben gedaan tijdens het afgelopen Common Ground Fieldlab. Ook bespreken we wat we hebben geleerd uit het gebruikersonderzoek van eind april. VNG MijnServices Festival - 28 mei in de middag: MOZa staat op de vloer. We verzorgen drie presentaties en je kunt ons daar vinden …",
+   "published": "2026-05-20T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Inloggen",
+      "machtigen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "handelsregister",
+      "KVK",
+      "profielservice"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp.",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-05-20"
   },
   {
    "id": "370317be4e1a3044",
@@ -2370,6 +2568,62 @@
    "date": "2026-02-27"
   },
   {
+   "id": "d898b5bb9fe982c6",
+   "title": "MOZa Weekly 11 februari 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-11-februari-2026/",
+   "summary": "Algemeen Mailbox: we hebben nu een eigen mailbox moza@minbzk.nl . OneGov AI Hackathon : ons samengestelde team heeft de eerste prijs binnengehaald in de categorie Digitale Assistent! Afgelopen donderdag en vrijdag gingen ze aan de slag met het verbeteren van de kwaliteit van de output van een digitale assistent. Ze hebben hiervoor in 1,5 dag een start van een kwaliteitsframework voor Digitale Assistenten (+ code ) ontwikkeld. Een belangrijk inzicht is dat betrouwbaarheid meer is dan feitelijke juistheid en “deterministische” afvanging leidt tot een betere oplossing. En daarmee haalden ze het …",
+   "published": "2026-02-11T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "vertrouwensdiensten": [
+     "QERDS"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Mailbox",
+      "notificaties",
+      "QERDS"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "eHerkenning",
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "use-cases"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 10,
+   "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-02-11"
+  },
+  {
    "id": "7dc4a8436f48d9fb",
    "title": "MOZa-issue: Ophalen kennis over business wallet & bepalen impact MOZa",
    "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/289",
@@ -2509,6 +2763,56 @@
    "score": 6,
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-02-05"
+  },
+  {
+   "id": "224d81f98a9bd940",
+   "title": "MOZa Weekly 4 februari 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-4-februari-2026/",
+   "summary": "Algemeen MOZa stuurgroep en regiegroep : Tijdens de stuugroep van vorige week is onder andere gesproken over de realisatie van de MOZa roadmap, het verstevigen van de samenwerking met Logius, reflectie op MOZa Fase 2 (met complimenten sluiten we deze fase af) en introductie MOZa Fase 3. De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. Communicatie: We werken aan diverse communicatiemiddelen, zoals presentaties, om het verhaal van MOZa helder te kunnen vertellen. Deze zetten …",
+   "published": "2026-02-04T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet",
+     "business-wallet"
+    ],
+    "vertrouwensdiensten": [
+     "QERDS"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificatieservice",
+      "QERDS"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "deadline"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 10,
+   "fragment": "De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. … EU Business Wallet : Onze collega’s bij de KVK hebben ons een inkijk gegeven in de wereld van de EU Business Wallet. … Vooral de QERDS is voor MOZa relevant.",
+   "first_seen": "2026-10-05T09:38:31Z",
+   "date": "2026-02-04"
   },
   {
    "id": "05f84b0521702112",
