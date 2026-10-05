@@ -1,0 +1,4023 @@
+{
+ "generated": "2026-10-05T09:09:39Z",
+ "items": [
+  {
+   "id": "5c533c8f60a45f0e",
+   "title": "EU Digital Identity Wallet",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694487738/EU+Digital+Identity+Wallet+Home",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "13e05b60ddc659bc",
+   "title": "Launchpads Get the latest info on Launchpad events.",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/973932547/Launchpads",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "385dea907fbbd2f9",
+   "title": "Relying Party Programme Boost your organisation's EUDI readiness.",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/978681884/Relying+Party+Engagement+Programme",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "aa37e33533c44115",
+   "title": "Version 2.0 of the Architecture and Reference Framework now available",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/900014854/Version+2.0+of+the+Architecture+and+Reference+Framework+now+available",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Architecture and Reference Framework"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Architecture",
+      "Reference Framework"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "894525a1a4943cdb",
+   "title": "Agreement reached on EU Digital Identity Regulation",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/797082382/Agreement+reached+on+EU+Digital+Identity+Regulation",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "fd0931fd375e3b7f",
+   "title": "Open-source code of the wallet now published",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/797082387/Open-source+code+of+the+wallet+now+published",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "88e9ec86c290ff47",
+   "title": "Version 1.4 of the Architecture and Reference Framework (ARF) released",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/797082397/Version+1.4+of+the+Architecture+and+Reference+Framework+ARF+released",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Architecture and Reference Framework"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Architecture",
+      "ARF",
+      "Reference Framework"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "2a1bcd209f4390ee",
+   "title": "Privacy statements",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/920060470/Privacy+Statements",
+   "summary": "",
+   "published": null,
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "20bfce5db06d7aef",
+   "title": "MOZa-issue: flow/ architectuur plaat voor wallets",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1183",
+   "summary": "",
+   "published": "2026-09-28T09:38:11Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "c2ae4e7e5698e7de",
+   "title": "MOZa-issue: google uniforme wallet login - onderzoek",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1182",
+   "summary": "",
+   "published": "2026-09-28T09:36:38Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "login"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "3f9477b6185e0da3",
+   "title": "MOZa-issue: overlay voor uitleg wallet inlog, zoals bij https://bg.rijks.app/apps/templates?present=1&slide=13&tour=keten",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1146",
+   "summary": "https://bg.rijks.app/apps/templates?present=1&slide=13&tour=keten",
+   "published": "2026-09-24T07:20:32Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "19b7dda241e93fb1",
+   "title": "MOZa-issue: Inloggen en bevoegdheden: \"wie mag wat\" (fase 5, punt 4)",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1136",
+   "summary": "**1. Beeldvorming \"wie mag wat\" (Onderzoek)** Een MOZa-team werkt hier nu met focus aan en bundelt de kennis die we eerder ophaalden. Wat nog ontbreekt, halen we op en analyseren we. **2. DigiD, eHerkenning en wallets (Verkennen)** De komende jaren verschuift het landschap van DigiD en eHerkenning naar wallets, zoals de EU Digital Identity Wallet en de European Business Wallet. We verdiepen ons in die ontwikkelingen. Zo kunnen we goed afwegen wat de proeftuin van MOZa moet ondersteunen. **3. Experts betrekken (Afspraken)** We betrekken experts van verschillende organisaties.",
+   "published": "2026-09-23T11:33:21Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "eHerkenning",
+      "Inloggen"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-23"
+  },
+  {
+   "id": "98693e9aa313f767",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-at-global-digital-collaboration-conference-2026",
+   "summary": "The Global Digital Collaboration Conference 2026 in Geneva brought together 2,000 digital identity, technology, policy and industry leaders in Geneva to explore how collaboration,",
+   "published": "2026-09-18",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-18"
+  },
+  {
+   "id": "6d0cfb9a33540bc0",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/meps-back-european-business-wallets-to-cut-red-tape-and-boost-competitiveness",
+   "summary": "The Industry, Research and Energy (ITRE) committee has adopted its position on draft legislation creating European Business Wallets, a secure digital tool enabling companies and",
+   "published": "2026-09-17",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "6d88209ff6dd93a1",
+   "title": "Digitaal pakket van de Europese Commissie COM(2025)835, COM(2025)836, COM(2025)837, COM(2025)838; Verslag van een nader schriftelijk overleg met de staatssecretaris van EZ over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-1269177.html",
+   "summary": "Kamerstuk",
+   "published": "2026-09-17",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "COM(2025)838",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "06d9666a5bfa7d2a",
+   "title": "Beslisnota('s) bij de beantwoording van vervolgvragen over de European Business Wallet",
+   "url": "https://zoek.officielebekendmakingen.nl/blg-1269179.html",
+   "summary": "Bijlage",
+   "published": "2026-09-17",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-17"
+  },
+  {
+   "id": "2c67b6b68719c65f",
+   "title": "MOZa-issue: proef - inlog - NL wallet / EDI wallet integratie",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1100",
+   "summary": "NL wallet integratie",
+   "published": "2026-09-14T08:40:37Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "proef"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "c349543c2cb5622a",
+   "title": "MOZa-issue: proef - inlog - Yivi integratie",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1099",
+   "summary": "integreren van Yivi wallet",
+   "published": "2026-09-14T08:40:03Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "proef"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "bc310dad9d06a881",
+   "title": "MOZa-issue: inlog voor MOZa proef",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1095",
+   "summary": "- burger/ondernemer switch - uniform inloggen - yivi wallet - NL wallet? - cookie voorkeur inlogmethode? middelen: - digid - eherkenning - EDI wallet, met EBW",
+   "published": "2026-09-14T08:33:43Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "EBW"
+    ],
+    "eudi": [
+     "NL wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "eherkenning",
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "proef"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "88e676264e7116c5",
+   "title": "Position paper: Position paper Stichting Privacy First t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D41591",
+   "summary": "",
+   "published": "2026-09-08",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-09-08"
+  },
+  {
+   "id": "b8f4267a7510d904",
+   "title": "Position paper: Position paper Thuiswinkel.org t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39888",
+   "summary": "",
+   "published": "2026-08-31",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "8461edd49b1f2c6d",
+   "title": "Position paper: Position paper Cleverbase t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39840",
+   "summary": "",
+   "published": "2026-08-31",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "5e1143d93646561f",
+   "title": "Position paper: Position paper N. Bharosa t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39842",
+   "summary": "",
+   "published": "2026-08-31",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "199d4da23a12bc2a",
+   "title": "Position paper: Position paper Gemeente Rotterdam t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39850",
+   "summary": "",
+   "published": "2026-08-31",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-31"
+  },
+  {
+   "id": "10cebbf658b55d3f",
+   "title": "Position paper: Position paper PostNL t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39777",
+   "summary": "",
+   "published": "2026-08-28",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-28"
+  },
+  {
+   "id": "e0559d2d75d02a3e",
+   "title": "Convocatie commissieactiviteit: Herziene convocatie rondetafelgesprek over de European Business Wallet en eIDAS-verordening - 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D31107",
+   "summary": "",
+   "published": "2026-08-26",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-26"
+  },
+  {
+   "id": "6a8e49ffa1a3adda",
+   "title": "Position paper: Position paper ING Bank t.b.v. rondetafelgesprek over de European Business Wallet en eIDAS-verordening d.d. 10 september 2026",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D39356",
+   "summary": "",
+   "published": "2026-08-26",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-26"
+  },
+  {
+   "id": "be49923a2746b9ab",
+   "title": "Bijlage: Beslisnota bij Kamerbrief inzake toestemming voor deelname aan een technische briefing over European Business Wallet en eIDAS-verordening",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D38303",
+   "summary": "",
+   "published": "2026-08-13",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-13"
+  },
+  {
+   "id": "c8c92795f1a4e1ed",
+   "title": "Electronic identification schemes notified pursuant to Article 9(1) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52026XC04428",
+   "summary": "",
+   "published": "2026-08-12",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-12"
+  },
+  {
+   "id": "91df09f6e6524c9b",
+   "title": "Commission Implementing Regulation (EU) 2024/2977 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards person identification data and electronic attestations of attributes issued to European Digital Identity Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:02024R2977-20260811",
+   "summary": "",
+   "published": "2026-08-11",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "attestations of attributes",
+     "Digital Identity Wallets",
+     "European Digital Identity",
+     "Identity Wallets",
+     "person identification data"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "attestations"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-11"
+  },
+  {
+   "id": "d89ba3625ad14d3a",
+   "title": "Commission Implementing Regulation (EU) 2024/2980 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards notifications to the Commission concerning the European Digital Identity Wallet ecosystem",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:02024R2980-20260811",
+   "summary": "",
+   "published": "2026-08-11",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "Digital Identity Wallet",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notifications"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-11"
+  },
+  {
+   "id": "ede2645f2e78517b",
+   "title": "Commission Implementing Regulation (EU) 2024/2979 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the integrity and core functionalities of European Digital Identity Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:02024R2979-20260811",
+   "summary": "",
+   "published": "2026-08-11",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "Digital Identity Wallets",
+     "European Digital Identity",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-11"
+  },
+  {
+   "id": "5297454cda9fdb63",
+   "title": "MOZa-issue: GO 4: gehele flow testen",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/931",
+   "summary": "## Aanleiding De losse onderdelen van de assistent zijn elk apart beproefd, maar het onderzoek staat of valt bij de keten als geheel: frontend, host, bronnen en de regelengine samen, op de omgeving waarop de respondent straks werkt. Een keten die per onderdeel klopt kan als geheel nog steeds stuklopen — op een veld dat niet doorkomt, een beurt die niets toevoegt, of een stap die om gegevens vraagt die al bekend zijn. ## Wat de ondernemer meemaakt De volledige doorloop van het onderzoeksscenario, in zes stappen: 1. Hij vraagt of de energiebesparingsplicht voor zijn bedrijf geldt. 2. Hij geeft …",
+   "published": "2026-08-11T07:27:00Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-11"
+  },
+  {
+   "id": "287ec2b6ba84193e",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-joins-global-digital-collaboration-2026-discover-our-sessions",
+   "summary": "On September 1-3 the Global Digital Collaboration Conference takes place in Geneva, Switzerland. WE BUILD will be co-organizing several sessions on EBW and EUDIW.",
+   "published": "2026-08-05",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "EBW"
+    ],
+    "eudi": [
+     "EUDIW"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "b256f6c7b85894fc",
+   "title": "Brief regering: Toestemming voor deelname aan een technische briefing over European Business Wallet en eIDAS-verordening",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D38302",
+   "summary": "",
+   "published": "2026-08-04",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-08-04"
+  },
+  {
+   "id": "58dc5de719c23c21",
+   "title": "ARF-release: v3.0.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v3.0.0",
+   "summary": "The EUDI Wallet Architecture and Reference Framework (ARF) v3.0.0 aligns the framework with the latest amending Implementing Regulations and introduces the Functional Conformance Assessment Framework. Highlights Alignment with the amending Commission Implementing Regulations for the core EUDI Wallet framework: PID and EAA (amending CIR 2024/2977), integrity and core functionalities (CIR 2024/2979), ecosystem notifications (CIR 2024/2980), protocols and interfaces (CIR 2024/2982), and the registration of Wallet-Relying Parties (CIR 2025/848). Relying Party Services — a new concept from the …",
+   "published": "2026-07-23T19:15:56Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Architecture and Reference Framework",
+     "EUDI"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notifications"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "EAA"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulations"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Architecture",
+      "ARF",
+      "Conformance",
+      "protocols",
+      "Reference Framework"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-23"
+  },
+  {
+   "id": "5bfca362bf7c1e29",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-consortium-to-hold-2026-general-assembly-in-bucharest-hosted-by-visa-and-banca-transilvania",
+   "summary": "The WE BUILD Consortium today announced its 2026 General Assembly will take place in Bucharest, Romania, hosted by Visa and Banca Transilvania.",
+   "published": "2026-07-22",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-22"
+  },
+  {
+   "id": "3d5f62ea5a805023",
+   "title": "New report sheds light on successful EU Japan Interoperability Pilot",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/978682024/New+report+sheds+light+on+successful+EU+Japan+Interoperability+Pilot",
+   "summary": "",
+   "published": "2026-07-16",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Interoperability"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "Pilot"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-16"
+  },
+  {
+   "id": "326f6490552a6d65",
+   "title": "Commission Implementing Regulation (EU) 2026/1730 of 15 July 2026 amending Implementing Regulation (EU) 2025/848 as regards applicable standards and specifications",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R1730",
+   "summary": "",
+   "published": "2026-07-15",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "5ef97628d559bd3e",
+   "title": "Commission Implementing Regulation (EU) 2026/1735 of 15 July 2026 amending Implementing Regulation (EU) 2025/1569 as regards applicable standards and specifications",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R1735",
+   "summary": "",
+   "published": "2026-07-15",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "e0ad4669ec1e6408",
+   "title": "Commission Implementing Regulation (EU) 2026/1731 of 15 July 2026 amending Implementing Regulations (EU) 2024/2977, (EU) 2024/2979, (EU) 2024/2980 and (EU) 2024/2982 as regards applicable standards and specifications",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R1731",
+   "summary": "",
+   "published": "2026-07-15",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "8b0be10f7d40422d",
+   "title": "Convocatie commissieactiviteit: Convocatie technische briefing over de European Business Wallet en eIDAS-verordening - 23 september 2026 van 16 tot 17 uur",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D31110",
+   "summary": "",
+   "published": "2026-07-02",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "d6546f3834a0d4ec",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-project-update-getting-ready-for-the-implementation-phase",
+   "summary": "On June 10 and 11 we hosted a work session at the Netherlands Chamber of Commerce in Amsterdam to advance key decisions ahead of piloting our use cases in the domains of Business, Supply Chain and Payments. WE BUILD is a use-case driven consortium in which 200+ organisations are working together to shape the next steps for the EU Digital Identity Wallet and Business Wallets. This event helped us set the stage for the next phase of our project.",
+   "published": "2026-07-01",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ],
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "piloting",
+      "use cases",
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-07-01"
+  },
+  {
+   "id": "bf8924830926065c",
+   "title": "Brief commissie aan bewindspersoon: Verzoek aan de Stas. EZK om toestemming voor deelname aan de technische briefing over de European Business Wallet en eIDAS-verordening",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D31763",
+   "summary": "",
+   "published": "2026-06-26",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-06-26"
+  },
+  {
+   "id": "c8d7e6f5a65693cf",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/european-business-wallets-council-adopts-negotiating-position",
+   "summary": "On June 9, the Council adopted its position on the proposal to establish European business wallets, a digital tool designed to simplify and secure business interactions across the EU, both between companies and with public administrations.",
+   "published": "2026-06-10",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "public administrations"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-06-10"
+  },
+  {
+   "id": "688cd2f01a5c15f7",
+   "title": "Brief lid / fractie: Voorstel van de leden El Boujdaini (D66) en Van Dijk (PVV) voor de invulling van het rondetafelgesprek over de Business Wallet en eIDAS-verordening.",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D26633",
+   "summary": "",
+   "published": "2026-06-02",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-06-02"
+  },
+  {
+   "id": "bc97535d3432112f",
+   "title": "MOZa-issue: POC: Inlog-keuzepagina met heldere uitleg",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/558",
+   "summary": "Inlog-keuzepagina met heldere uitleg: - [ ] _“Wat is uw context/rol (privé, zakelijk, gemachtigd, intermediair, …”_ → gebruik deze inlog-methode (en waarom) - [ ] _“Bent u een buitenlandse ondernemer die zaken doet in Nederland?”_ → log dan in met… - [ ] *‘Inlog-keuze-wizard’*; 1. _“Wilt u privé of zakelijk inloggen?”_ 2. `if zakelijk` → _“Wat is uw rechtsvorm?”_ (en evt. extra _“vul uw KVK-nummer in zodat we uw rechtsvorm kunnen achterhalen.”_) 3. … - [ ] _“Bent u een Eenmanszaak/ZZP? Log dan in met DigiD.”_ - [ ] eWallets toevoegen? (vóór/ná DigiD/eH inlog?) (Met uitleg *“Wat is dit?”*) - [ …",
+   "published": "2026-05-27T14:26:13Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-27"
+  },
+  {
+   "id": "f341acffd80b1fa3",
+   "title": "ARF-release: v2.9.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.9.0",
+   "summary": "What's Changed feat: add functional conformance to nav bar by @awoie in #649 Release/topic x rr first version and update discussion topics read.me… by @pinamiranda in #662 Review PR on topic C refinement round discussion paper by @HarriHonko in #663 Release/topic X refinement round paper after focus group meeting 2 (#2069) by @HarriHonko in #665 Release topic J discussion paper for the refinement round - first version by @HarriHonko in #675 Release/discussion topics readme topic c and j paper links and Iterati… by @HarriHonko in #676 Release - topic e rr discussion paper first version (#2108) …",
+   "published": "2026-05-22T07:09:35Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF",
+      "conformance"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-22"
+  },
+  {
+   "id": "370317be4e1a3044",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-is-launching-the-payments-interest-group",
+   "summary": "As part of the WE BUILD Consortium, we are setting up a dedicated Payments Community focusing specifically on the role of digital wallets in the payments ecosystem. The main purpose of this initiative is to share our progress and facilitate a practical exchange of views with external stakeholders.",
+   "published": "2026-05-20",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-20"
+  },
+  {
+   "id": "eb5a335ee20967a1",
+   "title": "Brief lid / fractie: Vooraankondiging van de leden El Boujdaini (D66) en Van Dijk (PVV), rapporteurs European Business Wallet, om een technische briefing en een rondetafelgesprek over de Business Wallet en de eIDAS-verordening te organiseren",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D23157",
+   "summary": "",
+   "published": "2026-05-20",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-20"
+  },
+  {
+   "id": "97ebb4dffc3340d8",
+   "title": "Brief regering: Reactie op verzoek commissie over de brandbrief van Privacy First over verplichtstelling Europese digitale identiteit bij banken",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D21471",
+   "summary": "Informatie- en communicatietechnologie (ICT)",
+   "published": "2026-05-11",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Europese digitale identiteit"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-11"
+  },
+  {
+   "id": "4d875a19c268dad9",
+   "title": "Bijlage: Beslisnota bij Kamerbrief met reactie op verzoek commissie over de brandbrief van Privacy First over verplichtstelling Europese digitale identiteit bij banken",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D21472",
+   "summary": "",
+   "published": "2026-05-11",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Europese digitale identiteit"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-05-11"
+  },
+  {
+   "id": "631621a68138e681",
+   "title": "Discover the key takeaways from Launchpad 2025",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/964167040/Discover+the+key+takeaways+from+Launchpad+2025",
+   "summary": "",
+   "published": "2026-04-27",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-04-27"
+  },
+  {
+   "id": "1416fbad7311ccbb",
+   "title": "MOZa-issue: Documentatie doornemen",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/450",
+   "summary": "(niet-complete) lijst van nog door te nemen documentatie: - https://logius-prd.confluence.odc-noord.nl/spaces/AGB/pages/478352098/Sandbox+Acceptatiecriteria+extern+ontwikkelde+software+ART+G+B - https://logius-prd.confluence.odc-noord.nl/spaces/AGB/pages/401351282/Transitieplan+Verservicing+MijnOverheid - https://docs.rijksapp.nl/docs/a78ece76-d266-4e26-9201-5d7c7b365942/ - https://docs.rijksapp.nl/docs/f1e5646f-f542-4d61-a6d8-3f3bae8c1c5b/ - …",
+   "published": "2026-04-17T13:20:51Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-04-17"
+  },
+  {
+   "id": "f147018906d8b579",
+   "title": "MOZa-issue: Desk-research naar inlog-middelen en -flows omzetten naar testbare deliverables",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/444",
+   "summary": "Lucid board",
+   "published": "2026-04-16T08:57:59Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-04-16"
+  },
+  {
+   "id": "f22cc29a633a240a",
+   "title": "Commission Implementing Regulation (EU) 2026/798 of 7 April 2026 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards and specifications for the remote onboarding of users to the European Digital Identity Wallets by electronic identification means conforming to assurance level substantial in conjunction with additional remote onboarding procedures where the combination meets the requirements of assurance level high",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R0798",
+   "summary": "",
+   "published": "2026-04-07",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "Digital Identity Wallets",
+     "European Digital Identity",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-04-07"
+  },
+  {
+   "id": "0e04f2587449f55a",
+   "title": "NL Wallet: Wallet 0.5.0",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.5.0",
+   "summary": "Release date: 27th of March, 2026 All commits in this release: v0.4.1...v0.5.0 Documentation for this release: https://minbzk.github.io/nl-wallet/v0.5.0/index.html We have the following artifacts as a part of this release: wallet-sbom_v0.5.0_generic.zip : The software-bill-of-materials for this release. wallet-issuance-server_v0.5.0_x86_64-linux-glibc.zip : The wallet issuance server for issuers with migrations binary, for glibc-based Linux systems built with Debian trixie. wallet-issuance-server_v0.5.0_x86_64-linux-musl.zip : The wallet issuance server for issuers with migrations binary …",
+   "published": "2026-03-27T16:06:47Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-03-27"
+  },
+  {
+   "id": "f2bc3b6a33218bd0",
+   "title": "Brief commissie aan bewindspersoon: Verzoek om een kabinetsreactie te ontvangen van de Stas. EZK en minister en stas. Financiën op de brandbrief van Privacy First over verplichtstelling Europese digitale identiteit bij banken, mede in relatie tot eerdere kabinetsantwoorden (Kamerstuk 26643-1445) en motie-Drost (Kamerstuk 36305-3)",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D13795",
+   "summary": "",
+   "published": "2026-03-25",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Europese digitale identiteit"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-03-25"
+  },
+  {
+   "id": "1ac0ea66f9fc43a0",
+   "title": "Brief lid / fractie: Verzoek van het lid Van Dijk (PVV) om als rapporteur op het Voorstel tot instelling van Europese portemonnees voor ondernemingen (COM (2025) 838 final) namens de commissie de volgende vragen (zie bijlage) te stellen tijdens de inbreng schriftelijk overleg van de informele Telecomraad d.d. 7 april 2026.",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D13628",
+   "summary": "",
+   "published": "2026-03-24",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-03-24"
+  },
+  {
+   "id": "b122680dc22b7b14",
+   "title": "Brief lid / fractie: Verzoek van het lid Ceder (ChristenUnie) om een kabinetsreactie (van ieder geval de staatssecretaris van Economische Zaken en de minister van Financiën) over de Brandbrief van Privacy First over verplichtstelling Europese digitale identiteit bij banken, mede in relatie tot eerdere kabinetsantwoorden (Kamerstuk 26643, nr. 1145) en de aangenomen motie-Drost (Kamerstuk 36305, nr. 3)",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D13624",
+   "summary": "",
+   "published": "2026-03-24",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Europese digitale identiteit"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-03-24"
+  },
+  {
+   "id": "fce3da4f790a397f",
+   "title": "Opinion of the European Economic and Social Committee – Proposal for a Regulation of the European Parliament and of the Council on the establishment of European Business Wallets (COM(2025) 838 final – 2025/0358 (COD))",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025AE3899",
+   "summary": "",
+   "published": "2026-03-18",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "Business Wallets",
+     "COM(2025) 838"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-03-18"
+  },
+  {
+   "id": "33bd50c8ee6c406b",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/non-paper-trusted-identities-for-ai-agents-an-opportunity-for-europe-8396",
+   "summary": "We are pleased to share this new non-paper organised by WE BUILD participants about AI agents, digital wallets and payments.",
+   "published": "2026-02-27",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-27"
+  },
+  {
+   "id": "7dc4a8436f48d9fb",
+   "title": "MOZa-issue: Ophalen kennis over business wallet & bepalen impact MOZa",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/289",
+   "summary": "",
+   "published": "2026-02-06T09:12:26Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "business wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-06"
+  },
+  {
+   "id": "05f84b0521702112",
+   "title": "NL Wallet: Wallet 0.4.1",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.4.1",
+   "summary": "Release date: 4th of February, 2026 All commits in this release: v0.4.0...v0.4.1 Documentation for this release: https://minbzk.github.io/nl-wallet/v0.4.1/index.html We have the following artifacts as a part of this release: wallet-sbom_v0.4.1_generic.zip : The software-bill-of-materials for this release. wallet-issuance-server_v0.4.1_x86_64-linux-glibc.zip : The wallet issuance server for issuers with migrations binary, for glibc-based Linux systems built with Debian trixie. wallet-issuance-server_v0.4.1_x86_64-linux-musl.zip : The wallet issuance server for issuers with migrations binary …",
+   "published": "2026-02-04T10:16:28Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-04"
+  },
+  {
+   "id": "759b0d9ec743a640",
+   "title": "ARF-release: v2.8.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.8.0",
+   "summary": "What's Changed Release/topics e aa t by @phin10 in #626 Merged with docs.dev.eudi by @mgiakkou in #632 Feat/update sts essential by @skounis in #638 links-annex-2-4-papers (#1641) (#1772) by @paolo-de-rosa in #639 Release/2.8.0 by @phin10 in #640 Change checkout reference from 'feature/2.8.0' to 'main' by @paolo-de-rosa in #641 Full Changelog : v2.7.3...v2.8.0",
+   "published": "2026-02-02T23:33:54Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "8bfd39425a279914",
+   "title": "MOZa-issue: Uitwerken basis flow E-Herkenning",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/236",
+   "summary": "De scope van hetgeen wat willen onderzoeken is een 'basis' flow voor E-herkenning. Dus op basis van een e-herkenning inlog op MOZa informatie ophalen bij een andere dienstverlener. Stappen te nemen: 1. Bepalen casus 2. Uitwerken flow 3. Inplannen vervolgafspraken 16/02 Refinement: Taak: Flow uittekenen van \"Ik wil met EHerkenning inloggen op het MOZa portaal en dan gegevens ophalen bij Belastingdienst (btw nummer ophalen) op basis van een bsn\". Doe dit op zo'n manier (sequentie diagram, en/of meer) dat wij het duidelijk bij Frans kunnen voorleggen om te concluderen of die flow mogelijk is …",
+   "published": "2026-02-03T10:03:34Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "EHerkenning",
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "btw"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "4515c8eb0f4de251",
+   "title": "Commission Implementing Regulation (EU) 2026/248 of 2 February 2026 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the formats of advanced electronic signatures and advanced electronic seals to be recognised by public sector bodies and repealing Commission Implementing Decision (EU) 2015/1506",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R0248",
+   "summary": "",
+   "published": "2026-02-02",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seals"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation",
+      "public sector bodies"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seals",
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-02-02"
+  },
+  {
+   "id": "ad5d101464a21e08",
+   "title": "MOZa-issue: Contactmomenten uitbreiden met metadata",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/217",
+   "summary": "1. Op basis van beschikbare metadata kijken welke relevant zijn voor contactmomenten 1. Figma ontwerp aanpassen hierop - Gebruiker kan zien wie zijn informatie voor wat heeft opgevraagd. (Dit zou via profiel service logs lopen). - ex. 'Belastingdienst heeft jou contactgegevens opgevraagd voor belastingaangifte'. - Gebruiker kan zie wie notificaties heeft verstuurd naar hem. (Dit zou lopen via notificatie service logs, of 'historie service') - ex. 'Belastingdiesnt heeft naar jou een notificatie gestuurd' - Plausibele metadata voor beide: - Wie - Waarom, staat al in voorbeeld 1 - Datum - …",
+   "published": "2026-01-26T13:30:04Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificaties"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-26"
+  },
+  {
+   "id": "dcf4b2d8bddb1f18",
+   "title": "What do Europeans want out of their EUDI Wallets New study sheds light",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/940311900/What+do+Europeans+want+out+of+their+EUDI+Wallets+New+study+sheds+light",
+   "summary": "",
+   "published": "2026-01-23",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-23"
+  },
+  {
+   "id": "e097a417515d1840",
+   "title": "P10_TA(2026)0002 – The 28th Regime: a new legal framework for innovative companies – European Parliament resolution of 20 January 2026 with recommendations to the Commission on the 28th Regime: a new legal framework for innovative companies (2025/2079(INL))",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52026IP0002",
+   "summary": "",
+   "published": "2026-01-20",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-20"
+  },
+  {
+   "id": "59cd6add8b5b914d",
+   "title": "Bijlage: Beslisnota bij Kamerbrief Fiche: Verordening Europese Business Wallet",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D01714",
+   "summary": "",
+   "published": "2026-01-16",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-16"
+  },
+  {
+   "id": "5ded768de4a7bbda",
+   "title": "Brief regering: Fiche: Verordening Europese Business Wallet",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D01713",
+   "summary": "Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie",
+   "published": "2026-01-16",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-16"
+  },
+  {
+   "id": "a9007f9e82b668c2",
+   "title": "MOZa-issue: Contactmomenten herzien",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/160",
+   "summary": "Herzien van de contactmomenten. Deze waren tot op heden voor het gebruikersprototype op aannames gebaseerd. Twee ideeën zweven hier momenteel: - Gebruiker kan zien wie zijn informatie voor wat heeft opgevraagd. (Dit zou via profiel service logs lopen). ex. 'Belastingdienst heeft jou contactgegevens opgevraagd voor belastingaangifte' - Gebruiker kan zie wie notificaties heeft verstuurd naar hem. (Dit zou lopen via notificatie service logs, of 'historie service'). ex. 'Belastingdienst heeft naar jou een notificatie gestuurd' Plausibele metadata voor beide: - Wie - Waarom, staat al in voorbeeld …",
+   "published": "2026-01-12T16:10:50Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificaties"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-12"
+  },
+  {
+   "id": "3b2be320a2c44b98",
+   "title": "NL Wallet: Wallet 0.4.0",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.4.0",
+   "summary": "Release date: 17th of December, 2025 All commits in this release: v0.3.0...v0.4.0 Documentation for this release: https://minbzk.github.io/nl-wallet/v0.4.0/index.html We have the following artifacts as a part of this release: wallet-sbom_v0.4.0_generic.zip : The software-bill-of-materials for this release. wallet-issuance-server_v0.4.0_x86_64-linux-glibc.zip : The wallet issuance server for issuers, for glibc-based Linux systems built with Debian trixie. wallet-issuance-server_v0.4.0_x86_64-linux-musl.zip : The wallet issuance server for issuers using statically linked musl …",
+   "published": "2026-01-02T09:05:55Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2026-01-02"
+  },
+  {
+   "id": "e90f365da4367ea7",
+   "title": "Commission Implementing Regulation (EU) 2025/2527 of 16 December 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards for qualified certificates for website authentication",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2527",
+   "summary": "",
+   "published": "2025-12-16",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "authentication"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "certificates"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-16"
+  },
+  {
+   "id": "67c435b375bf9472",
+   "title": "Commission Implementing Regulation (EU) 2025/2532 of 16 December 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards and specifications for qualified electronic archiving services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2532",
+   "summary": "",
+   "published": "2025-12-16",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-16"
+  },
+  {
+   "id": "a43bc03ddeb37f18",
+   "title": "Commission Implementing Regulation (EU) 2025/2530 of 16 December 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards requirements for qualified trust service providers providing qualified trust services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2530",
+   "summary": "",
+   "published": "2025-12-16",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust service",
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "qualified trust service",
+      "trust service providers"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-16"
+  },
+  {
+   "id": "2be77959c72966cd",
+   "title": "Commission Implementing Regulation (EU) 2025/2531 of 16 December 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards and specifications for qualified electronic ledgers",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2531",
+   "summary": "",
+   "published": "2025-12-16",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-16"
+  },
+  {
+   "id": "d123c803b372213b",
+   "title": "MOZa-issue: Positionering profielservice",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/pull/145",
+   "summary": "Een ADR over de positionering van de profiel service. Moet nog intern besproken worden voordat we deze publiceren",
+   "published": "2025-12-12T17:31:20Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "profielservice"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-12"
+  },
+  {
+   "id": "ad94e3415973a023",
+   "title": "MOZa-issue: Afspreken met TVS",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/140",
+   "summary": "- wat wel/niet geleverd - DigiD, eIDAS(2), wallets - internationale ondernemingen (non-EU) - simulatie-omgeving - betrouwbaarheidsniveaus / levels of assurance (LoAs)",
+   "published": "2025-12-09T16:05:18Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-12-09"
+  },
+  {
+   "id": "c0dc51d5aac82087",
+   "title": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the establishment of European Business Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025PC0838",
+   "summary": "",
+   "published": "2025-11-19",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "87d225ba66ff0d31",
+   "title": "COMMISSION STAFF WORKING DOCUMENT Accompanying the document Proposal for a Regulation of the European Parliament and of the Council on the establishment of European Business Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025SC0837",
+   "summary": "",
+   "published": "2025-11-19",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "cc1160967789e679",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/european-commission-published-the-proposal-regulation-on-the-establishment-of-european-business-wallets",
+   "summary": "European Commission published the proposal: Regulation on the establishment of European Business Wallets",
+   "published": "2025-11-19",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "a3ff496e01680acd",
+   "title": "Bijlage: COMMISSION STAFF WORKING DOCUMENTAccompanying the documentProposal for a Regulation of the European Parliament and of the Councilon the establishment of European Business Wallets",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2025D47289",
+   "summary": "",
+   "published": "2025-11-19",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "a3f099c2a919ccd0",
+   "title": "EU-voorstel: EU-voorstel: Verordening European Business Wallet COM(2025) 838 (Engelstalige versie)",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2025D47287",
+   "summary": "",
+   "published": "2025-11-19",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet",
+     "COM(2025) 838"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "e8c760fef37bd162",
+   "title": "Bijlage: ANNEX to the Proposal for a Regulation of the European Parliament and of the Councilon the establishment of European Business Wallets",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2025D47288",
+   "summary": "",
+   "published": "2025-11-19",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-19"
+  },
+  {
+   "id": "ace92ea0eddb4c00",
+   "title": "ARF-release: v2.7.3",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.7.3",
+   "summary": "What's Changed To get all links working who refer to annex 2 (#1623) (#1624) by @paolo-de-rosa in #625 Full Changelog : v2.7.2...v2.7.3",
+   "published": "2025-11-12T16:28:48Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-12"
+  },
+  {
+   "id": "11f53ef267c6b1c5",
+   "title": "ARF-release: v2.7.2",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.7.2",
+   "summary": "What's Changed Update s-certificate-transparency final paper by @phin10 in #623 Release/2.7.2 by @paolo-de-rosa in #624 Full Changelog : v2.7.1...v2.7.2",
+   "published": "2025-11-11T18:03:53Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "certificate-transparency"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-11"
+  },
+  {
+   "id": "97ce1f5e44b674a0",
+   "title": "MOZa-issue: UX: Nader onderzoek wisselen van privé en onderneming(en)",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/74",
+   "summary": "Tijdens gebruikersonderzoeken kwam naar voren dat ondernemers bekend en vertrouwd zijn met MijnOverheid. Ook werd diverse malen geopperd dat verwacht wordt dat de zakelijke mijn omgeving direct benaderd moet kunnen worden vanuit de privé mijn omgeving. Uit de laatste gebruikersonderzoeken werd duidelijk dat ondernemers met meerdere ondernemingen het waardevol vinden om tussen bedrijven te kunnen schakelen binnen één omgeving. Dit mede omdat het meerdere keren inloggen een groot pijnpunt is. Onderzocht dient te worden of eenzelfde ontwerppatroon gebruikt kan worden voor zowel het wisselen …",
+   "published": "2025-11-11T16:36:02Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-11"
+  },
+  {
+   "id": "8f14dcc51b3962cf",
+   "title": "ARF-release: v2.7.1",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.7.1",
+   "summary": "What's Changed Release/2.7.1 by @paolo-de-rosa in #622 Full Changelog : v2.7.0...v2.7.1",
+   "published": "2025-11-10T21:55:13Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-10"
+  },
+  {
+   "id": "c99ca1dd83e31346",
+   "title": "ARF-release: v2.7.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.7.0",
+   "summary": "What's Changed Topic t second version by @phin10 in #615 Topic p final paper and version update topic q and r (#1535) by @phin10 in #616 Topic t third paper by @phin10 in #617 Topic e revisited paper version 0.9 by @phin10 in #619 Topic f revisited second update by @phin10 in #620 Release 2.7.0 branch from the review 2.7.0 branch by @paolo-de-rosa in #621 Full Changelog : v2.6.0...v2.7.0",
+   "published": "2025-11-10T20:46:34Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-11-10"
+  },
+  {
+   "id": "ed25ac9018b38803",
+   "title": "Commission Implementing Regulation (EU) 2025/2160 of 27 October 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards, specifications and procedures for the management of risks to the provision of non-qualified trust services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2160",
+   "summary": "",
+   "published": "2025-10-27",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "qualified trust services"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-10-27"
+  },
+  {
+   "id": "c8ab50164c9a3759",
+   "title": "Commission Implementing Decision (EU) 2025/2164 of 27 October 2025 amending Implementing Decision (EU) 2015/1505 as regards the version of the standard on which the common template for the trusted lists is based",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025D2164",
+   "summary": "",
+   "published": "2025-10-27",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "vertrouwensdiensten": [
+     "trusted lists"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standard"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "trusted lists"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-10-27"
+  },
+  {
+   "id": "9aa7c033880a06f7",
+   "title": "Commission Implementing Regulation (EU) 2025/2162 of 27 October 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and the Council as regards the accreditation of conformity assessment bodies performing the assessment of qualified trust service providers and the qualified trust services they provide, the conformity assessment report and the conformity assessment scheme",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R2162",
+   "summary": "",
+   "published": "2025-10-27",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust service",
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "qualified trust service",
+      "trust service providers"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-10-27"
+  },
+  {
+   "id": "219799e8aae0f76c",
+   "title": "ARF-release: v2.6.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.6.0",
+   "summary": "What's Changed Changes to requirement EDP_02 by @joelposti in #598 Release of topics p q r discussion papers r2 by @phin10 in #604 Topic s aa first paper and readme update by @phin10 in #607 Topics p q r release r4 and update topic s by @phin10 in #608 Topic e revisit, document update by @phin10 in #609 Updates to Topic o, z, s, t and aa discussion papers by @phin10 in #610 Topic s aa update third paper update by @phin10 in #611 Review/topic f revisit update (#1516) by @pinamiranda in #612 Release ARF 2.6.0 (#1517) by @phin10 in #613 Full Changelog : v2.5.0...v2.6.0",
+   "published": "2025-10-13T22:38:16Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-10-14"
+  },
+  {
+   "id": "e78f93a4e155375a",
+   "title": "MOZa-issue: Visiedocument opstellen over profielservice",
+   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/26",
+   "summary": "",
+   "published": "2025-10-13T12:40:13Z",
+   "source": "moza-github",
+   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
+   "category": "nl-moza",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "profielservice"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-10-13"
+  },
+  {
+   "id": "21cddf5d4b8c33c1",
+   "title": "Commission Implementing Regulation (EU) 2025/1943 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards for qualified certificates for electronic signatures and qualified certificates for electronic seals",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1943",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seals"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "certificates"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seals",
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "8507fa162c0570fe",
+   "title": "Commission Implementing Regulation (EU) 2025/1944 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards for processes for sending and receiving data in qualified electronic registered delivery services and as regards interoperability of those services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1944",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic registered delivery",
+     "registered delivery services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "registered delivery"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperability",
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "e0a33f62da0e7c38",
+   "title": "Commission Implementing Regulation (EU) 2025/1942 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards qualified validation services for qualified electronic signatures and qualified validation services for qualified electronic seals",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1942",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seals",
+     "qualified electronic seals",
+     "qualified electronic signatures"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seals",
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "092e9577b7b95e3f",
+   "title": "Commission Implementing Regulation (EU) 2025/1945 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the validation of qualified electronic signatures and of qualified electronic seals and the validation of advanced electronic signatures based on qualified certificates and of advanced electronic seals based on qualified certificates",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1945",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seals",
+     "qualified electronic seals",
+     "qualified electronic signatures"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "certificates"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seals",
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "deb6af8d23fa7e31",
+   "title": "Commission Implementing Regulation (EU) 2025/1946 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards qualified preservation services for qualified electronic signatures and for qualified electronic seals",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1946",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seals",
+     "qualified electronic seals",
+     "qualified electronic signatures"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seals",
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "3ff704331f58e424",
+   "title": "Commission Implementing Regulation (EU) 2025/1929 of 29 September 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the binding of date and time to data and establishing the accuracy of the time sources for the provision of qualified electronic time stamps",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1929",
+   "summary": "",
+   "published": "2025-09-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-29"
+  },
+  {
+   "id": "410ba9c485bede56",
+   "title": "ARF-release: v2.5.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.5.0",
+   "summary": "What's Changed Fix for a potential typo in Reg_22b by @joelposti in #559 Removed duplicated lines by @Tobix99 in #563 Rename CHANGELOG to CHANGELOG.md by @skounis in #574 Release first discussion paper on topic z by @phin10 in #590 Topics p q r first papers release by @phin10 in #594 Release/topic o and z second discussion papers by @phin10 in #593 Minor terminology and orthography fixes for topic K discussion paper by @joelposti in #592 Update q-interface-user-wallet-instance.md by @phin10 in #596 Topic o and z discussion papers updated, release 3 by @phin10 in #597 Release/2.5.0 by @phin10 …",
+   "published": "2025-09-15T12:25:44Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-15"
+  },
+  {
+   "id": "c2ff2722807bfb4e",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-consortium-officially-launched-at-general-assembly-in-amsterdam",
+   "summary": "Today, we’ve officially launched the WE BUILD Consortium! More than 180 organisations from 26 countries are joining forces to shape the next stage of the European Digital Identity Wallet. This large-scale European collaboration unites public authorities, private companies, academic institutions and technology providers to develop 13 pioneering use cases across the domains of business, supply chain and payments.",
+   "published": "2025-09-03",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "public authorities"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "use cases",
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-03"
+  },
+  {
+   "id": "d3d5c8e2ff8093e2",
+   "title": "The legal and technical road to EU Digital Identity Wallets",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/915931903/The+legal+and+technical+road+to+EU+Digital+Identity+Wallets",
+   "summary": "",
+   "published": "2025-09-02",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallets",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-02"
+  },
+  {
+   "id": "75db221988a83832",
+   "title": "The European Digital Identity Regulation was created in a more agile way",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/915931909/The+European+Digital+Identity+Regulation+was+created+in+a+more+agile+way",
+   "summary": "",
+   "published": "2025-09-02",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "European Digital Identity"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-09-02"
+  },
+  {
+   "id": "0fbfc1d5803a8a1c",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-launches-at-general-assembly-in-amsterdam-on-3-4-september-2025",
+   "summary": "The General Assembly marks the launch of a groundbreaking European collaboration. This event provides a unique opportunity to connect with key stakeholders, shape the future of Europe’s Business Wallet and Payments ecosystem, and build momentum through plenary sessions, breakout workshops, and networking.",
+   "published": "2025-08-29",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "plenary"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-08-29"
+  },
+  {
+   "id": "d7a88fb919efb655",
+   "title": "New round of EU Digital Identity Wallet implementing regulations adopted",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/909706465/New+round+of+EU+Digital+Identity+Wallet+implementing+regulations+adopted",
+   "summary": "",
+   "published": "2025-07-30",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "implementing regulations"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-30"
+  },
+  {
+   "id": "a1a9a4608a98f1e3",
+   "title": "Electronic identification schemes notified pursuant to Article 9(1) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025XC04227",
+   "summary": "",
+   "published": "2025-07-30",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-30"
+  },
+  {
+   "id": "6ab536ee74293e46",
+   "title": "Commission Implementing Regulation (EU) 2025/1566 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reference standards for the verification of the identity and attributes of the person to whom the qualified certificate or the qualified electronic attestation of attributes is to be issued",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1566",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "attestation of attributes"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "attestation",
+      "certificate"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "standards"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "411f6a62a3ca3bcb",
+   "title": "Commission Implementing Regulation (EU) 2025/1571 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the formats and procedures for annual reports by supervisory bodies",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1571",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "bf0c443b38f436f5",
+   "title": "Commission Implementing Regulation (EU) 2025/1572 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the format and procedures for notification of intention and verification with regard to the initiation of qualified trust services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1572",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notification"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "qualified trust services"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "73b42a051f4e1fb5",
+   "title": "Commission Implementing Regulation (EU) 2025/1570 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards notification of information on certified qualified electronic signature creation devices and certified qualified electronic seal creation devices",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1570",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seal",
+     "qualified electronic seal",
+     "qualified electronic signature"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notification"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seal",
+      "electronic signature"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "4c03bca042b62eb3",
+   "title": "Commission Implementing Regulation (EU) 2025/1569 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards qualified electronic attestations of attributes and electronic attestations of attributes provided by or on behalf of a public sector body responsible for an authentic source",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1569",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "attestations of attributes"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "attestations"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation",
+      "public sector body"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "95cfb5b98cc229ad",
+   "title": "Commission Implementing Regulation (EU) 2025/1567 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the management of remote qualified electronic signature creation devices and of remote qualified electronic seal creation devices as qualified trust services",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1567",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "electronic seal",
+     "qualified electronic seal",
+     "qualified electronic signature",
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic seal",
+      "electronic signature",
+      "qualified trust services"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "33d853ebc3b92dbd",
+   "title": "Commission Implementing Regulation (EU) 2025/1568 of 29 July 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards procedural arrangements for peer reviews of electronic identification schemes and for cooperation on the organisation of such reviews within the Cooperation Group and repealing Commission Implementing Decision (EU) 2015/296",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R1568",
+   "summary": "",
+   "published": "2025-07-29",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-29"
+  },
+  {
+   "id": "95f4e7dd836e1cd6",
+   "title": "ARF-release: v2.4.0",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.4.0",
+   "summary": "What's Changed Review/topic h fourth discussion paper (#1378) by @pinamiranda in #564 fixed broken links and added mkdocs plugins installation by @paolo-de-rosa in #569 Release/2.4.0 by @paolo-de-rosa in #573 fix: update image paths in design guide documents for correct referencing by @unknovs in #570 Editing: Remove duplicate lines by @stefanmore in #562 New Contributors @unknovs made their first contribution in #570 @stefanmore made their first contribution in #562 Full Changelog : v2.3.0...v2.4.0",
+   "published": "2025-07-18T11:12:33Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-18"
+  },
+  {
+   "id": "0ebb84d089ceade3",
+   "title": "Catch up on the CONNECT University event exploring EUDI Wallets and the Digital Digital Decade Policy Programme",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/908525758/Catch+up+on+the+CONNECT+University+event+exploring+EUDI+Wallets+and+the+Digital+Digital+Decade+Policy+Programme",
+   "summary": "",
+   "published": "2025-07-15",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-15"
+  },
+  {
+   "id": "dffb71513075b0e8",
+   "title": "Catch up on the Global Digital Collaboration Conference",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/915931902/Catch+up+on+the+Global+Digital+Collaboration+Conference",
+   "summary": "",
+   "published": "2025-07-04",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-07-04"
+  },
+  {
+   "id": "6681ef9d7c31fbf1",
+   "title": "New batch of Implementing Acts published for feedback",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/905216055/New+batch+of+Implementing+Acts+published+for+feedback",
+   "summary": "",
+   "published": "2025-06-26",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Acts"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-06-26"
+  },
+  {
+   "id": "b1c69d5684b30270",
+   "title": "NL Wallet: Wallet 0.3.0",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.3.0",
+   "summary": "Release date: 26th of June, 2025 All commits in this release: v0.2.3...v0.3.0 Documentation for this release: https://minbzk.github.io/nl-wallet/v0.3.0/index.html We have the following artifacts as a part of this release: wallet-sbom_v0.3.0_generic.zip : The software-bill-of-materials for this release. wallet-issuance-server_v0.3.0_x86_64-linux-glibc.zip : The wallet issuance server for issuers, for glibc-based Linux systems built with Debian bookworm. wallet-issuance-server_v0.3.0_x86_64-linux-musl.zip : The wallet issuance server for issuers using statically linked musl …",
+   "published": "2025-06-26T14:14:42Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-06-26"
+  },
+  {
+   "id": "a29ebc05e7b9d25a",
+   "title": "European Commission adopts new round of EU Digital Identity Wallet implementing regulations",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/896827698/European+Commission+adopts+new+round+of+EU+Digital+Identity+Wallet+implementing+regulations",
+   "summary": "",
+   "published": "2025-05-07",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "implementing regulations"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-05-07"
+  },
+  {
+   "id": "84901e4c44d9c75d",
+   "title": "Commission Implementing Regulation (EU) 2025/846 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards cross-border identity matching of natural persons",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R0846",
+   "summary": "",
+   "published": "2025-05-06",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-05-06"
+  },
+  {
+   "id": "9c5cc8f58e1973d4",
+   "title": "Commission Implementing Regulation (EU) 2025/847 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reactions to security breaches of European Digital Identity Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R0847",
+   "summary": "",
+   "published": "2025-05-06",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "Digital Identity Wallets",
+     "European Digital Identity",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-05-06"
+  },
+  {
+   "id": "9003f3744111fabe",
+   "title": "Commission Implementing Regulation (EU) 2025/849 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the submission of information to the Commission and to the Cooperation Group for the list of certified European Digital Identity Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R0849",
+   "summary": "",
+   "published": "2025-05-06",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014",
+     "Digital Identity Wallets",
+     "European Digital Identity",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-05-06"
+  },
+  {
+   "id": "fe91935f8609c7f9",
+   "title": "Commission Implementing Regulation (EU) 2025/848 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the registration of wallet-relying parties",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32025R0848",
+   "summary": "",
+   "published": "2025-05-06",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Regulation"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-05-06"
+  },
+  {
+   "id": "3ed6bbfd79f73124",
+   "title": "Electronic identification schemes notified pursuant to Article 9(1) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025XC02448",
+   "summary": "",
+   "published": "2025-04-25",
+   "source": "eurlex-eidas",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
+   "category": "eu-wetgeving",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "910/2014"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-04-25"
+  },
+  {
+   "id": "403b0b170413afd1",
+   "title": "New Implementing Acts ready for your feedback",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/892470289/New+Implementing+Acts+ready+for+your+feedback",
+   "summary": "",
+   "published": "2025-04-16",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Acts"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-04-16"
+  },
+  {
+   "id": "875077fc7022daa0",
+   "title": "New version of the Architecture and Reference Framework now available",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/887380261/New+version+of+the+Architecture+and+Reference+Framework+now+available",
+   "summary": "",
+   "published": "2025-03-07",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Architecture and Reference Framework"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Architecture",
+      "Reference Framework"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-03-07"
+  },
+  {
+   "id": "f5ded11ccd24a343",
+   "title": "Catch up on the Commissions FOSDEM 2025 talk on the wallets.",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/883826306/Catch+up+on+the+Commissions+FOSDEM+2025+talk+on+the+wallets.",
+   "summary": "",
+   "published": "2025-02-14",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-02-14"
+  },
+  {
+   "id": "14fe6e0958892f7e",
+   "title": "Continue reading",
+   "url": "https://www.webuildconsortium.eu/news/we-build-has-been-selected-by-the-european-commission-to-participate-in-the-second-round-of-large-scale-pilots-for-the-eu-digital-identity-wallet",
+   "summary": "WE BUILD, the consortium Wallet Ecosystem for Business and payments Use cases on Identification, Legal representation and Data sharing, is proud to announce that it has been select",
+   "published": "2025-02-10",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Identification",
+      "representation"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "Use cases",
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 8,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2025-02-10"
+  },
+  {
+   "id": "8ff5a794f98e17d8",
+   "title": "NL Wallet: Wallet 0.2.3",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.2.3",
+   "summary": "Edit date: 19th of December, 2024 Errata The docs of wallet_web contain an error in the calculation of the hash of the style.css file. It should've been: HASH_OF_STYLE_CSS=`cat style.css | tr -d \"\\n\" | openssl sha256 -binary | openssl base64` Release date: 9th of December, 2024 All commits in this release: v0.2.2...v0.2.3 Documentation for this release: https://github.com/MinBZK/nl-wallet/blob/v0.2.3/documentation/index.md We have the following artifacts as a part of this release: wallet-sbom_v0.2.3_generic.zip : The software-bill-of-materials for this release …",
+   "published": "2024-12-19T11:14:48Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2024-12-19"
+  },
+  {
+   "id": "e145e9490f9a17f6",
+   "title": "The European Commission explains how EU Digital Identity Wallets are empowering businesses at this years Web Summit",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/848625712/The+European+Commission+explains+how+EU+Digital+Identity+Wallets+are+empowering+businesses+at+this+years+Web+Summit",
+   "summary": "",
+   "published": "2024-12-05",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallets",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2024-12-05"
+  },
+  {
+   "id": "5352ace75a77e025",
+   "title": "EU Digital Identity Wallet milestone reached as Commission adopts implementing regulations",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/844759146/EU+Digital+Identity+Wallet+milestone+reached+as+Commission+adopts+implementing+regulations",
+   "summary": "",
+   "published": "2024-12-04",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "implementing regulations"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2024-12-04"
+  },
+  {
+   "id": "fd83eb0b198e328e",
+   "title": "Your feedback wanted on new round of Implementing Acts",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/841679016/Your+feedback+wanted+on+new+round+of+Implementing+Acts",
+   "summary": "",
+   "published": "2024-11-29",
+   "source": "ec-eudi-wallet-nieuws",
+   "source_name": "EU Digital Identity Wallet – nieuws (Commissie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "Implementing Acts"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2024-11-29"
+  },
+  {
+   "id": "cf0a6405d04e9018",
+   "title": "NL Wallet: Wallet 0.2.2",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.2.2",
+   "summary": "Release date: 25th of October, 2024 All commits in this release: v0.2.1...v0.2.2 Documentation for this release: https://github.com/MinBZK/nl-wallet/blob/v0.2.2/documentation/index.md We have the following artifacts as a part of this release: wallet-sbom_v0.2.2_generic.zip : The software-bill-of-materials for this release wallet-verification-server_v0.2.2_x86_64-linux-glibc.zip : The wallet verification server for relying parties, for glibc-based Linux systems wallet-verification-server_v0.2.2_x86_64-linux-musl.zip : The wallet verification server for relying parties, for musl-libc based …",
+   "published": "2024-10-28T12:04:14Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:09:39Z",
+   "date": "2024-10-28"
+  }
+ ]
+}
