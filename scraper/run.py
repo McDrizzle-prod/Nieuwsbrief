@@ -25,12 +25,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def load_config(config_dir: str = os.path.join(ROOT, "config")) -> dict:
-    def read(name: str) -> dict:
-        with open(os.path.join(config_dir, name), encoding="utf-8") as fh:
-            return yaml.safe_load(fh)
+    def read(name: str, verplicht: bool = True) -> dict:
+        path = os.path.join(config_dir, name)
+        if not verplicht and not os.path.exists(path):
+            return {}
+        with open(path, encoding="utf-8") as fh:
+            return yaml.safe_load(fh) or {}
 
     return {"bronnen": read("bronnen.yaml"), "onderwerpen": read("onderwerpen.yaml"),
-            "achtergrond": read("achtergrond.yaml")}
+            "achtergrond": read("achtergrond.yaml"), "notificaties": read("notificaties.yaml", verplicht=False)}
 
 
 def make_item(raw: RawItem, source: dict, classification: dict) -> dict:
@@ -80,6 +83,8 @@ def site_config(config: dict, statuses: list[dict]) -> dict:
                         for t in topics["moza_themas"]],
         "achtergrond": config["achtergrond"],
         "bronnen": statuses,
+        # Aanmeldformulier voor het weekoverzicht per mail; de site toont de knop alleen als dit is ingevuld.
+        "aanmeldlink": (config.get("notificaties") or {}).get("aanmeldlink") or None,
         # In GitHub Actions gezet; de site gebruikt ze voor links naar de configuratie.
         "repository": os.environ.get("GITHUB_REPOSITORY"),
         "branch": os.environ.get("GITHUB_REF_NAME"),

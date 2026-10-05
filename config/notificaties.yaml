@@ -1,0 +1,36 @@
+# Weekoverzicht per mail (via Laposta)
+#
+# Elke vrijdag om 16:00 (Nederlandse tijd) krijgen abonnees een mail met de berichten
+# van die week: per bericht een klikbare titel, een korte samenvatting, wat het betekent
+# voor MijnOverheid Zakelijk en een link naar de volledige nieuwsbrief.
+#
+# Inrichten: volg LAPOSTA.md. De waarden hieronder zijn niet geheim (ze staan ook in de
+# mails of op de site). De API-sleutel hoort hier NIET: die staat in GitHub als secret
+# LAPOSTA_API_KEY.
+
+# Zet op true zodra Laposta is ingericht en de testmail goed is.
+actief: false
+
+# Code van de Laposta-lijst (Relaties → kies de lijst → Kenmerken lijst → Algemeen).
+lijst_id: ""
+
+# Afzender. Het adres moet in Laposta zijn bevestigd (en zo nodig geauthenticeerd).
+afzender_naam: Walletbrief
+afzender_email: ""
+
+# Link naar het zelfstandige aanmeldformulier van de lijst
+# (Relaties → kies de lijst → Verrijken → Aanmelden). Zodra deze is ingevuld, toont de
+# site een knop om je aan te melden.
+aanmeldlink: ""
+
+# Adres van de nieuwsbrief op GitHub Pages (voor de link naar de volledige editie).
+site_url: https://mcdrizzle-prod.github.io/Nieuwsbrief/
+
+# Onderwerpregel. {week} = weeknummer, {berichten} = "1 bericht" of "5 berichten".
+onderwerp: "Walletbrief week {week}: {berichten} over EUDI en EBW"
+
+# Ook een mail sturen als er in een week geen relevante berichten zijn?
+ook_zonder_berichten: false
+
+# Maximaal aantal berichten in één mail; de rest staat in de volledige nieuwsbrief.
+max_berichten: 25
