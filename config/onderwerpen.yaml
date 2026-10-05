@@ -1,0 +1,314 @@
+# Onderwerpen en MOZa-thema's
+#
+# De scraper herkent onderwerpen en thema's aan zoektermen in titel en samenvatting.
+# Schrijfwijze van zoektermen:
+#   - gewone term:        "business wallet"  (hoofdletterongevoelig, ook meervoud op -s)
+#   - afkorting in CAPS:  "EBW"              (hoofdlettergevoelig, als los woord)
+#   - term met sterretje: "notificati*"      (alles wat zo begint)
+#   - reguliere expressie: "re:2025/0358"
+#
+# Bronnen met `filter: true` in bronnen.yaml leveren alleen berichten op die minstens
+# één onderwerp raken. Bij de overige bronnen geldt `standaard_onderwerp` als er niets
+# wordt herkend.
+
+onderwerpen:
+  - id: ebw
+    naam: European Business Wallet
+    kort: EBW
+    gewicht: 3
+    termen:
+      - business wallet
+      - business wallets
+      - business-wallet*
+      - EBW
+      - EUBW
+      - wallets for businesses
+      - wallet for businesses
+      - organisational wallet
+      - organization wallet
+      - zakelijke wallet
+      - portemonnees voor ondernemingen
+      - portemonnee voor ondernemingen
+      - "re:2025/0358"
+      - "re:COM\\(2025\\) ?838"
+
+  - id: eudi
+    naam: EUDI Wallet & eIDAS 2.0
+    kort: EUDI
+    gewicht: 2
+    termen:
+      - EUDI
+      - EUDIW
+      - EUDI-wallet*
+      - digital identity wallet
+      - digital identity wallets
+      - european digital identity
+      - eIDAS
+      - eIDAS2
+      - "re:eIDAS ?2(\\.0)?"
+      - architecture and reference framework
+      - person identification data
+      - attestation of attributes
+      - attestations of attributes
+      - identity wallet
+      - EDI-wallet
+      - EDI-stelsel
+      - NL Wallet
+      - NL-wallet
+      - europese digitale identiteit
+      - digitale identiteitswallet
+      - identiteitswallet
+      - "re:2024/1183"
+      - "re:910/2014"
+
+  - id: vertrouwensdiensten
+    naam: Vertrouwensdiensten & standaarden
+    kort: Trust
+    gewicht: 1
+    termen:
+      - QERDS
+      - ERDS
+      - electronic registered delivery
+      - registered delivery service
+      - trust service
+      - trust services
+      - qualified electronic signature
+      - qualified electronic seal
+      - electronic seal
+      - trusted list
+      - vertrouwensdienst*
+      - gekwalificeerde elektronische handtekening
+      - elektronisch zegel
+
+# MOZa-thema's: op welke manier raakt een bericht MijnOverheid Zakelijk (MOZa)?
+# `gewicht` bepaalt mee hoe hoog een bericht in de nieuwsbrief komt.
+moza_themas:
+  - id: berichten
+    naam: Berichtenverkeer & notificaties
+    gewicht: 2
+    moza_onderdelen: [Berichtenbox voor bedrijven, Notificatiedienst]
+    uitleg: >-
+      Het EBW-voorstel laat overheden documenten en notificaties met ondernemers
+      uitwisselen via de business wallet, op basis van een gekwalificeerde dienst voor
+      elektronisch aangetekende bezorging (QERDS). Dat raakt direct de Berichtenbox voor
+      bedrijven en de Notificatiedienst van MOZa: kan MOZa berichten afleveren in, en
+      ontvangen uit, een EBW, en wie levert daarvoor de QERDS-koppeling?
+    termen:
+      - QERDS
+      - ERDS
+      - registered delivery
+      - notificati*
+      - notification*
+      - legal notification*
+      - official notification*
+      - berichtenbox
+      - berichtenverkeer
+      - digital communication
+      - communication channel
+      - secure communication
+      - send and receive
+      - transmit and receive
+      - mailbox
+      - inbox
+      - eDelivery
+      - e-delivery
+      - aangetekend*
+
+  - id: identiteit
+    naam: Inloggen, identificatie & vertegenwoordiging
+    gewicht: 2
+    moza_onderdelen: [MOZa-portaal (inloggen), Machtigen]
+    uitleg: >-
+      Business wallets combineren de identiteit van de organisatie met
+      vertegenwoordigingsbevoegdheden en machtigingen; die rol vervult eHerkenning nu in
+      Nederland. Voor MOZa gaat het om de vraag welke inlogmiddelen het portaal moet
+      accepteren (eHerkenning, NL Wallet/EDI-wallet, EBW) en hoe machtigingen van
+      medewerkers en intermediairs worden gecontroleerd.
+    termen:
+      - authentication
+      - identification
+      - identificatie
+      - inloggen
+      - login
+      - log in
+      - eHerkenning
+      - legal person*
+      - legal entit*
+      - rechtspersoon
+      - representation
+      - representative*
+      - power of attorney
+      - powers of attorney
+      - mandate*
+      - machtig*
+      - vertegenwoordig*
+      - authoris*
+      - authoriz*
+      - EUID
+      - LEI
+      - unique identifier
+
+  - id: gegevens
+    naam: Gegevensdeling & attestaties
+    gewicht: 1
+    moza_onderdelen: [Profielservice, Eenmalige gegevensuitvraag]
+    uitleg: >-
+      Met een wallet kunnen ondernemers geverifieerde gegevens delen (inschrijving
+      Handelsregister, btw- en EORI-nummer, vergunningen, certificaten). Dat sluit aan op
+      de Profielservice van MOZa en het principe dat de overheid gegevens maar één keer
+      uitvraagt. Relevant is wie in Nederland welke attestaties uitgeeft (bijv. KVK) en
+      hoe MOZa die kan gebruiken of tonen.
+    termen:
+      - attestation*
+      - EAA
+      - QEAA
+      - PuB-EAA
+      - credential*
+      - verifiable
+      - certificate*
+      - licence*
+      - license*
+      - permit*
+      - vergunning*
+      - VAT
+      - EORI
+      - btw
+      - business register*
+      - company register*
+      - BRIS
+      - handelsregister
+      - KVK
+      - once-only
+      - OOTS
+      - single digital gateway
+      - data exchange
+      - gegevensuitwisseling
+      - profielservice
+
+  - id: verplichtingen
+    naam: Verplichtingen & planning voor overheden
+    gewicht: 2
+    moza_onderdelen: [Roadmap MOZa, Aansluiting overheidsorganisaties]
+    uitleg: >-
+      Volgens het EBW-voorstel moeten overheden de business wallet gaan accepteren voor
+      identificatie, ondertekening en het verzenden en ontvangen van documenten. In het
+      Commissievoorstel geldt daarvoor een termijn van 24 maanden na inwerkingtreding; de
+      Raad koppelt die termijn aan de uitvoeringshandelingen. Elke stap in het
+      wetgevingsproces kan dus de planning en de aansluitopgave van MOZa veranderen.
+    termen:
+      - public sector bod*
+      - public authorit*
+      - public administration*
+      - overheidsinstanties
+      - publieke sector
+      - acceptance
+      - obligation*
+      - acceptatieplicht
+      - implementing act*
+      - implementing regulation*
+      - uitvoeringshandeling*
+      - general approach
+      - negotiating position
+      - trilogue*
+      - triloog
+      - plenary
+      - entry into force
+      - date of application
+      - deadline*
+      - verplicht*
+
+  - id: architectuur
+    naam: Architectuur & standaarden
+    gewicht: 1
+    moza_onderdelen: [Technische architectuur, Koppelvlakken]
+    uitleg: >-
+      Het Architecture and Reference Framework (ARF), de technische specificaties en
+      ETSI/CEN-normen bepalen welke protocollen en gegevensformaten wallets gebruiken
+      (zoals OpenID4VCI/VP, SD-JWT en mdoc). Componenten van MOZa die met wallets moeten
+      praten, moeten die standaarden volgen.
+    termen:
+      - ARF
+      - architecture
+      - reference framework
+      - technical specification*
+      - standard*
+      - ETSI
+      - CEN
+      - ISO
+      - OpenID*
+      - OID4VC*
+      - OID4VP
+      - SD-JWT
+      - mdoc
+      - protocol*
+      - interoperab*
+      - reference implementation
+      - conformance
+      - toolbox
+
+  - id: vertrouwen
+    naam: Ondertekening & vertrouwensdiensten
+    gewicht: 1
+    moza_onderdelen: [Rechtsgeldige berichten en besluiten]
+    uitleg: >-
+      Business wallets bieden gekwalificeerde elektronische handtekeningen en zegels met
+      dezelfde rechtskracht als papier. Voor MOZa is dat van belang bij formele berichten,
+      aanvragen en besluiten die rechtsgeldig ondertekend of verzegeld moeten worden.
+    termen:
+      - electronic signature*
+      - electronic seal*
+      - qualified signature*
+      - qualified seal*
+      - QES
+      - QSeal*
+      - trust service provider*
+      - qualified trust service*
+      - trusted list*
+      - ondertek*
+      - handtekening*
+      - zegel*
+
+  - id: pilots
+    naam: Pilots & use cases
+    gewicht: 1
+    moza_onderdelen: [MOZa-proeven, Use cases]
+    uitleg: >-
+      De Large Scale Pilots (WE BUILD voor bedrijven, APTITUDE voor reizen en betalen)
+      testen wallets in echte processen tussen bedrijven en overheden. Hun resultaten laten
+      zien welke use cases werken, en daaruit kan MOZa lessen trekken voor de eigen proeven.
+    termen:
+      - pilot*
+      - large scale pilot*
+      - LSP
+      - LSPs
+      - WE BUILD
+      - APTITUDE
+      - use case*
+      - proef
+      - proeven
+      - B2G
+      - G2B
+      - public procurement
+      - aanbesteding*
+
+  - id: soevereiniteit
+    naam: Beveiliging, certificering & soevereiniteit
+    gewicht: 1
+    moza_onderdelen: [Leveranciers- en hostingkeuzes]
+    uitleg: >-
+      Eisen aan certificering, cybersecurity en digitale soevereiniteit (zoals het
+      voorstel van het Parlement om walletaanbieders uit derde landen uit te sluiten)
+      bepalen welke wallets en leveranciers MOZa straks kan of moet ondersteunen.
+    termen:
+      - certification
+      - certificering
+      - cybersecurity
+      - ENISA
+      - sovereign*
+      - soevereiniteit
+      - third-countr*
+      - third countr*
+      - derde land*
+      - data protection
+      - GDPR
+      - AVG

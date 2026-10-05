@@ -1,0 +1,9 @@
+{"head": {"vars": ["celex", "date", "title"]},
+ "results": {"bindings": [
+  {"celex": {"type": "literal", "value": "32024R2977"}, "date": {"type": "literal", "value": "2024-11-28"},
+   "title": {"type": "literal", "value": "Commission Implementing Regulation (EU) 2024/2977 laying down rules for the application of Regulation (EU) No 910/2014 as regards person identification data and electronic attestations of attributes issued to European Digital Identity Wallets"}},
+  {"celex": {"type": "literal", "value": "32024R2977"}, "date": {"type": "literal", "value": "2024-11-28"},
+   "title": {"type": "literal", "value": "Duplicate title variant"}},
+  {"celex": {"type": "literal", "value": "52025PC0838"}, "date": {"type": "literal", "value": "2025-11-19"},
+   "title": {"type": "literal", "value": "Proposal for a Regulation on the establishment of European Business Wallets"}}
+ ]}}

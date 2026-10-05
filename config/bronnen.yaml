@@ -1,0 +1,468 @@
+# Bronnen voor de EUDI/EBW-nieuwsbrief
+#
+# Aanpassen kan direct in GitHub: open dit bestand, klik op het potlood (Edit) en
+# sla op met "Commit changes". De nieuwsbrief wordt daarna automatisch opnieuw
+# opgebouwd. Zie BRONNEN.md voor de toelichting per bron.
+#
+# Velden per bron:
+#   id            unieke korte naam (niet meer wijzigen na de eerste run)
+#   naam          naam zoals die in de nieuwsbrief verschijnt
+#   categorie     een van de categorieën hieronder
+#   type          feed | html | json | sparql | sru | pagewatch
+#   url           adres van de feed, pagina of API
+#   filter        true = alleen berichten die over EUDI/EBW/vertrouwensdiensten gaan
+#   standaard_onderwerp  onderwerp als er geen zoekterm wordt herkend (bij filter: false)
+#   prioriteit    1 = primaire officiële bron, 2 = officieel maar breder, 3 = secundair
+#   actief        false = tijdelijk uitzetten
+#   site          (optioneel) webpagina om naar te verwijzen in het bronnenoverzicht
+#   toelichting   waarom deze bron relevant is
+#
+# Extra velden per type:
+#   feed       max (aantal berichten), titel_prefix
+#   html       link_patroon (regex voor links naar berichten) of selectors
+#              {item, titel, link, datum, samenvatting}; detail: true haalt per nieuw
+#              bericht de datum en beschrijving op van de berichtpagina zelf
+#   json       params, items (pad naar de lijst), velden {titel, url, datum, samenvatting}
+#              met {veldnaam} als sjabloon; datum en samenvatting zijn paden
+#   sparql     query met {since} als plaats voor de begindatum, dagen_terug, velden
+#   sru        query (CQL) voor de SRU-zoekdienst van officielebekendmakingen.nl
+#   pagewatch  selector (deel van de pagina dat gevolgd wordt), titel
+
+categorieen:
+  eu-commissie: Europese Commissie
+  eu-parlement: Europees Parlement
+  eu-raad: Raad van de EU
+  eu-wetgeving: EU-wetgeving & consultaties
+  pilots: Large Scale Pilots
+  techniek: Techniek & standaarden
+  nl-overheid: Nederlandse overheid
+  nl-moza: MijnOverheid Zakelijk
+  media: Media (secundair)
+
+bronnen:
+  # --- Europese Commissie -------------------------------------------------------
+  - id: ec-digital-strategy
+    naam: "Europese Commissie – Shaping Europe's digital future"
+    categorie: eu-commissie
+    type: feed
+    url: https://digital-strategy.ec.europa.eu/en/rss.xml
+    filter: true
+    prioriteit: 1
+    site: https://digital-strategy.ec.europa.eu/en/news
+    toelichting: >-
+      Nieuws, publicaties en evenementen van DG CONNECT, de directie die zowel de
+      EUDI Wallet als de European Business Wallet trekt. Hier verschijnen persberichten,
+      uitvoeringshandelingen en factsheets als eerste.
+
+  - id: ec-ebw-beleid
+    naam: "Europese Commissie – beleidspagina European Business Wallets"
+    categorie: eu-commissie
+    type: pagewatch
+    url: https://digital-strategy.ec.europa.eu/en/policies/business-wallets
+    selector: main
+    titel: Beleidspagina European Business Wallets (Commissie)
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    toelichting: >-
+      Officiële beleidspagina over de EBW. De nieuwsbrief meldt het als de inhoud
+      verandert (nieuwe documenten, tijdpad, technische werkgroepen).
+
+  - id: ec-eudi-beleid
+    naam: "Europese Commissie – EU Digital Identity Wallet (implementatie)"
+    categorie: eu-commissie
+    type: pagewatch
+    url: https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation
+    selector: main
+    titel: Beleidspagina EUDI Wallet-implementatie (Commissie)
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    toelichting: >-
+      Beleidspagina over de uitrol van de EUDI Wallet, de pilots en de
+      uitvoeringshandelingen. Wijzigingen worden als bericht gemeld.
+
+  - id: ec-eudi-wallet-nieuws
+    naam: "EU Digital Identity Wallet – nieuws (Commissie)"
+    categorie: eu-commissie
+    type: html
+    url: https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/712507533/News
+    link_patroon: "/EUDIGITALIDENTITYWALLET/pages/\\d+/"
+    detail: true
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    toelichting: >-
+      Nieuwspagina van de officiële EUDI Wallet-site van de Commissie (Digital Building
+      Blocks): releases van de referentie-implementatie, ARF-updates en evenementen.
+
+  - id: eu-have-your-say
+    naam: "Europese Commissie – Have your say (consultaties)"
+    categorie: eu-wetgeving
+    type: json
+    url: https://ec.europa.eu/info/law/better-regulation/brpapi/searchInitiatives
+    params:
+      text: wallet
+      language: EN
+      size: 30
+      page: 0
+    items: _embedded.initiativeResultDtoes
+    velden:
+      titel: "Consultatie: {shortTitle}"
+      url: "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/{id}_en"
+      datum: lastUpdatedDate
+      samenvatting: initiativeStatus
+    filter: false
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    site: https://ec.europa.eu/info/law/better-regulation/have-your-say
+    toelichting: >-
+      Consultaties en feedbackperiodes op ontwerp-uitvoeringshandelingen voor de EUDI
+      Wallet en de EBW. Hier kunnen ook Nederlandse overheden reageren.
+
+  - id: eurlex-eidas
+    naam: "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)"
+    categorie: eu-wetgeving
+    type: sparql
+    url: https://publications.europa.eu/webapi/rdf/sparql
+    dagen_terug: 540
+    query: |
+      PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+      SELECT DISTINCT ?celex ?date ?title WHERE {
+        ?base owl:sameAs <http://publications.europa.eu/resource/celex/32014R0910> .
+        ?work cdm:resource_legal_based_on_resource_legal ?base ;
+              cdm:resource_legal_id_celex ?celex ;
+              cdm:work_date_document ?date .
+        FILTER(?date >= "{since}"^^xsd:date)
+        ?expr cdm:expression_belongs_to_work ?work ;
+              cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/ENG> ;
+              cdm:expression_title ?title .
+      }
+      ORDER BY DESC(?date)
+      LIMIT 80
+    velden:
+      titel: "{title}"
+      url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:{celex}"
+      datum: date
+    filter: false
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    site: https://eur-lex.europa.eu/
+    toelichting: >-
+      Uitvoeringshandelingen en andere besluiten die op de eIDAS-verordening (zoals
+      gewijzigd door 2024/1183) zijn gebaseerd: de technische regels voor wallets en
+      vertrouwensdiensten, waaronder QERDS.
+
+  - id: eurlex-titels
+    naam: "EUR-Lex – documenten over wallets"
+    categorie: eu-wetgeving
+    type: sparql
+    url: https://publications.europa.eu/webapi/rdf/sparql
+    dagen_terug: 540
+    query: |
+      PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+      SELECT DISTINCT ?celex ?date ?title WHERE {
+        ?work cdm:resource_legal_id_celex ?celex ;
+              cdm:work_date_document ?date .
+        FILTER(?date >= "{since}"^^xsd:date)
+        ?expr cdm:expression_belongs_to_work ?work ;
+              cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/ENG> ;
+              cdm:expression_title ?title .
+        FILTER(CONTAINS(LCASE(STR(?title)), "business wallet") ||
+               CONTAINS(LCASE(STR(?title)), "digital identity wallet"))
+      }
+      ORDER BY DESC(?date)
+      LIMIT 80
+    velden:
+      titel: "{title}"
+      url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:{celex}"
+      datum: date
+    filter: false
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    site: https://eur-lex.europa.eu/
+    toelichting: >-
+      Voorstellen, verordeningen en werkdocumenten met "business wallet" of "digital
+      identity wallet" in de titel, zoals COM(2025) 838.
+
+  # --- Europees Parlement -------------------------------------------------------
+  - id: ep-persberichten
+    naam: "Europees Parlement – persberichten"
+    categorie: eu-parlement
+    type: feed
+    url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml
+    filter: true
+    prioriteit: 1
+    site: https://www.europarl.europa.eu/news/en/press-room
+    toelichting: >-
+      Persberichten van het Parlement, onder meer over stemmingen in de ITRE-commissie en
+      de plenaire vergadering en over de start of uitkomst van trilogen.
+
+  - id: ep-think-tank
+    naam: "Europees Parlement – Think Tank (EPRS)"
+    categorie: eu-parlement
+    type: feed
+    url: https://epthinktank.eu/feed/
+    filter: true
+    prioriteit: 2
+    site: https://www.europarl.europa.eu/thinktank/en/home
+    toelichting: >-
+      Briefings en analyses van de onderzoeksdienst van het Parlement, zoals de briefing
+      "European business wallets" (EPRS_BRI(2025)774703).
+
+  - id: ep-legislative-train-ebw
+    naam: "Europees Parlement – Legislative Train: European business wallets"
+    categorie: eu-parlement
+    type: pagewatch
+    url: https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet
+    selector: main
+    titel: Legislative Train – European business wallets
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    toelichting: >-
+      Overzicht van de stand van het EBW-dossier (procedure 2025/0358(COD)) volgens het
+      Parlement. Elke wijziging, zoals een nieuwe stap of een triloog, wordt gemeld.
+
+  - id: ep-oeil-ebw
+    naam: "Europees Parlement – Legislative Observatory 2025/0358(COD)"
+    categorie: eu-parlement
+    type: pagewatch
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)
+    selector: main
+    titel: Procedurefiche 2025/0358(COD) – European business wallets
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    toelichting: >-
+      Officiële procedurefiche met alle stappen en documenten in het wetgevingsproces
+      van de EBW-verordening.
+
+  # --- Raad van de EU -----------------------------------------------------------
+  - id: raad-persberichten
+    naam: "Raad van de EU – persberichten"
+    categorie: eu-raad
+    type: feed
+    url: https://www.consilium.europa.eu/en/rss/pressreleases.ashx
+    filter: true
+    prioriteit: 1
+    site: https://www.consilium.europa.eu/en/press/press-releases/
+    toelichting: >-
+      Persberichten van de Raad, zoals de onderhandelingspositie over de EBW van
+      9 juni 2026 en uitkomsten van de Telecomraad.
+
+  # --- Large Scale Pilots --------------------------------------------------------
+  - id: we-build
+    naam: "WE BUILD – Large Scale Pilot voor business wallets"
+    categorie: pilots
+    type: html
+    url: https://www.webuildconsortium.eu/news
+    link_patroon: "/news/[^/?#]+/?$"
+    detail: true
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    toelichting: >-
+      Consortium van meer dan 180 organisaties dat de EUDI Wallet en business wallets test
+      in B2B-, B2G- en B2C-processen. Publiceert ook duidingen van het wetgevingsproces.
+
+  - id: aptitude
+    naam: "APTITUDE – Large Scale Pilot (reizen en betalen)"
+    categorie: pilots
+    type: html
+    url: https://aptitude.digital-identity-wallet.eu/news/
+    link_patroon: "/news/[^/?#]+/?$"
+    detail: true
+    standaard_onderwerp: eudi
+    prioriteit: 2
+    toelichting: >-
+      Tweede Large Scale Pilot (onder leiding van Frankrijk) met use cases voor reizen,
+      ticketing, voertuigregistratie en betalen.
+
+  # --- Techniek & standaarden ----------------------------------------------------
+  - id: github-arf
+    naam: "EUDI Wallet – Architecture and Reference Framework (releases)"
+    categorie: techniek
+    type: feed
+    url: https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases.atom
+    titel_prefix: "ARF-release: "
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    site: https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework
+    toelichting: >-
+      Nieuwe versies van het Architecture and Reference Framework, het technische
+      raamwerk van de Commissie voor EUDI Wallets.
+
+  - id: github-eudi-specificaties
+    naam: "EUDI Wallet – technische specificaties (releases)"
+    categorie: techniek
+    type: feed
+    url: https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/releases.atom
+    titel_prefix: "Technische specificaties: "
+    standaard_onderwerp: eudi
+    prioriteit: 2
+    site: https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications
+    toelichting: >-
+      Releases van de technische specificaties die bij het ARF horen.
+
+  - id: etsi-nieuws
+    naam: "ETSI – nieuws"
+    categorie: techniek
+    type: feed
+    url: https://www.etsi.org/newsroom/news?format=feed&type=rss
+    filter: true
+    prioriteit: 2
+    site: https://www.etsi.org/newsroom/news
+    toelichting: >-
+      Europese normalisatie-instelling; ETSI ESI maakt de normen voor
+      vertrouwensdiensten en (gekwalificeerde) elektronische aangetekende bezorging.
+
+  # --- Nederlandse overheid ------------------------------------------------------
+  - id: digitale-overheid
+    naam: "Digitale Overheid (BZK) – nieuws"
+    categorie: nl-overheid
+    type: feed
+    url: https://www.digitaleoverheid.nl/feed/
+    filter: true
+    prioriteit: 1
+    site: https://www.digitaleoverheid.nl/nieuws/
+    toelichting: >-
+      Nieuws over de Nederlandse digitale overheid, waaronder het EDI-stelsel, de
+      NL Wallet, eHerkenning en de Berichtenbox voor bedrijven.
+
+  - id: rijksoverheid-digitale-overheid
+    naam: "Rijksoverheid – onderwerp Digitale overheid (nieuws)"
+    categorie: nl-overheid
+    type: feed
+    url: https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/nieuws.rss
+    filter: true
+    prioriteit: 2
+    site: https://www.rijksoverheid.nl/onderwerpen/digitale-overheid
+    toelichting: Nieuws van de ministeries over de digitale overheid.
+
+  - id: rijksoverheid-digitale-overheid-documenten
+    naam: "Rijksoverheid – onderwerp Digitale overheid (documenten)"
+    categorie: nl-overheid
+    type: feed
+    url: https://feeds.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten.rss
+    filter: true
+    prioriteit: 1
+    site: https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/documenten
+    toelichting: >-
+      Kamerbrieven, rapporten en BNC-fiches, zoals fiche 3 over de Verordening Europese
+      Business Wallet.
+
+  - id: tweede-kamer
+    naam: "Tweede Kamer – Kamerstukken (open data)"
+    categorie: nl-overheid
+    type: json
+    url: https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document
+    params:
+      $filter: >-
+        Verwijderd eq false and (contains(Titel,'wallet') or contains(Onderwerp,'wallet')
+        or contains(Titel,'Wallet') or contains(Onderwerp,'Wallet')
+        or contains(Onderwerp,'eIDAS') or contains(Onderwerp,'MijnOverheid Zakelijk')
+        or contains(Onderwerp,'digitale identiteit') or contains(Onderwerp,'portemonnees voor ondernemingen'))
+      $orderby: Datum desc
+      $top: 40
+    items: value
+    velden:
+      titel: "{Soort}: {Onderwerp}"
+      url: "https://www.tweedekamer.nl/downloads/document?id={DocumentNummer}"
+      datum: Datum
+      samenvatting: Titel
+    filter: true
+    prioriteit: 1
+    site: https://www.tweedekamer.nl/kamerstukken
+    toelichting: >-
+      Kamerbrieven, verslagen en moties over wallets, eIDAS en MijnOverheid Zakelijk via de
+      open-data-API van de Tweede Kamer.
+
+  - id: officiele-bekendmakingen
+    naam: "Officiële bekendmakingen – Kamerstukken en Staatscourant"
+    categorie: nl-overheid
+    type: sru
+    url: https://repository.overheid.nl/sru
+    query: >-
+      c.product-area==officielepublicaties and (cql.textAndIndexes="business wallet"
+      or cql.textAndIndexes="EDI-wallet" or cql.textAndIndexes="eIDAS"
+      or cql.textAndIndexes="MijnOverheid Zakelijk")
+    max: 40
+    filter: true
+    prioriteit: 2
+    site: https://zoek.officielebekendmakingen.nl/
+    toelichting: >-
+      Officiële publicaties van de rijksoverheid (Kamerstukken, Staatscourant) via de
+      SRU-zoekdienst van KOOP.
+
+  - id: eerste-kamer-ebw
+    naam: "Eerste Kamer – EU-dossier E260004 (European Business Wallets)"
+    categorie: nl-overheid
+    type: pagewatch
+    url: https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een
+    selector: "#main_content, main, #content"
+    titel: Eerste Kamer – dossier E260004 European Business Wallets
+    standaard_onderwerp: ebw
+    prioriteit: 1
+    toelichting: >-
+      Het Eerste Kamer-dossier over het EBW-voorstel met de Nederlandse stukken, zoals het
+      BNC-fiche en de behandeling in de commissie.
+
+  - id: nl-wallet
+    naam: "NL Wallet – releases (MinBZK)"
+    categorie: nl-overheid
+    type: feed
+    url: https://github.com/MinBZK/nl-wallet/releases.atom
+    titel_prefix: "NL Wallet: "
+    standaard_onderwerp: eudi
+    prioriteit: 2
+    site: https://github.com/MinBZK/nl-wallet
+    toelichting: Nieuwe versies van de Nederlandse EUDI-wallet (NL Wallet).
+
+  # --- MijnOverheid Zakelijk -----------------------------------------------------
+  - id: moza-actueel
+    naam: "MijnOverheid Zakelijk – Actueel"
+    categorie: nl-moza
+    type: html
+    url: https://mijnoverheidzakelijk.nl/actueel/
+    link_patroon: "/actueel/.+"
+    detail: true
+    filter: true
+    prioriteit: 1
+    toelichting: >-
+      Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten over wallets,
+      eIDAS, eHerkenning of berichtenverkeer komen in de nieuwsbrief.
+
+  - id: moza-github
+    naam: "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)"
+    categorie: nl-moza
+    type: json
+    url: https://api.github.com/search/issues
+    params:
+      q: "repo:MinBZK/MijnOverheidZakelijk wallet OR EBW OR EUDI OR eIDAS OR QERDS"
+      sort: created
+      order: desc
+      per_page: 30
+    items: items
+    velden:
+      titel: "MOZa-issue: {title}"
+      url: "{html_url}"
+      datum: created_at
+      samenvatting: body
+    filter: false
+    standaard_onderwerp: eudi
+    prioriteit: 2
+    site: https://github.com/MinBZK/MijnOverheidZakelijk
+    toelichting: >-
+      MOZa wordt open ontwikkeld. Issues over wallets laten zien wat het team
+      daadwerkelijk bouwt of onderzoekt, zoals de NL Wallet-integratie in de proef.
+
+  # --- Media (secundair, standaard uit) -------------------------------------------
+  - id: biometric-update
+    naam: "Biometric Update – digital identity"
+    categorie: media
+    type: feed
+    url: https://www.biometricupdate.com/feed
+    filter: true
+    prioriteit: 3
+    actief: false
+    toelichting: >-
+      Vakmedium met veel EUDI-nieuws. Staat standaard uit omdat de nieuwsbrief zich op
+      officiële bronnen richt; zet `actief: true` om hem mee te nemen.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sru:searchRetrieveResponse xmlns:sru="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:gzd="http://standaarden.overheid.nl/sru" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:overheidwetgeving="http://standaarden.overheid.nl/wetgeving/">
+ <sru:numberOfRecords>1</sru:numberOfRecords>
+ <sru:records>
+  <sru:record>
+   <sru:recordData>
+    <gzd:gzd>
+     <gzd:originalData>
+      <overheidwetgeving:meta>
+       <owmskern xmlns="http://standaarden.overheid.nl/owms/terms/">
+        <dcterms:identifier>kst-22112-4100</dcterms:identifier>
+        <dcterms:title>Fiche: Verordening Europese Business Wallet</dcterms:title>
+        <dcterms:type>Kamerstuk</dcterms:type>
+        <dcterms:modified>2026-01-20</dcterms:modified>
+       </owmskern>
+       <owmsmantel xmlns="http://standaarden.overheid.nl/owms/terms/">
+        <dcterms:available>2026-01-16</dcterms:available>
+       </owmsmantel>
+      </overheidwetgeving:meta>
+     </gzd:originalData>
+     <gzd:enrichedData>
+      <gzd:url>https://repository.overheid.nl/frbr/officielepublicaties/kst/22112/kst-22112-4100/1/xml/kst-22112-4100.xml</gzd:url>
+      <gzd:preferredUrl>https://zoek.officielebekendmakingen.nl/kst-22112-4100.html</gzd:preferredUrl>
+     </gzd:enrichedData>
+    </gzd:gzd>
+   </sru:recordData>
+  </sru:record>
+ </sru:records>
+</sru:searchRetrieveResponse>

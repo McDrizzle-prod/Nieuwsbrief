@@ -1,0 +1,101 @@
+# Achtergrond voor de nieuwsbrief: dossierstatus en de verhouding tot MijnOverheid Zakelijk.
+#
+# Deze teksten worden niet gescraped maar handmatig bijgehouden. Pas ze aan als het
+# dossier een nieuwe stap zet (de nieuwsbrief meldt zulke stappen via de bronnen).
+# Datums in de vorm JJJJ-MM-DD; gebruik `datum_tekst` als alleen een maand bekend is.
+
+bijgewerkt: 2026-10-05
+
+dossiers:
+  - id: ebw
+    titel: European Business Wallet
+    subtitel: Verordening tot instelling van Europese business wallets – COM(2025) 838, procedure 2025/0358(COD)
+    status: Parlement en Raad hebben hun positie bepaald; trilogen zijn de volgende stap.
+    mijlpalen:
+      - datum: 2025-11-19
+        tekst: Commissie publiceert het voorstel COM(2025) 838 als onderdeel van het digitale pakket.
+        bron: https://digital-strategy.ec.europa.eu/en/news/commission-proposes-european-business-wallets-simplify-business-operations-and-enhance
+      - datum: 2025-12-05
+        tekst: Eerste beleidsdebat over het voorstel in de Telecomraad.
+      - datum_tekst: begin 2026
+        tekst: Kabinet stuurt BNC-fiche 3 'Verordening Europese Business Wallet' aan de Kamers; wil gebruik vrijwillig houden voor ondernemers en wijst op uitvoeringskosten voor overheden.
+        bron: https://www.rijksoverheid.nl/documenten/publicaties/2025/11/19/fiche-3-verordening-europese-business-wallet
+      - datum_tekst: maart 2026
+        tekst: Rapporteur Eero Heinäluoma (S&D, FI) presenteert het ontwerpverslag in de ITRE-commissie.
+        bron: https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-european-business-wallet
+      - datum: 2026-06-09
+        tekst: Raad stelt zijn onderhandelingspositie vast; de acceptatieplicht voor overheden gaat pas lopen na de laatste uitvoeringshandeling.
+        bron: https://www.consilium.europa.eu/en/press/press-releases/2026/06/09/european-business-wallets-council-adopts-negotiating-position/
+      - datum: 2026-09-10
+        tekst: ITRE stemt in met het verslag (64 voor, 7 tegen, 4 onthoudingen) en met de start van onderhandelingen met de Raad (65–9–1). Het Parlement wil onder meer strengere eisen aan digitale soevereiniteit.
+      - datum_tekst: volgende stap
+        tekst: Aankondiging van het mandaat in de plenaire vergadering, daarna trilogen tussen Parlement, Raad en Commissie.
+        verwacht: true
+
+  - id: eudi
+    titel: EUDI Wallet (eIDAS 2.0)
+    subtitel: Verordening (EU) 2024/1183 tot wijziging van eIDAS (910/2014)
+    status: Uitvoeringshandelingen zijn vastgesteld; lidstaten leveren hun wallets in 2026 op.
+    mijlpalen:
+      - datum: 2024-05-20
+        tekst: Verordening (EU) 2024/1183 (eIDAS 2.0) treedt in werking.
+        bron: https://eur-lex.europa.eu/eli/reg/2024/1183/oj
+      - datum_tekst: november 2024
+        tekst: Commissie stelt de eerste uitvoeringsverordeningen voor wallets vast (o.a. kernfunctionaliteiten, PID en attestaties, protocollen, meldingen, certificering).
+        bron: https://digital-strategy.ec.europa.eu/en/news/commission-adopts-technical-standards-cross-border-european-digital-identity-wallets
+      - datum_tekst: eind 2026
+        tekst: Elke lidstaat moet ten minste één EUDI Wallet aanbieden; in Nederland is dat de NL Wallet.
+        verwacht: true
+      - datum_tekst: eind 2027
+        tekst: Private partijen die wettelijk sterke authenticatie moeten toepassen (zoals banken) moeten de wallet accepteren.
+        verwacht: true
+
+moza:
+  titel: Wat betekent dit voor MijnOverheid Zakelijk?
+  inleiding: >-
+    MijnOverheid Zakelijk (MOZa) bundelt de communicatie tussen overheid en ondernemers in
+    één omgeving: een portaal, de Berichtenbox voor bedrijven, een notificatiedienst, een
+    profielservice en een digitale assistent. De EUDI Wallet en vooral de European Business
+    Wallet gaan over dezelfde interacties: inloggen en vertegenwoordigen, berichten en
+    documenten uitwisselen en gegevens delen. Het EBW-voorstel verplicht overheden de
+    business wallet daarvoor te accepteren, ook voor het verzenden en ontvangen van
+    documenten en notificaties. Ondernemers zijn niet verplicht een wallet te gebruiken.
+  kernvragen:
+    - vraag: Berichtenverkeer
+      tekst: >-
+        Wordt de Berichtenbox voor bedrijven (of de Notificatiedienst) het punt waar de
+        Nederlandse overheid berichten aflevert in, en ontvangt uit, business wallets? Of
+        komt er een aparte QERDS-voorziening waar MOZa op aansluit?
+    - vraag: Inloggen en vertegenwoordiging
+      tekst: >-
+        Welke middelen moet het MOZa-portaal accepteren naast eHerkenning: de NL Wallet
+        voor medewerkers en vertegenwoordigers, de EBW voor de organisatie zelf? En hoe
+        verhouden machtigingen in eHerkenning zich tot vertegenwoordigingsbevoegdheden in
+        de EBW? MOZa test de NL Wallet al in de eigen proefomgeving.
+      bron: https://github.com/MinBZK/MijnOverheidZakelijk/issues/1100
+    - vraag: Gegevens en attestaties
+      tekst: >-
+        Kan MOZa geverifieerde bedrijfsgegevens uit een wallet gebruiken (bijv. KVK-
+        inschrijving, btw-nummer, vergunningen) of er zelf in plaatsen, zoals besluiten?
+        Dat raakt de Profielservice en de eenmalige gegevensuitvraag.
+    - vraag: Planning
+      tekst: >-
+        Het Commissievoorstel geeft overheden 24 maanden na inwerkingtreding om business
+        wallets te accepteren. De Raad wil die termijn laten ingaan twee jaar na de laatste
+        uitvoeringshandeling. De uitkomst van de trilogen bepaalt dus de deadline voor de
+        MOZa-roadmap.
+    - vraag: Standaarden en leveranciers
+      tekst: >-
+        De uitvoeringshandelingen bepalen protocollen (OpenID4VC, QERDS-normen van ETSI) en
+        eisen aan leveranciers, zoals de wens van het Parlement om aanbieders uit derde
+        landen uit te sluiten. MOZa-componenten die met wallets praten, moeten daarop
+        aansluiten.
+  bronnen:
+    - naam: MijnOverheid Zakelijk
+      url: https://mijnoverheidzakelijk.nl/
+    - naam: BNC-fiche 3 – Verordening Europese Business Wallet
+      url: https://www.rijksoverheid.nl/documenten/publicaties/2025/11/19/fiche-3-verordening-europese-business-wallet
+    - naam: EPRS-briefing European business wallets
+      url: https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/774703/EPRS_BRI(2025)774703_EN.pdf
+    - naam: Berichtenbox voor bedrijven (Digitale Overheid)
+      url: https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/berichtenbox-voor-bedrijven/
