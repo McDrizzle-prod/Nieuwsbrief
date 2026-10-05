@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T09:31:10Z",
+ "generated": "2026-10-05T09:32:45Z",
  "items": [
   {
    "id": "aa37e33533c44115",
@@ -107,6 +107,74 @@
    "date": "2026-10-05"
   },
   {
+   "id": "99926ccae868cd97",
+   "title": "Latvia presents Aptitude’s role in EUDI Wallet cross-border testing",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/latvia-presents-aptitudes-role-in-eudi-wallet-cross-border-testing/",
+   "summary": "On 10 September 2026, representatives of Latvia’s Ministry of Smart Administration and Regional Development participated in the SK ID Solutions Developer Breakfast 2026, bringing together digital identity experts, technology companies and public-sector representatives. During the panel discussion “Digital Identity Wallets in the Baltics: Where Are We Today and Where Will We Be in 2027?” participants …",
+   "published": "2026-09-30T11:17:39Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallets",
+     "EUDI",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "representatives"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-30"
+  },
+  {
+   "id": "ac6fe5e2140497f2",
+   "title": "Aptitude shares Digital Travel Credential testing experience at ICAO TRIP 2026 Symposium in Montréal",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-icao-trip-2026-symposium/",
+   "summary": "Aptitude brought its work on Digital Travel Credentials (DTC) to the 21st ICAO Traveller Identification Programme (TRIP) Symposium, held in Montréal from 22–24 September 2026. Florent Tournois, Director of Identity, Trust Services and Production, Identity Programme, represented Aptitude in the session “DTC Fundamentals from Concept to Deployment”, sharing the work of France Identité and Aptitude …",
+   "published": "2026-09-29T07:45:57Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "vertrouwensdiensten": [
+     "Trust Services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Identification"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Credential"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-29"
+  },
+  {
    "id": "20bfce5db06d7aef",
    "title": "MOZa-issue: flow/ architectuur plaat voor wallets",
    "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1183",
@@ -169,6 +237,65 @@
    "score": 3,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-24"
+  },
+  {
+   "id": "a0b3bfcb72be514c",
+   "title": "MOZa Weekly 23 september 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-23-september-2026/",
+   "summary": "Algemeen Teamdag: het hele team kwam een dag bij elkaar. We keken terug en maakten plannen voor de komende vier maanden, van oktober 2026 tot en met januari 2027. Ook spraken we af waar we wel en (nu nog) niet van zijn. Collega’s uit het regieteam sloten aan het einde aan en gaven hun eerste feedback. In de volgende weekly delen we de plannen. Op weg naar de stuurgroep: we werkten aan de stukken voor de stuurgroep van 25 september. Daar hoort ook het plan voor fase 5 bij, dat we tijdens de teamdag in grote lijnen hebben neergezet. Een ander groot punt is de planning van de notificatiedienst …",
+   "published": "2026-09-23T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS",
+     "NL Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Authorization",
+      "eHerkenning",
+      "Inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Handelsregister",
+      "KVK",
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 11,
+   "fragment": "Wallet in de proeftuin: we voegen de NL Wallet toe aan de MOZa proeftuin. … Ook kijken we hoe de Yivi Business Wallet zich daartoe verhoudt, en hoe we dit goed vormgeven voor de gebruiker. … Met een deel van het team waren we bij het symposium over de European Business Wallet .",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-23"
   },
   {
    "id": "0c5852d3db8c4e59",
@@ -354,6 +481,45 @@
    "date": "2026-09-17"
   },
   {
+   "id": "2bfa4ed39df96cae",
+   "title": "Aptitude at GDC26: advancing interoperable digital identity across Europe",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-gdc26-advancing-interoperable-digital-identity-across-europe/",
+   "summary": "The Global Digital Collaboration Conference 2026 (GDC26) brought together more than 2.000 participants in Geneva from 1-3 September, connecting governments, international organisations, standardisation bodies, technology companies and digital ecosystem stakeholders around the future of digital identity, trust and interoperability. Aptitude participated in GDC26 alongside WE BUILD Consortium, contributing experience from Europe’s EUDI Wallet Large-Scale Pilots …",
+   "published": "2026-09-16T08:29:08Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperable",
+      "standardisation"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "Large-Scale Pilots",
+      "Pilots",
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-16"
+  },
+  {
    "id": "2c67b6b68719c65f",
    "title": "MOZa-issue: proef - inlog - NL wallet / EDI wallet integratie",
    "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1100",
@@ -451,6 +617,59 @@
    "date": "2026-09-14"
   },
   {
+   "id": "1803b5a0b91bcf84",
+   "title": "MOZa Weekly 10 september 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-september-2026/",
+   "summary": "Algemeen Prioriteiten MijnOverheid: in het Routekaartoverleg van MijnOverheid bepaalden we samen met de betrokken organisaties de prioriteiten van Logius voor de komende periode. Daarin kreeg onder andere de voorbereiding van een portaal voor zakelijke gebruikers op MijnOverheid een hoge prioriteit. Het ritme van MOZa: vooruitkijkend naar 2027 hebben we nagedacht over de governancestructuur van MOZa en de overlegritmes die daarbij horen. Samen met de koplopers werken we dit uit. MOZa Regieteam: ook Gemeente Amsterdam neemt vanaf nu deel aan het MOZa Regieteam. Vanuit onze werkgroepen werkten …",
+   "published": "2026-09-10T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 11,
+   "fragment": "European Business Wallet Gesprek met Nijmegen: we spraken met de gemeente Nijmegen, Gebruiker Centraal en een leverancier over de business wallet. … Kennis opdoen: als we zelf een business wallet willen opstarten, kunnen we kijken naar de Yivi business wallet . … PI Event - 16 & 17 september Digilab meetup - 17 september Symposium De European Business Wallet - 22 september Technische briefing European Business Wallet en eIDAS-verordening - 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september …",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-10"
+  },
+  {
    "id": "e9010276bb27647a",
    "title": "Europees Parlement, European business wallets: commissie stelt verslag vast (ITRE)",
    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEC-ADCP-2026-09-10",
@@ -500,6 +719,86 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-08"
+  },
+  {
+   "id": "8b2614d029647b53",
+   "title": "MOZa Weekly 3 september 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-3-september-2026/",
+   "summary": "Algemeen De Weekly is terug: na de zomerstop pakken we de wekelijkse update weer op. Deze editie kijkt terug op augustus. Visualisatie van de online dienstverlening: we sloten aan bij een visualisatiesessie over de overheidsbrede online dienstverlening. De visualisatie neemt collega’s mee in de strategie en is bedoeld als toegankelijker alternatief voor een beleidsstuk. Templates voor ons werk: we maken voortaan onderscheid tussen analyses en functionele beschrijvingen, en maakten daar templates voor. Ook voor stories ligt er nu een template. We gaan uitproberen wat goed werkt en wat past bij …",
+   "published": "2026-09-03T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "eIDAS"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "pilot"
+     ]
+    },
+    {
+     "thema": "soevereiniteit",
+     "termen": [
+      "AVG"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 11,
+   "fragment": "… op 15 september Digilab meetup - 17 september Symposium De European Business Wallet - 22 september Technische briefing European Business Wallet en eIDAS-verordening - 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september …",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "f03f5856e108733d",
+   "title": "Poland’s contribution to Aptitude: COI shares insights into the development of EUDI Wallet solutions",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/polands-contribution-to-aptitude-coi/",
+   "summary": "A series of interviews developed by Poland’s Centre for Information Technology (COI), offers an inside look at the development of solutions for the European Digital Identity Wallet through Aptitude. The series brings together the perspectives of Małgorzata Bobrowska, Head of the Aptitude project at COI; Elżbieta Wójtowicz, Aptitude WP5 Leader and mVRC Area Leader; and …",
+   "published": "2026-09-01T07:40:26Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDI",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-09-01"
   },
   {
    "id": "b8f4267a7510d904",
@@ -637,6 +936,32 @@
    "date": "2026-08-28"
   },
   {
+   "id": "3069c2ae71470c60",
+   "title": "Aptitude at the Global Digital Collaboration Conference 2026",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-gdc-2026/",
+   "summary": "The Global Digital Collaboration Conference 2026 (GDC26) will take place on 1-3 September 2026 in Geneva, Switzerland, bringing together stakeholders from governments, industry and the wider digital ecosystem to explore collaboration, interoperability and the future of digital technologies. Aptitude will be represented throughout the conference by Florent Tournois, Aptitude Project Coordinator; Philippe Nieto, Aptitude Deputy …",
+   "published": "2026-08-27T08:44:45Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperability"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-08-27"
+  },
+  {
    "id": "e0559d2d75d02a3e",
    "title": "Convocatie commissieactiviteit: Herziene convocatie rondetafelgesprek over de European Business Wallet en eIDAS-verordening - 10 september 2026",
    "url": "https://www.tweedekamer.nl/downloads/document?id=2026D31107",
@@ -771,6 +1096,32 @@
    "date": "2026-08-11"
   },
   {
+   "id": "b981074d314efb6d",
+   "title": "Aptitude invites stakeholders to join the mVRC Observer Board",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/mvrc-observer-board-invitation/",
+   "summary": "The Aptitude WP5 Leaders are pleased to invite interested stakeholders to join the mVRC Observer Board, which will take place online on 31 August 2026, from 13:00 to 14:00 CET, via Microsoft Teams. The purpose of the session is to provide an update on the status of the mobile Vehicle Registration Certificate (mVRC) within the …",
+   "published": "2026-08-06T08:34:35Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Certificate"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-08-06"
+  },
+  {
    "id": "287ec2b6ba84193e",
    "title": "WE BUILD joins Global Digital Collaboration 2026: discover our sessions",
    "url": "https://www.webuildconsortium.eu/news/we-build-joins-global-digital-collaboration-2026-discover-our-sessions",
@@ -830,6 +1181,51 @@
    "date": "2026-08-04"
   },
   {
+   "id": "65083ffc705710c9",
+   "title": "MOZa Weekly 29 juli 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-29-juli-2026/",
+   "summary": "Algemeen Vakantieperiode: het is zomer en een deel van het team is met vakantie. Sommige onderwerpen blijven daardoor even liggen. Zo ook deze wekelijkse update. Eind augustus verschijnt er weer een nieuwe. Logius vertelt over de samenwerking: eerder meldden we al dat Logius de intentieverklaring heeft getekend. Logius publiceerde hier nu een nieuwsbericht over. Een mooie manier om de samenwerking aandacht te geven. Sprint 6 afgerond, sprint 7 gestart: we rondden sprint 6 goed af en namen weinig werk mee naar de volgende ronde. In sprint 7 gaan we verder met onder andere een uitbreiding van …",
+   "published": "2026-07-29T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "Notificatie"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "eHerkenning",
+      "Inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Once-Only"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… Evenementen Common Ground Fieldlab - 14 & 15 september Symposium De European Business Wallet - 22 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-29"
+  },
+  {
    "id": "58dc5de719c23c21",
    "title": "ARF-release: v3.0.0",
    "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v3.0.0",
@@ -881,6 +1277,57 @@
    "score": 8,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-07-23"
+  },
+  {
+   "id": "70e3b913f61ba597",
+   "title": "MOZa Weekly 22 juli 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-22-juli-2026/",
+   "summary": "Algemeen Stuurgroep met demo van de notificatieketen: in de stuurgroep van 16 juli lieten we een demo zien met een fictieve applicatie bij een dienstverlener: een zaaksysteem voor vergaderstukken dat uitnodigingen verstuurt. Toen we op verzenden drukten, liep de hele keten. Vanuit het systeem van de dienstverlener ging het bericht naar het Notificatie Management Component (NMC), langs de profieldienst voor het e-mailadres, en via NotifyNL naar de mailbox van de stuurgroep. De applicatie kon daarna de bezorgstatus uitlezen. Componentenoverzicht en scenario’s rondom berichten: aan de hand van …",
+   "published": "2026-07-22T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "mailbox",
+      "notificatieketen"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… Stuurgroep - 25 september Evenementen Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-22"
   },
   {
    "id": "5bfca362bf7c1e29",
@@ -957,6 +1404,53 @@
    "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-07-16"
+  },
+  {
+   "id": "6989d9ecbe87e879",
+   "title": "MOZa Weekly 15 juli 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-15-juli-2026/",
+   "summary": "Algemeen Actualiteitenservice gedocumenteerd: we voegden de actualiteitenservice toe aan de onderwerpen op deze site. Op de pagina lees je wat de service beoogt te doen, wat we bouwden en testten, en waarom we de verdere ontwikkeling nu pauzeren. Ook van werk dat we bewust stilzetten delen we zo de lessen. Componentenoverzicht notificatie- en profieldienst: met dit componentenoverzicht geven we inzicht in de stand van zaken van de componenten die onderdeel uitmaken van de notificatie- en profieldienst. Daarbij ook specifiek aandacht voor de uitdagingen waar we tegen aanlopen, de risico’s en …",
+   "published": "2026-07-15T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "notificatie-"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G",
+      "Proef",
+      "use case"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… afsluiter met MOZa regieteam) Evenementen Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-15"
   },
   {
    "id": "326f6490552a6d65",
@@ -1055,6 +1549,129 @@
    "date": "2026-07-15"
   },
   {
+   "id": "37cb16cff8769b74",
+   "title": "Aptitude at EUDIW Unfold #4: From Preparation to Deployment",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-eudiw-unfold-4-from-preparation-to-deployment/",
+   "summary": "EUDIW Unfold #4 – Ecosystem, organised by France Identité, took place on Wednesday, 8 July 2026, at Le Forum in Issy-les-Moulineaux, France, in hybrid format, bringing together actors from across the European Digital Identity Wallet ecosystem. The event focused on the transition from preparation to execution, as technical specifications continue to mature, national wallet roadmaps …",
+   "published": "2026-07-13T08:39:05Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDIW",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "technical specifications"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-13"
+  },
+  {
+   "id": "075b2cd4da76d40f",
+   "title": "MOZa Weekly 8 juli 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-8-juli-2026/",
+   "summary": "Algemeen Statusoverzicht van bouwblokken: we werken aan een overzicht van bouwblokken waar we momenteel aan werken, voor de Wet modernisering elektronisch bestuurlijk verkeer (WMEBV). Dit overzicht volgt de architectuur en laat per bouwblok zien welk team eraan werkt, wat de gewenste planning is en wat de uitdagingen zijn. We zoeken daarbij nog naar een vorm om dit ook publiek te delen. MOZa Regieteam: in het regieteam bespraken we de stand van zaken van de bouwblokken aan de hand van het statusoverzicht. We spraken onder andere over hoe we samen met andere organisaties verder werken: met …",
+   "published": "2026-07-08T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "mailbox",
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Once-Only"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Interoperable"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G",
+      "proef"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… Hackathon Transparantie App - 9 & 10 juli Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-08"
+  },
+  {
+   "id": "433bb6f0c42eb601",
+   "title": "Aptitude Joins EUDI ON 2026 – The EUDI Wallet Summit for Digital Innovators",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-joins-eudi-on-2026/",
+   "summary": "EUDI ON 2026, held on 25 June 2026 at Cafe Moskau in Berlin and online, brought together more than 400 representatives from the international digital identity community to exchange on the next steps towards a European ecosystem for digital identities. The event focused on the current progress of the German EUDI Wallet project, including practical …",
+   "published": "2026-07-07T06:33:01Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "representatives"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-07"
+  },
+  {
    "id": "8b0be10f7d40422d",
    "title": "Convocatie commissieactiviteit: Convocatie technische briefing over de European Business Wallet en eIDAS-verordening - 23 september 2026 van 16 tot 17 uur",
    "url": "https://www.tweedekamer.nl/downloads/document?id=2026D31110",
@@ -1080,6 +1697,78 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-07-02"
+  },
+  {
+   "id": "c9b34c5e01578d21",
+   "title": "Aptitude at DICE 2026: Government Wallet Rollout in Focus",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-dice-2026-government-wallet-rollout-in-focus/",
+   "summary": "Aptitude took part in DICE 2026 in Copenhagen, from 22 to 24 June 2026, joining the European digital identity community for discussions on the infrastructure, policy and practical deployment challenges shaping the future of digital identity across Europe. The 4th Digital Identity unConference Europe combined a European-focused identity programme with two days of Open Space …",
+   "published": "2026-07-01T11:03:47Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "European digital identity"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-01"
+  },
+  {
+   "id": "dad330da293cd6e2",
+   "title": "MOZa Weekly 1 juli 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-1-juli-2026/",
+   "summary": "Algemeen Ondernemer in zwaar weer: we maakten kennis met de collega’s die werken aan de levensgebeurtenis “de ondernemer in zwaar weer”. Uit het werk dat daar is verzet komen herkenbare patronen. Gegevensuitwisseling is hier een groot thema, zodat ondernemers niet steeds dezelfde informatie hoeven aan te leveren als zij doorgaan naar het volgende loket. We verkennen de komende tijd hoe we kunnen samenwerken. Start van werksessies: in recente gesprekken met onze stakeholders merken we dat nog niet iedereen een volledig beeld heeft van wat MOZa doet. Er zijn veel begripsvragen, die we met …",
+   "published": "2026-07-01T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Berichtenbox",
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Gegevensuitwisseling",
+      "handelsregister",
+      "KVK",
+      "Once-Only",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "aanbesteding",
+      "B2G"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… Hackathon Transparantie App - 9 & 10 juli Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-07-01"
   },
   {
    "id": "d6546f3834a0d4ec",
@@ -1146,6 +1835,335 @@
    "date": "2026-06-26"
   },
   {
+   "id": "00f2e647e4c79d5d",
+   "title": "Estonia Launches Procurement for EU Digital Identity Wallet Service Provider",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/estonia-eudi-wallet-procurement/",
+   "summary": "The Estonian Information System Authority (RIA) has launched a public procurement to find a partner to develop and provide the EU Digital Identity Wallet in Estonia. With the application deadline set for 29 June 2026, eligible companies are invited to submit their applications before the deadline. The procurement seeks a comprehensive solution that will enable …",
+   "published": "2026-06-25T06:30:04Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "deadline"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "public procurement"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-25"
+  },
+  {
+   "id": "ddc2c83656be8ae9",
+   "title": "MOZa Weekly 24 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-24-juni-2026/",
+   "summary": "Algemeen MOZa Pulse: tijdens deze editie gaven we een update over de notificatiedienst en lichtten we die toe aan de hand van de architectuurplaten. Daarnaast vertelden we over guerrillaonderzoek, deelden we onze eerste inzichten en lieten we de proefopstelling zien die we daarvoor gebruikten. Terugblik Dag van de toekomst: op 18 juni organiseerden we samen met Digilab de Dag van de toekomst: ondernemer centraal . Een geslaagde dag met veel nieuwe verbindingen en het opdoen van nieuwe inzichten tijdens de workshops. Ervaringen met Claude Code gedeeld: we gaven een presentatie over onze …",
+   "published": "2026-06-24T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Once-Only",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… Hackathon Transparantie App - 9 & 10 juli Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-24"
+  },
+  {
+   "id": "b1fc6389a6d539bf",
+   "title": "EUDIW Unfold Interop Week Advances Age Verification Testing Across Europe",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/eudiw-unfold-interop-week-advances-age-verification-testing-across-europe/",
+   "summary": "From 8 to 12 June 2026, the EUDIW Unfold Interop Week brought together wallet providers, verifiers and ecosystem stakeholders for a week of interoperability testing focused on age verification within the European Digital Identity Wallet ecosystem. The event was held online, with a dedicated on-site proximity testing day taking place on 12 June at Docaposte …",
+   "published": "2026-06-23T10:53:29Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDIW",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperability"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-23"
+  },
+  {
+   "id": "62f9a258857441c8",
+   "title": "Aptitude at VivaTech 2026",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-vivatech-2026/",
+   "summary": "Aptitude was represented at VivaTech 2026, held from 17 to 20 June 2026 at Paris Expo Porte de Versailles, as part of discussions on the European Digital Identity Wallet and the future of trusted digital identity in Europe. During the event, France Identité presented the latest developments related to the future European Digital Identity Wallet …",
+   "published": "2026-06-19T06:36:06Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-19"
+  },
+  {
+   "id": "3c0a8813d005bd1b",
+   "title": "MOZa Weekly 17 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-17-juni-2026/",
+   "summary": "Algemeen Dag van de toekomst: ondernemer centraal: we hebben de laatste hand gelegd aan het programma en de workshops. Vanuit verschillende rollen beschrijven we levensgebeurtenissen waar een zakelijke gebruiker tegenaan loopt. Met elkaar gaan we aan de slag om dit als klantreis inclusief oplossingsrichtingen uit te werken. We organiseren deze dag samen met Digilab . Logius PI event: op 10 en 11 juni waren we bij het PI event van Logius. We maakten met alle betrokkenen een goede werkverdeling voor de notificatiedienst en de profielservice . Ook ondertekenden we samen met Logius de …",
+   "published": "2026-06-17T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "handelsregister",
+      "KVK",
+      "Once-Only",
+      "profielservice"
+     ]
+    },
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "ondertekenden"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G",
+      "proeven",
+      "use cases"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… - 2 juli (online) Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-17"
+  },
+  {
+   "id": "3980915c72191b42",
+   "title": "Aptitude at Identity Week Europe 2026",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-identity-week-europe-2026/",
+   "summary": "On 9 and 10 June 2026, Amsterdam hosted Identity Week Europe 2026, the world’s largest identity event, bringing together more than 4,000 attendees, 250 speakers and 250 exhibitors at the RAI Exhibition Centre. The conference covered a wide range of themes including biometrics, digital travel credentials, verification and authentication, secure credentials, digital onboarding, border control …",
+   "published": "2026-06-11T12:29:43Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "authentication"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "credentials"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 6,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-11"
+  },
+  {
+   "id": "a717fd36b9cf949d",
+   "title": "Trust and Security at the Heart of BLSP-EDI Meeting in Utrecht",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/trust-and-security-at-the-heart-of-blsp-edi-meeting-in-utrecht/",
+   "summary": "On 21 May 2026, participants from Aptitude and WE BUILD came together in Utrecht with organisations involved in the European Digital Identity ecosystem for a BLSP-EDI meeting focused on trust, certification and robust digital security. Bringing together more than 80 participants, the meeting provided a valuable opportunity to exchange knowledge and share experiences on key …",
+   "published": "2026-06-10T07:05:57Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "European Digital Identity"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "WE BUILD"
+     ]
+    },
+    {
+     "thema": "soevereiniteit",
+     "termen": [
+      "certification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-10"
+  },
+  {
+   "id": "05fbd76126b904b9",
+   "title": "MOZa Weekly 10 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-juni-2026/",
+   "summary": "Algemeen Onderwerppagina’s bijgewerkt: we werkten verschillende onderwerppagina’s bij of voegden deze toe. Het gaat om de pagina’s over de Profielservice , Berichten / FBS en de Digitale Assistent . Dag van de toekomst: ondernemer centraal: we zijn druk met de voorbereidingen voor 18 juni . De workshops staan en er zijn leuke sprekers. Je kunt je nog aanmelden. We organiseren deze dag samen met Digilab . Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet . De rode draad: over een aantal jaar verloopt veel dienstverlening via de wallet, en bijna elke …",
+   "published": "2026-06-10T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "Notificatiedienst"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen",
+      "machtigen",
+      "mandaten"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "Once-Only",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G",
+      "pilots"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet . … - 2 juli (online) Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september Europe goes Once-Only: the Netherlands - 24 & 25 september IBDS-Stelseldag 2027 - 3 februari 2027",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-10"
+  },
+  {
    "id": "c8d7e6f5a65693cf",
    "title": "European business wallets: Council adopts negotiating position",
    "url": "https://www.webuildconsortium.eu/news/european-business-wallets-council-adopts-negotiating-position",
@@ -1175,6 +2193,220 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-06-10"
+  },
+  {
+   "id": "1e3e80020da49092",
+   "title": "Aptitude at Moldova Digital Summit 2026: Where Digital Vision Meets European Ambition",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-moldova-digital-summit-2026-where-digital-vision-meets-european-ambition/",
+   "summary": "Aptitude was represented at Moldova Digital Summit 2026, held on 5-6 June at Chișinău Arena, taking part in dedicated discussions on the European Digital Identity Wallet, digital identity, interoperability and trusted digital services. Under the theme “Where Digital Vision Meets European Ambition”, the Summit brought together more than 2,000 participants, 90+ speakers and over 40 …",
+   "published": "2026-06-09T10:33:45Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperability"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "1598cccd1ca42e0b",
+   "title": "Estonia Joins the Aptitude Consortium",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/estonia-joins-aptitude-consortium/",
+   "summary": "Aptitude welcomes Estonia as a new member of the consortium. With this addition, Aptitude now brings together more than 141 public and private partners across 13 countries, united in their effort to make the EU Digital Identity Wallet (EUDIW) a reality for citizens across Europe. Estonia will be represented in the consortium by Estonian Information …",
+   "published": "2026-06-08T07:26:08Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDIW",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-08"
+  },
+  {
+   "id": "d61d2340c2419227",
+   "title": "“Connecting the EUDI Wallet with every European citizen”: Artemis Psarianou on making digital identity known to everyone",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/meet-the-people-of-aptitude-artemis-psarianou/",
+   "summary": "“Meet the People of Aptitude” introduces the experts and innovators working behind the Aptitude project, one of Europe’s large-scale pilots testing the European Digital Identity Wallet in real-life conditions. In this interview, we meet Artemis Psarianou, who leads Marketing, Communication and Dissemination at Aptitude. A. Psarianou is responsible for ensuring that the Aptitude project’s communication …",
+   "published": "2026-06-05T08:08:50Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDI",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "large-scale pilots",
+      "pilots"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "ceef54fee7256e9e",
+   "title": "Aptitude at ITU Workshop on Global Digital Identity Interoperability",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-itu-workshop-on-global-digital-identity-interoperability/",
+   "summary": "On 2 June 2026, Aptitude was presented at the International Telecommunication Union (ITU) workshop on “Global interoperability for trust management of digital identity for humans and agents”, held at ITU Headquarters in Geneva, Switzerland. The workshop brought together a broad international stakeholder community to discuss trust management and interoperability for digital identities used by humans …",
+   "published": "2026-06-04T07:50:35Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "Interoperability"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-04"
+  },
+  {
+   "id": "04d683811525bba9",
+   "title": "Aptitude Contributes to Real-World PhotoID Testing in France",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-contributes-to-real-world-photoid-testing-in-france/",
+   "summary": "From 27 to 29 May 2026, France Titres organised a three-day PhotoID interoperability testing and showcase in La Ciotat, France, followed by operational experimentations at Marseille Provence Airport. The event brought together public authorities, standardisation experts, airports, industry representatives, Wallet providers and interoperability partners to test and demonstrate how PhotoID-based digital travel credentials can support …",
+   "published": "2026-06-03T07:30:05Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "representatives"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "credentials"
+     ]
+    },
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "public authorities"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "interoperability",
+      "standardisation"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-03"
+  },
+  {
+   "id": "d52c1df6f70e84da",
+   "title": "MOZa Weekly 3 juni 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-3-juni-2026/",
+   "summary": "Algemeen MOZa event: vergeet je niet om je aan te melden voor de Dag van de toekomst: ondernemer centraal op 18 juni vanaf 12:00. VNG MijnServices Festival : op 28 mei stonden we op de vloer met presentaties en demo’s. We voerden veel goede gesprekken, onder andere over (business) wallets en het delen van gegevens van nutsbedrijven met de overheid. De komende tijd gaan we deze gesprekken opvolgen en verdiepingen plannen. Routekaartoverleg MijnOverheid: op basis van het statusrapport fase 3 gaven we een update over wat we hebben gedaan. Daaraan koppelden we een samenvatting van onze plannen …",
+   "published": "2026-06-03T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "berichten",
+     "termen": [
+      "mailbox",
+      "Notificatie"
+     ]
+    },
+    {
+     "thema": "identiteit",
+     "termen": [
+      "inloggen",
+      "Machtigingen"
+     ]
+    },
+    {
+     "thema": "gegevens",
+     "termen": [
+      "KVK",
+      "Profielservice"
+     ]
+    },
+    {
+     "thema": "pilots",
+     "termen": [
+      "B2G"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 9,
+   "fragment": "… de Digitale Toegankelijkheid - 28 juni Common Ground Fieldlab - 14 & 15 september Business Wallet B2G - 22 of 23 september",
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-06-03"
   },
   {
    "id": "b850ed2d9cdaf902",
@@ -1250,6 +2482,25 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-06-02"
+  },
+  {
+   "id": "9e421e2b61214a90",
+   "title": "Aptitude at the LisbonID Conference 2026",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-lisbonid-conference-2026/",
+   "summary": "On 27 and 28 May 2026, Lisbon hosted the LisbonID Conference 2026, two days of conferences, exhibitions and networking exploring the future of digital identity. Aptitude was represented by Florent Tournois, coordinator of the Aptitude consortium. The conference explored six themes: trusted IDs for all, AI-powered fraud detection, proof beyond doubt, the power of decentralised …",
+   "published": "2026-05-29T11:57:52Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-05-29"
   },
   {
    "id": "bc97535d3432112f",
@@ -1894,6 +3145,29 @@
    "score": 6,
    "first_seen": "2026-10-05T09:23:51Z",
    "date": "2026-02-05"
+  },
+  {
+   "id": "224d81f98a9bd940",
+   "title": "MOZa Weekly 4 februari 2026",
+   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-4-februari-2026/",
+   "summary": "Algemeen MOZa stuurgroep en regiegroep : Tijdens de stuugroep van vorige week is onder andere gesproken over de realisatie van de MOZa roadmap, het verstevigen van de samenwerking met Logius, reflectie op MOZa Fase 2 (met complimenten sluiten we deze fase af) en introductie MOZa Fase 3. De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. Communicatie: We werken aan diverse communicatiemiddelen, zoals presentaties, om het verhaal van MOZa helder te kunnen vertellen. Deze zetten …",
+   "published": "2026-02-04T00:00:00Z",
+   "source": "moza-weekly",
+   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
+   "category": "nl-moza",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-05T09:32:45Z",
+   "date": "2026-02-04"
   },
   {
    "id": "05f84b0521702112",
