@@ -17,7 +17,7 @@ Alles draait in GitHub. Je hoeft niets te installeren; een browser is genoeg.
 ```
 GitHub Actions (elke ochtend)            GitHub Pages
 ┌──────────────────────────────┐          ┌──────────────────────────────┐
-│ scraper haalt ±25 bronnen op │  ─────►  │ site/: nieuwsbrief per week, │
+│ scraper haalt ±20 bronnen op │  ─────►  │ site/: nieuwsbrief per week, │
 │ (RSS, webpagina's, API's,    │  data    │ MOZa-lens, archief, dossiers │
 │  EUR-Lex, Kamerstukken)      │  (JSON)  │ en bronnenstatus             │
 │ → filtert op EUDI/EBW        │          └──────────────────────────────┘

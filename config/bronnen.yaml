@@ -41,7 +41,6 @@ categorieen:
   pilots: Large Scale Pilots
   techniek: Techniek & standaarden
   nl-overheid: Nederlandse overheid
-  nl-moza: MijnOverheid Zakelijk
   media: Media (secundair)
 
 bronnen:
@@ -417,59 +416,6 @@ bronnen:
     prioriteit: 2
     site: https://github.com/MinBZK/nl-wallet
     toelichting: Nieuwe versies van de Nederlandse EUDI-wallet (NL Wallet).
-
-  # --- MijnOverheid Zakelijk -----------------------------------------------------
-  - id: moza-actueel
-    naam: "MijnOverheid Zakelijk – Actueel"
-    categorie: nl-moza
-    type: feed
-    url: https://mijnoverheidzakelijk.nl/actueel/index.xml
-    volledige_tekst: true
-    filter: true
-    prioriteit: 1
-    site: https://mijnoverheidzakelijk.nl/actueel/
-    toelichting: >-
-      Nieuws van het programma MijnOverheid Zakelijk zelf. Alleen berichten waarin wallets,
-      eIDAS of de EBW voorkomen, komen in de nieuwsbrief; de betreffende zinnen worden getoond.
-
-  - id: moza-weekly
-    naam: "MijnOverheid Zakelijk – MOZa Weekly"
-    categorie: nl-moza
-    type: feed
-    url: https://mijnoverheidzakelijk.nl/weekly/index.xml
-    volledige_tekst: true
-    kopjes_weglaten: [Agenda]
-    detail_max: 40
-    filter: true
-    prioriteit: 1
-    site: https://mijnoverheidzakelijk.nl/weekly/
-    toelichting: >-
-      Wekelijkse voortgangsupdate van het MOZa-team. Laat zien wat er met wallets gebeurt in
-      de MOZa-proeven, bijvoorbeeld de NL Wallet en de Yivi Business Wallet.
-
-  - id: moza-github
-    naam: "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)"
-    categorie: nl-moza
-    type: json
-    url: https://api.github.com/search/issues
-    params:
-      q: "repo:MinBZK/MijnOverheidZakelijk wallet OR EBW OR EUDI OR eIDAS OR QERDS"
-      sort: created
-      order: desc
-      per_page: 30
-    items: items
-    velden:
-      titel: "MOZa-issue: {title}"
-      url: "{html_url}"
-      datum: created_at
-      samenvatting: body
-    filter: false
-    standaard_onderwerp: eudi
-    prioriteit: 2
-    site: https://github.com/MinBZK/MijnOverheidZakelijk
-    toelichting: >-
-      MOZa wordt open ontwikkeld. Issues over wallets laten zien wat het team
-      daadwerkelijk bouwt of onderzoekt, zoals de NL Wallet-integratie in de proef.
 
   # --- Media (secundair, standaard uit) -------------------------------------------
   - id: biometric-update

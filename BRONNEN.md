@@ -3,8 +3,7 @@
 Dit overzicht laat zien waar officieel nieuws over de **EUDI Wallet** en de **European
 Business Wallet (EBW)** verschijnt, en hoe de Walletbrief die bronnen volgt. De nadruk ligt
 op officiële berichtgeving: Europese Commissie, Europees Parlement, Raad, de Large Scale
-Pilots en de Nederlandse overheid. Voor de MOZa-lens volgen we ook MijnOverheid Zakelijk
-zelf.
+Pilots en de Nederlandse overheid.
 
 De status is getest vanaf de GitHub-runners op 5 oktober 2026. De actuele status per bron
 staat altijd op het tabblad **Bronnen** van de nieuwsbrief.
@@ -81,11 +80,10 @@ verschijnen via de wallet-site van de Commissie, die al gevolgd wordt.
 
 ## 7. MijnOverheid Zakelijk
 
-| Bron | Wat verschijnt er | Waarom relevant | Methode | Status |
-|---|---|---|---|---|
-| [MOZa – Actueel](https://mijnoverheidzakelijk.nl/actueel/) | Nieuws van het programma | Besluiten en samenwerking rond MOZa | RSS + filter op volledige tekst | Werkt |
-| [MOZa Weekly](https://mijnoverheidzakelijk.nl/weekly/) | Wekelijkse update van het team | Laat zien wat MOZa met wallets doet, zoals de NL Wallet in de proef | RSS + filter op volledige tekst | Werkt |
-| [MOZa op GitHub](https://github.com/MinBZK/MijnOverheidZakelijk) | Issues over wallets, EBW, EUDI, eIDAS en QERDS | MOZa wordt open ontwikkeld; issues tonen wat er concreet gebouwd of onderzocht wordt | API (GitHub) | Werkt |
+Berichten van MOZa zelf (Actueel, MOZa Weekly en de issues op GitHub) worden bewust niet
+gevolgd. De Walletbrief gaat over nieuws over de wallets en wat dat betekent voor MOZa,
+niet over de communicatie van het programma zelf. De MOZa-lens in de nieuwsbrief komt uit
+de thema's en kernvragen in `config/onderwerpen.yaml` en `config/achtergrond.yaml`.
 
 ## 8. Bekeken, maar (nog) niet automatisch gevolgd
 

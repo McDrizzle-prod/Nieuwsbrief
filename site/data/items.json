@@ -176,105 +176,6 @@
    "date": "2026-09-29"
   },
   {
-   "id": "20bfce5db06d7aef",
-   "title": "MOZa-issue: flow/ architectuur plaat voor wallets",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1183",
-   "summary": "",
-   "published": "2026-09-28T09:38:11Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-28"
-  },
-  {
-   "id": "c2ae4e7e5698e7de",
-   "title": "MOZa-issue: google uniforme wallet login - onderzoek",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1182",
-   "summary": "",
-   "published": "2026-09-28T09:36:38Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "login"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 5,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-28"
-  },
-  {
-   "id": "3f9477b6185e0da3",
-   "title": "MOZa-issue: overlay voor uitleg wallet inlog, zoals bij https://bg.rijks.app/apps/templates?present=1&slide=13&tour=keten",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1146",
-   "summary": "https://bg.rijks.app/apps/templates?present=1&slide=13&tour=keten",
-   "published": "2026-09-24T07:20:32Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-24"
-  },
-  {
-   "id": "a0b3bfcb72be514c",
-   "title": "MOZa Weekly 23 september 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-23-september-2026/",
-   "summary": "Algemeen Teamdag: het hele team kwam een dag bij elkaar. We keken terug en maakten plannen voor de komende vier maanden, van oktober 2026 tot en met januari 2027. Ook spraken we af waar we wel en (nu nog) niet van zijn. Collega’s uit het regieteam sloten aan het einde aan en gaven hun eerste feedback. In de volgende weekly delen we de plannen. Op weg naar de stuurgroep: we werkten aan de stukken voor de stuurgroep van 25 september. Daar hoort ook het plan voor fase 5 bij, dat we tijdens de teamdag in grote lijnen hebben neergezet. Een ander groot punt is de planning van de notificatiedienst …",
-   "published": "2026-09-23T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw",
-    "eudi"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ],
-    "eudi": [
-     "NL Wallet"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "notificatiedienst"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
-   "fragment": "Wallet in de proeftuin: we voegen de NL Wallet toe aan de MOZa proeftuin. … Ook kijken we hoe de Yivi Business Wallet zich daartoe verhoudt, en hoe we dit goed vormgeven voor de gebruiker. … Met een deel van het team waren we bij het symposium over de European Business Wallet .",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-09-23"
-  },
-  {
    "id": "0c5852d3db8c4e59",
    "title": "Europees Parlement, European business wallets: verslag ingediend voor de plenaire vergadering",
    "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEPOT-2026-09-23",
@@ -296,42 +197,6 @@
    "moza_level": "middel",
    "score": 5,
    "first_seen": "2026-10-05T09:27:21Z",
-   "date": "2026-09-23"
-  },
-  {
-   "id": "19b7dda241e93fb1",
-   "title": "MOZa-issue: Inloggen en bevoegdheden: \"wie mag wat\" (fase 5, punt 4)",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1136",
-   "summary": "**1. Beeldvorming \"wie mag wat\" (Onderzoek)** Een MOZa-team werkt hier nu met focus aan en bundelt de kennis die we eerder ophaalden. Wat nog ontbreekt, halen we op en analyseren we. **2. DigiD, eHerkenning en wallets (Verkennen)** De komende jaren verschuift het landschap van DigiD en eHerkenning naar wallets, zoals de EU Digital Identity Wallet en de European Business Wallet. We verdiepen ons in die ontwikkelingen. Zo kunnen we goed afwegen wat de proeftuin van MOZa moet ondersteunen. **3. Experts betrekken (Afspraken)** We betrekken experts van verschillende organisaties.",
-   "published": "2026-09-23T11:33:21Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "ebw",
-    "eudi"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ],
-    "eudi": [
-     "Digital Identity Wallet",
-     "Identity Wallet"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eHerkenning",
-      "Inloggen"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 8,
-   "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-23"
   },
   {
@@ -495,127 +360,6 @@
    "score": 5,
    "first_seen": "2026-10-05T09:32:45Z",
    "date": "2026-09-16"
-  },
-  {
-   "id": "2c67b6b68719c65f",
-   "title": "MOZa-issue: proef - inlog - NL wallet / EDI wallet integratie",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1100",
-   "summary": "NL wallet integratie",
-   "published": "2026-09-14T08:40:37Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {
-    "eudi": [
-     "NL wallet"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "pilots",
-     "termen": [
-      "proef"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 4,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-14"
-  },
-  {
-   "id": "c349543c2cb5622a",
-   "title": "MOZa-issue: proef - inlog - Yivi integratie",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1099",
-   "summary": "integreren van Yivi wallet",
-   "published": "2026-09-14T08:40:03Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "pilots",
-     "termen": [
-      "proef"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 4,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-14"
-  },
-  {
-   "id": "bc310dad9d06a881",
-   "title": "MOZa-issue: inlog voor MOZa proef",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/1095",
-   "summary": "- burger/ondernemer switch - uniform inloggen - yivi wallet - NL wallet? - cookie voorkeur inlogmethode? middelen: - digid - eherkenning - EDI wallet, met EBW",
-   "published": "2026-09-14T08:33:43Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "ebw",
-    "eudi"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "EBW"
-    ],
-    "eudi": [
-     "NL wallet"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "eherkenning",
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "pilots",
-     "termen": [
-      "proef"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 9,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-09-14"
-  },
-  {
-   "id": "1803b5a0b91bcf84",
-   "title": "MOZa Weekly 10 september 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-september-2026/",
-   "summary": "Algemeen Prioriteiten MijnOverheid: in het Routekaartoverleg van MijnOverheid bepaalden we samen met de betrokken organisaties de prioriteiten van Logius voor de komende periode. Daarin kreeg onder andere de voorbereiding van een portaal voor zakelijke gebruikers op MijnOverheid een hoge prioriteit. Het ritme van MOZa: vooruitkijkend naar 2027 hebben we nagedacht over de governancestructuur van MOZa en de overlegritmes die daarbij horen. Samen met de koplopers werken we dit uit. MOZa Regieteam: ook Gemeente Amsterdam neemt vanaf nu deel aan het MOZa Regieteam. Vanuit onze werkgroepen werkten …",
-   "published": "2026-09-10T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "middel",
-   "score": 5,
-   "fragment": "European Business Wallet Gesprek met Nijmegen: we spraken met de gemeente Nijmegen, Gebruiker Centraal en een leverancier over de business wallet. … Kennis opdoen: als we zelf een business wallet willen opstarten, kunnen we kijken naar de Yivi business wallet .",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-09-10"
   },
   {
    "id": "e9010276bb27647a",
@@ -969,25 +713,6 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-08-12"
-  },
-  {
-   "id": "5297454cda9fdb63",
-   "title": "MOZa-issue: GO 4: gehele flow testen",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/931",
-   "summary": "## Aanleiding De losse onderdelen van de assistent zijn elk apart beproefd, maar het onderzoek staat of valt bij de keten als geheel: frontend, host, bronnen en de regelengine samen, op de omgeving waarop de respondent straks werkt. Een keten die per onderdeel klopt kan als geheel nog steeds stuklopen — op een veld dat niet doorkomt, een beurt die niets toevoegt, of een stap die om gegevens vraagt die al bekend zijn. ## Wat de ondernemer meemaakt De volledige doorloop van het onderzoeksscenario, in zes stappen: 1. Hij vraagt of de energiebesparingsplicht voor zijn bedrijf geldt. 2. Hij geeft …",
-   "published": "2026-08-11T07:27:00Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-08-11"
   },
   {
    "id": "b981074d314efb6d",
@@ -1604,37 +1329,6 @@
    "date": "2026-06-11"
   },
   {
-   "id": "05fbd76126b904b9",
-   "title": "MOZa Weekly 10 juni 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-10-juni-2026/",
-   "summary": "Algemeen Onderwerppagina’s bijgewerkt: we werkten verschillende onderwerppagina’s bij of voegden deze toe. Het gaat om de pagina’s over de Profielservice , Berichten / FBS en de Digitale Assistent . Dag van de toekomst: ondernemer centraal: we zijn druk met de voorbereidingen voor 18 juni . De workshops staan en er zijn leuke sprekers. Je kunt je nog aanmelden. We organiseren deze dag samen met Digilab . Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet . De rode draad: over een aantal jaar verloopt veel dienstverlening via de wallet, en bijna elke …",
-   "published": "2026-06-10T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business wallets"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "gegevens",
-     "termen": [
-      "Profielservice"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 6,
-   "fragment": "Business wallets: verschillende collega’s bezochten het Symposium European Business Wallet .",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-06-10"
-  },
-  {
    "id": "a717fd36b9cf949d",
    "title": "Trust and Security at the Heart of BLSP-EDI Meeting in Utrecht",
    "url": "https://aptitude.digital-identity-wallet.eu/news/trust-and-security-at-the-heart-of-blsp-edi-meeting-in-utrecht/",
@@ -1958,38 +1652,6 @@
    "date": "2026-05-29"
   },
   {
-   "id": "bc97535d3432112f",
-   "title": "MOZa-issue: POC: Inlog-keuzepagina met heldere uitleg",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/558",
-   "summary": "Inlog-keuzepagina met heldere uitleg: - [ ] _“Wat is uw context/rol (privé, zakelijk, gemachtigd, intermediair, …”_ → gebruik deze inlog-methode (en waarom) - [ ] _“Bent u een buitenlandse ondernemer die zaken doet in Nederland?”_ → log dan in met… - [ ] *‘Inlog-keuze-wizard’*; 1. _“Wilt u privé of zakelijk inloggen?”_ 2. `if zakelijk` → _“Wat is uw rechtsvorm?”_ (en evt. extra _“vul uw KVK-nummer in zodat we uw rechtsvorm kunnen achterhalen.”_) 3. … - [ ] _“Bent u een Eenmanszaak/ZZP? Log dan in met DigiD.”_ - [ ] eWallets toevoegen? (vóór/ná DigiD/eH inlog?) (Met uitleg *“Wat is dit?”*) - [ …",
-   "published": "2026-05-27T14:26:13Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "KVK"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 6,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-05-27"
-  },
-  {
    "id": "f341acffd80b1fa3",
    "title": "ARF-release: v2.9.0",
    "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/v2.9.0",
@@ -2015,37 +1677,6 @@
    "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-05-22"
-  },
-  {
-   "id": "6a8b8e8a493d391c",
-   "title": "MOZa Weekly 20 mei 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-20-mei-2026/",
-   "summary": "Het team van MOZa heeft genoten van vakantiedagen, maar heeft tussendoor niet stilgezeten. Daarom deze keer een weekly waarin we de afgelopen weken samenvatten. Uitgelicht MOZa Pulse - 21 mei van 9:00 tot 9:30: in deze pulse geven we een update over profielservice met een demonstratie van de gemeente Amsterdam over wat we hebben gedaan tijdens het afgelopen Common Ground Fieldlab. Ook bespreken we wat we hebben geleerd uit het gebruikersonderzoek van eind april. VNG MijnServices Festival - 28 mei in de middag: MOZa staat op de vloer. We verzorgen drie presentaties en je kunt ons daar vinden …",
-   "published": "2026-05-20T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallets"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "gegevens",
-     "termen": [
-      "profielservice"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 6,
-   "fragment": "Business Wallets: in “MOZa meets Business Wallets” wisselden we veel kennis uit over dit onderwerp.",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-05-20"
   },
   {
    "id": "370317be4e1a3044",
@@ -2178,44 +1809,6 @@
    "score": 4,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-04-27"
-  },
-  {
-   "id": "1416fbad7311ccbb",
-   "title": "MOZa-issue: Documentatie doornemen",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/450",
-   "summary": "(niet-complete) lijst van nog door te nemen documentatie: - https://logius-prd.confluence.odc-noord.nl/spaces/AGB/pages/478352098/Sandbox+Acceptatiecriteria+extern+ontwikkelde+software+ART+G+B - https://logius-prd.confluence.odc-noord.nl/spaces/AGB/pages/401351282/Transitieplan+Verservicing+MijnOverheid - https://docs.rijksapp.nl/docs/a78ece76-d266-4e26-9201-5d7c7b365942/ - https://docs.rijksapp.nl/docs/f1e5646f-f542-4d61-a6d8-3f3bae8c1c5b/ - …",
-   "published": "2026-04-17T13:20:51Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-04-17"
-  },
-  {
-   "id": "f147018906d8b579",
-   "title": "MOZa-issue: Desk-research naar inlog-middelen en -flows omzetten naar testbare deliverables",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/444",
-   "summary": "Lucid board",
-   "published": "2026-04-16T08:57:59Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-04-16"
   },
   {
    "id": "f22cc29a633a240a",
@@ -2493,67 +2086,6 @@
    "date": "2026-02-27"
   },
   {
-   "id": "d898b5bb9fe982c6",
-   "title": "MOZa Weekly 11 februari 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-11-februari-2026/",
-   "summary": "Algemeen Mailbox: we hebben nu een eigen mailbox moza@minbzk.nl . OneGov AI Hackathon : ons samengestelde team heeft de eerste prijs binnengehaald in de categorie Digitale Assistent! Afgelopen donderdag en vrijdag gingen ze aan de slag met het verbeteren van de kwaliteit van de output van een digitale assistent. Ze hebben hiervoor in 1,5 dag een start van een kwaliteitsframework voor Digitale Assistenten (+ code ) ontwikkeld. Een belangrijk inzicht is dat betrouwbaarheid meer is dan feitelijke juistheid en “deterministische” afvanging leidt tot een betere oplossing. En daarmee haalden ze het …",
-   "published": "2026-02-11T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw",
-    "vertrouwensdiensten"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ],
-    "vertrouwensdiensten": [
-     "QERDS"
-    ]
-   },
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "Mailbox",
-      "notificaties",
-      "QERDS"
-     ]
-    }
-   ],
-   "moza_level": "hoog",
-   "score": 8,
-   "fragment": "EU Business Wallet: we hebben ons verdiept in QERDS in relatie tot de EU Business Wallet, maar ook in relatie tot het versturen van berichten/notificaties.",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-02-11"
-  },
-  {
-   "id": "7dc4a8436f48d9fb",
-   "title": "MOZa-issue: Ophalen kennis over business wallet & bepalen impact MOZa",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/289",
-   "summary": "",
-   "published": "2026-02-06T09:12:26Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "ebw",
-    "eudi"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "business wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "middel",
-   "score": 6,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-02-06"
-  },
-  {
    "id": "5d982f47ef3e1aa3",
    "title": "Consultatie: Amending CIR 2025/848 of Article 5b(11) registration of relying parties",
    "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16113_en",
@@ -2672,30 +2204,6 @@
    "date": "2026-02-05"
   },
   {
-   "id": "224d81f98a9bd940",
-   "title": "MOZa Weekly 4 februari 2026",
-   "url": "https://mijnoverheidzakelijk.nl/weekly/moza-weekly-4-februari-2026/",
-   "summary": "Algemeen MOZa stuurgroep en regiegroep : Tijdens de stuugroep van vorige week is onder andere gesproken over de realisatie van de MOZa roadmap, het verstevigen van de samenwerking met Logius, reflectie op MOZa Fase 2 (met complimenten sluiten we deze fase af) en introductie MOZa Fase 3. De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. Communicatie: We werken aan diverse communicatiemiddelen, zoals presentaties, om het verhaal van MOZa helder te kunnen vertellen. Deze zetten …",
-   "published": "2026-02-04T00:00:00Z",
-   "source": "moza-weekly",
-   "source_name": "MijnOverheid Zakelijk – MOZa Weekly",
-   "category": "nl-moza",
-   "topics": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "middel",
-   "score": 5,
-   "fragment": "De eerstvolgende regieteamsessie van 5 februari is voorbereid met onder andere op de agenda een demo RegelRecht, de EU Business Wallet en opvolging intentieverklaring. … EU Business Wallet : Onze collega’s bij de KVK hebben ons een inkijk gegeven in de wereld van de EU Business Wallet. … Vooral de QERDS is voor MOZa relevant.",
-   "first_seen": "2026-10-05T09:38:31Z",
-   "date": "2026-02-04"
-  },
-  {
    "id": "05f84b0521702112",
    "title": "NL Wallet: Wallet 0.4.1",
    "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.4.1",
@@ -2746,39 +2254,6 @@
    "date": "2026-02-03"
   },
   {
-   "id": "8bfd39425a279914",
-   "title": "MOZa-issue: Uitwerken basis flow E-Herkenning",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/236",
-   "summary": "De scope van hetgeen wat willen onderzoeken is een 'basis' flow voor E-herkenning. Dus op basis van een e-herkenning inlog op MOZa informatie ophalen bij een andere dienstverlener. Stappen te nemen: 1. Bepalen casus 2. Uitwerken flow 3. Inplannen vervolgafspraken 16/02 Refinement: Taak: Flow uittekenen van \"Ik wil met EHerkenning inloggen op het MOZa portaal en dan gegevens ophalen bij Belastingdienst (btw nummer ophalen) op basis van een bsn\". Doe dit op zo'n manier (sequentie diagram, en/of meer) dat wij het duidelijk bij Frans kunnen voorleggen om te concluderen of die flow mogelijk is …",
-   "published": "2026-02-03T10:03:34Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "EHerkenning",
-      "inloggen"
-     ]
-    },
-    {
-     "thema": "gegevens",
-     "termen": [
-      "btw"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 6,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-02-03"
-  },
-  {
    "id": "4515c8eb0f4de251",
    "title": "Commission Implementing Regulation (EU) 2026/248 of 2 February 2026 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the formats of advanced electronic signatures and advanced electronic seals to be recognised by public sector bodies and repealing Commission Implementing Decision (EU) 2015/1506",
    "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32026R0248",
@@ -2819,32 +2294,6 @@
    "score": 8,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-02-02"
-  },
-  {
-   "id": "ad5d101464a21e08",
-   "title": "MOZa-issue: Contactmomenten uitbreiden met metadata",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/217",
-   "summary": "1. Op basis van beschikbare metadata kijken welke relevant zijn voor contactmomenten 1. Figma ontwerp aanpassen hierop - Gebruiker kan zien wie zijn informatie voor wat heeft opgevraagd. (Dit zou via profiel service logs lopen). - ex. 'Belastingdienst heeft jou contactgegevens opgevraagd voor belastingaangifte'. - Gebruiker kan zie wie notificaties heeft verstuurd naar hem. (Dit zou lopen via notificatie service logs, of 'historie service') - ex. 'Belastingdiesnt heeft naar jou een notificatie gestuurd' - Plausibele metadata voor beide: - Wie - Waarom, staat al in voorbeeld 1 - Datum - …",
-   "published": "2026-01-26T13:30:04Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "notificaties"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 5,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-01-26"
   },
   {
    "id": "dcf4b2d8bddb1f18",
@@ -2957,32 +2406,6 @@
    "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-01-16"
-  },
-  {
-   "id": "a9007f9e82b668c2",
-   "title": "MOZa-issue: Contactmomenten herzien",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/160",
-   "summary": "Herzien van de contactmomenten. Deze waren tot op heden voor het gebruikersprototype op aannames gebaseerd. Twee ideeën zweven hier momenteel: - Gebruiker kan zien wie zijn informatie voor wat heeft opgevraagd. (Dit zou via profiel service logs lopen). ex. 'Belastingdienst heeft jou contactgegevens opgevraagd voor belastingaangifte' - Gebruiker kan zie wie notificaties heeft verstuurd naar hem. (Dit zou lopen via notificatie service logs, of 'historie service'). ex. 'Belastingdienst heeft naar jou een notificatie gestuurd' Plausibele metadata voor beide: - Wie - Waarom, staat al in voorbeeld …",
-   "published": "2026-01-12T16:10:50Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "berichten",
-     "termen": [
-      "notificaties"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 5,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2026-01-12"
   },
   {
    "id": "3b2be320a2c44b98",
@@ -3169,55 +2592,6 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-12-16"
-  },
-  {
-   "id": "d123c803b372213b",
-   "title": "MOZa-issue: Positionering profielservice",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/pull/145",
-   "summary": "Een ADR over de positionering van de profiel service. Moet nog intern besproken worden voordat we deze publiceren",
-   "published": "2025-12-12T17:31:20Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "gegevens",
-     "termen": [
-      "profielservice"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 4,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2025-12-12"
-  },
-  {
-   "id": "ad94e3415973a023",
-   "title": "MOZa-issue: Afspreken met TVS",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/140",
-   "summary": "- wat wel/niet geleverd - DigiD, eIDAS(2), wallets - internationale ondernemingen (non-EU) - simulatie-omgeving - betrouwbaarheidsniveaus / levels of assurance (LoAs)",
-   "published": "2025-12-09T16:05:18Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {
-    "eudi": [
-     "eIDAS"
-    ]
-   },
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2025-12-09"
   },
   {
    "id": "c0dc51d5aac82087",
@@ -3413,32 +2787,6 @@
    ],
    "moza_level": "middel",
    "score": 6,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2025-11-11"
-  },
-  {
-   "id": "97ce1f5e44b674a0",
-   "title": "MOZa-issue: UX: Nader onderzoek wisselen van privé en onderneming(en)",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/74",
-   "summary": "Tijdens gebruikersonderzoeken kwam naar voren dat ondernemers bekend en vertrouwd zijn met MijnOverheid. Ook werd diverse malen geopperd dat verwacht wordt dat de zakelijke mijn omgeving direct benaderd moet kunnen worden vanuit de privé mijn omgeving. Uit de laatste gebruikersonderzoeken werd duidelijk dat ondernemers met meerdere ondernemingen het waardevol vinden om tussen bedrijven te kunnen schakelen binnen één omgeving. Dit mede omdat het meerdere keren inloggen een groot pijnpunt is. Onderzocht dient te worden of eenzelfde ontwerppatroon gebruikt kan worden voor zowel het wisselen …",
-   "published": "2025-11-11T16:36:02Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "identiteit",
-     "termen": [
-      "inloggen"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-11-11"
   },
@@ -3644,32 +2992,6 @@
    "score": 5,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-10-14"
-  },
-  {
-   "id": "e78f93a4e155375a",
-   "title": "MOZa-issue: Visiedocument opstellen over profielservice",
-   "url": "https://github.com/MinBZK/MijnOverheidZakelijk/issues/26",
-   "summary": "",
-   "published": "2025-10-13T12:40:13Z",
-   "source": "moza-github",
-   "source_name": "MijnOverheid Zakelijk – ontwikkeling op GitHub (issues)",
-   "category": "nl-moza",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {},
-   "moza": [
-    {
-     "thema": "gegevens",
-     "termen": [
-      "profielservice"
-     ]
-    }
-   ],
-   "moza_level": "middel",
-   "score": 4,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2025-10-13"
   },
   {
    "id": "deb6af8d23fa7e31",

@@ -117,3 +117,16 @@ def test_final_text_neemt_tekst_na_fallback():
         SimpleNamespace(type="text", text='{"berichten": []}'),
     ])
     assert enrich._final_text(response) == '{"berichten": []}'
+
+
+def test_berichten_van_verwijderde_bron_verdwijnen(tmp_path, fake_http, monkeypatch):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    root = make_root(tmp_path)
+    assert run(["--geen-ai"], root=str(root), http=fake_http(ROUTES)) == 0
+    path = root / "site/data/items.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data["items"].append({**data["items"][0], "id": "oud", "url": "https://x.test/oud", "source": "moza-weekly"})
+    path.write_text(json.dumps(data), encoding="utf-8")
+    assert run(["--geen-ai"], root=str(root), http=fake_http(ROUTES)) == 0
+    sources = {i["source"] for i in json.loads(path.read_text(encoding="utf-8"))["items"]}
+    assert "moza-weekly" not in sources and "ec" in sources

@@ -7,7 +7,7 @@
     feed: "RSS/Atom", html: "Webpagina", json: "API (JSON)", sparql: "SPARQL (EUR-Lex)",
     sru: "SRU (KOOP)", pagewatch: "Paginawijzigingen",
   };
-  const NL_CATEGORIES = new Set(["nl-overheid", "nl-moza"]);
+  const NL_CATEGORIES = new Set(["nl-overheid"]);
   const PAGE_SIZE = 50;
   const NEW_DAYS = 7;
 
@@ -139,7 +139,7 @@
     },
     {
       id: "nl", titel: "Nederland",
-      intro: "Kamerstukken, Rijksoverheid, de NL Wallet en MijnOverheid Zakelijk zelf.",
+      intro: "Kamerstukken, officiële bekendmakingen, Digitale Overheid en de NL Wallet.",
       test: isNL,
     },
   ];

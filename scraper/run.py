@@ -48,12 +48,15 @@ def make_item(raw: RawItem, source: dict, classification: dict) -> dict:
 
 
 def reclassify(archive: list[dict], classifier: Classifier, sources: dict[str, dict]) -> list[dict]:
-    """Archief opnieuw indelen met de huidige zoektermen (na wijzigingen in de config)."""
+    """Archief opnieuw indelen met de huidige zoektermen (na wijzigingen in de config).
+
+    Berichten van een bron die uit bronnen.yaml is verwijderd, verdwijnen uit het archief.
+    (Een bron met `actief: false` houdt zijn berichten.)
+    """
     kept = []
     for item in archive:
         source = sources.get(item["source"])
         if source is None:
-            kept.append(item)
             continue
         text = f"{item.get('summary', '')}\n{item.get('fragment', '')}"
         classification = classifier.classify(item["title"], text, source)
