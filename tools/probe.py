@@ -3,6 +3,8 @@
 Toont per URL: HTTP-status, type inhoud, gevonden RSS/Atom-feeds, de eerste
 berichten uit een feed of JSON-antwoord, en voor HTML-pagina's de links die op
 nieuwsberichten lijken (met een CSS-pad waarmee je een selector kunt maken).
+Voor agenda's ook: iCal-agenda's, evenementen in schema.org-opmaak (JSON-LD) en
+de agenda-API van WordPress (The Events Calendar).
 
 Gebruik:
     python tools/probe.py https://voorbeeld.eu/nieuws [https://...]
@@ -68,6 +70,82 @@ def describe_feed(content: bytes) -> bool:
     return True
 
 
+def describe_ical(content: bytes) -> bool:
+    text = content.decode("utf-8", "replace")
+    if "BEGIN:VCALENDAR" not in text[:2000]:
+        return False
+    events = text.split("BEGIN:VEVENT")[1:]
+    emit(f"  ICAL: {len(events)} evenementen")
+    for block in events[:10]:
+        unfolded = re.sub(r"\r?\n[ \t]", "", block)
+        fields = {}
+        for line in unfolded.splitlines():
+            key, _, value = line.partition(":")
+            fields.setdefault(key.split(";")[0], value)
+        emit(f"    - {fields.get('DTSTART', '-')} | {fields.get('SUMMARY', '')[:100]}")
+        emit(f"      {fields.get('LOCATION', '')[:80]} {fields.get('URL', '')}")
+    return True
+
+
+def describe_jsonld(soup) -> None:
+    """Evenementen in schema.org-opmaak (JSON-LD), zoals veel agenda's die meesturen."""
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            data = json.loads(script.string or "")
+        except ValueError:
+            continue
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            node = stack.pop(0)
+            if not isinstance(node, dict):
+                continue
+            stack.extend(node.get("@graph", []) if isinstance(node.get("@graph"), list) else [])
+            kind = node.get("@type")
+            kinds = kind if isinstance(kind, list) else [kind]
+            if any(isinstance(k, str) and k.endswith("Event") for k in kinds):
+                place = node.get("location")
+                if isinstance(place, list):
+                    place = place[0] if place else None
+                where = place.get("name") if isinstance(place, dict) else place
+                emit(f"  JSON-LD {kinds[0]}: {str(node.get('name', ''))[:90]} | {node.get('startDate')} – "
+                     f"{node.get('endDate')} | {where} | {node.get('url', '')}")
+            elif kinds and kinds[0]:
+                emit(f"  JSON-LD {kinds[0]}")
+
+
+def describe_wordpress(url: str, soup, agent: str) -> None:
+    """WordPress-sites: welke berichttypen er zijn en of The Events Calendar een API heeft."""
+    api = soup.find("link", attrs={"rel": "https://api.w.org/"})
+    if not api:
+        return
+    root = urljoin(url, api.get("href", "/wp-json/"))
+    emit(f"  WordPress-API: {root}")
+    for path in ("wp/v2/types", "tribe/events/v1/events?per_page=5"):
+        try:
+            r = requests.get(urljoin(root, path), headers={"User-Agent": agent}, timeout=30)
+        except requests.RequestException as exc:
+            emit(f"    {path}: FOUT {exc}")
+            continue
+        if not r.ok:
+            emit(f"    {path}: HTTP {r.status_code}")
+            continue
+        try:
+            data = r.json()
+        except ValueError:
+            emit(f"    {path}: geen JSON")
+            continue
+        if path.startswith("wp/v2/types"):
+            for slug, info in (data.items() if isinstance(data, dict) else []):
+                emit(f"    berichttype {slug}: rest_base={info.get('rest_base')}")
+        else:
+            events = data.get("events", []) if isinstance(data, dict) else []
+            emit(f"    The Events Calendar: {data.get('total', len(events)) if isinstance(data, dict) else '?'} evenementen")
+            for ev in events[:8]:
+                venue = ev.get("venue") or {}
+                emit(f"      - {ev.get('start_date')} | {ev.get('title', '')[:90]} | "
+                     f"{venue.get('venue', '') if isinstance(venue, dict) else ''} | {ev.get('url', '')}")
+
+
 def describe_json(content: bytes) -> bool:
     try:
         data = json.loads(content)
@@ -95,10 +173,15 @@ def describe_pattern(url: str, content: bytes, pattern: str) -> None:
         emit(f"    - {href}  [{text[:60]}]")
 
 
-def describe_html(url: str, content: bytes) -> None:
+def describe_html(url: str, content: bytes, agent: str = "") -> None:
     soup = BeautifulSoup(content, "lxml")
     title = soup.title.get_text(strip=True) if soup.title else ""
     emit(f"  HTML-titel: {title[:120]}")
+    describe_jsonld(soup)
+    describe_wordpress(url, soup, agent or USER_AGENT)
+    for a in soup.find_all("a", href=True):
+        if re.search(r"\.ics\b|ical|webcal:|outlook|google\.com/calendar", a["href"], re.I):
+            emit(f"  Agenda-link: {urljoin(url, a['href'])}")
     generator = soup.find("meta", attrs={"name": "generator"})
     if generator:
         emit(f"  Generator: {generator.get('content')}")
@@ -151,6 +234,8 @@ def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | N
         emit("  Begin van antwoord: " + resp.text[:300].replace("\n", " "))
         return
     body = resp.content
+    if ("calendar" in ctype or body.lstrip()[:15] == b"BEGIN:VCALENDAR") and describe_ical(body):
+        return
     if "json" in ctype and describe_json(body):
         return
     if any(t in ctype for t in ("xml", "rss", "atom")) and describe_feed(body):
@@ -162,7 +247,7 @@ def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | N
     if body.lstrip()[:5] == b"<?xml":
         emit("  XML (geen feed): " + resp.text[:1500].replace("\n", " "))
         return
-    describe_html(resp.url, body)
+    describe_html(resp.url, body, agent)
     if pattern:
         describe_pattern(resp.url, body, pattern)
     if guess_feeds:
