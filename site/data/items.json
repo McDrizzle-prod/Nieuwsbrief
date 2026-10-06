@@ -1,6 +1,37 @@
 {
- "generated": "2026-10-06T04:35:56Z",
+ "generated": "2026-10-06T11:38:29Z",
  "items": [
+  {
+   "id": "deface96245b5b0a",
+   "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#wijziging-2026-10-06",
+   "summary": "Nieuw of gewijzigd op de pagina: Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
+   "published": "2026-10-06",
+   "source": "ep-oeil-ebw",
+   "source_name": "Europees Parlement – Legislative Observatory 2025/0358(COD)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "plenary"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-06T11:38:29Z",
+   "date": "2026-10-06"
+  },
   {
    "id": "aa37e33533c44115",
    "title": "Version 2.0 of the Architecture and Reference Framework now available",
