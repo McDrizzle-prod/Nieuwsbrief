@@ -1,0 +1,9 @@
+{"events": [
+ {"id": 1, "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)", "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
+  "description": "<p>Kick-off of the EBRA working group on the European Business Wallet.</p>", "excerpt": "", "all_day": true,
+  "start_date": "2026-10-20 00:00:00", "end_date": "2026-10-21 23:59:59", "utc_start_date": "2026-10-19 22:00:00", "utc_end_date": "2026-10-21 21:59:59", "venue": []},
+ {"id": 2, "title": "EBRA Member&#8217;s Reception (Evening, Skopje, North Macedonia)", "url": "https://ebra.be/event/ebra-members-reception/",
+  "description": "<p>Reception for members.</p>", "all_day": false,
+  "start_date": "2026-12-01 19:00:00", "end_date": "2026-12-01 22:00:00", "utc_start_date": "2026-12-01 18:00:00", "utc_end_date": "2026-12-01 21:00:00",
+  "venue": {"venue": "Hotel Aleksandar Palace", "city": "Skopje", "country": "North Macedonia"}}
+], "total": 2}

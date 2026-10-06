@@ -217,6 +217,77 @@ button.primary:hover { color: var(--sheet); filter: brightness(1.1); }
 .timeline .what { font-size: var(--step--1); }
 .timeline.compact li { padding-bottom: 10px; }
 
+/* --- Agenda ------------------------------------------------------------------ */
+.agenda-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 32px; align-items: start; }
+@media (max-width: 900px) { .agenda-layout { grid-template-columns: minmax(0, 1fr); } }
+.agenda-title { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+.agenda-select { display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); font-weight: 700; }
+.agenda-select select { font-size: var(--step-0); font-weight: 700; padding: 8px 12px; min-width: min(16rem, 100%); border-color: var(--petrol); }
+
+.kalender-wrap { margin-top: 20px; display: grid; gap: 8px; }
+.kalender { table-layout: fixed; border: 1px solid var(--rule); border-radius: var(--radius); }
+.kalender th { text-align: center; padding: 6px 2px; background: var(--paper); }
+.kalender td { height: 96px; padding: 4px; border: 1px solid var(--rule); vertical-align: top; }
+.kalender td.weekend { background: color-mix(in srgb, var(--paper) 55%, var(--sheet)); }
+.kalender td.buiten { background: var(--paper); }
+.kalender td.buiten .dagnummer { opacity: 0.5; }
+.dagnummer { display: inline-block; min-width: 1.7em; padding: 1px 5px; border-radius: 999px; font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.dagnummer .maand { text-transform: lowercase; }
+.vandaag .dagnummer { background: var(--petrol); color: var(--sheet); font-weight: 700; }
+.dag-items { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 3px; }
+.kal-ev {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere;
+  font-size: 0.74rem; line-height: 1.3; padding: 2px 5px; border-radius: 4px; text-decoration: none; color: var(--ink);
+  background: var(--petrol-tint); border-left: 3px solid var(--petrol);
+}
+.kal-ev:hover { text-decoration: underline; }
+.kal-ev .tijd { font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink-2); }
+.kal-ev.cat-nl-overheid { border-left-color: var(--lens); background: var(--lens-tint); }
+.kal-ev.cat-derden { border-left-color: var(--laag); background: var(--paper); }
+.kal-ev.since-visit { box-shadow: 0 0 0 2px var(--ok); }
+.dag-link { display: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: var(--step--1); color: var(--ink-2); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--petrol); }
+.legend .cat-nl-overheid::before { background: var(--lens); }
+.legend .cat-derden::before { background: var(--laag); }
+
+@media (max-width: 720px) {
+  .kalender th { font-size: 0.68rem; padding: 4px 0; }
+  .kalender td { height: 52px; padding: 2px; text-align: center; }
+  .dagnummer { padding: 1px 3px; min-width: 0; }
+  .dagnummer .maand { display: none; }
+  .dag-items { display: none; }
+  .dag-link {
+    display: grid; place-items: center; margin: 4px auto 0; width: 22px; height: 22px; border-radius: 50%;
+    background: var(--petrol); color: var(--sheet); font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.agenda-lijst { display: grid; }
+.agenda-dag { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 0 16px; border-top: 1px solid var(--rule); scroll-margin-top: 90px; }
+.agenda-dag:first-child { border-top: 0; }
+.datumblok { display: grid; justify-items: center; align-content: start; padding-top: 16px; line-height: 1.15; }
+.datumblok .wd, .datumblok .m { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+.datumblok .d { font-family: var(--font-display); font-size: var(--step-2); font-weight: 700; font-variant-numeric: tabular-nums; }
+.agenda-items .item:first-child { border-top: 0; }
+.agenda-items .item { padding-block: 14px; }
+.item .where { font-size: var(--step--1); }
+.item .where .label, .item .also .label { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+.item.since-visit { box-shadow: inset 3px 0 0 var(--ok); padding-left: 12px; }
+.chip.online { color: var(--ink-2); }
+
+.nieuw-agenda { border-top: 4px solid var(--ok) !important; }
+.nieuw-agenda .note { font-size: var(--step--1); color: var(--ink-2); }
+.nieuw-lijst { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.nieuw-lijst li { display: grid; gap: 2px; padding-left: 10px; border-left: 3px solid var(--rule); }
+.nieuw-lijst li.since-visit { border-left-color: var(--ok); }
+.nieuw-lijst .added { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ok); }
+.nieuw-lijst a { font-weight: 700; overflow-wrap: anywhere; }
+.nieuw-lijst .when { font-size: var(--step--1); color: var(--ink-2); }
+.binnenkort { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: var(--step--1); }
+.binnenkort .when { display: block; font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink-2); }
+
 /* --- Archief ----------------------------------------------------------------- */
 .filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-bottom: 8px; }
 .filters label { display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); }
@@ -264,12 +335,14 @@ footer .wrap { padding-block: 20px 32px; display: grid; gap: 6px; max-width: 116
 .notice { background: var(--petrol-tint); border-radius: var(--radius); padding: 12px 16px; font-size: var(--step--1); }
 
 @media (prefers-reduced-motion: no-preference) {
-  .item.highlight { animation: highlight 1.6s ease-out; }
+  .item.highlight, .agenda-dag.highlight, .nieuw-agenda.highlight { animation: highlight 1.6s ease-out; }
   @keyframes highlight { from { background: var(--lens-tint); } to { background: transparent; } }
 }
 
 @media print {
-  .masthead, .rail, .toolbar, footer, .no-print { display: none !important; }
+  .masthead, .rail, .toolbar, footer, .no-print, .agenda-select { display: none !important; }
+  .agenda-layout { display: block; }
+  .kalender td { height: auto; }
   body, .sheet { background: #fff; color: #000; border: 0; }
   .edition-layout { display: block; }
   a { color: #000; }

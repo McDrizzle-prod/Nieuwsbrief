@@ -15,7 +15,7 @@ from collections import Counter
 
 import yaml
 
-from . import enrich
+from . import agenda, enrich
 from .classify import Classifier
 from .fetchers import Context, RawItem, fetch
 from .store import load_json, merge, prune, save_json
@@ -25,12 +25,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def load_config(config_dir: str = os.path.join(ROOT, "config")) -> dict:
-    def read(name: str) -> dict:
-        with open(os.path.join(config_dir, name), encoding="utf-8") as fh:
-            return yaml.safe_load(fh)
+    def read(name: str, verplicht: bool = True) -> dict:
+        path = os.path.join(config_dir, name)
+        if not verplicht and not os.path.exists(path):
+            return {}
+        with open(path, encoding="utf-8") as fh:
+            return yaml.safe_load(fh) or {}
 
     return {"bronnen": read("bronnen.yaml"), "onderwerpen": read("onderwerpen.yaml"),
-            "achtergrond": read("achtergrond.yaml")}
+            "achtergrond": read("achtergrond.yaml"), "agenda": read("agenda.yaml", verplicht=False)}
 
 
 def make_item(raw: RawItem, source: dict, classification: dict) -> dict:
@@ -187,6 +190,22 @@ def run(argv: list[str] | None = None, root: str = ROOT, http: Http | None = Non
     if not args.geen_ai:
         enrich.enrich_items(merged, config, limit=int(os.environ.get("AI_MAX_BERICHTEN", "40")))
 
+    # Agenda: komende evenementen over de EUDI Wallet en de Business Wallet.
+    agenda_archive_path = os.path.join(root, "data", "agenda.json")
+    agenda_site_path = os.path.join(site_data, "agenda.json")
+    previous_agenda = {s["id"]: s for s in load_json(agenda_site_path, {"bronnen": []}).get("bronnen", [])}
+    try:
+        events, new_events, agenda_statuses = agenda.bijwerken(
+            config, ctx, classifier, load_json(agenda_archive_path, {"evenementen": []})["evenementen"],
+            previous_agenda, now_iso, selectie=args.bron)
+        agenda_site = agenda.site_agenda(events, agenda_statuses, config, now_iso)
+        print(f"\nAgenda: {len(new_events)} nieuwe evenementen, {len(agenda_site['evenementen'])} komend.")
+        for event in new_events[:30]:
+            print(f"  + [{(event.get('start') or '')[:10]}] {event['source']}: {event['title'][:100]}")
+    except Exception as exc:  # de agenda mag de nieuwsbrief nooit tegenhouden
+        print(f"Agenda niet bijgewerkt: {exc.__class__.__name__}: {exc}", file=sys.stderr)
+        agenda_site = None
+
     print(f"\n{len(added)} nieuwe berichten, archief bevat {len(merged)} berichten.")
     for item in sorted(added, key=lambda i: i["date"], reverse=True)[:40]:
         print(f"  + [{item['date']}] {item['source']}: {item['title'][:100]}")
@@ -197,12 +216,19 @@ def run(argv: list[str] | None = None, root: str = ROOT, http: Http | None = Non
         save_json(items_path, {"generated": now_iso, "items": merged})
         save_json(status_path, {"generated": now_iso, "bronnen": statuses})
         save_json(os.path.join(site_data, "config.json"), site_config(config, statuses))
+        if agenda_site is not None:
+            save_json(agenda_archive_path, {"generated": now_iso, "evenementen": events})
+            save_json(agenda_site_path, agenda_site)
         save_json(state_file, state)
 
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_file:
         with open(summary_file, "a", encoding="utf-8") as fh:
             fh.write(step_summary(statuses, len(added), len(merged)))
+            if agenda_site is not None:
+                fh.write(agenda.step_summary(agenda_statuses, len(new_events), len(agenda_site["evenementen"])))
+            else:
+                fh.write("### Agenda niet bijgewerkt\nZie het logboek van deze run voor de foutmelding.\n")
 
     tried = [s for s in statuses if s["laatst_gecontroleerd"] == now_iso]
     if tried and not any(s["ok"] for s in tried):

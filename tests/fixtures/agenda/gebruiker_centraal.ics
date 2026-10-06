@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:723@www.gebruikercentraal.nl
+DTSTART;TZID=Europe/Amsterdam:20261007T093000
+DTEND;TZID=Europe/Amsterdam:20261008T163000
+URL:https://www.gebruikercentraal.nl/agenda/internationale-conferentie-digital-identity-wallets/
+SUMMARY:Europese ID-wallet Conferentie UNFOLD#5 in Nijmegen
+LOCATION:Pathé Nijmegen\, Nijmegen
+END:VEVENT
+END:VCALENDAR

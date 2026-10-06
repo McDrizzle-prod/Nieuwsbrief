@@ -5,7 +5,9 @@
   const LEVELS = { hoog: 3, middel: 2, laag: 1, geen: 0 };
   const TYPE_LABEL = {
     feed: "RSS/Atom", html: "Webpagina", json: "API (JSON)", sparql: "SPARQL (EUR-Lex)",
-    sru: "SRU (KOOP)", pagewatch: "Paginawijzigingen",
+    sru: "SRU (KOOP)", pagewatch: "Paginawijzigingen", ep_procedure: "API (Europees Parlement)",
+    ical: "iCal-agenda", tribe: "Agenda-API (WordPress)", tk_activiteiten: "Open data (Tweede Kamer)",
+    eudi_evenementen: "Webpagina (Commissie)",
   };
   const NL_CATEGORIES = new Set(["nl-overheid"]);
   const PAGE_SIZE = 50;
@@ -14,6 +16,7 @@
   const state = {
     items: [], config: null, generated: null, byWeek: new Map(), editions: [],
     editionKey: null, archiveLimit: PAGE_SIZE, preview: Boolean(window.NIEUWSBRIEF_DATA),
+    agenda: null, agendaWallet: "eudi", agendaVisit: null,
   };
   const $ = (selector) => document.querySelector(selector);
 
@@ -280,6 +283,12 @@
           <div><dt>over de EUDI Wallet</dt><dd>${counts.eudi}</dd></div>
         </dl>
       </section>
+      ${upcomingEvents(3).length ? `<section aria-labelledby="binnenkort-kop">
+        <h3 id="binnenkort-kop">Binnenkort</h3>
+        <ul class="binnenkort">${upcomingEvents(3).map((ev) => `<li><span class="when">${esc(eventPeriod(ev))}</span>
+          ${ev.url ? link(ev.url, ev.title) : esc(ev.title)}</li>`).join("")}</ul>
+        <a href="#agenda">Naar de agenda</a>
+      </section>` : ""}
       ${ebw ? `<section aria-labelledby="dossier-kop">
         <h3 id="dossier-kop">Dossier ${esc(ebw.titel)}</h3>
         <p class="mono">${esc(ebw.subtitel)}</p>
@@ -293,6 +302,13 @@
         ${failing.length ? `<p class="mono">Niet bereikbaar: ${esc(failing.map((b) => b.naam).join("; "))}</p>` : ""}
         <a href="#bronnen">Overzicht van alle bronnen</a>
       </section>`;
+  }
+
+  function upcomingEvents(limit) {
+    if (!state.agenda) return [];
+    const today = fmtNlDay.format(new Date());
+    return (state.agenda.evenementen || []).filter((ev) => eventDays(ev).end >= today)
+      .sort((a, b) => a.start.localeCompare(b.start)).slice(0, limit);
   }
 
   function renderTimeline(steps, compact) {
@@ -378,19 +394,11 @@
     return '<span class="chip status-nog">nog niet</span>';
   }
 
-  function renderSources() {
-    const sources = state.config.bronnen || [];
-    const active = sources.filter((s) => s.actief);
-    const working = active.filter((s) => s.ok).length;
-    const repo = state.config.repository;
-    const editLink = repo
-      ? ` ${link(`https://github.com/${repo}/blob/${state.config.branch || "main"}/config/bronnen.yaml`, "config/bronnen.yaml")}`
-      : " config/bronnen.yaml";
-    const groups = Object.keys(state.config.categorieen || {});
-    const rows = groups.map((cat) => {
+  function sourceTable(sources, categories, nameOf) {
+    const rows = categories.map((cat) => {
       const list = sources.filter((s) => s.categorie === cat);
       if (!list.length) return "";
-      return `<tr class="category-head"><td colspan="5">${esc(categoryName(cat))}</td></tr>` + list.map((s) => `
+      return `<tr class="category-head"><td colspan="5">${esc(nameOf(cat))}</td></tr>` + list.map((s) => `
         <tr>
           <td>${link(s.site || s.url, s.naam)}<div class="desc">${esc(s.toelichting)}</div>
             ${s.ok === false && s.fout ? `<div class="err">${esc(s.fout)}</div>` : ""}</td>
@@ -400,19 +408,307 @@
           <td class="num">${s.laatst_gecontroleerd ? esc(fmtStamp.format(new Date(s.laatst_gecontroleerd))) : "–"}</td>
         </tr>`).join("");
     }).join("");
+    return `<div class="table-wrap"><table>
+      <thead><tr><th scope="col">Bron</th><th scope="col">Status</th><th scope="col">Methode</th>
+        <th scope="col">Relevant / gevonden</th><th scope="col">Laatst gecontroleerd</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  function renderSources() {
+    const sources = state.config.bronnen || [];
+    const active = sources.filter((s) => s.actief);
+    const working = active.filter((s) => s.ok).length;
+    const repo = state.config.repository;
+    const configLink = (file) => (repo
+      ? ` ${link(`https://github.com/${repo}/blob/${state.config.branch || "main"}/config/${file}`, `config/${file}`)}`
+      : ` config/${file}`);
+    const agendaSources = (state.agenda && state.agenda.bronnen) || [];
+    const agendaActive = agendaSources.filter((s) => s.actief);
     $("#bronnen-inhoud").innerHTML = `
       <div class="sheet" style="display:grid;gap:16px">
         <div class="section" style="padding-top:0">
           <h2>Bronnen</h2>
-          <p class="section-intro">${working} van ${active.length} actieve bronnen werkten bij de laatste controle.
-            Bronnen toevoegen of aanpassen doe je in${editLink}; de toelichting per bron staat in BRONNEN.md.</p>
+          <p class="section-intro">${working} van ${active.length} actieve nieuwsbronnen werkten bij de laatste controle.
+            Bronnen toevoegen of aanpassen doe je in${configLink("bronnen.yaml")}; de toelichting per bron staat in BRONNEN.md.</p>
         </div>
-        <div class="table-wrap"><table>
-          <thead><tr><th scope="col">Bron</th><th scope="col">Status</th><th scope="col">Methode</th>
-            <th scope="col">Relevant / gevonden</th><th scope="col">Laatst gecontroleerd</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table></div>
+        ${sourceTable(sources, Object.keys(state.config.categorieen || {}), categoryName)}
+        ${agendaSources.length ? `<div class="section">
+          <h3>Agenda</h3>
+          <p class="section-intro">${agendaActive.filter((s) => s.ok).length} van ${agendaActive.length} agendabronnen werkten bij de
+            laatste controle. Bij 'Relevant' staat hoeveel evenementen over de EUDI Wallet of de Business Wallet gaan.
+            Agendabronnen en zelf toegevoegde evenementen staan in${configLink("agenda.yaml")}.</p>
+        </div>
+        ${sourceTable(agendaSources, Object.keys(state.agenda.categorieen || {}), agendaCategory)}` : ""}
       </div>`;
+  }
+
+  // --- Agenda --------------------------------------------------------------------
+
+  const AGENDA_NEW_DAYS = 14;
+  const WEEKDAYS = ["ma", "di", "wo", "do", "vr", "za", "zo"];
+  const fmtNlDay = new Intl.DateTimeFormat("en-CA", { year: "numeric", month: "2-digit", day: "2-digit", timeZone: "Europe/Amsterdam" });
+  const fmtTime = new Intl.DateTimeFormat("nl-NL", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Amsterdam" });
+  const fmtShort = new Intl.DateTimeFormat("nl-NL", { day: "numeric", month: "short", timeZone: "UTC" });
+  const fmtMonthShort = new Intl.DateTimeFormat("nl-NL", { month: "short", timeZone: "UTC" });
+  const fmtWeekday = new Intl.DateTimeFormat("nl-NL", { weekday: "short", timeZone: "UTC" });
+  const fmtAdded = new Intl.DateTimeFormat("nl-NL", { day: "numeric", month: "short", timeZone: "Europe/Amsterdam" });
+
+  function dayKey(value) {
+    if (!value) return null;
+    return value.length <= 10 ? value : fmtNlDay.format(new Date(value));
+  }
+
+  function addDays(key, n) {
+    const d = parseDay(key);
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function monthLater(key) {
+    const [y, m, d] = key.split("-").map(Number);
+    const last = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    return new Date(Date.UTC(y, m, Math.min(d, last))).toISOString().slice(0, 10);
+  }
+
+  function weekdayIndex(key) {
+    return (parseDay(key).getUTCDay() + 6) % 7; // maandag = 0
+  }
+
+  function eventDays(ev) {
+    const start = dayKey(ev.start);
+    const end = dayKey(ev.end) || start;
+    return { start, end: end < start ? start : end };
+  }
+
+  function eventTime(ev) {
+    if (!ev.start || ev.start.length <= 10) return "hele dag";
+    const begin = fmtTime.format(new Date(ev.start));
+    const sameDay = ev.end && ev.end.length > 10 && dayKey(ev.end) === dayKey(ev.start);
+    return sameDay ? `${begin} – ${fmtTime.format(new Date(ev.end))}` : begin;
+  }
+
+  function eventPeriod(ev) {
+    const { start, end } = eventDays(ev);
+    const a = parseDay(start);
+    if (start === end) return fmtDay.format(a);
+    const b = parseDay(end);
+    if (a.getUTCMonth() === b.getUTCMonth() && a.getUTCFullYear() === b.getUTCFullYear()) return `${a.getUTCDate()} – ${fmtDay.format(b)}`;
+    return `${fmtShort.format(a)} – ${fmtDay.format(b)}`;
+  }
+
+  function shortPlace(location) {
+    const parts = String(location || "").replace(/\([^)]*\)/g, "").split(",").map((p) => p.trim())
+      .filter((p) => p && !/^(nederland|netherlands|the netherlands|belgi[eë]|belgium)$/i.test(p) && !/\d/.test(p));
+    return parts.length ? parts[parts.length - 1] : String(location || "");
+  }
+
+  function agendaWallets() {
+    return (state.agenda && state.agenda.wallets) || [{ id: "eudi", naam: "EUDI Wallet" }, { id: "ebw", naam: "Business Wallet (EBW)" }];
+  }
+
+  function walletName(id) {
+    const wallet = agendaWallets().find((w) => w.id === id);
+    return wallet ? wallet.naam : id;
+  }
+
+  function agendaCategory(id) {
+    return ((state.agenda && state.agenda.categorieen) || {})[id] || id;
+  }
+
+  function isNewEvent(ev) {
+    const ref = state.agenda && state.agenda.generated ? new Date(state.agenda.generated) : new Date();
+    return Boolean(ev.first_seen) && (ref - new Date(ev.first_seen)) / 86400000 < AGENDA_NEW_DAYS;
+  }
+
+  function newSinceVisit(ev) {
+    return Boolean(state.agendaVisit && ev.first_seen && ev.first_seen > state.agendaVisit);
+  }
+
+  // Wanneer was je hier vorige keer? Binnen een uur telt als hetzelfde bezoek.
+  function readAgendaVisit() {
+    try {
+      const saved = JSON.parse(localStorage.getItem("walletbrief-agenda") || "{}");
+      let previous = saved.vorige || null;
+      if (!saved.laatste || Date.now() - new Date(saved.laatste) > 3600e3) previous = saved.laatste || null;
+      localStorage.setItem("walletbrief-agenda", JSON.stringify({ vorige: previous, laatste: new Date().toISOString() }));
+      const wallet = localStorage.getItem("walletbrief-agenda-wallet");
+      if (wallet && agendaWallets().some((w) => w.id === wallet)) state.agendaWallet = wallet;
+      return previous;
+    } catch (e) {
+      return null; // geen opslag (privévenster, geblokkeerd): alleen 'nieuw' van de afgelopen dagen
+    }
+  }
+
+  function setAgendaWallet(wallet, updateHash = true) {
+    if (!agendaWallets().some((w) => w.id === wallet)) return;
+    state.agendaWallet = wallet;
+    try { localStorage.setItem("walletbrief-agenda-wallet", wallet); } catch (e) { /* geen opslag */ }
+    if (updateHash) {
+      try { history.replaceState(null, "", `#agenda-${wallet}`); } catch (e) { /* voorbeeldweergave */ }
+    }
+    renderAgenda();
+  }
+
+  function renderAgenda() {
+    const host = $("#agenda-inhoud");
+    if (!state.agenda) {
+      host.innerHTML = '<p class="empty">De agenda wordt bij de eerstvolgende run gevuld (elke ochtend, of direct via Actions &gt; Nieuwsbrief bijwerken).</p>';
+      $("#agenda-zijkolom").innerHTML = "";
+      return;
+    }
+    const wallet = state.agendaWallet;
+    const today = fmtNlDay.format(new Date());
+    const last = monthLater(today);
+    const events = (state.agenda.evenementen || [])
+      .filter((ev) => (ev.wallets || []).includes(wallet) && eventDays(ev).end >= today)
+      .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
+    const inWindow = events.filter((ev) => eventDays(ev).start <= last);
+    const later = events.filter((ev) => eventDays(ev).start > last);
+    const fresh = events.filter(isNewEvent)
+      .sort((a, b) => b.first_seen.localeCompare(a.first_seen) || a.start.localeCompare(b.start));
+    const options = agendaWallets().map((w) =>
+      `<option value="${esc(w.id)}"${w.id === wallet ? " selected" : ""}>${esc(w.naam)}</option>`).join("");
+    host.innerHTML = `
+      <div class="edition-head agenda-head">
+        <p class="eyebrow">Agenda · ${esc(fmtDayMonth.format(parseDay(today)))} – ${esc(fmtLong.format(parseDay(last)))}</p>
+        <div class="agenda-title">
+          <h2>Komende evenementen</h2>
+          <label class="agenda-select" for="agenda-wallet">Agenda voor
+            <select id="agenda-wallet">${options}</select>
+          </label>
+        </div>
+        <p class="edition-stats"><strong>${inWindow.length}</strong> ${inWindow.length === 1 ? "evenement" : "evenementen"} tot en met
+          ${esc(fmtLong.format(parseDay(last)))}${fresh.length ? ` · <a href="#nieuw-in-agenda" data-scroll="nieuw-in-agenda"><strong>${fresh.length}</strong> nieuw toegevoegd</a>` : ""}</p>
+        <p class="section-intro">Evenementen over de ${esc(walletName(wallet))} van Europese instellingen, de Nederlandse
+          overheid en organisaties als ECP. Een evenement over beide wallets staat in beide agenda's.</p>
+      </div>
+      ${renderCalendar(inWindow, today, last)}
+      <section class="section" aria-labelledby="agenda-lijst-kop">
+        <h3 id="agenda-lijst-kop">Per dag <span class="count">${inWindow.length}</span></h3>
+        ${inWindow.length ? renderEventList(inWindow, today)
+          : `<p class="empty">Geen evenementen over de ${esc(walletName(wallet))} in de komende maand.</p>`}
+      </section>
+      ${later.length ? `<section class="section" aria-labelledby="agenda-later-kop">
+        <h3 id="agenda-later-kop">Daarna <span class="count">${later.length}</span></h3>
+        ${renderEventList(later, today)}
+      </section>` : ""}`;
+    $("#agenda-wallet").addEventListener("change", (event) => setAgendaWallet(event.target.value));
+    renderAgendaRail(fresh, wallet);
+  }
+
+  function renderCalendar(events, today, last) {
+    const byDay = new Map();
+    for (const ev of events) {
+      const { start, end } = eventDays(ev);
+      let day = start < today ? today : start;
+      for (let n = 0; day <= end && day <= last && n < 31; n += 1, day = addDays(day, 1)) {
+        if (!byDay.has(day)) byDay.set(day, []);
+        byDay.get(day).push(ev);
+      }
+    }
+    const first = addDays(today, -weekdayIndex(today));
+    const stop = addDays(last, 6 - weekdayIndex(last));
+    const rows = [];
+    for (let week = first; week <= stop; week = addDays(week, 7)) {
+      const cells = [];
+      for (let i = 0; i < 7; i += 1) {
+        const day = addDays(week, i);
+        const date = parseDay(day);
+        const outside = day < today || day > last;
+        const list = outside ? [] : (byDay.get(day) || []);
+        const cls = [day === today ? "vandaag" : "", outside ? "buiten" : "", i >= 5 ? "weekend" : ""].filter(Boolean).join(" ");
+        const month = date.getUTCDate() === 1 || day === first ? `<span class="maand"> ${esc(fmtMonthShort.format(date))}</span>` : "";
+        const label = `${fmtWeekday.format(date)} ${fmtDayMonth.format(date)}`;
+        cells.push(`<td class="${cls}"${day === today ? ' aria-current="date"' : ""}>
+          <span class="dagnummer" aria-label="${esc(label)}">${date.getUTCDate()}${month}</span>
+          ${list.length ? `<ul class="dag-items">${list.map((ev) => {
+            const firstDay = eventDays(ev).start === day;
+            const time = firstDay && ev.start.length > 10 ? `<span class="tijd">${esc(fmtTime.format(new Date(ev.start)))}</span> ` : "";
+            return `<li><a class="kal-ev cat-${esc(ev.category)}${newSinceVisit(ev) ? " since-visit" : ""}" href="#ev-${esc(ev.id)}"
+              data-scroll="ev-${esc(ev.id)}" title="${esc(ev.title)}">${time}${esc(ev.title)}</a></li>`;
+          }).join("")}</ul>
+          <a class="dag-link" href="#dag-${esc(day)}" data-scroll="dag-${esc(day)}"
+            aria-label="${list.length} ${list.length === 1 ? "evenement" : "evenementen"} op ${esc(label)}"><span aria-hidden="true">${list.length}</span></a>` : ""}
+        </td>`);
+      }
+      rows.push(`<tr>${cells.join("")}</tr>`);
+    }
+    const categories = Object.entries((state.agenda && state.agenda.categorieen) || {});
+    return `<div class="kalender-wrap">
+      <table class="kalender">
+        <caption class="visually-hidden">Maandoverzicht van ${esc(fmtDayMonth.format(parseDay(today)))} tot en met ${esc(fmtLong.format(parseDay(last)))}</caption>
+        <thead><tr>${WEEKDAYS.map((d) => `<th scope="col">${d}</th>`).join("")}</tr></thead>
+        <tbody>${rows.join("")}</tbody>
+      </table>
+      ${categories.length ? `<p class="legend">${categories.map(([id, naam]) => `<span class="cat-${esc(id)}">${esc(naam)}</span>`).join("")}</p>` : ""}
+    </div>`;
+  }
+
+  function renderEventList(events, today) {
+    const groups = new Map();
+    for (const ev of events) {
+      const day = eventDays(ev).start < today ? today : eventDays(ev).start;
+      if (!groups.has(day)) groups.set(day, []);
+      groups.get(day).push(ev);
+    }
+    return `<div class="agenda-lijst">${[...groups].map(([day, list]) => {
+      const date = parseDay(day);
+      return `<div class="agenda-dag" id="dag-${esc(day)}">
+        <p class="datumblok"><span class="wd">${esc(fmtWeekday.format(date))}</span><span class="d">${date.getUTCDate()}</span><span class="m">${esc(fmtMonthShort.format(date))}</span></p>
+        <div class="agenda-items">${list.map(renderEvent).join("")}</div>
+      </div>`;
+    }).join("")}</div>`;
+  }
+
+  function renderEvent(ev) {
+    const fresh = isNewEvent(ev);
+    const sinceVisit = newSinceVisit(ev);
+    const physical = ev.location && ev.location.toLowerCase() !== "online";
+    const online = ev.online ? `<span class="chip online">${physical ? "ook online" : "online"}</span>` : "";
+    const wallets = (ev.wallets || []).map((w) => `<span class="chip topic">${w === "ebw" ? "EBW" : "EUDI"}</span>`).join("");
+    const themes = (ev.moza || []).map((m) => theme(m.thema).naam);
+    const fragment = ev.fragment && !(ev.summary || "").includes(ev.fragment.slice(0, 40)) ? ev.fragment : "";
+    const also = (ev.also || []).length ? ` · ook vermeld bij ${ev.also.map((a) => link(a.url, a.source_name)).join(", ")}` : "";
+    return `<article class="item event${sinceVisit ? " since-visit" : ""}" id="ev-${esc(ev.id)}">
+      <div class="item-meta">
+        <time datetime="${esc(ev.start)}">${esc(eventPeriod(ev))} · ${esc(eventTime(ev))}</time>
+        ${wallets}${online}
+        ${fresh ? `<span class="chip nieuw">${sinceVisit ? "nieuw sinds je vorige bezoek" : "nieuw"}</span>` : ""}
+      </div>
+      <h4>${ev.url ? link(ev.url, ev.title) : esc(ev.title)}</h4>
+      ${physical || ev.online ? `<p class="where"><span class="label">Waar</span> ${esc(physical ? ev.location : "Online")}</p>` : ""}
+      ${ev.summary ? `<p class="item-summary">${esc(ev.summary)}</p>` : ""}
+      ${fragment ? `<p class="item-fragment"><span class="label">Uit de aankondiging</span> ${esc(fragment)}</p>` : ""}
+      ${themes.length ? `<div class="item-moza"><span class="label">MOZa-lens</span><span class="chip level-${esc(ev.moza_level)}">${esc(ev.moza_level)}</span><span>${esc(themes.join(" · "))}</span></div>` : ""}
+      <p class="also">${esc(agendaCategory(ev.category))} · ${esc(ev.source_name)}${also}</p>
+    </article>`;
+  }
+
+  function renderAgendaRail(fresh, wallet) {
+    const sinceVisit = fresh.filter(newSinceVisit).length;
+    const statuses = (state.agenda.bronnen || []).filter((b) => b.actief);
+    const failing = statuses.filter((b) => b.ok === false);
+    const name = esc(walletName(wallet));
+    $("#agenda-zijkolom").innerHTML = `
+      <section class="nieuw-agenda" id="nieuw-in-agenda" aria-labelledby="nieuw-agenda-kop">
+        <h3 id="nieuw-agenda-kop">Nieuw in de agenda</h3>
+        <p class="note">${fresh.length
+          ? `${fresh.length} ${fresh.length === 1 ? "evenement" : "evenementen"} over de ${name} toegevoegd in de afgelopen ${AGENDA_NEW_DAYS} dagen${sinceVisit ? `, waarvan <strong>${sinceVisit}</strong> sinds je vorige bezoek` : ""}.`
+          : `Geen nieuwe evenementen over de ${name} in de afgelopen ${AGENDA_NEW_DAYS} dagen.`}</p>
+        ${fresh.length ? `<ol class="nieuw-lijst">${fresh.slice(0, 12).map((ev) => `
+          <li class="${newSinceVisit(ev) ? "since-visit" : ""}">
+            <span class="added">toegevoegd ${esc(fmtAdded.format(new Date(ev.first_seen)))}</span>
+            <a href="#ev-${esc(ev.id)}" data-scroll="ev-${esc(ev.id)}">${esc(ev.title)}</a>
+            <span class="when">${esc(eventPeriod(ev))}${ev.location && ev.location.toLowerCase() !== "online" ? ` · ${esc(shortPlace(ev.location))}` : ev.online ? " · online" : ""}</span>
+          </li>`).join("")}</ol>` : ""}
+      </section>
+      <section aria-labelledby="agenda-bronnen-kop">
+        <h3 id="agenda-bronnen-kop">Bronnen van de agenda</h3>
+        <p>${statuses.length - failing.length} van ${statuses.length} agendabronnen werkten bij de laatste controle.</p>
+        ${failing.length ? `<p class="mono">Niet bereikbaar: ${esc(failing.map((b) => b.naam).join("; "))}</p>` : ""}
+        <a href="#bronnen">Overzicht van alle bronnen</a>
+      </section>`;
   }
 
   // --- E-mail, download, afdrukken -----------------------------------------------
@@ -564,9 +860,13 @@
       state.editionKey = hash.slice(7);
       renderEdition();
       showTab("nieuwsbrief");
+    } else if (hash === "agenda" || hash.startsWith("agenda-")) {
+      const wallet = hash.slice(7);
+      if (wallet && wallet !== state.agendaWallet && agendaWallets().some((w) => w.id === wallet)) setAgendaWallet(wallet, false);
+      showTab("agenda");
     } else if (["archief", "dossiers", "bronnen"].includes(hash)) {
       showTab(hash);
-    } else if (!hash.startsWith("item-")) {
+    } else if (!/^(item|ev|dag)-/.test(hash) && hash !== "nieuw-in-agenda") {
       showTab("nieuwsbrief");
     }
   }
@@ -597,8 +897,11 @@
     let data = window.NIEUWSBRIEF_DATA;
     try {
       if (!data) {
-        const [items, config] = await Promise.all([fetchJson("data/items.json"), fetchJson("data/config.json")]);
-        data = { items: items.items, generated: items.generated, config };
+        const [items, config, agendaData] = await Promise.all([
+          fetchJson("data/items.json"), fetchJson("data/config.json"),
+          fetchJson("data/agenda.json").catch(() => null), // de agenda is optioneel
+        ]);
+        data = { items: items.items, generated: items.generated, config, agenda: agendaData };
       }
     } catch (e) {
       $("#laden").textContent = "Er zijn nog geen gegevens. Start in GitHub de workflow 'Nieuwsbrief bijwerken' (Actions > Run workflow) en laad deze pagina daarna opnieuw.";
@@ -607,6 +910,8 @@
     state.items = (data.items || []).filter((i) => i.date);
     state.config = data.config;
     state.generated = data.generated;
+    state.agenda = data.agenda || null;
+    state.agendaVisit = readAgendaVisit();
     for (const item of state.items) {
       if (item.baseline) continue; // nulmeting zonder datum: wel in het archief, niet in een editie
       if (!state.byWeek.has(weekKey(item.date))) state.byWeek.set(weekKey(item.date), []);
@@ -623,6 +928,7 @@
     else $("#editie").innerHTML = '<p class="empty">Nog geen berichten gevonden. De eerstvolgende run vult de nieuwsbrief.</p>';
     setupArchive();
     renderDossiers();
+    renderAgenda();
     renderSources();
     route();
     window.addEventListener("hashchange", route);

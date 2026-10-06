@@ -1,0 +1,186 @@
+# Agenda: komende evenementen over de EUDI Wallet en de European Business Wallet
+#
+# Het tabblad Agenda op de site toont per wallet (keuzemenu) de evenementen van vandaag
+# tot over een maand, en een overzicht van evenementen die net zijn toegevoegd.
+# Alleen evenementen die over de EUDI Wallet of de Business Wallet gaan, komen in de
+# agenda. Dat wordt herkend aan de zoektermen in config/onderwerpen.yaml, in de titel, de
+# beschrijving en (met `detail: true`) de tekst van de evenementpagina. Een evenement
+# over allebei staat in beide agenda's.
+#
+# Brontypes:
+#   ical              iCal-agenda (.ics)
+#   tribe             WordPress-agenda (The Events Calendar): /wp-json/tribe/events/v1/events
+#   html              agendapagina; links naar evenementen herkend aan `link_patroon`
+#   tk_activiteiten   open data van de Tweede Kamer (activiteiten met hun agendapunten)
+#   eudi_evenementen  evenementenpagina van de EUDI Wallet-site van de Commissie
+#
+# Opties per bron:
+#   filter: true          alleen evenementen over EUDI of EBW (voor brede agenda's)
+#   standaard_onderwerp   eudi of ebw: geldt voor elk evenement van de bron
+#   detail: true          de pagina van elk evenement bekijken (tijd, locatie, tekst);
+#                         een pagina wordt hooguit eens per twee weken opnieuw opgehaald
+#   detail_max            zoveel pagina's per run (standaard 20)
+#   prioriteit            1 = eerste keus als hetzelfde evenement bij meer bronnen staat
+#   actief: false         bron tijdelijk uitzetten
+
+categorieen:
+  eu: Europese instellingen
+  nl-overheid: Nederlandse overheid
+  derden: Platforms en organisaties
+
+bronnen:
+  # --- Europese instellingen ---------------------------------------------------
+  - id: ec-eudi-evenementen
+    naam: "EU Digital Identity Wallet – evenementen (Commissie)"
+    categorie: eu
+    type: eudi_evenementen
+    url: https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694497147/Events
+    standaard_onderwerp: eudi
+    prioriteit: 1
+    toelichting: >-
+      Evenementen van de Commissie over de EUDI Wallet, zoals de Launchpads waar
+      lidstaten hun wallets testen en tonen, en webinars voor ontwikkelaars.
+
+  # --- Nederlandse overheid ------------------------------------------------------
+  - id: tweede-kamer-activiteiten
+    naam: "Tweede Kamer – debatten en rondetafelgesprekken"
+    categorie: nl-overheid
+    type: tk_activiteiten
+    url: https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Activiteit
+    params:
+      $filter: >-
+        Verwijderd eq false and Datum ge {vandaag}T00:00:00Z and (contains(Onderwerp,'wallet')
+        or contains(Onderwerp,'Wallet') or contains(Onderwerp,'eIDAS')
+        or contains(Onderwerp,'digitale identiteit') or contains(Onderwerp,'Digitale identiteit')
+        or Agendapunt/any(a: contains(a/Onderwerp,'wallet') or contains(a/Onderwerp,'Wallet')
+        or contains(a/Onderwerp,'eIDAS') or contains(a/Onderwerp,'portemonnee')
+        or contains(a/Onderwerp,'EDI-stelsel') or contains(a/Onderwerp,'digitale identiteit')))
+      $expand: Agendapunt($select=Onderwerp)
+      $orderby: Datum
+      $top: 50
+    soorten_overslaan: [Procedurevergadering]
+    filter: true
+    prioriteit: 1
+    site: https://www.tweedekamer.nl/debat_en_vergadering
+    toelichting: >-
+      Commissiedebatten, rondetafelgesprekken, technische briefings en plenaire debatten
+      waarbij een wallet, eIDAS of digitale identiteit op de agenda staat.
+
+  - id: digitale-overheid
+    naam: "Digitale Overheid – evenementen (BZK)"
+    categorie: nl-overheid
+    type: ical
+    url: https://www.digitaleoverheid.nl/events.ics
+    site: https://www.digitaleoverheid.nl/evenementen/
+    filter: true
+    detail: true
+    detail_max: 50
+    prioriteit: 1
+    toelichting: >-
+      De evenementenagenda van de digitale overheid, met onder meer de meet-ups van het
+      EDI-stelsel en bijeenkomsten van Logius, RvIG en BZK.
+
+  - id: gebruiker-centraal
+    naam: "Gebruiker Centraal – agenda"
+    categorie: nl-overheid
+    type: ical
+    url: https://www.gebruikercentraal.nl/events.ics
+    site: https://www.gebruikercentraal.nl/evenementen/
+    filter: true
+    detail: true
+    detail_max: 30
+    prioriteit: 1
+    toelichting: >-
+      Bijeenkomsten over gebruiksvriendelijke dienstverlening van de overheid, waaronder de
+      Europese ID-wallet-conferentie UNFOLD en sessies over ID-wallets.
+
+  - id: staat-van-de-uitvoering
+    naam: "Staat van de Uitvoering – agenda"
+    categorie: nl-overheid
+    type: html
+    url: https://staatvandeuitvoering.nl/agenda/
+    link_patroon: /evenement/[^/]+/?$
+    filter: true
+    detail: true
+    prioriteit: 2
+    toelichting: >-
+      Agenda van evenementen over publieke dienstverlening, bijgehouden door ICTU in
+      opdracht van BZK.
+
+  - id: europa-decentraal
+    naam: "Europa decentraal – agenda"
+    categorie: nl-overheid
+    type: tribe
+    url: https://europadecentraal.nl/wp-json/tribe/events/v1/events
+    site: https://europadecentraal.nl/agenda/
+    filter: true
+    prioriteit: 2
+    toelichting: >-
+      Kenniscentrum voor Europees recht en beleid voor decentrale overheden, met
+      bijeenkomsten over onder meer eIDAS, de EUDI Wallet en de Business Wallet.
+
+  - id: kvk
+    naam: "KVK – evenementen"
+    categorie: nl-overheid
+    type: html
+    url: https://www.kvk.nl/evenementen/
+    link_patroon: /evenementen/[^/]+/?$
+    filter: true
+    detail: true
+    prioriteit: 2
+    toelichting: >-
+      Evenementen van de Kamer van Koophandel. Alleen bijeenkomsten waarin de Business
+      Wallet of de EUDI Wallet voorkomt, komen in de agenda.
+
+  # --- Platforms en organisaties ---------------------------------------------------
+  - id: ecp
+    naam: "ECP | Platform voor de InformatieSamenleving – agenda"
+    categorie: derden
+    type: html
+    url: https://ecp.nl/agenda/
+    link_patroon: /agenda/[^/]+/?$
+    filter: true
+    detail: true
+    prioriteit: 1
+    toelichting: >-
+      ECP organiseert met het ministerie van Economische Zaken (programma
+      Vertrouwensdiensten) de symposia over de European Business Wallet.
+
+  - id: idnext
+    naam: "IDnext – agenda"
+    categorie: derden
+    type: tribe
+    url: https://idnext.eu/wp-json/tribe/events/v1/events
+    site: https://idnext.eu/calendar
+    filter: true
+    prioriteit: 2
+    toelichting: >-
+      Onafhankelijk Nederlands platform over digitale identiteit, met onder meer de
+      jaarlijkse IDnext-conferentie over eIDAS 2.0 en wallets.
+
+  - id: ebra
+    naam: "EBRA – Europese handelsregisters"
+    categorie: derden
+    type: tribe
+    url: https://ebra.be/wp-json/tribe/events/v1/events
+    site: https://ebra.be/events/
+    filter: true
+    prioriteit: 2
+    toelichting: >-
+      Vereniging van Europese handelsregisters (waaronder KVK), met bijeenkomsten over de
+      rol van de registers in de European Business Wallet.
+
+# Evenementen die geen bron automatisch levert, bijvoorbeeld van FIDES (die site weigert
+# geautomatiseerde verzoeken) of een conferentie, kun je hier zelf toevoegen. Ze staan in
+# de agenda tot ze voorbij zijn. Voorbeeld:
+#
+#   - titel: "Business Wallets in Action"
+#     start: 2026-09-15 13:00        # datum, of datum en tijd (Nederlandse tijd)
+#     eind: 2026-09-15 18:00         # optioneel
+#     locatie: Utrecht
+#     online: false
+#     url: https://fides.community/events-business-wallets-in-action/
+#     organisator: FIDES
+#     wallets: [ebw]                 # eudi, ebw of allebei; weglaten = op zoektermen indelen
+#     samenvatting: Praktijkbijeenkomst over business wallets en verifieerbare gegevens.
+handmatig: []

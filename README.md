@@ -11,6 +11,8 @@ Alles draait in GitHub. Je hoeft niets te installeren; een browser is genoeg.
 - **Nieuwsbrief lezen:** `https://mcdrizzle-prod.github.io/Nieuwsbrief/` (na de eenmalige
   instelling hieronder)
 - **Welke bronnen en waarom:** [BRONNEN.md](BRONNEN.md)
+- **Agenda:** komende evenementen over de EUDI Wallet en de Business Wallet, met een
+  maandoverzicht en de nieuw toegevoegde evenementen (tabblad *Agenda*)
 
 ## Zo werkt het
 
@@ -35,6 +37,10 @@ GitHub Actions (elke ochtend)            GitHub Pages
    planning, architectuur, ondertekening, pilots en soevereiniteit. Daaruit volgt een
    relevantie voor MOZa: hoog, middel of laag.
 4. Nieuwe berichten komen in `site/data/items.json` en de site wordt opnieuw gepubliceerd.
+5. In dezelfde run haalt de scraper de agenda's op uit
+   [`config/agenda.yaml`](config/agenda.yaml): van de Commissie, de Tweede Kamer,
+   Digitale Overheid, ECP en andere. Evenementen over de EUDI Wallet of de Business Wallet
+   komen in `site/data/agenda.json`.
 
 ## Eenmalig instellen (5 minuten, alleen in de browser)
 
@@ -62,6 +68,7 @@ GitHub Actions (elke ochtend)            GitHub Pages
 |---|---|
 | Nieuwsbrief van deze week lezen | De site, tab **Nieuwsbrief** |
 | Nieuwsbrief doorsturen | **Kopieer voor e-mail** en plak in Outlook, of **Download HTML** |
+| Komende evenementen bekijken | Tab **Agenda**: kies de EUDI Wallet of de Business Wallet; rechts staat wat nieuw is toegevoegd |
 | Oudere berichten zoeken | Tab **Archief** (zoeken en filteren op onderwerp, bron en MOZa-relevantie) |
 | Stand van het EBW-dossier en de MOZa-kernvragen | Tab **Dossiers** |
 | Zien welke bronnen werken | Tab **Bronnen**, of de samenvatting van de laatste run onder *Actions* |
@@ -80,6 +87,8 @@ automatisch opnieuw opgebouwd.
   geautomatiseerde verzoeken weigert.
 - **Zoektermen en MOZa-thema's:** [`config/onderwerpen.yaml`](config/onderwerpen.yaml).
   Hier staat ook de uitleg per thema die in de MOZa-lens verschijnt.
+- **Agenda:** [`config/agenda.yaml`](config/agenda.yaml). Hier staan de agendabronnen. Onder
+  `handmatig` kun je zelf een evenement toevoegen dat geen bron levert.
 - **Dossierstappen en kernvragen:** [`config/achtergrond.yaml`](config/achtergrond.yaml).
   Deze teksten worden niet gescraped. Werk ze bij als het dossier een stap zet; de
   nieuwsbrief meldt zulke stappen via de bronnen.
@@ -88,11 +97,11 @@ automatisch opnieuw opgebouwd.
 
 | Map | Inhoud |
 |---|---|
-| `config/` | bronnen, zoektermen en MOZa-thema's, dossierteksten |
-| `scraper/` | Python-code die bronnen ophaalt, indeelt en het archief bijhoudt |
+| `config/` | bronnen, zoektermen en MOZa-thema's, dossierteksten, agendabronnen |
+| `scraper/` | Python-code die bronnen ophaalt, indeelt en het archief bijhoudt; `agenda.py` doet hetzelfde voor evenementen |
 | `site/` | de nieuwsbrief (HTML, CSS en JavaScript, zonder externe bibliotheken) |
-| `site/data/` | gegenereerde gegevens: berichten, bronstatus en configuratie voor de site |
-| `data/state.json` | interne status, zoals de laatst bekende tekst van gevolgde pagina's |
+| `site/data/` | gegenereerde gegevens: berichten, agenda, bronstatus en configuratie voor de site |
+| `data/` | interne status: de laatst bekende tekst van gevolgde pagina's en bekeken evenementpagina's (`state.json`), en het archief van de agenda (`agenda.json`) |
 | `tools/probe.py` | hulpmiddel om een nieuwe bron te verkennen |
 | `tests/` | tests met voorbeeldpagina's per brontype |
 

@@ -1,0 +1,13 @@
+{"value": [
+ {"Soort": "Rondetafelgesprek", "Nummer": "2026A06001", "Onderwerp": "European Business Wallet", "Datum": "2026-11-05T10:00:00+01:00",
+  "Aanvangstijd": "2026-11-05T10:00:00+01:00", "Eindtijd": "2026-11-05T12:00:00+01:00", "Locatie": "Thorbeckezaal", "Status": "Gepland",
+  "Voortouwnaam": "vaste commissie voor Digitale Zaken", "Agendapunt": [{"Onderwerp": "Blok 1: bedrijven"}]},
+ {"Soort": "Commissiedebat", "Nummer": "2026A06002", "Onderwerp": "Digitale overheid", "Datum": "2026-11-12T14:00:00+01:00",
+  "Aanvangstijd": "2026-11-12T14:00:00+01:00", "Eindtijd": "2026-11-12T18:00:00+01:00", "Locatie": null, "Status": "Gepland",
+  "Voortouwnaam": "vaste commissie voor Digitale Zaken",
+  "Agendapunt": [{"Onderwerp": "Voortgangsbrief EDI-stelsel en de publieke NL Wallet"}, {"Onderwerp": "Kamerbrief over basisregistraties"}]},
+ {"Soort": "Procedurevergadering", "Nummer": "2026A06003", "Onderwerp": "Procedurevergadering Digitale Zaken", "Datum": "2026-10-14T11:00:00+02:00",
+  "Aanvangstijd": "2026-10-14T11:00:00+02:00", "Status": "Gepland", "Agendapunt": [{"Onderwerp": "Brief over de EUDI-wallet"}]},
+ {"Soort": "Technische briefing", "Nummer": "2026A06004", "Onderwerp": "Technische briefing over de EUDI-wallet", "Datum": "2026-10-28T13:00:00+01:00",
+  "Aanvangstijd": "2026-10-28T13:00:00+01:00", "Status": "Geannuleerd", "Agendapunt": []}
+]}

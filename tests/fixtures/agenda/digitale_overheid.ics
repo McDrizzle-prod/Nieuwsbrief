@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wp-events-plugin.com//6.4//EN
+BEGIN:VEVENT
+UID:1445@www.digitaleoverheid.nl
+DTSTART;TZID=Europe/Amsterdam:20261023T124500
+DTEND;TZID=Europe/Amsterdam:20261023T180000
+URL:https://www.digitaleoverheid.nl/evenementen/meet-up-edi-stelsel-en-blsp/
+SUMMARY:Meet-up EDI-stelsel en BLSP
+DESCRIPTION:Tijdens deze middag hoor je de laatste ontwikkelingen binnen het EDI-stelsel en de Large S
+ cale Pilots\, met workshops over de NL Wallet.
+LOCATION:Nieuwe Luxor Theater\, Posthumalaan 1\, Rotterdam\, Nederland
+END:VEVENT
+BEGIN:VEVENT
+UID:1446@www.digitaleoverheid.nl
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+URL:https://www.digitaleoverheid.nl/evenementen/logius-roadshow/
+SUMMARY:Logius Roadshow
+DESCRIPTION:Logius nodigt je uit voor de Roadshow 2026 in Hilversum.
+LOCATION:Hilversum
+END:VEVENT
+BEGIN:VEVENT
+UID:1447@www.digitaleoverheid.nl
+DTSTART;TZID=Europe/Amsterdam:20261008T100000
+DTEND;TZID=Europe/Amsterdam:20261008T110000
+URL:https://www.digitaleoverheid.nl/evenementen/webinar-wat-is-het-federatief-datastelsel/
+SUMMARY:Webinar: Wat is het Federatief Datastelsel
+END:VEVENT
+BEGIN:VEVENT
+UID:1448@www.digitaleoverheid.nl
+STATUS:CANCELLED
+DTSTART:20261020T080000Z
+URL:https://www.digitaleoverheid.nl/evenementen/geannuleerd/
+SUMMARY:Webinar over de EUDI Wallet (geannuleerd)
+END:VEVENT
+BEGIN:VEVENT
+UID:1449@www.digitaleoverheid.nl
+DTSTART:20261110T130000Z
+DTEND:20261110T150000Z
+URL:https://www.digitaleoverheid.nl/evenementen/webinar-business-wallet/
+SUMMARY:Webinar: de European Business Wallet voor gemeenten
+LOCATION:https://teams.microsoft.com/meet/123
+END:VEVENT
+END:VCALENDAR

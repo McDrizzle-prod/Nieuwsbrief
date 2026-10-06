@@ -31,6 +31,8 @@ def bundle(fragment: bool) -> str:
     items = json.loads(read("data", "items.json"))
     config = json.loads(read("data", "config.json"))
     data = {"items": items["items"], "generated": items["generated"], "config": config}
+    if os.path.exists(os.path.join(SITE, "data", "agenda.json")):
+        data["agenda"] = json.loads(read("data", "agenda.json"))
     data_js = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     head = f"{title}\n{fonts}\n{icon}\n<style>\n{read('assets', 'style.css')}\n</style>"
     scripts = f"<script>window.NIEUWSBRIEF_DATA = {data_js};</script>\n<script>\n{read('assets', 'app.js')}\n</script>"
