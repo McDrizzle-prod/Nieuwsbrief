@@ -241,7 +241,9 @@ def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | N
     emit("")
     emit(f"## {url}")
     try:
-        resp = requests.get(url, headers={"User-Agent": agent, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        accept = ("application/json" if "graphql" in url or "/wp-json/" in url
+                  else "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+        resp = requests.get(url, headers={"User-Agent": agent, "Accept": accept,
                                           "Accept-Language": "nl,en;q=0.8"}, timeout=40)
     except requests.RequestException as exc:
         emit(f"  FOUT: {exc}")
