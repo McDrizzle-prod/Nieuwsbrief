@@ -1,0 +1,180 @@
+{
+ "generated": "2026-10-06T12:15:32Z",
+ "evenementen": [
+  {
+   "id": "96d6688d11628a2c",
+   "title": "Europese ID-wallet Conferentie UNFOLD#5 in Nijmegen",
+   "url": "https://www.gebruikercentraal.nl/agenda/internationale-conferentie-digital-identity-wallets-van-idee-tot-implementatie-in-9-maanden/",
+   "start": "2026-10-07T09:30:00+02:00",
+   "end": "2026-10-08T16:30:00+02:00",
+   "location": "",
+   "online": false,
+   "summary": "Op 7 en 8 oktober is de internationale conferentie UNFOLD#5 in Nijmegen. We duiken dieper in op Digital Identity Wallets. Hoe begin je en maak je een plan van aanpak?",
+   "fragment": "We duiken dieper in op Digital Identity Wallets. … Hoe maak je als organisatie de stap van strategie naar daadwerkelijke implementatie van ID-wallets? … Op 7 en 8 oktober 2026 is in Nijmegen de internationale conferentie UNFOLD#5 over ID-wallets.",
+   "source": "gebruiker-centraal",
+   "source_name": "Gebruiker Centraal – agenda",
+   "category": "nl-overheid",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallets",
+     "ID-wallet",
+     "Identity Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "93e559ae18620d06",
+   "title": "Europese ID-wallet conferentie UNFOLD#5",
+   "url": "https://staatvandeuitvoering.nl/evenement/europese-id-wallet-conferentie-unfold5/",
+   "start": "2026-10-07T09:30:00+02:00",
+   "end": "2026-10-08T17:00:00+02:00",
+   "location": "Pathé Nijmegen",
+   "online": false,
+   "summary": "",
+   "fragment": "Iedereen Europese ID-wallet conferentie UNFOLD#5 Iedereen 9:30 - 17:00, 7 oktober 2026 t/m 8 oktober 2026 Op 7 en 8 oktober 2026 vindt in Nijmegen de internationale conferentie UNFOLD#5 plaats, over de implementatie van Europese ID-wallets.",
+   "source": "staat-van-de-uitvoering",
+   "source_name": "Staat van de Uitvoering – agenda",
+   "category": "nl-overheid",
+   "priority": 2,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "ID-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "d6beec781d50bb90",
+   "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
+   "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
+   "start": "2026-10-20",
+   "end": "2026-10-21",
+   "location": "",
+   "online": true,
+   "summary": "",
+   "fragment": "",
+   "source": "ebra",
+   "source_name": "EBRA – Europese handelsregisters",
+   "category": "derden",
+   "priority": 2,
+   "wallets": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "a4dc178f634349e5",
+   "title": "EUDI Wallets Launchpad 2.0",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/973932074/Launchpad+about+2026",
+   "start": "2026-10-29",
+   "end": "2026-10-30",
+   "location": "The Egg, Brussels",
+   "online": false,
+   "summary": "On October 29-30 the European Commission will host the Launchpad 2026, a two-days event of testing, demos, workshops, keynotes, and more aimed at celebrating the work achieved by Member States on their national wallets implementations.",
+   "fragment": "",
+   "source": "ec-eudi-evenementen",
+   "source_name": "EU Digital Identity Wallet – evenementen (Commissie)",
+   "category": "eu",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "787189c16f3cb503",
+   "title": "Digital Identity & Trust conference",
+   "url": "https://idnext.eu/event/digital-identity-trust-conference",
+   "start": "2026-11-17T09:00:00+01:00",
+   "end": "2026-11-17T18:00:00+01:00",
+   "location": "Van der Valk hotel Mechelen, Mechelen, Belgium",
+   "online": false,
+   "summary": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
+   "fragment": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. … Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
+   "source": "idnext",
+   "source_name": "IDnext – agenda",
+   "category": "derden",
+   "priority": 2,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "eIDAS",
+     "eIDAS 2.0"
+    ],
+    "vertrouwensdiensten": [
+     "Trust Services"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "1e29502f6720e5a3",
+   "title": "Commissiedebat: Bestrijding witwassen en terrorismefinanciering",
+   "url": "https://www.tweedekamer.nl/debat_en_vergadering/commissievergaderingen/details?id=2025A07294",
+   "start": "2026-12-08T17:00:00+01:00",
+   "end": "2026-12-08T20:00:00+01:00",
+   "location": "Tweede Kamer, Den Haag",
+   "online": false,
+   "summary": "Commissiedebat van de vaste commissie voor Financiën.",
+   "fragment": "Reactie op verzoek commissie over de brand brief van Privacy First over verplichtstelling Europese digitale identiteit bij banken.",
+   "source": "tweede-kamer-activiteiten",
+   "source_name": "Tweede Kamer – debatten en rondetafelgesprekken",
+   "category": "nl-overheid",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Europese digitale identiteit"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "last_seen": "2026-10-06T12:15:32Z",
+   "first_seen": "2026-10-06T12:15:32Z"
+  }
+ ]
+}

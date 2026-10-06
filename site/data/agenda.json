@@ -1,0 +1,319 @@
+{
+ "generated": "2026-10-06T12:15:32Z",
+ "wallets": [
+  {
+   "id": "eudi",
+   "naam": "EUDI Wallet"
+  },
+  {
+   "id": "ebw",
+   "naam": "Business Wallet (EBW)"
+  }
+ ],
+ "categorieen": {
+  "eu": "Europese instellingen",
+  "nl-overheid": "Nederlandse overheid",
+  "derden": "Platforms en organisaties"
+ },
+ "evenementen": [
+  {
+   "id": "96d6688d11628a2c",
+   "title": "Europese ID-wallet Conferentie UNFOLD#5 in Nijmegen",
+   "url": "https://www.gebruikercentraal.nl/agenda/internationale-conferentie-digital-identity-wallets-van-idee-tot-implementatie-in-9-maanden/",
+   "start": "2026-10-07T09:30:00+02:00",
+   "end": "2026-10-08T16:30:00+02:00",
+   "location": "Pathé Nijmegen",
+   "online": false,
+   "summary": "Op 7 en 8 oktober is de internationale conferentie UNFOLD#5 in Nijmegen. We duiken dieper in op Digital Identity Wallets. Hoe begin je en maak je een plan van aanpak?",
+   "fragment": "We duiken dieper in op Digital Identity Wallets. … Hoe maak je als organisatie de stap van strategie naar daadwerkelijke implementatie van ID-wallets? … Op 7 en 8 oktober 2026 is in Nijmegen de internationale conferentie UNFOLD#5 over ID-wallets.",
+   "source": "gebruiker-centraal",
+   "source_name": "Gebruiker Centraal – agenda",
+   "category": "nl-overheid",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-10-06T12:15:32Z",
+   "also": [
+    {
+     "source_name": "Staat van de Uitvoering – agenda",
+     "url": "https://staatvandeuitvoering.nl/evenement/europese-id-wallet-conferentie-unfold5/"
+    }
+   ]
+  },
+  {
+   "id": "d6beec781d50bb90",
+   "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
+   "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
+   "start": "2026-10-20",
+   "end": "2026-10-21",
+   "location": "",
+   "online": true,
+   "summary": "",
+   "fragment": "",
+   "source": "ebra",
+   "source_name": "EBRA – Europese handelsregisters",
+   "category": "derden",
+   "wallets": [
+    "ebw"
+   ],
+   "moza": [],
+   "moza_level": "middel",
+   "first_seen": "2026-10-06T12:15:32Z",
+   "also": []
+  },
+  {
+   "id": "a4dc178f634349e5",
+   "title": "EUDI Wallets Launchpad 2.0",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/973932074/Launchpad+about+2026",
+   "start": "2026-10-29",
+   "end": "2026-10-30",
+   "location": "The Egg, Brussels",
+   "online": false,
+   "summary": "On October 29-30 the European Commission will host the Launchpad 2026, a two-days event of testing, demos, workshops, keynotes, and more aimed at celebrating the work achieved by Member States on their national wallets implementations.",
+   "fragment": "",
+   "source": "ec-eudi-evenementen",
+   "source_name": "EU Digital Identity Wallet – evenementen (Commissie)",
+   "category": "eu",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-10-06T12:15:32Z",
+   "also": []
+  },
+  {
+   "id": "787189c16f3cb503",
+   "title": "Digital Identity & Trust conference",
+   "url": "https://idnext.eu/event/digital-identity-trust-conference",
+   "start": "2026-11-17T09:00:00+01:00",
+   "end": "2026-11-17T18:00:00+01:00",
+   "location": "Van der Valk hotel Mechelen, Mechelen, Belgium",
+   "online": false,
+   "summary": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
+   "fragment": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. … Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
+   "source": "idnext",
+   "source_name": "IDnext – agenda",
+   "category": "derden",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-10-06T12:15:32Z",
+   "also": []
+  },
+  {
+   "id": "1e29502f6720e5a3",
+   "title": "Commissiedebat: Bestrijding witwassen en terrorismefinanciering",
+   "url": "https://www.tweedekamer.nl/debat_en_vergadering/commissievergaderingen/details?id=2025A07294",
+   "start": "2026-12-08T17:00:00+01:00",
+   "end": "2026-12-08T20:00:00+01:00",
+   "location": "Tweede Kamer, Den Haag",
+   "online": false,
+   "summary": "Commissiedebat van de vaste commissie voor Financiën.",
+   "fragment": "Reactie op verzoek commissie over de brand brief van Privacy First over verplichtstelling Europese digitale identiteit bij banken.",
+   "source": "tweede-kamer-activiteiten",
+   "source_name": "Tweede Kamer – debatten en rondetafelgesprekken",
+   "category": "nl-overheid",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "verplichtstelling"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "first_seen": "2026-10-06T12:15:32Z",
+   "also": []
+  }
+ ],
+ "bronnen": [
+  {
+   "id": "ec-eudi-evenementen",
+   "naam": "EU Digital Identity Wallet – evenementen (Commissie)",
+   "categorie": "eu",
+   "type": "eudi_evenementen",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694497147/Events",
+   "site": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694497147/Events",
+   "toelichting": "Evenementen van de Commissie over de EUDI Wallet, zoals de Launchpads waar lidstaten hun wallets testen en tonen, en webinars voor ontwikkelaars.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 3,
+   "relevant": 3,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "tweede-kamer-activiteiten",
+   "naam": "Tweede Kamer – debatten en rondetafelgesprekken",
+   "categorie": "nl-overheid",
+   "type": "tk_activiteiten",
+   "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Activiteit",
+   "site": "https://www.tweedekamer.nl/debat_en_vergadering",
+   "toelichting": "Commissiedebatten, rondetafelgesprekken, technische briefings en plenaire debatten waarbij een wallet, eIDAS of digitale identiteit op de agenda staat.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 1,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "digitale-overheid",
+   "naam": "Digitale Overheid – evenementen (BZK)",
+   "categorie": "nl-overheid",
+   "type": "ical",
+   "url": "https://www.digitaleoverheid.nl/events.ics",
+   "site": "https://www.digitaleoverheid.nl/evenementen/",
+   "toelichting": "De evenementenagenda van de digitale overheid, met onder meer de meet-ups van het EDI-stelsel en bijeenkomsten van Logius, RvIG en BZK.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 40,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "gebruiker-centraal",
+   "naam": "Gebruiker Centraal – agenda",
+   "categorie": "nl-overheid",
+   "type": "ical",
+   "url": "https://www.gebruikercentraal.nl/events.ics",
+   "site": "https://www.gebruikercentraal.nl/evenementen/",
+   "toelichting": "Bijeenkomsten over gebruiksvriendelijke dienstverlening van de overheid, waaronder de Europese ID-wallet-conferentie UNFOLD en sessies over ID-wallets.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 17,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "staat-van-de-uitvoering",
+   "naam": "Staat van de Uitvoering – agenda",
+   "categorie": "nl-overheid",
+   "type": "html",
+   "url": "https://staatvandeuitvoering.nl/agenda/",
+   "site": "https://staatvandeuitvoering.nl/agenda/",
+   "toelichting": "Agenda van evenementen over publieke dienstverlening, bijgehouden door ICTU in opdracht van BZK.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 10,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "europa-decentraal",
+   "naam": "Europa decentraal – agenda",
+   "categorie": "nl-overheid",
+   "type": "tribe",
+   "url": "https://europadecentraal.nl/wp-json/tribe/events/v1/events",
+   "site": "https://europadecentraal.nl/agenda/",
+   "toelichting": "Kenniscentrum voor Europees recht en beleid voor decentrale overheden, met bijeenkomsten over onder meer eIDAS, de EUDI Wallet en de Business Wallet.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 2,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "kvk",
+   "naam": "KVK – evenementen",
+   "categorie": "nl-overheid",
+   "type": "html",
+   "url": "https://www.kvk.nl/evenementen/",
+   "site": "https://www.kvk.nl/evenementen/",
+   "toelichting": "Evenementen van de Kamer van Koophandel. Alleen bijeenkomsten waarin de Business Wallet of de EUDI Wallet voorkomt, komen in de agenda.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 8,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "ecp",
+   "naam": "ECP | Platform voor de InformatieSamenleving – agenda",
+   "categorie": "derden",
+   "type": "html",
+   "url": "https://ecp.nl/agenda/",
+   "site": "https://ecp.nl/agenda/",
+   "toelichting": "ECP organiseert met het ministerie van Economische Zaken (programma Vertrouwensdiensten) de symposia over de European Business Wallet.",
+   "prioriteit": 1,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 4,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "idnext",
+   "naam": "IDnext – agenda",
+   "categorie": "derden",
+   "type": "tribe",
+   "url": "https://idnext.eu/wp-json/tribe/events/v1/events",
+   "site": "https://idnext.eu/calendar",
+   "toelichting": "Onafhankelijk Nederlands platform over digitale identiteit, met onder meer de jaarlijkse IDnext-conferentie over eIDAS 2.0 en wallets.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 2,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "ebra",
+   "naam": "EBRA – Europese handelsregisters",
+   "categorie": "derden",
+   "type": "tribe",
+   "url": "https://ebra.be/wp-json/tribe/events/v1/events",
+   "site": "https://ebra.be/events/",
+   "toelichting": "Vereniging van Europese handelsregisters (waaronder KVK), met bijeenkomsten over de rol van de registers in de European Business Wallet.",
+   "prioriteit": 2,
+   "actief": true,
+   "ok": true,
+   "fout": null,
+   "gevonden": 4,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
+  }
+ ]
+}

@@ -3,27 +3,491 @@
   "ec-ebw-beleid": {
    "hash": "141364cc77955b668fa67996331c7081785b8d33c449cd9f13fb52fbe5c7b6b5",
    "text": "European companies need to spend too much of their time on paperwork and too little on innovation. The European Business Wallets aim to streamline operations for businesses, enabling them to save time and money.\nAs part of its 2025 Work Programme, the European Commission\nhas published a Digital Package proposal\nto make compliance easier for EU businesses and cut their costs.\nWhat do the Business Wallets offer?\nThe European Business Wallets are one of the key deliverables of the Digital Package. The Commission proposes a regulation to establish those Wallets as a\nharmonised digital solution\nto ease the administrative burden and to enable companies and public sector bodies to identify, to authenticate and to exchange data in a secure and user-friendly way, with full legal effect across the European Union.\nDesigned to be accessible for businesses of all sizes, including SMEs and microenterprises, as well as public administrations, this initiative will modernise and simplify economic activities within the Single Market.\nTherefore, businesses opting for the Wallet will be able to digitally:\nCheck the identity of others immediately and prove their own\nInstantly create, store and share documents they can trust, such as verified licences, permits, certificates and more.\nDigitally sign, timestamp or seal documents\nDelegate others to act on their behalf in a legal capacity\nCommunicate with other businesses or public administrations via a secure and efficient channel.\nBy representing one\nunique digital identity\nand a single channel of correspondence with governments across the EU, businesses will have 26 times less hassle when operating everywhere in the EU:\nAny actions, including critical ones, can be done remotely, at any time\nBusinesses can communicate easily across borders, lowering travel costs, which is crucial for all economic operators, in particular SMEs, which make up 99% of enterprises in the EU\nAll actions requiring paperwork are digitalised, which is equivalent to performing actions in person\nAdministrative procedures are simplified, speeding up data submission and validation\nAll data is easily accessible at any time thanks to interoperable cloud-based identity solutions\nThe technical architecture and features for the European Business Wallets will build on the one for the\nEU Digital Identity Wallets\n.\nIt is estimated that simplification efforts will save up to €5 billion in administrative costs between now and 2029. Moreover, the European Business Wallets should unlock at least\nEUR 160 billion\nin savings for businesses each year.\nThese measures will open\nnew opportunities for growth and competitiveness\nfor European companies, while promoting Europe’s standards of fundamental rights, data protection, safety and fairness.\nWhen will the Business Wallets be available?\nAfter adoption, all levels of public administration across the EU, including EU institutions, bodies and agencies, will have two years to implement the use of the Business Wallets with transitory measures for leveraging existing similar systems at Member State level.\nIn parallel, the Commission will work closely with Member States and the private sector to define the technical standards and requirements for European Business Wallets through ongoing efforts under the\nEuropean Digital Identity Framework\nand in large-scale pilot projects funded under the\nDigital Europe Programme\nsuch as the\nWeBuild consortium\n.\nCompanies will not be obliged to use the European Business Wallets. The Regulation places obligations solely on public sector bodies to accept its core functions, while companies remain free to decide whether to adopt the wallets for their commercial operations or interactions with public authorities.\nQuick Links\nAn agile Digital Rulebook for the EU\nBusiness Wallets - Proposal for a Regulation\nEU Digital Identity Wallets\nRelated Content\nBig Picture\neGovernment and digital public services\nThe European Commission is taking concrete actions to develop cross-border digital public services.\nLast update\n19 November 2025\nPrint as PDF",
-   "checked": "2026-10-06T11:38:29+00:00",
+   "checked": "2026-10-06T12:15:32+00:00",
    "changed": null
   },
   "ec-eudi-beleid": {
    "hash": "0e2f7205f0813b9d10ff8061a3142308118008b865eb1b6f5b1d1654d56244d4",
    "text": "Large scale pilot projects are testing the technical specifications for the Common Toolbox that will be the base of the EU Digital Identity Wallets.\nEU Digital Identity Wallets\nThe\nEU Digital Identity Wallet\nis designed as a convenient and secure method for European citizens and businesses to authenticate their identity, using their digital ID for both public and private sector interactions. Users can store various digital documents within the wallet, ranging from academic credentials to transportation passes, and use it for signing into private platforms, such as social networks. This approach is more secure and user-friendly than managing numerous passwords.\nWith a single click, individuals can confidently transmit specific information to verified entities, disclosing only necessary details - like age or nationality -, while withholding additional personal data. This minimises the risk of personal profiling and grants users sovereignty over personal information, a feat unattainable with tangible documents.\nThe EU Digital Identity Wallet will facilitate the exchange of information within an individual’s home EU nation, and across other member states.\nIn 2023, the European Union initiated four major pilot programs to evaluate the EU Digital Identity Wallet prior to its official introduction to the Member States. Four Large-scale pilot projects are collecting feedback on the requirements for the EU Digital Identity Wallet and help for develop the\nCommon Toolbox\nand ensure a secure deployment.\nWallet Prototype\nThe Commission will provide a prototype of the EU Digital Identity Wallet (EUDI) conformant to the requirements of the European Digital Identity Regulation. The prototype was procured under the\nDigital Europe Programme\n, and\nincludes code libraries and a sample application. It serves as a testing ground, allowing for the refinement and validation of specifications outlined in the Architecture and Reference Framework.\nA series of Large-Scale Pilots spanning various sectors - including, financial services, education, and transportation -, offer invaluable insights and provide feedback about the wallet's real-world functionality and usability. The\nEU Digital Identity Wallet\nopen-source nature ensures that\nthoroughly vetted resources\nwill be accessible to the public, allowing Member States and interested parties to develop their own digital wallet.\nThe reference implementation is available on\nGithub\n, together with the\nArchitecture and Reference Framework\n.\nLarge Scale Pilots\nIn April 2023,\nfour large-scale pilot projects\nwere launched with the aim of testing the EU Digital Identity Wallet and ensure its secure and smooth deployment. These pilots involve over 350 entities, including private companies and public authorities from 26 Member States, Norway, Iceland, and Ukraine. Each pilot is structured as a consortium that merges expertise from both the public and private sectors within the EU, with co-funding provided by grants from the European Commission. The pilots are guided by the\ntechnical specifications\ndeveloped by the eIDAS Expert Group. These pilot projects are scheduled to continue until the year 2025.\nThe pilots are rigorously testing the EU Digital Identity Wallet across a range of common scenarios that Europeans encounter in their daily lives. They are also collecting feedback on the wallet’s reference implementation. The insights from these tests will be disseminated to enhance the security, interoperability, and overall design of the EU Digital Identity Wallet.\nThe four large-scale pilot projects:\nThe\nEU Digital Identity Wallet Consortium (EWC)\nis\na joint effort to leverage the benefits of the proposed EU digital identity in the form of Digital Travel Credentials across the Member States. The EWC intends to build on the reference wallet application to enable uses related to Digital Travel Credentials.\nPOTENTIAL\naims to foster innovation, collaboration and growth in six digital identity sectors — governmental services, banking, telecommunications, mobile driving licenses, electronic signatures, and health.\nNOBID\nis a set of Nordic and Baltic countries who, together with Italy and Germany, will pilot the use of the EU Digital Identity Wallet for authorising payments of products and services.\nDC4EU\nprovides tangible support to the public and private sectors in the educational and social security sectors by deploying and accessing state-of-the-art trans-European interoperable digital service infrastructures and their integration in a cross-border trust framework.\nSpecifically, the pilots are exploring how the digital wallet can provide solutions in these 11 areas:\nAccessing government services\n: Secure access to digital public services, such as applying for a passport or driver's license, filing taxes, or accessing social security information.\nOpening a bank account:\nVerification of a user's identity when opening an online bank account, eliminating the need for the user to repeatedly provide their personal information\nSIM Registration:\nProof of identity for the purpose of pre- and post-paid SIM card contracts (registration and activation), reducing fraud and costs for mobile network operators.\nMobile Driving License:\nThe storage and presentation of the mobile driving license in both online and physical interactions such a driver providing their license on the side of the road.\nSigning contracts:\nCreating secure digital signatures for signing contracts online, eliminating the need for paper documents and physical signatures.\nClaiming Prescriptions:\nProviding details of prescription to pharmacies and initiating the dispensation of medical products.\nTravelling:\nPresenting information from travel documents (e.g. passport, visa), allowing for quick and easy access when going through airport security and customs.\nOrganisational Digital Identities:\nP\nroving you are a legitimate representative of an organisation.\nPayments:\nVerification of a user’s identity when initiating a payment online.\nEducation certification:\nProof of possession for educational credentials, such as diplomas, degrees, and certificates making it easier to apply for jobs or further education.\nAccessing Social Security benefits:\nAn EU Digital Identity Wallet can be used to securely access a user's social security information and benefits (eg. retirement, disability benefits). It can also be used to facilitate the freedom of movement by storing documents such as the European Health Insurance Card.\nEU Digital Identity Wallet Toolbox\nElectronic Identification\nEuropean Digital Identity (EUDI) Regulation\nQ&A Digital Identity\nFollow us\nEU Digital Identity Wallet on X\nLatest News\nNews article\n24 April 2026\nEuropean Cybersecurity Certification Week 2026: Advancing EU Cybersecurity in Cyprus\nThe European Cybersecurity Certification Week, hosted by the Cyprus Presidency of the Council of the EU, took place from 14 to 17 April in Ayia Napa.\nDigibyte\n19 November 2025\nCommission proposes European Business Wallets to simplify business operations and enhance competitiveness across the EU\nIn a significant move towards simplifying business operations across EU, the Commission has proposed a regulation to establish European Business Wallets.\nDigibyte\n06 October 2025\nDigital Europe Programme amended to accelerate the Commission’s digital ambitions\nThe European Commission has made the first amendment to the Digital Europe (DIGITAL) Work Programme 2025-2027 ensuring EU resources continue to support the Commission’s ambitions on developing and deploying critical technologies in Europe.\nNews article\n24 September 2024\nThe EU boosts the certification of the EU Digital Identity Wallets\nThe European Commission has requested ENISA, the EU Agency for Cybersecurity, to provide support for the certification of European Digital Identity Wallets.\nBrowse Trust services and eIdentification\nRelated Content\nBig Picture\nElectronic identification - eID\nElectronic identification (eID) is one of the tools to ensure secure access to online services and to carry out electronic transactions in a safer way.\nLast update\n17 August 2026\nPrint as PDF",
-   "checked": "2026-10-06T11:38:30+00:00",
+   "checked": "2026-10-06T12:15:33+00:00",
    "changed": null
   },
   "ep-oeil-ebw": {
    "hash": "3b4ccb4ed466c0a64e6e795566637ad674ce25d7dafe402fdd206832d26093ec",
    "text": "2025/0358(COD)\npdf\nFull procedure\nEstablishment of European Business Wallets\nBasic information\npdf\nBasic information\n2025/0358(COD)\nCOD - Ordinary legislative procedure (ex-codecision procedure)\nRegulation\nSubject\n1.20.05 Public access to information and documents, administrative practice\n1.20.09 Protection of privacy and data protection\n2.80 Cooperation between administrations\n3.30.05 Electronic and mobile communications, personal communications\n3.30.06 Information and communication technologies, digital technologies\n3.30.25 International information networks and society, internet\n3.45.05 Business policy, e-commerce, after-sales service, commercial distribution\n4.60.06 Consumers' economic and legal interests\n4.60.08 Safety of products and services, product liability\nStatus\nAwaiting Parliament's position in 1st reading\nPlease go to Documentation gateway for any follow-up documents.\nKey players\npdf\nKey players\nEuropean Parliament\nEuropean Parliament\nCommittee responsible\nRapporteur\nAppointed\nITRE\nIndustry, Research and Energy\nHEINÄLUOMA Eero (S&D)\n18/12/2025\nShadow rapporteur\nWALSMANN Marion (EPP)\nDISDIER Mélanie (PfE)\nKOLS Rihards (ECR)\nLØKKEGAARD Morten (Renew)\nBOESELAGER Damian (Greens/EFA)\nCommittee for opinion\nRapporteur for opinion\nAppointed\nIMCO\nInternal Market and Consumer Protection\nCIFROVÁ OSTRIHOŇOVÁ Veronika (Renew)\n16/02/2026\nJURI\nLegal Affairs\nVOSS Axel (EPP)\n12/01/2026\nLIBE\nCivil Liberties, Justice and Home Affairs\nThe committee decided not to give an opinion.\nCommittee for budgetary assessment\nRapporteur for budgetary assessment\nAppointed\nBUDG\nBudgets\nThe committee decided not to give an opinion.\nCouncil of the European Union\nCouncil of the European Union\nEuropean Commission\nEuropean Commission\nCommission DG\nCommissioner\nCommunications Networks, Content and Technology\nVIRKKUNEN Henna\nEuropean Economic and Social Committee\nEuropean Economic and Social Committee\nKey events\npdf\nKey events\nDate\nEvent\nReference\nSummary\n19/11/2025\nLegislative proposal published\nCOM(2025)0838\nSummary\n19/01/2026\nCommittee referral announced in Parliament, 1st reading\n10/09/2026\nVote in committee, 1st reading\n10/09/2026\nCommittee decision to open interinstitutional negotiations with report adopted in committee\n23/09/2026\nCommittee report tabled for plenary, 1st reading\nA10-0240/2026\n05/10/2026\nCommittee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)\nTechnical information\npdf\nTechnical information\nProcedure reference\n2025/0358(COD)\nProcedure type\nCOD - Ordinary legislative procedure (ex-codecision procedure)\nProcedure subtype\nLegislation\nLegislative instrument\nRegulation\nLegal basis\nRules of Procedure EP 58\nTreaty on the Functioning of the European Union TFEU 294-p7-ac\nTreaty on the Functioning of the European Union TFEU 114\nOther legal basis\nRules of Procedure EP 165\nMandatory consultation of other institutions\nEuropean Economic and Social Committee\nStage reached in procedure\nAwaiting Parliament's position in 1st reading\nCommittee dossier\nITRE/10/04583\nDocumentation gateway\npdf\nDocumentation gateway\nEuropean Parliament\nDocument type\nCommittee\nReference\nDate\nSummary\nCommittee draft report\nPE785.244\n01/04/2026\nAmendments tabled in committee\nPE787.816\n23/04/2026\nAmendments tabled in committee\nPE787.818\n23/04/2026\nCommittee opinion\nIMCO\nPE786.736\n04/06/2026\nCommittee opinion\nJURI\nPE786.718\n08/06/2026\nCommittee report tabled for plenary, 1st reading/single reading\nA10-0240/2026\n23/09/2026\nEuropean Commission\nDocument type\nReference\nDate\nSummary\nLegislative proposal\nCOM(2025)0838\n19/11/2025\nSummary\nDocument attached to the procedure\nSWD(2025)0837\n19/11/2025\nNational parliaments\nDocument type\nParliament/Chamber\nReference\nDate\nSummary\nContribution\nIT_CHAMBER\nCOM(2025)0838\n03/03/2026\nContribution\nPT_PARLIAMENT\nCOM(2025)0838\n06/03/2026\nContribution\nNL_SENATE\nCOM(2025)0838\n10/03/2026\nContribution\nCZ_CHAMBER\nCOM(2025)0838\n23/03/2026\nContribution\nRO_SENATE\nCOM(2025)0838\n31/03/2026\nOther institutions and bodies\nInstitution/body\nDocument type\nReference\nDate\nSummary\nEESC\nEconomic and Social Committee: opinion, report\nCES3899/2025\n18/03/2026\nCofR\nCommittee of the Regions: opinion\nCDR4359/2025\n01/07/2026\nAdditional information\npdf\nAdditional information\nSource\nDocument\nDate\nEuropean Commission\nEUR-Lex\nTransparency\npdf\nTransparency\nMeetings with interest representatives published in line with the Rules of Procedure\nRapporteurs, Shadow Rapporteurs and Committee Chairs\nName\nRole\nCommittee\nDate\nInterest representatives\nWALSMANN Marion\nShadow rapporteur\nITRE\n09/09/2026\nBundesverband deutscher Banken e.V.\nHEINÄLUOMA Eero\nRapporteur\nITRE\n06/07/2026\nPermanent Representation of Estonia to the EU\nDISDIER Mélanie\nShadow rapporteur\nITRE\n23/06/2026\nTinexta InfoCert SpA\nWALSMANN Marion\nShadow rapporteur\nITRE\n10/06/2026\nBundesverband der Unternehmensjuristinnen und Unternehmensjuristen e.V.\nWALSMANN Marion\nShadow rapporteur\nITRE\n04/06/2026\nDG CNNCT\nHEINÄLUOMA Eero\nRapporteur\nITRE\n04/06/2026\nTinexta InfoCert SpA\nHEINÄLUOMA Eero\nRapporteur\nITRE\n03/06/2026\nEuropean Commission\nHEINÄLUOMA Eero\nRapporteur\nITRE\n20/05/2026\nSpanish General Council of Notaries\nHEINÄLUOMA Eero\nRapporteur\nITRE\n18/05/2026\nPermanent Representation of the Czech Republic to the EU\nWALSMANN Marion\nShadow rapporteur\nITRE\n13/05/2026\nDG CNNCT\nLoad more\nOther Members\nName\nDate\nInterest representatives\nCUNHA Paulo\n04/06/2026\nTinexta InfoCert SpA\nSANCHO MURILLO Elena\n20/05/2026\nUría Menéndez\nWAWRYKIEWICZ Michał\n12/05/2026\nMouvement des Entreprises de France\nMÜLLER Piotr\n22/04/2026\nBistoncini Partners\nFederation of European Business Information Services\nWINZIG Angelika\n16/04/2026\nÖsterreichische Notariatskammer\nMANDL Lukas\n09/04/2026\nÖsterreichische Notariatskammer\nNIEBLER Angelika\n31/03/2026\nDATEV eG\nNIEBLER Angelika\n30/03/2026\nNamirial S.p.A.\nNIEBLER Angelika\n05/03/2026\nDIGITALEUROPE\nGEIER Jens\n18/02/2026\nBundesnotarkammer",
-   "checked": "2026-10-06T11:38:44+00:00",
+   "checked": "2026-10-06T12:15:53+00:00",
    "changed": "2026-10-06T11:38:44+00:00"
   },
   "eerste-kamer-ebw": {
    "hash": "838a64215ed32111b4701b282fe3b43dbaffbd13c9c14dc5e96b0a56e8a3f8fd",
    "text": "Op 19 november 2025 publiceerde de Europese Commissie het voorstel als onderdeel van het digitaal pakket. Met dit voorstel beoogt de Commissie om een geharmoniseerd kader te bieden om instanties en bedrijven zich veilig te identificeren en te authenticeren en om veilig gegevens uit te wisselen over de EU-grenzen heen.\nStand van zaken\nBehandelfase Eerste Kamer: behandeling in commissie Eerste Kamer.\nnationaal\nOp 19 augustus 2026 stuurde de staatssecretaris van EZ een antwoord op de brief met vragen van 8 juli 2026. Op 28 augustus 2026 werd het verslag van een nader schriftelijk overleg (\n36.890, AA\n) vastgesteld.\nEuropees\nOp 10 september 2026 stemde de commissie ITRE van het Europees Parlement in met het\nontwerpverslag\nPDF-document\ninzake het voorstel en met het openen van triloogonderhandelingen met de Raad.\nKerngegevens\nvolledige titel\nVoorstel voor een Verordening van het Europees Parlement en de Raad tot instelling van Europese portemonnees voor ondernemingen\ndocument Europese Commissie\nCOM(2025)838\nPDF-document\n, d.d. 19 november 2025\nrechtsgrondslag\nartikel 114, VWEU\ncommissies Eerste Kamer\ncommissie voor Digitalisering (DIGI)\ncommissie voor Economische Zaken / Klimaat en Groene Groei (EZ/KGG)\nverwant dossier\nE260003 - Digitaal pakket van de Europese Commissie\nBehandeling Eerste Kamer\nOp 19 augustus 2026 stuurde de staatssecretaris van EZ een antwoord op de brief met vragen van 8 juli 2026. Op 28 augustus 2026 werd het verslag van een nader schriftelijk overleg (\n36.890, AA\n) vastgesteld.\nOp 8 juli 2026 is de brief met nadere vragen aan de staatssecretaris van EZ gestuurd.\nOp\n30 juni 2026\nleverde de fractie van GroenLinks-PvdA (Kluit) inbreng voor nader schriftelijk overleg.\nOp\n2 juni 2026\nbesloten de commissies om op 30 juni 2026 gelegenheid te bieden voor het leveren van inbreng voor nader schriftelijk overleg.\nOp 19 mei 2026 stuurde de Europese Commissie een reactie (\n36890, U\n) op de brief van 10 maart 2026 in het kader van de politieke dialoog.\nOp\n19 mei 2026\nbesloten de commissies dit agendapunt aan te houden in afwachting van het antwoord op de brief aan de Europese Commissie, met het verzoek een rappel te versturen wanneer er op 10 juni 2026 nog geen antwoord is ontvangen.\nOp 24 april 2026 stuurde de staatssecretaris van EZ een antwoord op de brief met vragen van 4 maart 2026. Op 14 mei 2026 werd het verslag van een nader schriftelijk overleg (\n36.890, R\n) vastgesteld.\nOp 10 maart 2026 is de brief met vragen (\n36.890, I\n) verzonden aan de Europese Commissie in het kader van de politieke dialoog.\nOp 4 maart 2026 is de brief met vragen verzonden aan de staatssecretaris Digitale Economie en Soevereiniteit.\nOp\n24 februari 2026\nleverden de fracties van GroenLinks-PvdA, BBB, D66, PVV en SP inbreng voor schriftelijk overleg.\nKorte aantekeningen vergadering commissies Digitalisering (DIGI) en Economische Zaken / Klimaat en Groene Groei (EZ/KGG) van 29 september 2026\n29 september 2026\nKorte aantekeningen vergadering commissies Digitalisering (DIGI) en Economische Zaken / Klimaat en Groene Groei (EZ/KGG) van 22 september 2026\n22 september 2026\nverslag van een nader schriftelijk overleg met de staatssecretaris van EZ over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\n36.890\n, EK, AA\n28 augustus 2026\nBevat bijlage\nKorte aantekeningen vergadering commissies Digitalisering (DIGI) en Economische Zaken / Klimaat en Groene Groei (EZ/KGG) van 30 juni 2026\n30 juni 2026\nKorte aantekeningen vergadering commissies Digitalisering (DIGI) en Economische Zaken / Klimaat en Groene Groei (EZ/KGG) van 2 juni 2026\n2 juni 2026\nbrief van de Europese Commissie betreffende de beantwoording van vragen over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\n36.890\n, EK, U\n19 mei 2026\nverslag van een schriftelijk overleg met de staatssecretaris van EZ over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\n36.890\n, EK, R\n12 mei 2026\nBevat bijlage\nbrief aan de Europese Commissie betreffende vragen over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\n36.890\n, EK, I\n10 maart 2026\nStandpunt Nederlandse regering\nHet kabinet steunt het initiatief van de Europese Commissie om de digitale interne markt te versterken via de introductie van een Europese Business Wallet (EBW). Nederland ziet dit voorstel als een cruciaal instrument om de concurrentiekracht van Europese bedrijven te vergroten en structurele lastenverlichting te realiseren, met name voor het mkb. Het kabinet beoordeelt het voorstel positief omdat het nauw aansluit bij de nationale inzet op veilige elektronische gegevensuitwisseling, het verminderen van regeldruk en het creëren van een 'één-loketgedachte' voor ondernemers. Wel benadrukt het kabinet dat er een goede balans moet zijn tussen administratieve vereenvoudiging en het waarborgen van veiligheid en betrouwbaarheid in de interactie met de overheid.\nIn de verdere onderhandelingen zet het kabinet in op een heldere afbakening van de reikwijdte van het voorstel om de uitvoering voor lidstaten beheersbaar te houden en de beoogde lastenverlichting voor het bedrijfsleven ook echt te verzilveren. Hoewel het gebruik van de wallet voor bedrijven vrijwillig is, pleit Nederland ervoor dat publieke organisaties de ruimte behouden om ook alternatieve vormen van dienstverlening aan te bieden om de toegankelijkheid van de overheid te borgen. Daarnaast zal het kabinet de financiële en technische gevolgen voor uitvoeringsorganisaties nauwlettend volgen via een uitvoeringstoets, aangezien de acceptatieplicht voor overheden gepaard gaat met noodzakelijke investeringen in systemen en beheer.\nbrief van de minister van BZ over het BNC-fiche inzake het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\n36.890\n, EK, C\n16 januari 2026\nBevat bijlage\nSamenvatting voorstel Europese Commissie\nOp 19 november 2025 publiceerde de Europese Commissie het voorstel. Dit voorstel ziet de Europese Commissie als onderdeel van een breder digitaal pakket om de Europese interne markt te moderniseren. Een\nEuropean Business Wallet\n(EBW) is een digitale kluis waarmee bedrijven, organisaties en publieke instanties veilig gegevens kunnen opslaan, beheren en uitwisselen. Dit systeem bouwt voort op de infrastructuur van de eIDAS-verordening die zich richt op natuurlijke personen (\nE210017\n), maar is specifiek ontworpen voor zakelijk gebruik. Het hoofddoel is structurele lastenverlichting door administratieve processen te versnellen en grensoverschrijdende belemmeringen weg te nemen, met name voor het mkb.\nDe verordening verplicht bedrijven niet om een wallet te gebruiken, maar legt wel een acceptatieplicht op aan publieke instanties. Overheden moeten de EBW accepteren voor processen zoals vergunningaanvragen, jaarverslaglegging en overheidsopdrachten. De Commissie verwacht daarnaast dat de wallet op grote schaal gebruikt zal worden in het onderlinge zakelijke verkeer (B2B), bijvoorbeeld voor contractondertekening en het delen van duurzaamheidsgegevens in de toeleveringsketen. De Commissie verwacht dat door deze geharmoniseerde aanpak honderden miljarden euro's aan administratieve kosten kunnen worden bespaard en dat de cyberweerbaarheid van Europese ondernemingen wordt versterkt.\nVoorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen\nPDF-document\nvoorstel\nEuropese Commissie - COM(2025)838\n19 november 2025\nBehandeling Raad\nOp 9 juni 2026 bereikte de Raad een algemene oriëntatie in afwachting van de triloogonderhandelingen met het Europees Parlement.\nIn de databank EUR-Lex wordt de laatste\nstand van zaken\nin de Europese behandeling van het voorstel weergegeven.\nBehandeling Europees Parlement\nOp 10 september 2026 stemde de commissie ITRE van het Europees Parlement in met het\nontwerpverslag\nPDF-document\ninzake het voorstel en met het openen van triloogonderhandelingen met de Raad.\nOp 1 april 2026 publiceerde de commissie ITRE van het Europees Parlement het\nontwerpverslag\nPDF-document\ninzake het voorstel.\nDe commissie(s) ITRE van het Europees Parlement behandel(t/en) het voorstel. De commissie(s) IMCO, JURI en LIBE is/zijn aangesteld als adviescommissies.\nIn de databank OEIL van het Europees Parlement wordt de laatste\nstand van zaken\nin de behandeling van het voorstel weergegeven\nOntwerpverslag over het voorstel voor een verordening van het Europees Parlement en de Raad tot instelling van Europese portemonnees voor ondernemingen\nPDF-document\nPE785.244v01-00\n1 april 2026\nStandpunten andere lidstaten (IPEX)\nIn de databank EUR-Lex wordt de laatste\nstand van zaken\nin de Europese behandeling van het voorstel weergegeven.\nAlle bronnen\nOverzicht op datum gesorteerd",
-   "checked": "2026-10-06T11:39:11+00:00",
+   "checked": "2026-10-06T12:17:00+00:00",
    "changed": null
   }
  },
- "volledige_tekst": {}
+ "volledige_tekst": {},
+ "agenda_paginas": {
+  "https://www.digitaleoverheid.nl/evenementen/regie-op-data-leren-van-de-praktijk/": {
+   "summary": "Tijdens dit IBDS-Themacafé staat data governance centraal. Ook wordt het onderwerp datakwaliteit behandeld.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/virbi-2025-rubriceren-gevoelige-informatie/": {
+   "summary": "Wil jij weten over wanneer en hoe je bijzondere informatie beschermt? Kom dan naar deze workshop van RADIO over het rubriceren van gevoelige informatie.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/virbi-2025-te-beschermen-belangen-tbbs/": {
+   "summary": "Het besluit VIRBI is geactualiseerd en om jou op weg te helpen met de implementatie worden er meerdere workshops georganiseerd. Zoals over de TBB’s.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/ibds-regiocafe-west-datagedreven-werken-in-de-praktijk/": {
+   "summary": "Met de IBDS-Regiocafés worden organisaties geholpen om datagedreven werken te versterken en te versnellen. Kennisdeling en samenwerking staan centraal.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/cursus-over-risicoanalyse/": {
+   "summary": "Leer in de nieuwe RADIO-cursus hoe je een goede risicoanalyse maakt. Je kunt de cursus ook volgen op 27 oktober of 9 november.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/webinar-wat-is-het-federatief-datastelsel/": {
+   "summary": "Webinar van IBDS over het Federatief Datastelsel (FDS), over de belangrijkste principes en afspraken van het FDS.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/ibds-regiocafe-noord-datagedreven-werken-in-de-praktijk/": {
+   "summary": "Met de IBDS-Regiocafés worden organisaties geholpen om datagedreven werken te versterken en te versnellen. Kennisdeling en samenwerking staan centraal.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/webinar-handreiking-ai-inkoop-update-met-ai/": {
+   "summary": "8 oktober 2026 @ 14:00 - 15:30 - Alles over de handreiking ‘Help! Mijn huidige dienst krijgt een update met AI erin, wat te doen?’. Voor inkoopprofessionals en functioneel beheerders.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/open-donderdag-op-zoek-naar-innovaties-die-werken-voor-een-open-overheid/": {
+   "summary": "Op deze Open Donderdag duik je in de kansen van AI en innovatie voor een open en transparante overheid.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/security-en-overheid-2026/": {
+   "summary": "Ontdek tijdens dit congres waarom digitale weerbaarheid vraagt om strategische keuzes over risico's, technologie en governance.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/online-sessies-van-het-overheidsbreed-cyberprogramma/": {
+   "summary": "In oktober en november zijn er diverse interessante sessies rondom cyberveiligheid, met bijdragen van o.a. Logius, VNG, UWV, AIVD en BZK.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/de-design-systems-week/": {
+   "summary": "Een gratis online event voor iedereen die werkt aan toegankelijke en gebruiksvriendelijke digitale dienstverlening voor de overheid.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/overheidsgegevens-delen-gewenst-en-mogelijk/": {
+   "summary": "Het Reuring!Café gaat dit keer over het uitwisselen van gegevens door de overheid. Wat zijn de kansen en risico's?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/ibds-regiocafe-zuid-datagedreven-werken-in-de-praktijk/": {
+   "summary": "Met de IBDS-Regiocafés worden organisaties geholpen om datagedreven werken te versterken en te versnellen. Kennisdeling en samenwerking staan centraal.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/logius-roadshow/": {
+   "summary": "Logius informeert je over de nieuwste ontwikkelingen rondom hun dienstverlening en gaat in gesprek over de toekomst van de digitale overheid.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/kennisochtend-grip-op-je-it-capaciteit-met-kwiv/": {
+   "summary": "Op 29 oktober organiseert Rijksorganisatie ODI een KWIV event voor rijksambtenaren die met KWIV grip op hun IT-capaciteit willen krijgen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/regelhulp/": {
+   "summary": "29 oktober 2026 @ 10:00 - 11:00 - Online informatiesessie over het classificeren van online diensten en het gebruik van de Regelhulp, met ruimte voor vragen en ervaringen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/webinar-federatief-datastelsel-en-europa/": {
+   "summary": "Webinar van IBDS over de belangrijkste Europese ontwikkelingen op het gebied van interoperabiliteit, datadeling en digitale samenwerking.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/communitydag-community-of-practice-digitale-ethiek-voor-overheden/": {
+   "summary": "2 november 2026 @ 12:00 - 17:30 - Een inspirerende dag voor professionals bezig met ethiek en netwerken die ethiek nodig hebben.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/cyberoefening-2026-test-je-besluitvorming-onder-druk/": {
+   "summary": "Tijdens een realistisch crisisscenario ervaar je hoe digitale verstoringen snel kunnen uitgroeien tot maatschappelijke problemen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/bijeenkomst-pqc-wat-moet-je-ermee/": {
+   "summary": "Diverse organisaties organiseren deze bijeenkomst over de impact van quantumtechnologie op de bescherming van (persoons)gegevens. Zo weet jij wat je vandaag al kunt doen om je voor te bereiden op de komst van quantumcomputers.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/radio-workshop-dpia-van-theorie-naar-praktijk-9-november/": {
+   "summary": "RADIO organiseert op 9 november in Den Haag een praktische workshop over het uitvoeren van een DPIA.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/meetup-digitale-autonomie-versus-gemak/": {
+   "summary": "11 november 2026 @ 10:00 - 13:00 - Digitale autonomie staat hoog op de agenda, maar wat betekent dat in de praktijk voor gemeenten?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/ai-overheid-2026/": {
+   "summary": "Hoe maak je van AI een strategische motor voor maatschappelijke waarde in plaats van een verzameling losse experimenten?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/themabijeenkomst-digitalisering-en-mensenrechten-in-de-gemeentelijke-praktijk/": {
+   "summary": "Het Platform gemeenten en mensenrechten organiseert deze nieuwe themabijeenkomst en gaat onder andere over digitale toegankelijkheid, digitale autonomie en de rol van AI.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/webinar-slim-deelnemen-aan-het-federatief-datastelsel/": {
+   "summary": "De specialisten van IBDS laten zien hoe organisaties op een slimme en stapsgewijze manier kunnen deelnemen aan het FDS.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/nederland-digitaal-festival/": {
+   "summary": "De eerste editie van het Nederland Digitaal Festival heeft het thema 'Samen digitaal!’.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/workshops-aan-de-slag-met-het-virbi-2025/": {
+   "summary": "Bescherm jij gevoelige informatie voldoende? Ontdek in diverse workshops in november en december hoe je VIRBI 2025 praktisch toepast.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/introductiecursus-cloud-bij-de-overheid/": {
+   "summary": "Na deze cursus heb je een goed overzicht van modellen van de cloud, de eisen waar je op moet letten zoals risicobeheersing en wetgeving.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/vssr-roadshow/": {
+   "summary": "19 november 2026 @ 13:00 - 16:00 - Daar waar veel SOC-initiatieven met enthousiasme worden gestart, stranden er ook. Hoe pak je het goed aan? VSSR (Versterken SOC Stelsel Rijk) helpt je op weg.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/lunchbreaksessie-over-ai-applicatie-voor-juridische-sector/": {
+   "summary": "Online lunchbreaksessie van Platform AI & Overheid gaat op 24 november over een AI-app voor de juridische sector.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/hoe-maak-je-geografische-informatie-toegankelijk/": {
+   "summary": "25 november 2026 @ 13:00 - 16:00 - Een bijeenkomst over de rol van standaarden, ontwerpkeuzes, techniek én de mensen voor wie de geo-informatie is bedoeld.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/vng-uitvoeringscongres/": {
+   "summary": "26 november 2026 @ Hele dag - Kijk deze dag vooruit naar de gemeentelijke uitvoering van morgen. Ontmoet ook collega’s, wissel ervaringen uit en ontdek nieuwe ideeën en praktijkvoorbeelden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/cursus-cloudbeleid/": {
+   "summary": "Leer hoe je als overheidsorganisatie de public cloud verantwoord inzet, met aandacht voor risico’s, wetgeving en beschikbare technologie.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/vng-symposium-digitaal-dorpsplein/": {
+   "summary": "Dit VNG symposium gaat over de impact van sociale media platforms op samenleving. Welke afwegingen maak je in de gemeentelijke communicatie?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/digitale-sessie-archiefwet-2026-in-de-praktijk-2/": {
+   "summary": "8 december 2026 @ 11:00 - 12:00 - De VNG maakt de vertaalslag van wetgeving naar de praktijk van gemeenten en gemeenschappelijke regelingen. Met ontwikkelingen en hulpmiddelen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/cloud-it-bij-de-overheid/": {
+   "summary": "Ben jij binnen de (rijks)overheid op tactisch of strategisch niveau betrokken bij het realiseren van oplossingen met cloudtechnologie?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/digitoegankelijk-roadshow-maastricht/": {
+   "summary": "9 december 2026 @ 13:00 - 17:00 - Is het tijd om je kennis op het gebied van digitale toegankelijkheid bij te spijkeren? Kom naar deze middag vol praktische kennis en voorbeelden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/radio-workshop-dpia-van-theorie-naar-praktijk-14-december/": {
+   "summary": "RADIO organiseert op 14 december in Leiden een praktische workshop over het uitvoeren van een DPIA.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.digitaleoverheid.nl/evenementen/ibds-stelseldag-2027/": {
+   "summary": "Tijdens de IBDS‑Stelseldag komen overheden en interbestuurlijke partners samen rond de gezamenlijke opgave van verantwoord datagebruik.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/internationale-conferentie-digital-identity-wallets-van-idee-tot-implementatie-in-9-maanden/": {
+   "start": "2026-10-07",
+   "end": "2026-10-08",
+   "summary": "Op 7 en 8 oktober is de internationale conferentie UNFOLD#5 in Nijmegen. We duiken dieper in op Digital Identity Wallets. Hoe begin je en maak je een plan van aanpak?",
+   "t": "2026-10-06",
+   "fragment": "Hoe maak je als organisatie de stap van strategie naar daadwerkelijke implementatie van ID-wallets? … Op 7 en 8 oktober 2026 is in Nijmegen de internationale conferentie UNFOLD#5 over ID-wallets. … 2 dagen lang delen Europese, nationale en lokale overheden, maar ook andere organisaties hun ervaringen met de invoering van ID-wallets."
+  },
+  "https://www.gebruikercentraal.nl/agenda/denk-mee-over-draagvlak-in-je-organisatie/": {
+   "start": "2026-10-08T17:00:00+02:00",
+   "summary": "Ook bestuurder(s) in je organisatie moeten we enthousiasmeren voor mensgerichte overheidsdienstverlening. Denk met ons mee over het hoe!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/webinar-ai-en-publieke-dienstverlening-engels/": {
+   "start": "2026-10-13T12:00:00+02:00",
+   "location": "Het evenement is online via Microsoft Teams op 13 oktober van 10.00 tot 11.00 uur (CET)",
+   "summary": "Op 13 oktober van 10.00 tot 11.00 uur (CET) organiseren we vanuit onze internationale User Needs First Community een webinar over AI en publieke dienstverlening.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-bijeenkomst-omnichannel-de-startgids-doelmatig-geintegreerd-klantbeeld/": {
+   "start": "2026-10-15T12:00:00+02:00",
+   "summary": "De online bijeenkomst van Community Omnichannel van 15 oktober gaat over de Startgids Doelmatig Geïntegreerd Klantbeeld.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/gluren-bij-de-politie/": {
+   "start": "2026-10-22T14:45:00+02:00",
+   "location": "HUB50 Politie Van Deventerlaan 50 3528 AE Utrecht",
+   "summary": "Op donderdag 22 oktober van 12.45 tot 17.00 uur gaan we weer gluren! Deze keer bij de Politie. Bij de Politie staat de gebruiker centraal. Sluit je ook aan?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/testlab-sessie-1-najaar2026/": {
+   "start": "2026-10-28T11:00:00+01:00",
+   "location": "en wanneer is deze sessie? Woensdag 28 oktober, van 10.00 tot 11.00 uur. De sessie is via Microsoft Teams",
+   "summary": "We denken vaak dat onze informatie en dienstverlening duidelijk is. Maar we vragen niet aan gebruikers of dat ook zo is. Doe mee aan Testlab!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/training-klantreizen-oktober2026/": {
+   "start": "2026-10-29T10:30:00+01:00",
+   "location": "Bar Beton Utrecht Centraal Stationshal 9 3511 CE Utrecht",
+   "summary": "Wil je zelf aan de slag met klantreizen in jouw organisatie? Maar kun je wel wat hulp en kennis gebruiken? Meld je aan voor de Training Klantreizen!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-spelleidertraining-optimaal-digitaal-25/": {
+   "start": "2026-10-29T15:00:00+01:00",
+   "summary": "Wil jij weten hoe je het Optimaal Digitaal Spel kunt spelen om je dienstverlening te verbeteren? Volg dan een spelleidertraining!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-bijeenkomst-netwerk-direct-duidelijk-communicatie-verbeteren-met-gebruikersonderzoek/": {
+   "start": "2026-11-05T11:00:00+01:00",
+   "summary": "Op donderdag 5 november van 10.00 tot 11.00 uur is de volgende online bijeenkomst van Netwerk Direct Duidelijk. Sluit je ook aan?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/live-bijeenkomst-meer-dan-een-klantreis-van-klantinzicht-naar-duurzame-dienstverlening/": {
+   "start": "2026-11-12T14:00:00+01:00",
+   "location": "Social Impact Factory Vredenburg Vredenburg 40 3511 BD Utrecht",
+   "summary": "Op 12 november is de live bijeenkomst ‘Meer dan een klantreis: van klantinzicht naar mensgerichte dienstverlening’. Sluit je ook aan?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-spelleidertraining-optimaal-digitaal-26/": {
+   "start": "2026-11-16T14:00:00+01:00",
+   "summary": "Wil jij weten hoe je het Optimaal Digitaal Spel kunt spelen om je dienstverlening te verbeteren? Volg dan een spelleidertraining!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-bijeenkomst-community-cx-november/": {
+   "start": "2026-11-16T17:00:00+01:00",
+   "summary": "Op 16 november van 16.00 tot 17.30 uur is er weer een online bijeenkomst van Community CX. Ben je er ook bij?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/tijd-voor-de-balans-ai-in-overheidscommunicatie-direct-duidelijk-tour/": {
+   "start": "2026-11-17T12:00:00+01:00",
+   "location": "we nu écht staan met AI. Zodra het",
+   "summary": "Wel of geen (generatieve) artificiële intelligentie inzetten? Deze vraag is het afgelopen jaar vast bij jou voorbijgekomen. En ook de komende jaren blijft die vraag spelen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/hoe-maken-we-geografische-informatie-toegankelijk/": {
+   "start": "2026-11-25T13:00:00+01:00",
+   "end": "2026-11-25T16:00:00+01:00",
+   "location": "zo snel mogelijk bekend. De bijeenkomst is in Utrecht",
+   "summary": "Geonovum en Gebruiker Centraal organiseren op 25 november 2026 samen een bijeenkomst over geo-informatie. Sluit je ook aan?",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/testlab-sessie-2-najaar2026/": {
+   "start": "2026-12-02T11:00:00+01:00",
+   "location": "en wanneer is deze sessie? Woensdag 2 december, van 10.00 tot 11.00 uur. De sessie is via Microsoft Teams",
+   "summary": "In deze online sessie gaan we aan de slag met de uitkomsten van jouw test. Hoe is het gegaan, wat doe je met de feedback? Je leert het hier.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/online-spelleidertraining-optimaal-digitaal-27/": {
+   "start": "2026-12-08T15:00:00+01:00",
+   "summary": "Wil jij weten hoe je het Optimaal Digitaal Spel kunt spelen om je dienstverlening te verbeteren? Volg dan een spelleidertraining!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.gebruikercentraal.nl/agenda/training-klantreizen-januari-2027/": {
+   "start": "2027-01-25T10:30:00+01:00",
+   "location": "Bar Beton Utrecht Centraal Stationshal 9 3511 CE Utrecht",
+   "summary": "Wil je zelf aan de slag met klantreizen in jouw organisatie? Maar kun je wel wat hulp en kennis gebruiken? Meld je aan voor de Training Klantreizen!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/wim-drees-seminar-het-geheim-achter-geslaagde-beleidsveranderingen/": {
+   "start": "2026-10-06T16:30:00+02:00",
+   "end": "2026-10-06T18:00:00+02:00",
+   "location": "Sociëteit De Witte, Plein 25, Den Haag Meer informatie en",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/europese-id-wallet-conferentie-unfold5/": {
+   "start": "2026-10-07T09:30:00+02:00",
+   "end": "2026-10-08T17:00:00+02:00",
+   "location": "Pathé Nijmegen (ook online te volgen)",
+   "t": "2026-10-06",
+   "fragment": "Iedereen Europese ID-wallet conferentie UNFOLD#5 Iedereen 9:30 - 17:00, 7 oktober 2026 t/m 8 oktober 2026 Op 7 en 8 oktober 2026 vindt in Nijmegen de internationale conferentie UNFOLD#5 plaats, over de implementatie van Europese ID-wallets."
+  },
+  "https://staatvandeuitvoering.nl/evenement/save-the-date-reflectiesessie-staat-van-de-uitvoering-2026/": {
+   "start": "2026-10-07T13:30:00+02:00",
+   "end": "2026-10-07T16:30:00+02:00",
+   "location": "Social Impact Factory, Utrecht",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/seminar-financiele-steun-voor-kinderen-in-grens-overschrijdende-situaties/": {
+   "start": "2026-10-22T10:15:00+02:00",
+   "end": "2026-10-22T17:00:00+02:00",
+   "location": "Faculteit der Rechtsgeleerdheid, Kapoenstraat 2, Maastricht (zaal 0.009) Meld je hier aan voor het seminar",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/duidingssessie-staat-van-de-uitvoering-2026/": {
+   "start": "2026-10-26T17:30:00+01:00",
+   "end": "2026-10-26T19:30:00+01:00",
+   "location": "Nieuwspoort, Den Haag Toegang: besloten, exclusief voor bestuurders en topambtenaren",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/reuringcafe-overheidsgegevensdelen-gewenst-en-mogelijk/": {
+   "start": "2026-10-27T16:30:00+01:00",
+   "location": "De Glazen Zaal, Prinsessegracht 26, 2514 AP Den Haag Meld je hier aan",
+   "summary": "De VOM organiseert samen met het ministerie van Justitie en Veiligheid de 138e editie van het Reuring!Café over Overheidsgegevensdelen.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/masterclass-ruimte-in-regels-4/": {
+   "start": "2026-11-11T09:30:00+01:00",
+   "end": "2026-11-11T13:30:00+01:00",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/rbb-themasessie-signaalvaardigheid-voor-de-menselijke-maat/": {
+   "start": "2026-11-17T12:30:00+01:00",
+   "end": "2026-11-17T16:30:00+01:00",
+   "location": "UWV, La Guardiaweg 94–114, 1043 DL Amsterdam Meer informatie en",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/nederland-digitaal-festival-2026/": {
+   "start": "2026-11-19",
+   "location": "Fokker Terminal, Den Haag",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://staatvandeuitvoering.nl/evenement/overheidsawards-2026/": {
+   "start": "2026-11-26",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/kvk-ondernemersdagen-2026/": {
+   "start": "2026-11-13T11:00:00+01:00",
+   "end": "2026-11-14T17:30:00+01:00",
+   "summary": "Op 13 en 14 november zijn de KVK Ondernemersdagen in Jaarbeurs Utrecht. Meld je gratis aan!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/inloopdag-ondernemersplein-arnhem-06-10-2026/": {
+   "start": "2026-10-06T08:30:00+02:00",
+   "end": "2026-10-06T17:00:00+02:00",
+   "summary": "Op de Inloopdag ga je op Ondernemersplein in Arnhem in gesprek met onze deskundige adviseurs en die van onze partners. Wij zijn er om al je vragen te beantwoorden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/inloopdag-ondernemersplein-groningen/": {
+   "start": "2026-10-20T08:30:00+02:00",
+   "end": "2026-10-20T17:00:00+02:00",
+   "summary": "Op de inloopdag ga je op persoonlijk in gesprek met ervaren adviseurs en onze partners. Krijg in één dag antwoord op al je vragen over jouw bedrijf en ontmoet andere ondernemers.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/inloopdag-ondernemersplein-rotterdam-27-10-26/": {
+   "start": "2026-10-27T08:30:00+01:00",
+   "end": "2026-10-27T17:00:00+01:00",
+   "summary": "Op de Inloopdag ga je op het Ondernemersplein in Rotterdam in gesprek met onze deskundige adviseurs en die van onze partners. Wij zijn er om al je vragen te beantwoorden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/startersbijeenkomst-2026-rotterdam/": {
+   "start": "2026-11-09T12:30:00+01:00",
+   "end": "2026-11-09T15:15:00+01:00",
+   "summary": "Droom jij van een eigen horecazaak in Rotterdam? Kom op maandagmiddag 9 november naar de startersbijeenkomst bij KVK Rotterdam!",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/inloopdag-ondernemersplein-rotterdam-24-11-26/": {
+   "start": "2026-11-24T08:30:00+01:00",
+   "end": "2026-11-24T17:00:00+01:00",
+   "summary": "Op de Inloopdag ga je op het Ondernemersplein in Rotterdam in gesprek met onze deskundige adviseurs en die van onze partners. Wij zijn er om al je vragen te beantwoorden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/inloopdag-ondernemersplein-eindhoven-03-12-2026/": {
+   "start": "2026-12-03T08:30:00+01:00",
+   "end": "2026-12-03T17:00:00+01:00",
+   "summary": "Op de Inloopdag ga je op het Ondernemersplein in Eindhoven in gesprek met onze deskundige adviseurs en die van onze partners. Wij zijn er om al je vragen te beantwoorden.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://www.kvk.nl/evenementen/kvk-start-een-eigen-bedrijf-online-dec-2026/": {
+   "start": "2026-12-08T19:30:00+01:00",
+   "end": "2026-12-08T20:45:00+01:00",
+   "summary": "Een eigen bedrijf beginnen. Dan komt er veel op je af. Tijdens dit online event krijg je alle informatie om succesvol je eigen bedrijf te starten.",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://ecp.nl/agenda/ecp-deelnemersspecial-spraakgericht-rapporteren-ai-en-ethiek-in-het-ziekenhuis/": {
+   "start": "2026-10-28T12:15:00+01:00",
+   "end": "2026-10-28T17:30:00+01:00",
+   "summary": "Hoe werkt spraakgericht rapporteren in de (ziekenhuis)zorg? Welke kansen biedt deze AI-toepassing? En wat is nodig om deze technologie verantwoord en mensgericht in te zetten? Op woensdag 28 oktober 2026 organiseert ECP | Platform voor de InformatieSamenleving, vanuit de bij ECP ondergebrachte Aanpak Begeleidingsethiek en in samenwerking met het LUMC en RIGH:T Consortium, de ECP...",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://ecp.nl/agenda/workshop-van-innovatie-naar-opschaling-van-digitale-alternatieven/": {
+   "start": "2026-10-29T13:30:00+01:00",
+   "end": "2026-10-29T18:30:00+01:00",
+   "summary": "Van innovatie naar opschaling van digitale alternatieven Kansen en belemmeringen van inkoop voor Nederlandse en Europese digitale alternatieven Op donderdag 29 oktober organiseert ECP | Platform voor de Informatiesamenleving samen met het Ministerie van Economische Zaken en Klimaat, ROM Utrecht Region, Economic Board Utrecht, TNO en RVO een interactieve workshop. Het programma is van 13.30...",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://ecp.nl/agenda/nl-internet-governance-forum-2026-grip-op-de-digitale-toekomst/": {
+   "start": "2026-11-02T12:15:00+01:00",
+   "summary": "Over digitale macht, publieke waarden en gedeelde verantwoordelijkheid De digitale spelregels van morgen worden vandaag geschreven. Internationale machtsverhoudingen verschuiven, digitale afhankelijkheden worden zichtbaarder, hybride dreigingen nemen toe en democratische waarden staan wereldwijd onder druk. Dit vraagt om dialoog en gezamenlijke inzet voor een open, vrij en veilig internet. Op 2 november brengt het …",
+   "t": "2026-10-06",
+   "fragment": ""
+  },
+  "https://ecp.nl/agenda/communitydag-community-of-practice-digitale-ethiek-voor-overheden/": {
+   "start": "2026-11-02T12:00:00+01:00",
+   "end": "2026-11-02T17:30:00+01:00",
+   "summary": "Samen verder bouwen aan digitale ethiek die werkt De Community of Practice Digitale Ethiek voor Overheden heeft de eerste bouwstenen gelegd: een moresprudentiedatabase, een instrumentenwijzer, een werkgroep ethische commissies, webinars, pilottrajecten met verschillende organisaties en diverse samenwerkingen. Maar er is nóg meer te doen! Op 2 november is het moment om verder te bouwen. Niet...",
+   "t": "2026-10-06",
+   "fragment": ""
+  }
+ }
 }

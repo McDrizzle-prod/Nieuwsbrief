@@ -233,8 +233,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ec-ebw-beleid",
@@ -251,8 +251,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ec-eudi-beleid",
@@ -269,8 +269,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ec-eudi-wallet-nieuws",
@@ -287,8 +287,8 @@
    "gevonden": 20,
    "relevant": 20,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "eu-have-your-say",
@@ -305,8 +305,8 @@
    "gevonden": 11,
    "relevant": 11,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "eurlex-eidas",
@@ -323,8 +323,8 @@
    "gevonden": 33,
    "relevant": 33,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "eurlex-titels",
@@ -341,8 +341,8 @@
    "gevonden": 6,
    "relevant": 6,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ep-persberichten",
@@ -377,8 +377,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ep-legislative-train-ebw",
@@ -410,11 +410,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 1,
-   "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "ep-procedure-ebw",
@@ -431,8 +431,8 @@
    "gevonden": 6,
    "relevant": 6,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "raad-persberichten",
@@ -449,8 +449,8 @@
    "gevonden": 20,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "we-build",
@@ -467,8 +467,8 @@
    "gevonden": 12,
    "relevant": 12,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "aptitude",
@@ -485,8 +485,8 @@
    "gevonden": 20,
    "relevant": 20,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "github-arf",
@@ -503,8 +503,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "etsi-nieuws",
@@ -521,8 +521,8 @@
    "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "digitale-overheid",
@@ -539,8 +539,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "tweede-kamer",
@@ -557,8 +557,8 @@
    "gevonden": 40,
    "relevant": 37,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "officiele-bekendmakingen",
@@ -575,8 +575,8 @@
    "gevonden": 40,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "eerste-kamer-ebw",
@@ -593,8 +593,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "nl-wallet",
@@ -611,8 +611,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T11:38:29Z",
-   "laatst_succes": "2026-10-06T11:38:29Z"
+   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
+   "laatst_succes": "2026-10-06T12:15:32Z"
   },
   {
    "id": "biometric-update",
