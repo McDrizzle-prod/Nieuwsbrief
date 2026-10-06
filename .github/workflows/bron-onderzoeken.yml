@@ -21,6 +21,10 @@ on:
         description: "Optioneel: toon alle links die passen bij dit link_patroon (bijv. /news/[^/]+/)"
         required: false
         default: ""
+      tekst:
+        description: "Optioneel: toon waar deze tekst op de pagina staat, met de HTML eromheen (bijv. een datum)"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -42,4 +46,5 @@ jobs:
           GUESS: ${{ inputs.raad_feeds && '--guess-feeds' || '' }}
           BROWSER: ${{ inputs.als_browser && '--browser' || '' }}
           PATROON: ${{ inputs.link_patroon }}
-        run: python tools/probe.py $GUESS $BROWSER ${PATROON:+--patroon "$PATROON"} "$URLS"
+          TEKST: ${{ inputs.tekst }}
+        run: python tools/probe.py $GUESS $BROWSER ${PATROON:+--patroon "$PATROON"} ${TEKST:+--tekst "$TEKST"} "$URLS"

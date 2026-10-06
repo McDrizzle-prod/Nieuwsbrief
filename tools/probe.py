@@ -173,6 +173,23 @@ def describe_pattern(url: str, content: bytes, pattern: str) -> None:
         emit(f"    - {href}  [{text[:60]}]")
 
 
+def describe_text(content: bytes, needle: str) -> None:
+    """Toon waar een stuk tekst op de pagina staat, met omliggende tekst en HTML."""
+    soup = BeautifulSoup(content, "lxml")
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+    hits = [node for node in soup.find_all(string=re.compile(re.escape(needle), re.I))][:4]
+    emit(f"  Tekst '{needle}': {len(hits)} keer gevonden")
+    for node in hits:
+        parent = node.parent
+        block = parent
+        while block.parent is not None and len(block.get_text(" ", strip=True)) < 250 and block.parent.name not in ("body", "html"):
+            block = block.parent
+        emit(f"    pad: {css_path(parent, 6)}")
+        emit("    tekst: " + " ".join(block.get_text(" ", strip=True).split())[:700])
+        emit("    html: " + " ".join(str(block).split())[:900])
+
+
 def describe_html(url: str, content: bytes, agent: str = "") -> None:
     soup = BeautifulSoup(content, "lxml")
     title = soup.title.get_text(strip=True) if soup.title else ""
@@ -219,7 +236,8 @@ def describe_html(url: str, content: bytes, agent: str = "") -> None:
             break
 
 
-def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | None = None) -> None:
+def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | None = None,
+          needle: str | None = None) -> None:
     emit("")
     emit(f"## {url}")
     try:
@@ -250,6 +268,8 @@ def probe(url: str, guess_feeds: bool, agent: str = USER_AGENT, pattern: str | N
     describe_html(resp.url, body, agent)
     if pattern:
         describe_pattern(resp.url, body, pattern)
+    if needle:
+        describe_text(body, needle)
     if guess_feeds:
         base = resp.url if resp.url.endswith("/") else resp.url + "/"
         for guess in FEED_GUESSES:
@@ -269,11 +289,12 @@ def main() -> int:
     parser.add_argument("--guess-feeds", action="store_true", help="probeer gangbare feed-adressen")
     parser.add_argument("--browser", action="store_true", help="doe je voor als gewone browser (User-Agent)")
     parser.add_argument("--patroon", help="toon links die passen bij dit link_patroon (regex)")
+    parser.add_argument("--tekst", help="toon waar deze tekst op de pagina staat, met de HTML eromheen")
     args = parser.parse_args()
     agent = BROWSER_AGENT if args.browser else USER_AGENT
     for raw in args.urls:
         for url in raw.split():
-            probe(url.strip(), args.guess_feeds, agent, args.patroon)
+            probe(url.strip(), args.guess_feeds, agent, args.patroon, args.tekst)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as fh:
