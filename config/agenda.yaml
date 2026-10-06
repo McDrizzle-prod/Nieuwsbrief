@@ -183,4 +183,17 @@ bronnen:
 #     organisator: FIDES
 #     wallets: [ebw]                 # eudi, ebw of allebei; weglaten = op zoektermen indelen
 #     samenvatting: Praktijkbijeenkomst over business wallets en verifieerbare gegevens.
-handmatig: []
+handmatig:
+  # De aankondiging bij Digitale Overheid noemt geen wallet, het programma op logius.nl wel.
+  - titel: "Logius Roadshow 2026, met sessie over inlogmiddelen en de NL Wallet"
+    start: 2026-10-29 09:00
+    eind: 2026-10-29 17:30
+    locatie: Luitgardeweg 12, Hilversum
+    url: https://www.logius.nl/roadshow
+    organisator: Logius
+    categorie: nl-overheid
+    wallets: [eudi]
+    samenvatting: >-
+      Jaarlijkse bijeenkomst van Logius. In de break-outsessie 'Klaar voor de digitale
+      toekomst met inlogmiddelen en wallets' gaat het samen met BZK over de NL Wallet, de
+      Wet digitale overheid en de herziening van eIDAS.
