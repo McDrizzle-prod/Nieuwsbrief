@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T12:15:32Z",
+ "generated": "2026-10-06T12:20:34Z",
  "evenementen": [
   {
    "id": "96d6688d11628a2c",
@@ -27,7 +27,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -54,7 +54,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -81,7 +81,7 @@
    },
    "moza": [],
    "moza_level": "middel",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -108,8 +108,36 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "d91d1884fb1875bc",
+   "title": "Logius Roadshow 2026, met sessie over inlogmiddelen en de NL Wallet",
+   "url": "https://www.logius.nl/roadshow",
+   "start": "2026-10-29T09:00:00+01:00",
+   "end": "2026-10-29T17:30:00+01:00",
+   "location": "Luitgardeweg 12, Hilversum",
+   "online": false,
+   "summary": "Jaarlijkse bijeenkomst van Logius. In de break-outsessie 'Klaar voor de digitale toekomst met inlogmiddelen en wallets' gaat het samen met BZK over de NL Wallet, de Wet digitale overheid en de herziening van eIDAS.",
+   "fragment": "",
+   "source": "handmatig",
+   "source_name": "Logius",
+   "category": "nl-overheid",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "eIDAS",
+     "NL Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-10-06T12:20:34Z",
+   "first_seen": "2026-10-06T12:20:34Z"
   },
   {
    "id": "787189c16f3cb503",
@@ -139,7 +167,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -173,7 +201,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-10-06T12:15:32Z",
+   "last_seen": "2026-10-06T12:20:34Z",
    "first_seen": "2026-10-06T12:15:32Z"
   }
  ]

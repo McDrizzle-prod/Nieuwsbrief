@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T12:15:32Z",
+ "generated": "2026-10-06T12:20:34Z",
  "wallets": [
   {
    "id": "eudi",
@@ -85,6 +85,27 @@
    "also": []
   },
   {
+   "id": "d91d1884fb1875bc",
+   "title": "Logius Roadshow 2026, met sessie over inlogmiddelen en de NL Wallet",
+   "url": "https://www.logius.nl/roadshow",
+   "start": "2026-10-29T09:00:00+01:00",
+   "end": "2026-10-29T17:30:00+01:00",
+   "location": "Luitgardeweg 12, Hilversum",
+   "online": false,
+   "summary": "Jaarlijkse bijeenkomst van Logius. In de break-outsessie 'Klaar voor de digitale toekomst met inlogmiddelen en wallets' gaat het samen met BZK over de NL Wallet, de Wet digitale overheid en de herziening van eIDAS.",
+   "fragment": "",
+   "source": "handmatig",
+   "source_name": "Logius",
+   "category": "nl-overheid",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-10-06T12:20:34Z",
+   "also": []
+  },
+  {
    "id": "787189c16f3cb503",
    "title": "Digital Identity & Trust conference",
    "url": "https://idnext.eu/event/digital-identity-trust-conference",
@@ -149,9 +170,9 @@
    "fout": null,
    "gevonden": 3,
    "relevant": 3,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -167,9 +188,9 @@
    "fout": null,
    "gevonden": 1,
    "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "digitale-overheid",
@@ -186,8 +207,8 @@
    "gevonden": 40,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -203,9 +224,9 @@
    "fout": null,
    "gevonden": 17,
    "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -221,9 +242,9 @@
    "fout": null,
    "gevonden": 10,
    "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "europa-decentraal",
@@ -240,8 +261,8 @@
    "gevonden": 2,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "kvk",
@@ -258,8 +279,8 @@
    "gevonden": 8,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "ecp",
@@ -276,8 +297,8 @@
    "gevonden": 4,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "idnext",
@@ -293,9 +314,9 @@
    "fout": null,
    "gevonden": 2,
    "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
    "id": "ebra",
@@ -311,9 +332,9 @@
    "fout": null,
    "gevonden": 4,
    "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-10-06T12:15:32Z",
-   "laatst_succes": "2026-10-06T12:15:32Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_succes": "2026-10-06T12:20:34Z"
   }
  ]
 }
