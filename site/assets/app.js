@@ -271,12 +271,6 @@
     const failing = statuses.filter((b) => b.ok === false);
     const ebw = (state.config.achtergrond.dossiers || []).find((d) => d.id === "ebw");
     $("#zijkolom").innerHTML = `
-      ${state.config.aanmeldlink ? `<section class="subscribe" aria-labelledby="mail-kop">
-        <h3 id="mail-kop">Weekoverzicht per mail</h3>
-        <p>Elke vrijdag om 16:00 de nieuwe berichten van die week in je mailbox, met per bericht wat het betekent voor MOZa.</p>
-        <a class="button primary" href="${esc(safeUrl(state.config.aanmeldlink))}" target="_blank" rel="noopener">Aanmelden</a>
-        <p class="note">Afmelden kan altijd via de link onderaan elke mail.</p>
-      </section>` : ""}
       <section aria-labelledby="cijfers-kop">
         <h3 id="cijfers-kop">Deze editie</h3>
         <dl class="figures">
@@ -623,10 +617,6 @@
     state.editionKey = state.editions[0] || null;
 
     $("#laden").hidden = true;
-    if (state.config.aanmeldlink) {
-      $("#aanmelden-voet").innerHTML = `Elke vrijdag het weekoverzicht in je mailbox? ${link(state.config.aanmeldlink, "Meld je aan")}.`;
-      $("#aanmelden-voet").hidden = false;
-    }
     $("#bijgewerkt").textContent = state.generated
       ? `Laatst bijgewerkt: ${fmtStamp.format(new Date(state.generated))}. ${state.items.length} berichten in het archief.` : "";
     if (state.editionKey) renderEdition();

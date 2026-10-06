@@ -11,7 +11,6 @@ Alles draait in GitHub. Je hoeft niets te installeren; een browser is genoeg.
 - **Nieuwsbrief lezen:** `https://mcdrizzle-prod.github.io/Nieuwsbrief/` (na de eenmalige
   instelling hieronder)
 - **Welke bronnen en waarom:** [BRONNEN.md](BRONNEN.md)
-- **Weekoverzicht per mail (elke vrijdag om 16:00):** instellen via [LAPOSTA.md](LAPOSTA.md)
 
 ## Zo werkt het
 
@@ -36,8 +35,6 @@ GitHub Actions (elke ochtend)            GitHub Pages
    planning, architectuur, ondertekening, pilots en soevereiniteit. Daaruit volgt een
    relevantie voor MOZa: hoog, middel of laag.
 4. Nieuwe berichten komen in `site/data/items.json` en de site wordt opnieuw gepubliceerd.
-5. Op vrijdag maakt de workflow ook het weekoverzicht per mail aan. Laposta verstuurt het om
-   16:00 naar de abonnees (zie [LAPOSTA.md](LAPOSTA.md)).
 
 ## Eenmalig instellen (5 minuten, alleen in de browser)
 
@@ -53,8 +50,6 @@ GitHub Actions (elke ochtend)            GitHub Pages
    met Claude van Anthropic. Er gaan alleen titel, bron en openbare samenvatting van het
    bericht naar de API, maximaal 40 berichten per run (instelbaar met de variabele
    `AI_MAX_BERICHTEN`). Zonder sleutel werkt alles ook, met de indeling op trefwoorden.
-4. *(Optioneel)* **Weekoverzicht per mail:** volg [LAPOSTA.md](LAPOSTA.md). Je hebt een gratis
-   account bij Laposta nodig; aan- en afmelden regelt Laposta.
 
 > De hoofdbranch van deze repository heet nu `claude/epic-brown-nqj88f`. Wil je liever
 > `main`? Hernoem de branch via *Settings → General → Default branch* (het potlood).
@@ -67,7 +62,6 @@ GitHub Actions (elke ochtend)            GitHub Pages
 |---|---|
 | Nieuwsbrief van deze week lezen | De site, tab **Nieuwsbrief** |
 | Nieuwsbrief doorsturen | **Kopieer voor e-mail** en plak in Outlook, of **Download HTML** |
-| Elke vrijdag het weekoverzicht per mail | Knop **Aanmelden** op de site (na de instelling in [LAPOSTA.md](LAPOSTA.md)) |
 | Oudere berichten zoeken | Tab **Archief** (zoeken en filteren op onderwerp, bron en MOZa-relevantie) |
 | Stand van het EBW-dossier en de MOZa-kernvragen | Tab **Dossiers** |
 | Zien welke bronnen werken | Tab **Bronnen**, of de samenvatting van de laatste run onder *Actions* |
@@ -86,8 +80,6 @@ automatisch opnieuw opgebouwd.
   geautomatiseerde verzoeken weigert.
 - **Zoektermen en MOZa-thema's:** [`config/onderwerpen.yaml`](config/onderwerpen.yaml).
   Hier staat ook de uitleg per thema die in de MOZa-lens verschijnt.
-- **Weekoverzicht per mail:** [`config/notificaties.yaml`](config/notificaties.yaml): aan- en
-  uitzetten, aanmeldlink, afzender en onderwerpregel.
 - **Dossierstappen en kernvragen:** [`config/achtergrond.yaml`](config/achtergrond.yaml).
   Deze teksten worden niet gescraped. Werk ze bij als het dossier een stap zet; de
   nieuwsbrief meldt zulke stappen via de bronnen.
@@ -96,11 +88,11 @@ automatisch opnieuw opgebouwd.
 
 | Map | Inhoud |
 |---|---|
-| `config/` | bronnen, zoektermen en MOZa-thema's, dossierteksten, instellingen voor de mail |
-| `scraper/` | Python-code die bronnen ophaalt, indeelt en het archief bijhoudt; `weekmail.py` maakt het weekoverzicht |
+| `config/` | bronnen, zoektermen en MOZa-thema's, dossierteksten |
+| `scraper/` | Python-code die bronnen ophaalt, indeelt en het archief bijhoudt |
 | `site/` | de nieuwsbrief (HTML, CSS en JavaScript, zonder externe bibliotheken) |
 | `site/data/` | gegenereerde gegevens: berichten, bronstatus en configuratie voor de site |
-| `data/` | interne status: de laatst bekende tekst van gevolgde pagina's (`state.json`) en de verstuurde weekoverzichten (`weekmail.json`) |
+| `data/state.json` | interne status, zoals de laatst bekende tekst van gevolgde pagina's |
 | `tools/probe.py` | hulpmiddel om een nieuwe bron te verkennen |
 | `tests/` | tests met voorbeeldpagina's per brontype |
 
@@ -111,7 +103,6 @@ pip install -r requirements.txt -r requirements-dev.txt
 python -m pytest            # tests
 python -m scraper --droog   # alle bronnen ophalen zonder iets weg te schrijven
 python -m scraper --bron we-build --bron tweede-kamer
-python -m scraper.weekmail --voorbeeld mail.html   # weekoverzicht opbouwen zonder te versturen
 python -m http.server -d site 8000   # site bekijken op http://localhost:8000
 ```
 
