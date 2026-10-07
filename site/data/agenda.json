@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T12:20:34Z",
+ "generated": "2026-10-07T04:37:37Z",
  "wallets": [
   {
    "id": "eudi",
@@ -171,8 +171,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -189,8 +189,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "digitale-overheid",
@@ -207,8 +207,8 @@
    "gevonden": 40,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -225,8 +225,8 @@
    "gevonden": 17,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -238,12 +238,12 @@
    "toelichting": "Agenda van evenementen over publieke dienstverlening, bijgehouden door ICTU in opdracht van BZK.",
    "prioriteit": 2,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "verbinding mislukt: SSLError: HTTPSConnectionPool(host='staatvandeuitvoering.nl', port=443): Max retries exceeded with url: /agenda/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
    "gevonden": 10,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
    "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
@@ -261,8 +261,8 @@
    "gevonden": 2,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "kvk",
@@ -279,8 +279,8 @@
    "gevonden": 8,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "ecp",
@@ -297,8 +297,8 @@
    "gevonden": 4,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "idnext",
@@ -315,8 +315,8 @@
    "gevonden": 2,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   },
   {
    "id": "ebra",
@@ -333,8 +333,8 @@
    "gevonden": 4,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-06T12:20:34Z",
-   "laatst_succes": "2026-10-06T12:20:34Z"
+   "laatst_gecontroleerd": "2026-10-07T04:37:37Z",
+   "laatst_succes": "2026-10-07T04:37:37Z"
   }
  ]
 }
