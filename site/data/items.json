@@ -1,6 +1,68 @@
 {
- "generated": "2026-10-07T04:37:37Z",
+ "generated": "2026-10-08T04:37:03Z",
  "items": [
+  {
+   "id": "46d31f2a06640afd",
+   "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#wijziging-2026-10-08",
+   "summary": "Nieuw of gewijzigd op de pagina: Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
+   "published": "2026-10-08",
+   "source": "ep-oeil-ebw",
+   "source_name": "Europees Parlement – Legislative Observatory 2025/0358(COD)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "plenary"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-08T04:37:03Z",
+   "date": "2026-10-08"
+  },
+  {
+   "id": "72c235cb95656534",
+   "title": "Europees Parlement, European business wallets: plenary endorse committee interinstitutional negotiations",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-DEC-PLEIN1-2026-10-07",
+   "summary": "Procedure 2025/0358(COD).",
+   "published": "2026-10-07",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "verplichtingen",
+     "termen": [
+      "plenary"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-08T04:37:03Z",
+   "date": "2026-10-07"
+  },
   {
    "id": "deface96245b5b0a",
    "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
