@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T04:37:26Z",
+ "generated": "2026-10-10T04:36:43Z",
  "wallets": [
   {
    "id": "eudi",
@@ -16,32 +16,6 @@
   "derden": "Platforms en organisaties"
  },
  "evenementen": [
-  {
-   "id": "96d6688d11628a2c",
-   "title": "Europese ID-wallet Conferentie UNFOLD#5 in Nijmegen",
-   "url": "https://www.gebruikercentraal.nl/agenda/internationale-conferentie-digital-identity-wallets-van-idee-tot-implementatie-in-9-maanden/",
-   "start": "2026-10-07T09:30:00+02:00",
-   "end": "2026-10-08T16:30:00+02:00",
-   "location": "Pathé Nijmegen",
-   "online": false,
-   "summary": "Op 7 en 8 oktober is de internationale conferentie UNFOLD#5 in Nijmegen. We duiken dieper in op Digital Identity Wallets. Hoe begin je en maak je een plan van aanpak?",
-   "fragment": "We duiken dieper in op Digital Identity Wallets. … Hoe maak je als organisatie de stap van strategie naar daadwerkelijke implementatie van ID-wallets? … Op 7 en 8 oktober 2026 is in Nijmegen de internationale conferentie UNFOLD#5 over ID-wallets.",
-   "source": "gebruiker-centraal",
-   "source_name": "Gebruiker Centraal – agenda",
-   "category": "nl-overheid",
-   "wallets": [
-    "eudi"
-   ],
-   "moza": [],
-   "moza_level": "laag",
-   "first_seen": "2026-10-06T12:15:32Z",
-   "also": [
-    {
-     "source_name": "Staat van de Uitvoering – agenda",
-     "url": "https://staatvandeuitvoering.nl/evenement/europese-id-wallet-conferentie-unfold5/"
-    }
-   ]
-  },
   {
    "id": "d6beec781d50bb90",
    "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
@@ -171,8 +145,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -189,8 +163,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "digitale-overheid",
@@ -207,8 +181,8 @@
    "gevonden": 33,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -225,8 +199,8 @@
    "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -243,7 +217,7 @@
    "gevonden": 10,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
    "laatst_succes": "2026-10-06T12:20:34Z"
   },
   {
@@ -258,11 +232,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 2,
+   "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "kvk",
@@ -276,11 +250,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 7,
+   "gevonden": 8,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "ecp",
@@ -297,8 +271,8 @@
    "gevonden": 4,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "idnext",
@@ -315,8 +289,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   },
   {
    "id": "ebra",
@@ -333,8 +307,8 @@
    "gevonden": 4,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-09T04:37:26Z",
-   "laatst_succes": "2026-10-09T04:37:26Z"
+   "laatst_gecontroleerd": "2026-10-10T04:36:43Z",
+   "laatst_succes": "2026-10-10T04:36:43Z"
   }
  ]
 }
