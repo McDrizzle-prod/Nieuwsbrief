@@ -1,6 +1,80 @@
 {
- "generated": "2026-10-12T04:40:09Z",
+ "generated": "2026-10-13T04:40:46Z",
  "items": [
+  {
+   "id": "59f7555a81690e09",
+   "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#wijziging-2026-10-13",
+   "summary": "Nieuw of gewijzigd op de pagina: Permanent Representation of Ireland to the EU · HEINÄLUOMA Eero",
+   "published": "2026-10-13",
+   "source": "ep-oeil-ebw",
+   "source_name": "Europees Parlement – Legislative Observatory 2025/0358(COD)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "Representation"
+     ]
+    }
+   ],
+   "moza_level": "hoog",
+   "score": 7,
+   "first_seen": "2026-10-13T04:40:46Z",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "2a98dd54b320c7f6",
+   "title": "Aptitude marks one year of progress at the 2nd Board of Beneficiaries in Milan",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-marks-one-year-of-progress-at-the-2nd-board-of-beneficiaries-in-milan/",
+   "summary": "The Aptitude consortium gathered at Politecnico di Milano on 5–6 October 2026 for its 2nd Board of Beneficiaries, bringing together 150 participants from more than 100 organisations across 15 countries to review the progress achieved during the project’s first year and align on the roadmap ahead. As Aptitude enters its second year, the two-day meeting …",
+   "published": "2026-10-12T09:44:21Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-13T04:40:46Z",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "433f0f102478a160",
+   "title": "NL Wallet: Wallet 0.6.0",
+   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.6.0",
+   "summary": "Release date: 12th of October, 2026 All commits in this release: v0.5.0...v0.6.0 Documentation for this release: https://minbzk.github.io/nl-wallet/v0.6.0/index.html We have the following artifacts as a part of this release: wallet-sbom_v0.6.0_generic.zip : The software-bill-of-materials for this release. wallet-issuance-server_v0.6.0_x86_64-linux-glibc.zip : The wallet issuance server for issuers with migrations binary, for glibc-based Linux systems built with Debian trixie. wallet-issuance-server_v0.6.0_x86_64-linux-musl.zip : The wallet issuance server for issuers with migrations binary …",
+   "published": "2026-10-12T13:38:12Z",
+   "source": "nl-wallet",
+   "source_name": "NL Wallet – releases (MinBZK)",
+   "category": "nl-overheid",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "NL Wallet",
+     "nl-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-13T04:40:46Z",
+   "date": "2026-10-12"
+  },
   {
    "id": "46d31f2a06640afd",
    "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
