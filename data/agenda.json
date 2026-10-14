@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T04:40:46Z",
+ "generated": "2026-10-14T04:53:10Z",
  "evenementen": [
   {
    "id": "96d6688d11628a2c",
@@ -31,33 +31,6 @@
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
-   "id": "93e559ae18620d06",
-   "title": "Europese ID-wallet conferentie UNFOLD#5",
-   "url": "https://staatvandeuitvoering.nl/evenement/europese-id-wallet-conferentie-unfold5/",
-   "start": "2026-10-07T09:30:00+02:00",
-   "end": "2026-10-08T17:00:00+02:00",
-   "location": "Pathé Nijmegen",
-   "online": false,
-   "summary": "",
-   "fragment": "Iedereen Europese ID-wallet conferentie UNFOLD#5 Iedereen 9:30 - 17:00, 7 oktober 2026 t/m 8 oktober 2026 Op 7 en 8 oktober 2026 vindt in Nijmegen de internationale conferentie UNFOLD#5 plaats, over de implementatie van Europese ID-wallets.",
-   "source": "staat-van-de-uitvoering",
-   "source_name": "Staat van de Uitvoering – agenda",
-   "category": "nl-overheid",
-   "priority": 2,
-   "wallets": [
-    "eudi"
-   ],
-   "topic_hits": {
-    "eudi": [
-     "ID-wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "laag",
-   "last_seen": "2026-10-06T12:20:34Z",
-   "first_seen": "2026-10-06T12:15:32Z"
-  },
-  {
    "id": "d6beec781d50bb90",
    "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
    "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
@@ -81,7 +54,7 @@
    },
    "moza": [],
    "moza_level": "middel",
-   "last_seen": "2026-10-13T04:40:46Z",
+   "last_seen": "2026-10-14T04:53:10Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -108,7 +81,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-13T04:40:46Z",
+   "last_seen": "2026-10-14T04:53:10Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -136,7 +109,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-13T04:40:46Z",
+   "last_seen": "2026-10-14T04:53:10Z",
    "first_seen": "2026-10-06T12:20:34Z"
   },
   {
@@ -167,7 +140,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-13T04:40:46Z",
+   "last_seen": "2026-10-14T04:53:10Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -201,7 +174,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-10-13T04:40:46Z",
+   "last_seen": "2026-10-14T04:53:10Z",
    "first_seen": "2026-10-06T12:15:32Z"
   }
  ]
