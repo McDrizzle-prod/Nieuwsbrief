@@ -1,6 +1,32 @@
 {
- "generated": "2026-10-14T04:53:10Z",
+ "generated": "2026-10-15T04:52:05Z",
  "items": [
+  {
+   "id": "4ef6e03f39da90bc",
+   "title": "ARF-release: Topic AA rr paper v0.8",
+   "url": "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/releases/tag/Topic_AA_rr_paper_v0.8",
+   "summary": "First version of Topic AA (SCA) refinement round discussion paper",
+   "published": "2026-10-14T09:41:12Z",
+   "source": "github-arf",
+   "source_name": "EUDI Wallet – Architecture and Reference Framework (releases)",
+   "category": "techniek",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {},
+   "moza": [
+    {
+     "thema": "architectuur",
+     "termen": [
+      "ARF"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-15T04:52:05Z",
+   "date": "2026-10-14"
+  },
   {
    "id": "59f7555a81690e09",
    "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
