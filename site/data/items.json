@@ -1,6 +1,30 @@
 {
- "generated": "2026-10-15T04:52:05Z",
+ "generated": "2026-10-16T04:53:33Z",
  "items": [
+  {
+   "id": "47fd4e1f05e73ffa",
+   "title": "Europees Parlement, European business wallets: interinstitutional negotiation",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#2025-0358-MEET-TRI1-2026-10-14",
+   "summary": "Procedure 2025/0358(COD).",
+   "published": "2026-10-14",
+   "source": "ep-procedure-ebw",
+   "source_name": "Europees Parlement – procedurestappen EBW (open data)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-16T04:53:33Z",
+   "date": "2026-10-14"
+  },
   {
    "id": "4ef6e03f39da90bc",
    "title": "ARF-release: Topic AA rr paper v0.8",
