@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T04:50:14Z",
+ "generated": "2026-10-19T04:55:07Z",
  "wallets": [
   {
    "id": "eudi",
@@ -145,8 +145,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -163,8 +163,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "digitale-overheid",
@@ -176,12 +176,12 @@
    "toelichting": "De evenementenagenda van de digitale overheid, met onder meer de meet-ups van het EDI-stelsel en bijeenkomsten van Logius, RvIG en BZK.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "geen iCal-agenda ontvangen",
    "gevonden": 40,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
    "laatst_succes": "2026-10-18T04:50:14Z"
   },
   {
@@ -194,12 +194,12 @@
    "toelichting": "Bijeenkomsten over gebruiksvriendelijke dienstverlening van de overheid, waaronder de Europese ID-wallet-conferentie UNFOLD en sessies over ID-wallets.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "geen iCal-agenda ontvangen",
    "gevonden": 13,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
    "laatst_succes": "2026-10-18T04:50:14Z"
   },
   {
@@ -217,8 +217,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "europa-decentraal",
@@ -230,12 +230,12 @@
    "toelichting": "Kenniscentrum voor Europees recht en beleid voor decentrale overheden, met bijeenkomsten over onder meer eIDAS, de EUDI Wallet en de Business Wallet.",
    "prioriteit": 2,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "HTTP 403 bij https://europadecentraal.nl/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-19",
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
    "laatst_succes": "2026-10-18T04:50:14Z"
   },
   {
@@ -253,8 +253,8 @@
    "gevonden": 8,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "ecp",
@@ -271,8 +271,8 @@
    "gevonden": 4,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "idnext",
@@ -289,8 +289,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   },
   {
    "id": "ebra",
@@ -307,8 +307,8 @@
    "gevonden": 4,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-18T04:50:14Z",
-   "laatst_succes": "2026-10-18T04:50:14Z"
+   "laatst_gecontroleerd": "2026-10-19T04:55:07Z",
+   "laatst_succes": "2026-10-19T04:55:07Z"
   }
  ]
 }
