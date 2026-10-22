@@ -228,12 +228,12 @@
    "toelichting": "Nieuws, publicaties en evenementen van DG CONNECT, de directie die zowel de EUDI Wallet als de European Business Wallet trekt. Hier verschijnen persberichten, uitvoeringshandelingen en factsheets als eerste.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "HTTP 403 bij https://digital-strategy.ec.europa.eu/en/rss.xml",
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
    "laatst_succes": "2026-10-21T04:52:45Z"
   },
   {
@@ -246,12 +246,12 @@
    "toelichting": "Officiële beleidspagina over de EBW. De nieuwsbrief meldt het als de inhoud verandert (nieuwe documenten, tijdpad, technische werkgroepen).",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "HTTP 403 bij https://digital-strategy.ec.europa.eu/en/policies/business-wallets",
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
    "laatst_succes": "2026-10-21T04:52:45Z"
   },
   {
@@ -264,12 +264,12 @@
    "toelichting": "Beleidspagina over de uitrol van de EUDI Wallet, de pilots en de uitvoeringshandelingen. Wijzigingen worden als bericht gemeld.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "HTTP 403 bij https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation",
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
    "laatst_succes": "2026-10-21T04:52:45Z"
   },
   {
@@ -287,8 +287,8 @@
    "gevonden": 20,
    "relevant": 20,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "eu-have-your-say",
@@ -305,8 +305,8 @@
    "gevonden": 11,
    "relevant": 11,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "eurlex-eidas",
@@ -323,8 +323,8 @@
    "gevonden": 32,
    "relevant": 32,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "eurlex-titels",
@@ -341,8 +341,8 @@
    "gevonden": 6,
    "relevant": 6,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "ep-persberichten",
@@ -377,8 +377,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "ep-legislative-train-ebw",
@@ -413,8 +413,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "ep-procedure-ebw",
@@ -431,8 +431,8 @@
    "gevonden": 8,
    "relevant": 8,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "raad-persberichten",
@@ -449,8 +449,8 @@
    "gevonden": 20,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "we-build",
@@ -467,8 +467,8 @@
    "gevonden": 12,
    "relevant": 12,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "aptitude",
@@ -484,9 +484,9 @@
    "fout": null,
    "gevonden": 20,
    "relevant": 20,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "github-arf",
@@ -503,8 +503,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "etsi-nieuws",
@@ -521,8 +521,8 @@
    "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "digitale-overheid",
@@ -539,8 +539,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "tweede-kamer",
@@ -557,8 +557,8 @@
    "gevonden": 40,
    "relevant": 37,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "officiele-bekendmakingen",
@@ -575,8 +575,8 @@
    "gevonden": 40,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "eerste-kamer-ebw",
@@ -593,8 +593,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "nl-wallet",
@@ -611,8 +611,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-21T04:52:45Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_succes": "2026-10-22T09:28:38Z"
   },
   {
    "id": "biometric-update",
