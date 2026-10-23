@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:28:38Z",
+ "generated": "2026-10-23T09:25:14Z",
  "wallets": [
   {
    "id": "eudi",
@@ -16,27 +16,6 @@
   "derden": "Platforms en organisaties"
  },
  "evenementen": [
-  {
-   "id": "d6beec781d50bb90",
-   "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
-   "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
-   "start": "2026-10-20",
-   "end": "2026-10-21",
-   "location": "",
-   "online": true,
-   "summary": "",
-   "fragment": "",
-   "source": "ebra",
-   "source_name": "EBRA – Europese handelsregisters",
-   "category": "derden",
-   "wallets": [
-    "ebw"
-   ],
-   "moza": [],
-   "moza_level": "middel",
-   "first_seen": "2026-10-06T12:15:32Z",
-   "also": []
-  },
   {
    "id": "a4dc178f634349e5",
    "title": "EUDI Wallets Launchpad 2.0",
@@ -145,8 +124,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -163,8 +142,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "digitale-overheid",
@@ -181,8 +160,8 @@
    "gevonden": 42,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -196,11 +175,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 14,
+   "gevonden": 13,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -217,8 +196,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "europa-decentraal",
@@ -235,8 +214,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "kvk",
@@ -253,8 +232,8 @@
    "gevonden": 7,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "ecp",
@@ -268,11 +247,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 4,
+   "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   },
   {
    "id": "idnext",
@@ -285,11 +264,11 @@
    "prioriteit": 2,
    "actief": true,
    "ok": false,
-   "fout": "HTTP 404 bij https://idnext.eu/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-22",
+   "fout": "HTTP 404 bij https://idnext.eu/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-23",
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
    "laatst_succes": "2026-10-21T04:52:45Z"
   },
   {
@@ -307,8 +286,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-22T09:28:38Z",
-   "laatst_succes": "2026-10-22T09:28:38Z"
+   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
+   "laatst_succes": "2026-10-23T09:25:14Z"
   }
  ]
 }

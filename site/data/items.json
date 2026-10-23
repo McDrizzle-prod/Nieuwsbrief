@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:28:38Z",
+ "generated": "2026-10-23T09:25:14Z",
  "items": [
   {
    "id": "2044be3548b1a21d",
@@ -402,6 +402,39 @@
    "baseline": true,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-10-05"
+  },
+  {
+   "id": "9a736b1e053fbd69",
+   "title": "Experience Europe: How EUDI Wallets Are Reshaping Travel and Mobility Across Europe",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/experience-europe-how-eudi-wallets-are-reshaping-travel-and-mobility-across-europe/",
+   "summary": "The online webinar “Experience Europe: How EUDI Wallets Are Reshaping Travel and Mobility Across Europe” took place on 18 September 2026, as the first sector-focused webinar of the EU Digital Identity Wallet Relying Party Engagement Programme. The 90-minute session formed part of a broader programme led by the European Commission and the Large-Scale Pilots, helping …",
+   "published": "2026-10-01T12:30:04Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDI",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "Large-Scale Pilots",
+      "Pilots"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-23T09:25:14Z",
+   "date": "2026-10-01"
   },
   {
    "id": "99926ccae868cd97",
