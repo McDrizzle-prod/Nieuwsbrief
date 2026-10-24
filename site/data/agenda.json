@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T09:25:14Z",
+ "generated": "2026-10-24T08:56:36Z",
  "wallets": [
   {
    "id": "eudi",
@@ -124,8 +124,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -142,8 +142,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "digitale-overheid",
@@ -160,8 +160,8 @@
    "gevonden": 42,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -178,8 +178,8 @@
    "gevonden": 13,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -196,8 +196,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "europa-decentraal",
@@ -214,8 +214,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "kvk",
@@ -232,8 +232,8 @@
    "gevonden": 7,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "ecp",
@@ -250,8 +250,8 @@
    "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "idnext",
@@ -263,13 +263,13 @@
    "toelichting": "Onafhankelijk Nederlands platform over digitale identiteit, met onder meer de jaarlijkse IDnext-conferentie over eIDAS 2.0 en wallets.",
    "prioriteit": 2,
    "actief": true,
-   "ok": false,
-   "fout": "HTTP 404 bij https://idnext.eu/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-23",
+   "ok": true,
+   "fout": null,
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-21T04:52:45Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   },
   {
    "id": "ebra",
@@ -286,8 +286,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-23T09:25:14Z",
-   "laatst_succes": "2026-10-23T09:25:14Z"
+   "laatst_gecontroleerd": "2026-10-24T08:56:36Z",
+   "laatst_succes": "2026-10-24T08:56:36Z"
   }
  ]
 }
