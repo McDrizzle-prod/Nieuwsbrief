@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T09:13:15Z",
+ "generated": "2026-10-26T10:15:45Z",
  "items": [
   {
    "id": "2044be3548b1a21d",
@@ -1443,6 +1443,29 @@
    "score": 7,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-07-02"
+  },
+  {
+   "id": "146bbfd0f5e4c82f",
+   "title": "Opinion of the European Committee of the Regions – European Business Wallets",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52025IR4359",
+   "summary": "",
+   "published": "2026-07-01",
+   "source": "eurlex-titels",
+   "source_name": "EUR-Lex – documenten over wallets",
+   "category": "eu-wetgeving",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-26T10:15:45Z",
+   "date": "2026-07-01"
   },
   {
    "id": "c9b34c5e01578d21",
