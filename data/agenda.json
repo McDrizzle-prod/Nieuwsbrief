@@ -1,33 +1,6 @@
 {
- "generated": "2026-10-26T10:15:45Z",
+ "generated": "2026-10-27T09:53:08Z",
  "evenementen": [
-  {
-   "id": "d6beec781d50bb90",
-   "title": "Kick-off meeting European Business Wallet (Luxembourg/Online)",
-   "url": "https://ebra.be/event/kick-off-meeting-european-business-wallet-luxembourg/",
-   "start": "2026-10-20",
-   "end": "2026-10-21",
-   "location": "",
-   "online": true,
-   "summary": "",
-   "fragment": "",
-   "source": "ebra",
-   "source_name": "EBRA – Europese handelsregisters",
-   "category": "derden",
-   "priority": 2,
-   "wallets": [
-    "ebw"
-   ],
-   "topic_hits": {
-    "ebw": [
-     "Business Wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "middel",
-   "last_seen": "2026-10-20T04:51:54Z",
-   "first_seen": "2026-10-06T12:15:32Z"
-  },
   {
    "id": "a4dc178f634349e5",
    "title": "EUDI Wallets Launchpad 2.0",
@@ -52,7 +25,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-26T10:15:45Z",
+   "last_seen": "2026-10-27T09:53:08Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -80,7 +53,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-26T10:15:45Z",
+   "last_seen": "2026-10-27T09:53:08Z",
    "first_seen": "2026-10-06T12:20:34Z"
   },
   {
@@ -111,7 +84,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-26T10:15:45Z",
+   "last_seen": "2026-10-27T09:53:08Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -145,7 +118,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-10-26T10:15:45Z",
+   "last_seen": "2026-10-27T09:53:08Z",
    "first_seen": "2026-10-06T12:15:32Z"
   }
  ]

@@ -1,6 +1,32 @@
 {
- "generated": "2026-10-26T10:15:45Z",
+ "generated": "2026-10-27T09:53:08Z",
  "items": [
+  {
+   "id": "6c592d227593b2a7",
+   "title": "Aptitude Newsletter #1: One Year of Progress Towards Europe’s Digital Identity Wallet",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-newsletter-1-one-year-of-progress-towards-europes-digital-identity-wallet/",
+   "summary": "The first official Aptitude Newsletter is now available, bringing together the latest news, key milestones and developments from the project’s first year of advancing the European Digital Identity Wallet (EUDIW) through real-world testing and cross-border collaboration. In this first edition, readers can explore: The first edition marks the beginning of regular updates, keeping stakeholders and …",
+   "published": "2026-10-26T15:29:52Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDIW",
+     "European Digital Identity",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-10-27T09:53:08Z",
+   "date": "2026-10-26"
+  },
   {
    "id": "2044be3548b1a21d",
    "title": "Aptitude contributes to Dutch discussions on EUDI Wallet implementation and cross-border services",
@@ -568,6 +594,30 @@
    "score": 9,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-09-18"
+  },
+  {
+   "id": "a02fe00921a46cea",
+   "title": "Digitaal pakket van de Europese Commissie COM(2025)835, COM(2025)836, COM(2025)837, COM(2025)838; Verslag van een nader schriftelijk overleg met de staatssecretaris van EZ over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36890-AA.html",
+   "summary": "Kamerstuk",
+   "published": "2026-09-17",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "COM(2025)838",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-27T09:53:08Z",
+   "date": "2026-09-17"
   },
   {
    "id": "6d0cfb9a33540bc0",
