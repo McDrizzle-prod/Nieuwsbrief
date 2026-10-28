@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T09:53:08Z",
+ "generated": "2026-10-28T10:39:24Z",
  "wallets": [
   {
    "id": "eudi",
@@ -124,8 +124,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -142,8 +142,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "digitale-overheid",
@@ -157,11 +157,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 42,
+   "gevonden": 40,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -175,11 +175,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 13,
+   "gevonden": 12,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -196,8 +196,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "europa-decentraal",
@@ -214,8 +214,8 @@
    "gevonden": 2,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "kvk",
@@ -229,11 +229,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 7,
+   "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "ecp",
@@ -250,8 +250,8 @@
    "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "idnext",
@@ -268,8 +268,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
    "id": "ebra",
@@ -286,8 +286,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-27T09:53:08Z",
-   "laatst_succes": "2026-10-27T09:53:08Z"
+   "laatst_gecontroleerd": "2026-10-28T10:39:24Z",
+   "laatst_succes": "2026-10-28T10:39:24Z"
   }
  ]
 }
