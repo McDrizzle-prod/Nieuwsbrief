@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T10:39:24Z",
+ "generated": "2026-10-29T10:57:42Z",
  "items": [
   {
    "id": "6c592d227593b2a7",
@@ -4416,10 +4416,9 @@
    "summary": "",
    "published": "2025-05-06",
    "source": "eurlex-eidas",
-   "source_name": "EUR-Lex – documenten over wallets",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
    "category": "eu-wetgeving",
    "topics": [
-    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -4438,8 +4437,8 @@
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-05-06"
   },
@@ -4480,10 +4479,9 @@
    "summary": "",
    "published": "2025-05-06",
    "source": "eurlex-eidas",
-   "source_name": "EUR-Lex – documenten over wallets",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
    "category": "eu-wetgeving",
    "topics": [
-    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -4502,8 +4500,8 @@
      ]
     }
    ],
-   "moza_level": "hoog",
-   "score": 9,
+   "moza_level": "middel",
+   "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2025-05-06"
   },
@@ -4904,30 +4902,6 @@
    "score": 6,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2024-11-29"
-  },
-  {
-   "id": "cf0a6405d04e9018",
-   "title": "NL Wallet: Wallet 0.2.2",
-   "url": "https://github.com/MinBZK/nl-wallet/releases/tag/v0.2.2",
-   "summary": "Release date: 25th of October, 2024 All commits in this release: v0.2.1...v0.2.2 Documentation for this release: https://github.com/MinBZK/nl-wallet/blob/v0.2.2/documentation/index.md We have the following artifacts as a part of this release: wallet-sbom_v0.2.2_generic.zip : The software-bill-of-materials for this release wallet-verification-server_v0.2.2_x86_64-linux-glibc.zip : The wallet verification server for relying parties, for glibc-based Linux systems wallet-verification-server_v0.2.2_x86_64-linux-musl.zip : The wallet verification server for relying parties, for musl-libc based …",
-   "published": "2024-10-28T12:04:14Z",
-   "source": "nl-wallet",
-   "source_name": "NL Wallet – releases (MinBZK)",
-   "category": "nl-overheid",
-   "topics": [
-    "eudi"
-   ],
-   "topic_hits": {
-    "eudi": [
-     "NL Wallet",
-     "nl-wallet"
-    ]
-   },
-   "moza": [],
-   "moza_level": "laag",
-   "score": 3,
-   "first_seen": "2026-10-05T09:18:55Z",
-   "date": "2024-10-28"
   }
  ]
 }
