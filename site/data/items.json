@@ -1,6 +1,64 @@
 {
- "generated": "2026-10-29T10:57:42Z",
+ "generated": "2026-10-30T10:54:57Z",
  "items": [
+  {
+   "id": "cc3cff51a37f6993",
+   "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation#wijziging-2026-10-30",
+   "summary": "Nieuw of gewijzigd op de pagina: Browse Electronic identification and trust services",
+   "published": "2026-10-30",
+   "source": "ec-eudi-beleid",
+   "source_name": "Europese Commissie – EU Digital Identity Wallet (implementatie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi",
+    "vertrouwensdiensten"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ],
+    "vertrouwensdiensten": [
+     "trust services"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "identiteit",
+     "termen": [
+      "identification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-10-30T10:54:57Z",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "cda6ce1d3768813e",
+   "title": "Verslag van een rapporteur: Eindverslag van de rapporteurs over de verordening tot instelling van Europese portemonnees voor ondernemingen (Europese Business Wallets)",
+   "url": "https://www.tweedekamer.nl/downloads/document?id=2026D54319",
+   "summary": "Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie",
+   "published": "2026-10-30",
+   "source": "tweede-kamer",
+   "source_name": "Tweede Kamer – Kamerstukken (open data)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-10-30T10:54:57Z",
+   "date": "2026-10-30"
+  },
   {
    "id": "6c592d227593b2a7",
    "title": "Aptitude Newsletter #1: One Year of Progress Towards Europe’s Digital Identity Wallet",

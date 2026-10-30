@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T10:57:42Z",
+ "generated": "2026-10-30T10:54:57Z",
  "evenementen": [
   {
    "id": "a4dc178f634349e5",
@@ -25,7 +25,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-29T10:57:42Z",
+   "last_seen": "2026-10-30T10:54:57Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -53,7 +53,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-29T10:57:42Z",
+   "last_seen": "2026-10-30T10:54:57Z",
    "first_seen": "2026-10-06T12:20:34Z"
   },
   {
@@ -84,7 +84,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-10-29T10:57:42Z",
+   "last_seen": "2026-10-30T10:54:57Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -118,7 +118,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-10-29T10:57:42Z",
+   "last_seen": "2026-10-30T10:54:57Z",
    "first_seen": "2026-10-06T12:15:32Z"
   }
  ]
