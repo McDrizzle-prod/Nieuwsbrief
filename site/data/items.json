@@ -1,6 +1,30 @@
 {
- "generated": "2026-10-30T10:54:57Z",
+ "generated": "2026-10-31T10:27:26Z",
  "items": [
+  {
+   "id": "470277c956c6b17f",
+   "title": "Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie; Verslag van een rapporteur; Eindverslag van de rapporteurs over de verordening tot instelling van Europese portemonnees voor ondernemingen (Europese Business Wallets)",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-1277732.html",
+   "summary": "Kamerstuk",
+   "published": "2026-10-30",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-10-31T10:27:26Z",
+   "date": "2026-10-30"
+  },
   {
    "id": "cc3cff51a37f6993",
    "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
