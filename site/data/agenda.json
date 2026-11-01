@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:27:26Z",
+ "generated": "2026-11-01T11:21:13Z",
  "wallets": [
   {
    "id": "eudi",
@@ -16,27 +16,6 @@
   "derden": "Platforms en organisaties"
  },
  "evenementen": [
-  {
-   "id": "a4dc178f634349e5",
-   "title": "EUDI Wallets Launchpad 2.0",
-   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/973932074/Launchpad+about+2026",
-   "start": "2026-10-29",
-   "end": "2026-10-30",
-   "location": "The Egg, Brussels",
-   "online": false,
-   "summary": "On October 29-30 the European Commission will host the Launchpad 2026, a two-days event of testing, demos, workshops, keynotes, and more aimed at celebrating the work achieved by Member States on their national wallets implementations.",
-   "fragment": "",
-   "source": "ec-eudi-evenementen",
-   "source_name": "EU Digital Identity Wallet – evenementen (Commissie)",
-   "category": "eu",
-   "wallets": [
-    "eudi"
-   ],
-   "moza": [],
-   "moza_level": "laag",
-   "first_seen": "2026-10-06T12:15:32Z",
-   "also": []
-  },
   {
    "id": "787189c16f3cb503",
    "title": "Digital Identity & Trust conference",
@@ -103,8 +82,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -121,8 +100,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "digitale-overheid",
@@ -139,8 +118,8 @@
    "gevonden": 35,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -157,8 +136,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -175,8 +154,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "europa-decentraal",
@@ -193,8 +172,8 @@
    "gevonden": 2,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "kvk",
@@ -211,8 +190,8 @@
    "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "ecp",
@@ -229,8 +208,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "idnext",
@@ -247,8 +226,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   },
   {
    "id": "ebra",
@@ -265,8 +244,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-10-31T10:27:26Z",
-   "laatst_succes": "2026-10-31T10:27:26Z"
+   "laatst_gecontroleerd": "2026-11-01T11:21:13Z",
+   "laatst_succes": "2026-11-01T11:21:13Z"
   }
  ]
 }
