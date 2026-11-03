@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T12:36:18Z",
+ "generated": "2026-11-03T12:02:05Z",
  "wallets": [
   {
    "id": "eudi",
@@ -35,6 +35,27 @@
    "moza": [],
    "moza_level": "laag",
    "first_seen": "2026-10-06T12:15:32Z",
+   "also": []
+  },
+  {
+   "id": "7931ead51df2267f",
+   "title": "Quantumdreiging voor het EDI-stelsel en wallets",
+   "url": "https://www.digitaleoverheid.nl/evenementen/quantumdreiging-voor-het-edi-stelsel-en-wallets/",
+   "start": "2026-11-25T13:00:00+01:00",
+   "end": "2026-11-25T18:00:00+01:00",
+   "location": "",
+   "online": false,
+   "summary": "Wat betekent de komst van quantumcomputers voor de digitale veiligheid? En welke gevolgen heeft dit voor het EDI-stelsel en identiteitswallets?",
+   "fragment": "En welke gevolgen heeft dit voor het EDI-stelsel en identiteitswallets?",
+   "source": "digitale-overheid",
+   "source_name": "Digitale Overheid – evenementen (BZK)",
+   "category": "nl-overheid",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-11-03T12:02:05Z",
    "also": []
   },
   {
@@ -82,8 +103,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -100,8 +121,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "digitale-overheid",
@@ -116,10 +137,10 @@
    "ok": true,
    "fout": null,
    "gevonden": 34,
-   "relevant": 0,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -133,11 +154,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 10,
+   "gevonden": 11,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -154,8 +175,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "europa-decentraal",
@@ -172,8 +193,8 @@
    "gevonden": 2,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "kvk",
@@ -190,8 +211,8 @@
    "gevonden": 5,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "ecp",
@@ -208,8 +229,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "idnext",
@@ -226,8 +247,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   },
   {
    "id": "ebra",
@@ -244,8 +265,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-02T12:36:18Z",
-   "laatst_succes": "2026-11-02T12:36:18Z"
+   "laatst_gecontroleerd": "2026-11-03T12:02:05Z",
+   "laatst_succes": "2026-11-03T12:02:05Z"
   }
  ]
 }

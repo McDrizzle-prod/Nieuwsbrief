@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T12:36:18Z",
+ "generated": "2026-11-03T12:02:05Z",
  "evenementen": [
   {
    "id": "a4dc178f634349e5",
@@ -25,7 +25,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-02T12:36:18Z",
+   "last_seen": "2026-11-03T12:02:05Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -53,7 +53,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-02T12:36:18Z",
+   "last_seen": "2026-11-03T12:02:05Z",
    "first_seen": "2026-10-06T12:20:34Z"
   },
   {
@@ -84,8 +84,36 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-02T12:36:18Z",
+   "last_seen": "2026-11-03T12:02:05Z",
    "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "7931ead51df2267f",
+   "title": "Quantumdreiging voor het EDI-stelsel en wallets",
+   "url": "https://www.digitaleoverheid.nl/evenementen/quantumdreiging-voor-het-edi-stelsel-en-wallets/",
+   "start": "2026-11-25T13:00:00+01:00",
+   "end": "2026-11-25T18:00:00+01:00",
+   "location": "",
+   "online": false,
+   "summary": "Wat betekent de komst van quantumcomputers voor de digitale veiligheid? En welke gevolgen heeft dit voor het EDI-stelsel en identiteitswallets?",
+   "fragment": "En welke gevolgen heeft dit voor het EDI-stelsel en identiteitswallets?",
+   "source": "digitale-overheid",
+   "source_name": "Digitale Overheid – evenementen (BZK)",
+   "category": "nl-overheid",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EDI-stelsel",
+     "identiteitswallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-11-03T12:02:05Z",
+   "first_seen": "2026-11-03T12:02:05Z"
   },
   {
    "id": "1e29502f6720e5a3",
@@ -118,7 +146,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-11-02T12:36:18Z",
+   "last_seen": "2026-11-03T12:02:05Z",
    "first_seen": "2026-10-06T12:15:32Z"
   }
  ]
