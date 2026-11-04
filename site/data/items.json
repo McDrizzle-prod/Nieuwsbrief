@@ -1,6 +1,82 @@
 {
- "generated": "2026-11-03T12:02:05Z",
+ "generated": "2026-11-04T12:16:29Z",
  "items": [
+  {
+   "id": "20c35b8b4a92ba95",
+   "title": "Simplifying cross-border business: WE BUILD Consortium meets in Bucharest to take stock of its first year and plan the road ahead",
+   "url": "https://www.webuildconsortium.eu/news/simplifying-cross-border-business-we-build-consortium-meets-in-bucharest-to-take-stock-of-its-first-year-and-plan-the-road-ahead",
+   "summary": "At its General Assembly hosted by Visa and Banca Transilvania, the Large Scale Pilot on business and payment use cases of the EU Digital Identity Wallet and the European Business Wallet reviewed its achievements so far and set the stage for the second year of the project, which will be devoted to running the actual pilots.",
+   "published": "2026-11-04",
+   "source": "we-build",
+   "source_name": "WE BUILD – Large Scale Pilot voor business wallets",
+   "category": "pilots",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallet"
+    ],
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "Large Scale Pilot",
+      "Pilot",
+      "use cases",
+      "WE BUILD"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 8,
+   "first_seen": "2026-11-04T12:16:29Z",
+   "date": "2026-11-04"
+  },
+  {
+   "id": "b5aaacc1f2fd4099",
+   "title": "Aptitude at the EUDI Wallets Launchpad 2026",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-the-eudi-wallets-launchpad-2026/",
+   "summary": "On 29-30 October 2026, The Egg in Brussels hosted the second edition of the European Commission’s EUDI Wallets Launchpad. Under the motto “Work it. Show it. Share it.”, the event brought together 550 participants from 27 countries: Member State wallet teams, the Large-Scale Pilots Aptitude and WE BUILD, mDL4EU, certification bodies, relying parties and issuers. …",
+   "published": "2026-11-04T09:36:21Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "pilots",
+     "termen": [
+      "Large-Scale Pilots",
+      "Pilots",
+      "WE BUILD"
+     ]
+    },
+    {
+     "thema": "soevereiniteit",
+     "termen": [
+      "certification"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-04T12:16:29Z",
+   "date": "2026-11-04"
+  },
   {
    "id": "470277c956c6b17f",
    "title": "Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de Europese Unie; Verslag van een rapporteur; Eindverslag van de rapporteurs over de verordening tot instelling van Europese portemonnees voor ondernemingen (Europese Business Wallets)",
