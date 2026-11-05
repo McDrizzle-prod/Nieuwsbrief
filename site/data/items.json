@@ -1,6 +1,30 @@
 {
- "generated": "2026-11-04T12:16:29Z",
+ "generated": "2026-11-05T12:29:43Z",
  "items": [
+  {
+   "id": "9fd1c469aaef8d55",
+   "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een#wijziging-2026-11-05",
+   "summary": "Nieuw of gewijzigd op de pagina: Behandeling Tweede Kamer · Verslag van een rapporteur; Eindverslag van de rapporteurs over de verordening tot instelling van Europese portemonnees voor ondernemingen (Europese Business Wallets) · 30 oktober 2026",
+   "published": "2026-11-05",
+   "source": "eerste-kamer-ebw",
+   "source_name": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-05T12:29:43Z",
+   "date": "2026-11-05"
+  },
   {
    "id": "20c35b8b4a92ba95",
    "title": "Simplifying cross-border business: WE BUILD Consortium meets in Bucharest to take stock of its first year and plan the road ahead",
