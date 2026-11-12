@@ -1,6 +1,76 @@
 {
- "generated": "2026-11-11T11:56:28Z",
+ "generated": "2026-11-12T12:53:44Z",
  "items": [
+  {
+   "id": "19f085cc1ffe72de",
+   "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation#wijziging-2026-11-12",
+   "summary": "Nieuw of gewijzigd op de pagina: 12 November 2026 · EU and Egypt bring Partnership forward by advancing cooperation on electronic signatures and seals · The European Commission and Egypt have reached an important milestone in their digital cooperation, and a significant deliverable of the EU-Egypt Summit of 22 October 2025, by achieving technical alignment of electronic signatures and seal schemes between the European Union and Egypt. · News article",
+   "published": "2026-11-12",
+   "source": "ec-eudi-beleid",
+   "source_name": "Europese Commissie – EU Digital Identity Wallet (implementatie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "vertrouwen",
+     "termen": [
+      "electronic signatures"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-12T12:53:44Z",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "aa733bddc92a348a",
+   "title": "Join the Aptitude Technology Accelerator Board: call for independent experts",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/join-the-aptitude-tab-call-for-independent-experts/",
+   "summary": "Aptitude is inviting independent experts to join its Technology Accelerator Board (TAB) as ad-hoc members and help address the challenges of implementing the EU Digital Identity Wallet in practice. While the EU’s common architecture and reference framework supports interoperability, implementation across many independent organisations is complex: governments must issue certified wallets and credentials, businesses must …",
+   "published": "2026-11-12T10:13:47Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "architecture and reference framework",
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [
+    {
+     "thema": "gegevens",
+     "termen": [
+      "credentials"
+     ]
+    },
+    {
+     "thema": "architectuur",
+     "termen": [
+      "architecture",
+      "interoperability",
+      "reference framework"
+     ]
+    }
+   ],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-12T12:53:44Z",
+   "date": "2026-11-12"
+  },
   {
    "id": "9fd1c469aaef8d55",
    "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
