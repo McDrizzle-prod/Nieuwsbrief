@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:53:44Z",
+ "generated": "2026-11-14T11:36:16Z",
  "wallets": [
   {
    "id": "eudi",
@@ -85,6 +85,27 @@
    "moza_level": "middel",
    "first_seen": "2026-10-06T12:15:32Z",
    "also": []
+  },
+  {
+   "id": "1d9f6bb42e18c215",
+   "title": "Online lunchsessie: toepassing GBO voor EDI-wallet",
+   "url": "https://www.digitaleoverheid.nl/evenementen/online-lunchsessie-toepassing-gbo-voor-edi-wallet/",
+   "start": "2026-12-10T12:00:00+01:00",
+   "end": "2026-12-10T13:00:00+01:00",
+   "location": "",
+   "online": true,
+   "summary": "Tijdens deze sessie ontdek je alles over de stand van zaken van de ontwikkeling van GBO (Gemeenschappelijke Bronontsluiting), en de planning.",
+   "fragment": "",
+   "source": "digitale-overheid",
+   "source_name": "Digitale Overheid – evenementen (BZK)",
+   "category": "nl-overheid",
+   "wallets": [
+    "eudi"
+   ],
+   "moza": [],
+   "moza_level": "laag",
+   "first_seen": "2026-11-14T11:36:16Z",
+   "also": []
   }
  ],
  "bronnen": [
@@ -103,8 +124,8 @@
    "gevonden": 2,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -121,8 +142,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "digitale-overheid",
@@ -136,11 +157,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 32,
-   "relevant": 1,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "gevonden": 29,
+   "relevant": 2,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -154,11 +175,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 12,
+   "gevonden": 11,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -175,8 +196,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "europa-decentraal",
@@ -193,8 +214,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "kvk",
@@ -211,8 +232,8 @@
    "gevonden": 7,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "ecp",
@@ -229,8 +250,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "idnext",
@@ -247,8 +268,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   },
   {
    "id": "ebra",
@@ -265,8 +286,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-12T12:53:44Z",
-   "laatst_succes": "2026-11-12T12:53:44Z"
+   "laatst_gecontroleerd": "2026-11-14T11:36:16Z",
+   "laatst_succes": "2026-11-14T11:36:16Z"
   }
  ]
 }

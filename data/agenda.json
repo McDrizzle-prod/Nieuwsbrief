@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:53:44Z",
+ "generated": "2026-11-14T11:36:16Z",
  "evenementen": [
   {
    "id": "787189c16f3cb503",
@@ -29,7 +29,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-12T12:53:44Z",
+   "last_seen": "2026-11-14T11:36:16Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -57,7 +57,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-12T12:53:44Z",
+   "last_seen": "2026-11-14T11:36:16Z",
    "first_seen": "2026-11-03T12:02:05Z"
   },
   {
@@ -91,8 +91,35 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-11-12T12:53:44Z",
+   "last_seen": "2026-11-14T11:36:16Z",
    "first_seen": "2026-10-06T12:15:32Z"
+  },
+  {
+   "id": "1d9f6bb42e18c215",
+   "title": "Online lunchsessie: toepassing GBO voor EDI-wallet",
+   "url": "https://www.digitaleoverheid.nl/evenementen/online-lunchsessie-toepassing-gbo-voor-edi-wallet/",
+   "start": "2026-12-10T12:00:00+01:00",
+   "end": "2026-12-10T13:00:00+01:00",
+   "location": "",
+   "online": true,
+   "summary": "Tijdens deze sessie ontdek je alles over de stand van zaken van de ontwikkeling van GBO (Gemeenschappelijke Bronontsluiting), en de planning.",
+   "fragment": "",
+   "source": "digitale-overheid",
+   "source_name": "Digitale Overheid – evenementen (BZK)",
+   "category": "nl-overheid",
+   "priority": 1,
+   "wallets": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EDI-wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "last_seen": "2026-11-14T11:36:16Z",
+   "first_seen": "2026-11-14T11:36:16Z"
   }
  ]
 }
