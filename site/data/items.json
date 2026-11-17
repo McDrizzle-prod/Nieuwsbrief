@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T12:54:09Z",
+ "generated": "2026-11-17T13:36:31Z",
  "items": [
   {
    "id": "aad4f21443b32bbc",
@@ -2527,10 +2527,9 @@
    "summary": "",
    "published": "2026-04-07",
    "source": "eurlex-eidas",
-   "source_name": "EUR-Lex – documenten over wallets",
+   "source_name": "EUR-Lex – handelingen op basis van eIDAS (Verordening 910/2014)",
    "category": "eu-wetgeving",
    "topics": [
-    "ebw",
     "eudi"
    ],
    "topic_hits": {
@@ -2562,7 +2561,7 @@
     }
    ],
    "moza_level": "hoog",
-   "score": 11,
+   "score": 8,
    "first_seen": "2026-10-05T09:18:55Z",
    "date": "2026-04-07"
   },
