@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:11:23Z",
+ "generated": "2026-11-19T13:27:56Z",
  "wallets": [
   {
    "id": "eudi",
@@ -16,27 +16,6 @@
   "derden": "Platforms en organisaties"
  },
  "evenementen": [
-  {
-   "id": "787189c16f3cb503",
-   "title": "Digital Identity & Trust conference",
-   "url": "https://idnext.eu/event/digital-identity-trust-conference",
-   "start": "2026-11-17T09:00:00+01:00",
-   "end": "2026-11-17T18:00:00+01:00",
-   "location": "Van der Valk hotel Mechelen, Mechelen, Belgium",
-   "online": false,
-   "summary": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
-   "fragment": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. … Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
-   "source": "idnext",
-   "source_name": "IDnext – agenda",
-   "category": "derden",
-   "wallets": [
-    "eudi"
-   ],
-   "moza": [],
-   "moza_level": "laag",
-   "first_seen": "2026-10-06T12:15:32Z",
-   "also": []
-  },
   {
    "id": "7931ead51df2267f",
    "title": "Quantumdreiging voor het EDI-stelsel en wallets",
@@ -124,8 +103,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -142,8 +121,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "digitale-overheid",
@@ -155,12 +134,12 @@
    "toelichting": "De evenementenagenda van de digitale overheid, met onder meer de meet-ups van het EDI-stelsel en bijeenkomsten van Logius, RvIG en BZK.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "geen iCal-agenda ontvangen",
    "gevonden": 27,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
    "laatst_succes": "2026-11-18T13:11:23Z"
   },
   {
@@ -173,12 +152,12 @@
    "toelichting": "Bijeenkomsten over gebruiksvriendelijke dienstverlening van de overheid, waaronder de Europese ID-wallet-conferentie UNFOLD en sessies over ID-wallets.",
    "prioriteit": 1,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "geen iCal-agenda ontvangen",
    "gevonden": 11,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
    "laatst_succes": "2026-11-18T13:11:23Z"
   },
   {
@@ -196,8 +175,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "europa-decentraal",
@@ -209,12 +188,12 @@
    "toelichting": "Kenniscentrum voor Europees recht en beleid voor decentrale overheden, met bijeenkomsten over onder meer eIDAS, de EUDI Wallet en de Business Wallet.",
    "prioriteit": 2,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "HTTP 403 bij https://europadecentraal.nl/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-11-19",
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
    "laatst_succes": "2026-11-18T13:11:23Z"
   },
   {
@@ -227,13 +206,13 @@
    "toelichting": "Evenementen van de Kamer van Koophandel. Alleen bijeenkomsten waarin de Business Wallet of de EUDI Wallet voorkomt, komen in de agenda.",
    "prioriteit": 2,
    "actief": true,
-   "ok": false,
-   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='www.kvk.nl', port=443): Max retries exceeded with url: /evenementen/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.kvk.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+   "ok": true,
+   "fout": null,
    "gevonden": 6,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-17T13:36:31Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "ecp",
@@ -250,8 +229,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "idnext",
@@ -268,8 +247,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   },
   {
    "id": "ebra",
@@ -286,8 +265,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-18T13:11:23Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
+   "laatst_succes": "2026-11-19T13:27:56Z"
   }
  ]
 }
