@@ -1,6 +1,100 @@
 {
- "generated": "2026-11-19T13:27:56Z",
+ "generated": "2026-11-20T13:08:12Z",
  "items": [
+  {
+   "id": "a004593ca177bfe4",
+   "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0358(COD)#wijziging-2026-11-20",
+   "summary": "Nieuw of gewijzigd op de pagina: NIEBLER Angelika · DOCUSIGN, INC",
+   "published": "2026-11-20",
+   "source": "ep-oeil-ebw",
+   "source_name": "Europees Parlement – Legislative Observatory 2025/0358(COD)",
+   "category": "eu-parlement",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "2025/0358",
+     "business wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-20T13:08:12Z",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "28a3f55123e1761d",
+   "title": "Digitaal pakket van de Europese Commissie COM(2025)835, COM(2025)836, COM(2025)837, COM(2025)838; Verslag van een nader schriftelijk overleg met de staatssecretaris van EZK over het voorstel voor een Verordening tot instelling van Europese portemonnees voor ondernemingen",
+   "url": "https://zoek.officielebekendmakingen.nl/kst-1281254.html",
+   "summary": "Kamerstuk",
+   "published": "2026-11-20",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "COM(2025)838",
+     "portemonnees voor ondernemingen"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-11-20T13:08:12Z",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "ca1aef80ad37519a",
+   "title": "Beslisnota('s) bij de beantwoording van de nadere vragen over de voorgestelde verordening European Business Wallets",
+   "url": "https://zoek.officielebekendmakingen.nl/blg-1281255.html",
+   "summary": "Bijlage",
+   "published": "2026-11-20",
+   "source": "officiele-bekendmakingen",
+   "source_name": "Officiële bekendmakingen – Kamerstukken en Staatscourant",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 4,
+   "first_seen": "2026-11-20T13:08:12Z",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "49ba75451620e276",
+   "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een#wijziging-2026-11-20",
+   "summary": "Nieuw of gewijzigd op de pagina: Op 17 november 2026 stuurde de staatssecretaris van EZK een antwoord op de brief met vragen van 14 oktober 2026. Op 17 november 2026 werd het verslag van een nader schriftelijk overleg ( · ) vastgesteld. · Op 17 november 2026 stuurde de staatssecretaris van EZK een antwoord op de brief met vragen van 14 oktober 2026. Op 17 november 2026 werd het verslag van een nader schriftelijk overleg ( · ) vastgesteld. · Op 14 oktober 2026 is de brief met nadere vragen verzonden aan de staatssecretaris van EZK. · verslag van een nader schriftelijk overleg met de …",
+   "published": "2026-11-20",
+   "source": "eerste-kamer-ebw",
+   "source_name": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-20T13:08:12Z",
+   "date": "2026-11-20"
+  },
   {
    "id": "aad4f21443b32bbc",
    "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",

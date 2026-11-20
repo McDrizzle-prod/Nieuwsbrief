@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:27:56Z",
+ "generated": "2026-11-20T13:08:12Z",
  "wallets": [
   {
    "id": "eudi",
@@ -103,8 +103,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -121,8 +121,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "digitale-overheid",
@@ -134,13 +134,13 @@
    "toelichting": "De evenementenagenda van de digitale overheid, met onder meer de meet-ups van het EDI-stelsel en bijeenkomsten van Logius, RvIG en BZK.",
    "prioriteit": 1,
    "actief": true,
-   "ok": false,
-   "fout": "geen iCal-agenda ontvangen",
-   "gevonden": 27,
+   "ok": true,
+   "fout": null,
+   "gevonden": 25,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -152,13 +152,13 @@
    "toelichting": "Bijeenkomsten over gebruiksvriendelijke dienstverlening van de overheid, waaronder de Europese ID-wallet-conferentie UNFOLD en sessies over ID-wallets.",
    "prioriteit": 1,
    "actief": true,
-   "ok": false,
-   "fout": "geen iCal-agenda ontvangen",
-   "gevonden": 11,
+   "ok": true,
+   "fout": null,
+   "gevonden": 12,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -175,8 +175,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "europa-decentraal",
@@ -188,13 +188,13 @@
    "toelichting": "Kenniscentrum voor Europees recht en beleid voor decentrale overheden, met bijeenkomsten over onder meer eIDAS, de EUDI Wallet en de Business Wallet.",
    "prioriteit": 2,
    "actief": true,
-   "ok": false,
-   "fout": "HTTP 403 bij https://europadecentraal.nl/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-11-19",
+   "ok": true,
+   "fout": null,
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-18T13:11:23Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "kvk",
@@ -211,8 +211,8 @@
    "gevonden": 6,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "ecp",
@@ -229,8 +229,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "idnext",
@@ -247,8 +247,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   },
   {
    "id": "ebra",
@@ -265,8 +265,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-19T13:27:56Z",
-   "laatst_succes": "2026-11-19T13:27:56Z"
+   "laatst_gecontroleerd": "2026-11-20T13:08:12Z",
+   "laatst_succes": "2026-11-20T13:08:12Z"
   }
  ]
 }
