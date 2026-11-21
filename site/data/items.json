@@ -1,6 +1,57 @@
 {
- "generated": "2026-11-20T13:08:12Z",
+ "generated": "2026-11-21T12:47:23Z",
  "items": [
+  {
+   "id": "facec6f6066d331d",
+   "title": "Bijgewerkt: Beleidspagina European Business Wallets (Commissie)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/business-wallets#wijziging-2026-11-21",
+   "summary": "Nieuw of gewijzigd op de pagina: EU Digital Identity Wallet on LinkedIn · 20 November 2026",
+   "published": "2026-11-21",
+   "source": "ec-ebw-beleid",
+   "source_name": "Europese Commissie – beleidspagina European Business Wallets",
+   "category": "eu-commissie",
+   "topics": [
+    "ebw",
+    "eudi"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ],
+    "eudi": [
+     "Digital Identity Wallet",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 7,
+   "first_seen": "2026-11-21T12:47:23Z",
+   "date": "2026-11-21"
+  },
+  {
+   "id": "0c7159bd627865fa",
+   "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een#wijziging-2026-11-21",
+   "summary": "De pagina is gewijzigd.",
+   "published": "2026-11-21",
+   "source": "eerste-kamer-ebw",
+   "source_name": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-21T12:47:23Z",
+   "date": "2026-11-21"
+  },
   {
    "id": "a004593ca177bfe4",
    "title": "Bijgewerkt: Procedurefiche 2025/0358(COD) – European business wallets",
