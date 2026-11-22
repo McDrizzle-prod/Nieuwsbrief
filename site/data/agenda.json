@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T12:47:23Z",
+ "generated": "2026-11-22T12:41:23Z",
  "wallets": [
   {
    "id": "eudi",
@@ -103,8 +103,8 @@
    "gevonden": 3,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "tweede-kamer-activiteiten",
@@ -121,8 +121,8 @@
    "gevonden": 1,
    "relevant": 1,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "digitale-overheid",
@@ -139,8 +139,8 @@
    "gevonden": 25,
    "relevant": 2,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "gebruiker-centraal",
@@ -157,8 +157,8 @@
    "gevonden": 12,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "staat-van-de-uitvoering",
@@ -175,8 +175,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "europa-decentraal",
@@ -193,8 +193,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "kvk",
@@ -206,12 +206,12 @@
    "toelichting": "Evenementen van de Kamer van Koophandel. Alleen bijeenkomsten waarin de Business Wallet of de EUDI Wallet voorkomt, komen in de agenda.",
    "prioriteit": 2,
    "actief": true,
-   "ok": true,
-   "fout": null,
+   "ok": false,
+   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='www.kvk.nl', port=443): Max retries exceeded with url: /evenementen/ (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.kvk.nl', port=443): Read timed out. (read timeout=40)\"))",
    "gevonden": 6,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
    "laatst_succes": "2026-11-21T12:47:23Z"
   },
   {
@@ -229,8 +229,8 @@
    "gevonden": 1,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "idnext",
@@ -247,8 +247,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   },
   {
    "id": "ebra",
@@ -265,8 +265,8 @@
    "gevonden": 3,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-21T12:47:23Z",
-   "laatst_succes": "2026-11-21T12:47:23Z"
+   "laatst_gecontroleerd": "2026-11-22T12:41:23Z",
+   "laatst_succes": "2026-11-22T12:41:23Z"
   }
  ]
 }
