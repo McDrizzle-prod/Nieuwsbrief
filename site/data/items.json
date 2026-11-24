@@ -1,6 +1,29 @@
 {
- "generated": "2026-11-23T14:53:27Z",
+ "generated": "2026-11-24T14:58:10Z",
  "items": [
+  {
+   "id": "692b356716c96dc0",
+   "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation#wijziging-2026-11-24",
+   "summary": "Nieuw of gewijzigd op de pagina: 24 November 2026 · EU and Kenya hold successful digital dialogue · Building on the solid foundation of the EU-Kenya strategic partnership and the launch of the EU-Kenya Digital Dialogue on 18 March 2026 in Nairobi, the European Commission and the Government of Kenya met for the next EU-Kenya Digital Dialogue. · News article",
+   "published": "2026-11-24",
+   "source": "ec-eudi-beleid",
+   "source_name": "Europese Commissie – EU Digital Identity Wallet (implementatie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-11-24T14:58:10Z",
+   "date": "2026-11-24"
+  },
   {
    "id": "facec6f6066d331d",
    "title": "Bijgewerkt: Beleidspagina European Business Wallets (Commissie)",

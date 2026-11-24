@@ -1,37 +1,6 @@
 {
- "generated": "2026-11-23T14:53:27Z",
+ "generated": "2026-11-24T14:58:10Z",
  "evenementen": [
-  {
-   "id": "787189c16f3cb503",
-   "title": "Digital Identity & Trust conference",
-   "url": "https://idnext.eu/event/digital-identity-trust-conference",
-   "start": "2026-11-17T09:00:00+01:00",
-   "end": "2026-11-17T18:00:00+01:00",
-   "location": "Van der Valk hotel Mechelen, Mechelen, Belgium",
-   "online": false,
-   "summary": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
-   "fragment": "The Digital Identity & Trust Conference is your annual guide to the latest insights in Trust Services, Digital Identities, Access Management, and API Security. … Explore the impact of new regulations such as eIDAS 2.0, gain practical strategies from industry experts, and connect with peers to shape the future of digital trust together.",
-   "source": "idnext",
-   "source_name": "IDnext – agenda",
-   "category": "derden",
-   "priority": 2,
-   "wallets": [
-    "eudi"
-   ],
-   "topic_hits": {
-    "eudi": [
-     "eIDAS",
-     "eIDAS 2.0"
-    ],
-    "vertrouwensdiensten": [
-     "Trust Services"
-    ]
-   },
-   "moza": [],
-   "moza_level": "laag",
-   "last_seen": "2026-11-17T13:36:31Z",
-   "first_seen": "2026-10-06T12:15:32Z"
-  },
   {
    "id": "7931ead51df2267f",
    "title": "Quantumdreiging voor het EDI-stelsel en wallets",
@@ -57,7 +26,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-23T14:53:27Z",
+   "last_seen": "2026-11-24T14:58:10Z",
    "first_seen": "2026-11-03T12:02:05Z"
   },
   {
@@ -91,7 +60,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-11-23T14:53:27Z",
+   "last_seen": "2026-11-24T14:58:10Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -118,7 +87,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-23T14:53:27Z",
+   "last_seen": "2026-11-24T14:58:10Z",
    "first_seen": "2026-11-14T11:36:16Z"
   }
  ]
