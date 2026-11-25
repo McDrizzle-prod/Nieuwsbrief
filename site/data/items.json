@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-24T14:58:10Z",
+ "generated": "2026-11-25T14:33:59Z",
  "items": [
+  {
+   "id": "2a92b4aa818468f7",
+   "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation#wijziging-2026-11-25",
+   "summary": "Nieuw of gewijzigd op de pagina: DigitalEU on Mastodon · EU Digital Identity Wallet on LinkedIn · 24 November 2026",
+   "published": "2026-11-25",
+   "source": "ec-eudi-beleid",
+   "source_name": "Europese Commissie – EU Digital Identity Wallet (implementatie)",
+   "category": "eu-commissie",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "Digital Identity Wallet",
+     "EUDI",
+     "Identity Wallet"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 4,
+   "first_seen": "2026-11-25T14:33:59Z",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "d1591f185b946e8c",
+   "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een#wijziging-2026-11-25",
+   "summary": "Nieuw of gewijzigd op de pagina: Korte aantekeningen vergadering commissies Digitalisering (DIGI) en Economische Zaken / Klimaat en Groene Groei (EZ/KGG) van 24 november 2026 · 24 november 2026",
+   "published": "2026-11-25",
+   "source": "eerste-kamer-ebw",
+   "source_name": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-25T14:33:59Z",
+   "date": "2026-11-25"
+  },
   {
    "id": "692b356716c96dc0",
    "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
