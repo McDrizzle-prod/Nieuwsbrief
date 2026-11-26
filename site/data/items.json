@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-25T14:33:59Z",
+ "generated": "2026-11-26T13:59:51Z",
  "items": [
+  {
+   "id": "c8aa228a68dc388b",
+   "title": "Aptitude at the Future Finance Summit: the EUDI Wallet meets the banking sector",
+   "url": "https://aptitude.digital-identity-wallet.eu/news/aptitude-at-the-future-finance-summit-2026/",
+   "summary": "On 4 November 2026, two Aptitude partners took the Main Stage of the Future Finance Summit at CIC Warsaw, a high-level international conference held as part of Warsaw Finance Week and organised by Future Finance Poland. The summit brought together more than 700 decision-makers from finance, technology and public institutions, with digital identity among the …",
+   "published": "2026-11-26T09:29:25Z",
+   "source": "aptitude",
+   "source_name": "APTITUDE – Large Scale Pilot (reizen en betalen)",
+   "category": "pilots",
+   "topics": [
+    "eudi"
+   ],
+   "topic_hits": {
+    "eudi": [
+     "EUDI"
+    ]
+   },
+   "moza": [],
+   "moza_level": "laag",
+   "score": 3,
+   "first_seen": "2026-11-26T13:59:51Z",
+   "date": "2026-11-26"
+  },
+  {
+   "id": "d1854c9d1a7416f3",
+   "title": "Bijgewerkt: Eerste Kamer – dossier E260004 European Business Wallets",
+   "url": "https://www.eerstekamer.nl/eu/edossier/e260004_voorstel_voor_een#wijziging-2026-11-26",
+   "summary": "Nieuw of gewijzigd op de pagina: Behandelfase Eerste Kamer: behandeling in Eerste Kamer afgerond. · 24 november 2026 · besloten de commissies het antwoord van de staatssecretaris van EZK voor kennisgeving aan te nemen. · 24 november 2026 · besloten de commissies het antwoord van de staatssecretaris van EZK voor kennisgeving aan te nemen.",
+   "published": "2026-11-26",
+   "source": "eerste-kamer-ebw",
+   "source_name": "Eerste Kamer – EU-dossier E260004 (European Business Wallets)",
+   "category": "nl-overheid",
+   "topics": [
+    "ebw"
+   ],
+   "topic_hits": {
+    "ebw": [
+     "Business Wallets"
+    ]
+   },
+   "moza": [],
+   "moza_level": "middel",
+   "score": 5,
+   "first_seen": "2026-11-26T13:59:51Z",
+   "date": "2026-11-26"
+  },
   {
    "id": "2a92b4aa818468f7",
    "title": "Bijgewerkt: Beleidspagina EUDI Wallet-implementatie (Commissie)",
