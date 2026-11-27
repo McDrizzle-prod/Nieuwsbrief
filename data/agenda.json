@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T13:59:51Z",
+ "generated": "2026-11-27T13:58:29Z",
  "evenementen": [
   {
    "id": "7931ead51df2267f",
@@ -60,7 +60,7 @@
     }
    ],
    "moza_level": "middel",
-   "last_seen": "2026-11-26T13:59:51Z",
+   "last_seen": "2026-11-27T13:58:29Z",
    "first_seen": "2026-10-06T12:15:32Z"
   },
   {
@@ -87,7 +87,7 @@
    },
    "moza": [],
    "moza_level": "laag",
-   "last_seen": "2026-11-26T13:59:51Z",
+   "last_seen": "2026-11-27T13:58:29Z",
    "first_seen": "2026-11-14T11:36:16Z"
   }
  ]

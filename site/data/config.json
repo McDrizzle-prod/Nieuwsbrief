@@ -233,8 +233,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "ec-ebw-beleid",
@@ -251,8 +251,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "ec-eudi-beleid",
@@ -269,8 +269,8 @@
    "gevonden": 0,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "ec-eudi-wallet-nieuws",
@@ -286,9 +286,9 @@
    "fout": null,
    "gevonden": 20,
    "relevant": 20,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "eu-have-your-say",
@@ -305,8 +305,8 @@
    "gevonden": 11,
    "relevant": 11,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "eurlex-eidas",
@@ -323,8 +323,8 @@
    "gevonden": 28,
    "relevant": 28,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "eurlex-titels",
@@ -341,8 +341,8 @@
    "gevonden": 5,
    "relevant": 5,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "ep-persberichten",
@@ -377,7 +377,7 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
    "laatst_succes": "2026-10-28T10:39:24Z"
   },
   {
@@ -410,11 +410,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 0,
-   "relevant": 0,
-   "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "gevonden": 1,
+   "relevant": 1,
+   "nieuw": 1,
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "ep-procedure-ebw",
@@ -426,13 +426,13 @@
    "toelichting": "Elke stap in de procedure volgens de open-data-API van het Parlement: verwijzing, adviezen van IMCO en JURI, het ITRE-verslag, indiening voor de plenaire vergadering en straks de stemming en de onderhandelingen met de Raad.",
    "prioriteit": 1,
    "actief": true,
-   "ok": false,
-   "fout": "verbinding mislukt: ConnectionError: HTTPSConnectionPool(host='data.europarl.europa.eu', port=443): Max retries exceeded with url: /api/v2/procedures/2025-0358/events?format=application%2Fld%2Bjson (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='data.europarl.europa.eu', port=443): Read timed",
+   "ok": true,
+   "fout": null,
    "gevonden": 8,
    "relevant": 8,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-25T14:33:59Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "raad-persberichten",
@@ -449,8 +449,8 @@
    "gevonden": 20,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "we-build",
@@ -467,8 +467,8 @@
    "gevonden": 13,
    "relevant": 13,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "aptitude",
@@ -484,9 +484,9 @@
    "fout": null,
    "gevonden": 20,
    "relevant": 20,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "github-arf",
@@ -503,8 +503,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "etsi-nieuws",
@@ -521,8 +521,8 @@
    "gevonden": 15,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "digitale-overheid",
@@ -539,8 +539,8 @@
    "gevonden": 10,
    "relevant": 0,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "tweede-kamer",
@@ -557,8 +557,8 @@
    "gevonden": 40,
    "relevant": 38,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "officiele-bekendmakingen",
@@ -575,8 +575,8 @@
    "gevonden": 40,
    "relevant": 3,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "eerste-kamer-ebw",
@@ -590,11 +590,11 @@
    "actief": true,
    "ok": true,
    "fout": null,
-   "gevonden": 1,
-   "relevant": 1,
-   "nieuw": 1,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "gevonden": 0,
+   "relevant": 0,
+   "nieuw": 0,
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "nl-wallet",
@@ -611,8 +611,8 @@
    "gevonden": 10,
    "relevant": 10,
    "nieuw": 0,
-   "laatst_gecontroleerd": "2026-11-26T13:59:51Z",
-   "laatst_succes": "2026-11-26T13:59:51Z"
+   "laatst_gecontroleerd": "2026-11-27T13:58:29Z",
+   "laatst_succes": "2026-11-27T13:58:29Z"
   },
   {
    "id": "biometric-update",
